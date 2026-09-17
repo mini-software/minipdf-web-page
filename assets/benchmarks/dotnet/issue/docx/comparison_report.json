@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Issue159_PageLayoutOptions",
+    "minipdf_exists": true,
+    "reference_exists": true,
+    "report_scope": "dotnet-issue-docx",
+    "case_id": "Issue159_PageLayoutOptions",
+    "format": "docx",
+    "source_path": "tests/Issue_Files/docx/Issue159_PageLayoutOptions.docx",
+    "suite": "issue",
+    "minipdf_size": 2876,
+    "reference_size": 19277,
+    "pdf_valid": true,
+    "minipdf_pages": 1,
+    "reference_pages": 1,
+    "text_similarity": 1.0,
+    "flat_text_similarity": 1.0,
+    "word_text_similarity": 1.0,
+    "text_diff": "(identical)",
+    "visual_scores": [
+      0.983
+    ],
+    "visual_avg": 0.983,
+    "diff_images": [
+      {
+        "page": 1,
+        "minipdf_img": "Issue159_PageLayoutOptions_p1_minipdf.png",
+        "reference_img": "Issue159_PageLayoutOptions_p1_reference.png",
+        "auxiliary_img": "Issue159_PageLayoutOptions_p1_libreoffice.png",
+        "heatmap_img": "Issue159_PageLayoutOptions_p1_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1275,
+            1650
+          ],
+          "difference_bbox_px": [
+            152,
+            157,
+            1135,
+            1427
+          ],
+          "changed_pixels": 43822,
+          "changed_fraction": 0.02083,
+          "mean_abs_rgb": 3.4487,
+          "rmse_rgb": 26.654,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Issue159_PageLayoutOptions_p1_dotnet_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png"
+      }
+    ],
+    "overall_score": 0.9932
+  }
+]

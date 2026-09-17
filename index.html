@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cross-language MiniPdf visual benchmark results and rendered document comparisons.">
+  <title>MiniPdf Visual Benchmarks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="MiniPdf benchmark home">
+      <span class="brand-mark">MP</span>
+      <span>Visual Benchmarks</span>
+    </a>
+    <a class="repo-link" href="https://github.com/mini-software/MiniPdf">GitHub repository <span aria-hidden="true">&nearr;</span></a>
+  </header>
+
+  <main>
+    <section class="overview" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">Cross-runtime rendering parity</p>
+        <h1 id="page-title">MiniPdf benchmark observatory</h1>
+        <p class="lede">Rendered output from every available implementation, measured against Microsoft 365 references and inspected page by page.</p>
+      </div>
+      <div class="run-meta">
+        <span class="pulse" aria-hidden="true"></span>
+        <span id="generated-at">Loading benchmark data...</span>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Benchmark summary">
+      <div class="metric"><span id="metric-average">-</span><small>Average score</small></div>
+      <div class="metric"><span id="metric-cases">-</span><small>Scored cases</small></div>
+      <div class="metric"><span id="metric-reports">-</span><small>Report sets</small></div>
+      <div class="metric"><span id="metric-languages">-</span><small>Implementations</small></div>
+    </section>
+
+    <section class="language-section" aria-labelledby="language-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Implementation health</p>
+          <h2 id="language-heading">Language scorecard</h2>
+        </div>
+        <p>Weighted by scored cases in the published reports.</p>
+      </div>
+      <div id="language-grid" class="language-grid"></div>
+    </section>
+
+    <section class="results-section" aria-labelledby="results-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Evidence browser</p>
+          <h2 id="results-heading">Comparison results</h2>
+        </div>
+        <p id="result-count" aria-live="polite"></p>
+      </div>
+
+      <div class="filters" aria-label="Filter benchmark results">
+        <label class="search-field">
+          <span>Search cases</span>
+          <input id="search" type="search" placeholder="Invoice, chart, CJK..." autocomplete="off">
+        </label>
+        <label><span>Language</span><select id="language-filter"><option value="">All languages</option></select></label>
+        <label><span>Suite</span><select id="suite-filter"><option value="">All suites</option></select></label>
+        <label><span>Format</span><select id="format-filter"><option value="">All formats</option></select></label>
+        <label><span>Score</span><select id="score-filter"><option value="">All scores</option><option value="excellent">90&ndash;100%</option><option value="acceptable">70&ndash;90%</option><option value="needs-work">Below 70%</option><option value="unscored">Unscored</option></select></label>
+      </div>
+
+      <div class="table-shell">
+        <table>
+          <thead><tr><th>Case</th><th>Runtime</th><th>Scope</th><th>Pages</th><th>Text</th><th>Visual</th><th>Overall</th><th></th></tr></thead>
+          <tbody id="results-body"></tbody>
+        </table>
+        <div id="empty-state" class="empty-state" hidden>No comparison results match these filters.</div>
+      </div>
+      <button id="load-more" class="load-more" type="button" hidden>Show more results</button>
+    </section>
+  </main>
+
+  <dialog id="case-dialog" class="case-dialog">
+    <div class="dialog-bar">
+      <div><p id="dialog-scope" class="eyebrow"></p><h2 id="dialog-title"></h2></div>
+      <button id="dialog-close" class="icon-button" type="button" aria-label="Close comparison">&times;</button>
+    </div>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <footer>Generated from MiniPdf visual benchmark artifacts. Reports remain static, inspectable, and linkable.</footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
