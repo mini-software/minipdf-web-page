@@ -1,0 +1,16 @@
+{
+  "cases": [
+    {
+      "name": "Asian Pacific",
+      "case_id": "Asian Pacific",
+      "suite": "issue",
+      "format": "pptx",
+      "source_path": "tests/Issue_Files/pptx/Asian Pacific.pptx",
+      "conversion_status": "pending",
+      "conversion_exit_code": null,
+      "candidate_exists": false,
+      "reference_exists": false,
+      "auxiliary_reference_exists": false
+    }
+  ]
+}
