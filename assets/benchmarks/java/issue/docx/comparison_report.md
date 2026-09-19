@@ -1,41 +1,41 @@
 # java MiniPdf vs Microsoft 365 Word Reference PDF Comparison Report
 
-Generated: 2026-09-17T19:31:59.195343
+Generated: 2026-09-19T23:41:10.938813
 
 ## Summary
 
 | # | Test Case | Valid | Text Sim | Visual Avg | Pages (M/R) | Overall |
 |---|-----------|-------|----------|------------|-------------|--------|
-| 1 | 🟢 13_IEEE_Style_Paper | ❌ | 0.9944 | 0.9548 | 2/2 | **0.9797** |
-| 2 | 🟢 14_Thesis_Chapter | ❌ | 0.9914 | 0.9533 | 2/2 | **0.9779** |
-| 3 | 🔴 20260317_sample_CN | ❌ | 0.9279 | 0.4719 | 1/2 | **0.6599** |
-| 4 | 🔴 20260318_issue | ❌ | 0.9065 | 0.3243 | 3/7 | **0.5923** |
+| 1 | 🟢 13_IEEE_Style_Paper | ❌ | 1.0 | 0.9645 | 2/2 | **0.9858** |
+| 2 | 🟢 14_Thesis_Chapter | ❌ | 1.0 | 0.9658 | 2/2 | **0.9863** |
+| 3 | 🔴 20260317_sample_CN | ❌ | 0.9279 | 0.4692 | 1/2 | **0.6588** |
+| 4 | 🔴 20260318_issue | ❌ | 0.8639 | 0.3386 | 3/7 | **0.581** |
 | 5 | 🔴 CCU_article | ✅ | 0.3881 | 0.7186 | 21/21 | **0.6427** |
-| 6 | 🔴 Class News | ❌ | 0.1361 | 0.1118 | 4/4 | **0.2992** |
+| 6 | 🟢 Class News | ❌ | 0.9473 | 0.8168 | 4/4 | **0.9056** |
 | 7 | 🔴 Confirmatory_Affidavit | ✅ | 0.9655 | 0.4696 | 1/2 | **0.674** |
 | 8 | 🔴 Cooperation Agreement Template | ❌ | 0.8013 | 0.4986 | 4/7 | **0.62** |
-| 9 | 🔴 Fabrikam | ❌ | 0.9079 | 0.0112 | 3/1 | **0.4676** |
-| 10 | 🔴 Invoice | ❌ | 0.6856 | 0.3433 | 2/1 | **0.5116** |
-| 11 | 🟢 Issue79_FilledContract | ❌ | 1.0 | 0.9775 | 1/1 | **0.991** |
-| 12 | 🟢 Issue79_TemplateContract | ❌ | 1.0 | 0.9772 | 1/1 | **0.9909** |
+| 9 | 🟡 Fabrikam | ❌ | 0.9199 | 0.5976 | 1/1 | **0.807** |
+| 10 | 🟡 Invoice | ❌ | 0.6868 | 0.8867 | 1/1 | **0.8294** |
+| 11 | 🟢 Issue79_FilledContract | ❌ | 0.9856 | 0.9781 | 1/1 | **0.9855** |
+| 12 | 🟢 Issue79_TemplateContract | ❌ | 0.9595 | 0.9774 | 1/1 | **0.9748** |
 | 13 | 🟡 Issue83_Output | ✅ | 1.0 | 0.5602 | 1/1 | **0.8241** |
 | 14 | 🟢 Issue159_PageLayoutOptions | ✅ | 1.0 | 0.9778 | 1/1 | **0.9911** |
-| 15 | 🔴 issue202605 | ❌ | 0.8162 | 0.5563 | 3/2 | **0.649** |
-| 16 | 🔴 issue26050501 | ❌ | 0.8994 | 0.4968 | 3/2 | **0.6585** |
-| 17 | 🟢 issues66 | ❌ | 0.9882 | 0.9829 | 3/3 | **0.9884** |
-| 18 | 🔴 MODERN LIVING | ❌ | 0.2018 | 0.0456 | 4/2 | **0.199** |
+| 15 | 🔴 issue202605 | ❌ | 0.8372 | 0.5713 | 3/2 | **0.6634** |
+| 16 | 🔴 issue26050501 | ❌ | 0.8701 | 0.4939 | 3/2 | **0.6456** |
+| 17 | 🟢 issues66 | ❌ | 0.9835 | 0.9837 | 3/3 | **0.9869** |
+| 18 | 🔴 MODERN LIVING | ❌ | 0.6139 | 0.0845 | 4/2 | **0.3794** |
 | 19 | 🔴 nthu_article | ❌ | 0.4102 | 0.7508 | 16/18 | **0.5644** |
-| 20 | 🟡 OSCAR WARD | ❌ | 0.9822 | 0.3184 | 1/1 | **0.7202** |
+| 20 | 🟡 OSCAR WARD | ❌ | 0.9941 | 0.3423 | 1/1 | **0.7346** |
 | 21 | 🟡 SA8000 ch sample | ❌ | 0.98 | 0.6133 | 3/2 | **0.7373** |
 | 22 | 🟢 Support_Letter | ❌ | 0.9938 | 0.9464 | 1/1 | **0.9761** |
-| 23 | 🟢 Template for MSc Thesis | ❌ | 0.9678 | 0.901 | 17/17 | **0.9475** |
+| 23 | 🟡 Template for MSc Thesis | ❌ | 0.9556 | 0.7137 | 13/17 | **0.7677** |
 | 24 | 🟡 TestIssue61 | ❌ | 0.4127 | 0.9093 | 8/8 | **0.7288** |
-| 25 | 🟢 TestIssue78 | ❌ | 0.9692 | 0.9554 | 1/1 | **0.9698** |
-| 26 | 🟢 TestIssue90 | ❌ | 0.9957 | 0.9576 | 1/1 | **0.9813** |
-| 27 | 🟢 TestIssue91 | ❌ | 0.9708 | 0.9519 | 3/3 | **0.9691** |
-| 28 | 🟢 TestIssue93 | ❌ | 0.8489 | 0.9469 | 1/1 | **0.9183** |
+| 25 | 🟢 TestIssue78 | ❌ | 0.9692 | 0.9568 | 1/1 | **0.9704** |
+| 26 | 🟢 TestIssue90 | ❌ | 0.992 | 0.9542 | 1/1 | **0.9785** |
+| 27 | 🟢 TestIssue91 | ❌ | 0.9585 | 0.9428 | 3/3 | **0.9605** |
+| 28 | 🟢 TestIssue93 | ❌ | 0.8489 | 0.9481 | 1/1 | **0.9188** |
 
-**Average Overall Score: 0.7582**
+**Average Overall Score: 0.8028**
 
 ## Labeled Side-by-Side Comparison
 
@@ -512,42 +512,42 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>13_IEEE_Style_Paper</b><br>Page 1</td>
   <td><img src="images/13_IEEE_Style_Paper_p1_heatmap.png" width="760" alt="13_IEEE_Style_Paper page 1 difference heatmap"></td>
-  <td>changed: 183502 px (8.72%)<br>bbox: [175, 163, 1087, 1495]<br>mean abs RGB: 12.8259<br>RMSE RGB: 49.311<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 217154 px (10.32%)<br>bbox: [175, 160, 1087, 1495]<br>mean abs RGB: 15.526<br>RMSE RGB: 54.8841<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>13_IEEE_Style_Paper</b><br>Page 2</td>
   <td><img src="images/13_IEEE_Style_Paper_p2_heatmap.png" width="760" alt="13_IEEE_Style_Paper page 2 difference heatmap"></td>
-  <td>changed: 42806 px (2.03%)<br>bbox: [186, 155, 1088, 741]<br>mean abs RGB: 2.8569<br>RMSE RGB: 23.0931<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 10012 px (0.48%)<br>bbox: [189, 155, 900, 209]<br>mean abs RGB: 0.5828<br>RMSE RGB: 9.9503<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>14_Thesis_Chapter</b><br>Page 1</td>
   <td><img src="images/14_Thesis_Chapter_p1_heatmap.png" width="760" alt="14_Thesis_Chapter page 1 difference heatmap"></td>
-  <td>changed: 203104 px (9.65%)<br>bbox: [175, 158, 1088, 1437]<br>mean abs RGB: 14.9008<br>RMSE RGB: 54.2963<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 167529 px (7.96%)<br>bbox: [175, 158, 1078, 1480]<br>mean abs RGB: 11.227<br>RMSE RGB: 45.6578<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>14_Thesis_Chapter</b><br>Page 2</td>
   <td><img src="images/14_Thesis_Chapter_p2_heatmap.png" width="760" alt="14_Thesis_Chapter page 2 difference heatmap"></td>
-  <td>changed: 29015 px (1.38%)<br>bbox: [187, 157, 1085, 323]<br>mean abs RGB: 2.0845<br>RMSE RGB: 20.1341<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 37526 px (1.78%)<br>bbox: [187, 157, 1085, 304]<br>mean abs RGB: 2.735<br>RMSE RGB: 23.2198<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260317_sample_CN</b><br>Page 1</td>
   <td><img src="images/20260317_sample_CN_p1_heatmap.png" width="760" alt="20260317_sample_CN page 1 difference heatmap"></td>
-  <td>changed: 114199 px (5.43%)<br>bbox: [63, 98, 1212, 1536]<br>mean abs RGB: 6.9919<br>RMSE RGB: 35.1633<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 146236 px (6.95%)<br>bbox: [63, 98, 1204, 1536]<br>mean abs RGB: 8.4759<br>RMSE RGB: 38.4014<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260318_issue</b><br>Page 1</td>
   <td><img src="images/20260318_issue_p1_heatmap.png" width="760" alt="20260318_issue page 1 difference heatmap"></td>
-  <td>changed: 66621 px (3.06%)<br>bbox: [0, 92, 1153, 1673]<br>mean abs RGB: 4.4412<br>RMSE RGB: 28.8215<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 51795 px (2.38%)<br>bbox: [0, 92, 1241, 1673]<br>mean abs RGB: 3.3444<br>RMSE RGB: 24.6656<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260318_issue</b><br>Page 2</td>
   <td><img src="images/20260318_issue_p2_heatmap.png" width="760" alt="20260318_issue page 2 difference heatmap"></td>
-  <td>changed: 268230 px (12.32%)<br>bbox: [74, 74, 1166, 1666]<br>mean abs RGB: 10.5506<br>RMSE RGB: 40.5715<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 270316 px (12.42%)<br>bbox: [74, 74, 1241, 1643]<br>mean abs RGB: 10.2344<br>RMSE RGB: 39.6958<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260318_issue</b><br>Page 3</td>
   <td><img src="images/20260318_issue_p3_heatmap.png" width="760" alt="20260318_issue page 3 difference heatmap"></td>
-  <td>changed: 490188 px (22.52%)<br>bbox: [73, 83, 1166, 1630]<br>mean abs RGB: 10.2734<br>RMSE RGB: 33.1839<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 529509 px (24.33%)<br>bbox: [73, 81, 1241, 1630]<br>mean abs RGB: 15.6742<br>RMSE RGB: 44.492<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 1</td>
@@ -657,22 +657,22 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>Class News</b><br>Page 1</td>
   <td><img src="images/Class News_p1_heatmap.png" width="760" alt="Class News page 1 difference heatmap"></td>
-  <td>changed: 1153339 px (54.82%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 60.7734<br>RMSE RGB: 96.8973<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 278967 px (13.26%)<br>bbox: [2, 21, 1223, 1650]<br>mean abs RGB: 13.3688<br>RMSE RGB: 45.0573<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Class News</b><br>Page 2</td>
   <td><img src="images/Class News_p2_heatmap.png" width="760" alt="Class News page 2 difference heatmap"></td>
-  <td>changed: 1089846 px (51.80%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 59.6068<br>RMSE RGB: 97.7214<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 434258 px (20.64%)<br>bbox: [0, 95, 1223, 1650]<br>mean abs RGB: 20.98<br>RMSE RGB: 57.484<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Class News</b><br>Page 3</td>
   <td><img src="images/Class News_p3_heatmap.png" width="760" alt="Class News page 3 difference heatmap"></td>
-  <td>changed: 1153577 px (54.83%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 44.7102<br>RMSE RGB: 81.5786<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 375770 px (17.86%)<br>bbox: [2, 104, 1223, 1413]<br>mean abs RGB: 18.9329<br>RMSE RGB: 53.6964<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Class News</b><br>Page 4</td>
   <td><img src="images/Class News_p4_heatmap.png" width="760" alt="Class News page 4 difference heatmap"></td>
-  <td>changed: 1090383 px (51.83%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 44.0297<br>RMSE RGB: 83.1192<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 432317 px (20.55%)<br>bbox: [2, 1, 1223, 1447]<br>mean abs RGB: 21.3629<br>RMSE RGB: 58.2449<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Confirmatory_Affidavit</b><br>Page 1</td>
@@ -702,22 +702,22 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>Fabrikam</b><br>Page 1</td>
   <td><img src="images/Fabrikam_p1_heatmap.png" width="760" alt="Fabrikam page 1 difference heatmap"></td>
-  <td>changed: 1864202 px (88.61%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 38.5798<br>RMSE RGB: 52.2821<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 407289 px (19.36%)<br>bbox: [128, 79, 1275, 1560]<br>mean abs RGB: 13.818<br>RMSE RGB: 38.074<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Invoice</b><br>Page 1</td>
   <td><img src="images/Invoice_p1_heatmap.png" width="760" alt="Invoice page 1 difference heatmap"></td>
-  <td>changed: 163874 px (7.79%)<br>bbox: [111, 150, 1163, 1549]<br>mean abs RGB: 5.7575<br>RMSE RGB: 27.7181<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 195619 px (9.30%)<br>bbox: [100, 150, 1163, 1549]<br>mean abs RGB: 8.023<br>RMSE RGB: 34.1928<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Issue79_FilledContract</b><br>Page 1</td>
   <td><img src="images/Issue79_FilledContract_p1_heatmap.png" width="760" alt="Issue79_FilledContract page 1 difference heatmap"></td>
-  <td>changed: 83354 px (3.83%)<br>bbox: [175, 185, 1076, 1381]<br>mean abs RGB: 4.7216<br>RMSE RGB: 27.7771<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 83504 px (3.84%)<br>bbox: [175, 185, 1065, 1381]<br>mean abs RGB: 4.8533<br>RMSE RGB: 28.4645<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Issue79_TemplateContract</b><br>Page 1</td>
   <td><img src="images/Issue79_TemplateContract_p1_heatmap.png" width="760" alt="Issue79_TemplateContract page 1 difference heatmap"></td>
-  <td>changed: 84868 px (3.90%)<br>bbox: [175, 185, 1076, 1381]<br>mean abs RGB: 4.7571<br>RMSE RGB: 27.7235<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 86910 px (3.99%)<br>bbox: [175, 185, 1065, 1381]<br>mean abs RGB: 5.0989<br>RMSE RGB: 29.2728<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Issue83_Output</b><br>Page 1</td>
@@ -732,12 +732,12 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>issue202605</b><br>Page 1</td>
   <td><img src="images/issue202605_p1_heatmap.png" width="760" alt="issue202605 page 1 difference heatmap"></td>
-  <td>changed: 404305 px (18.57%)<br>bbox: [56, 75, 1181, 1709]<br>mean abs RGB: 18.3478<br>RMSE RGB: 57.0745<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 430236 px (19.77%)<br>bbox: [56, 75, 1181, 1709]<br>mean abs RGB: 19.4838<br>RMSE RGB: 58.5746<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>issue202605</b><br>Page 2</td>
   <td><img src="images/issue202605_p2_heatmap.png" width="760" alt="issue202605 page 2 difference heatmap"></td>
-  <td>changed: 218545 px (10.04%)<br>bbox: [56, 59, 1179, 1709]<br>mean abs RGB: 11.0937<br>RMSE RGB: 44.104<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 194813 px (8.95%)<br>bbox: [56, 59, 1179, 1709]<br>mean abs RGB: 8.7114<br>RMSE RGB: 38.7213<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>issue26050501</b><br>Page 1</td>
@@ -747,17 +747,17 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>issue26050501</b><br>Page 2</td>
   <td><img src="images/issue26050501_p2_heatmap.png" width="760" alt="issue26050501 page 2 difference heatmap"></td>
-  <td>changed: 280171 px (12.87%)<br>bbox: [186, 153, 1054, 1706]<br>mean abs RGB: 18.0977<br>RMSE RGB: 57.4557<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 312422 px (14.35%)<br>bbox: [175, 153, 1049, 1754]<br>mean abs RGB: 22.0099<br>RMSE RGB: 65.6291<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>issues66</b><br>Page 1</td>
   <td><img src="images/issues66_p1_heatmap.png" width="760" alt="issues66 page 1 difference heatmap"></td>
-  <td>changed: 184291 px (8.47%)<br>bbox: [106, 152, 1648, 1133]<br>mean abs RGB: 10.429<br>RMSE RGB: 41.9114<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 173704 px (7.98%)<br>bbox: [106, 149, 1648, 1133]<br>mean abs RGB: 9.3797<br>RMSE RGB: 39.5685<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>issues66</b><br>Page 2</td>
   <td><img src="images/issues66_p2_heatmap.png" width="760" alt="issues66 page 2 difference heatmap"></td>
-  <td>changed: 28080 px (1.29%)<br>bbox: [107, 142, 1089, 1133]<br>mean abs RGB: 1.5102<br>RMSE RGB: 15.6443<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 22422 px (1.03%)<br>bbox: [106, 142, 1089, 1133]<br>mean abs RGB: 1.0623<br>RMSE RGB: 12.8582<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>issues66</b><br>Page 3</td>
@@ -767,12 +767,12 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>MODERN LIVING</b><br>Page 1</td>
   <td><img src="images/MODERN LIVING_p1_heatmap.png" width="760" alt="MODERN LIVING page 1 difference heatmap"></td>
-  <td>changed: 1028881 px (48.91%)<br>bbox: [86, 0, 1275, 1650]<br>mean abs RGB: 20.7341<br>RMSE RGB: 46.1867<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 1137893 px (54.09%)<br>bbox: [86, 0, 1275, 1650]<br>mean abs RGB: 24.0918<br>RMSE RGB: 48.2437<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>MODERN LIVING</b><br>Page 2</td>
   <td><img src="images/MODERN LIVING_p2_heatmap.png" width="760" alt="MODERN LIVING page 2 difference heatmap"></td>
-  <td>changed: 1244889 px (59.17%)<br>bbox: [0, 0, 1200, 1650]<br>mean abs RGB: 32.9179<br>RMSE RGB: 65.1288<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 1246177 px (59.24%)<br>bbox: [0, 0, 1200, 1650]<br>mean abs RGB: 33.5382<br>RMSE RGB: 66.309<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 1</td>
@@ -857,7 +857,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>OSCAR WARD</b><br>Page 1</td>
   <td><img src="images/OSCAR WARD_p1_heatmap.png" width="760" alt="OSCAR WARD page 1 difference heatmap"></td>
-  <td>changed: 523468 px (24.88%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 12.5128<br>RMSE RGB: 42.3843<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 546690 px (25.99%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 13.2706<br>RMSE RGB: 41.9133<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>SA8000 ch sample</b><br>Page 1</td>
@@ -877,87 +877,67 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 1</td>
   <td><img src="images/Template for MSc Thesis_p1_heatmap.png" width="760" alt="Template for MSc Thesis page 1 difference heatmap"></td>
-  <td>changed: 288350 px (13.71%)<br>bbox: [106, 82, 1201, 1527]<br>mean abs RGB: 21.7275<br>RMSE RGB: 66.2409<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 329685 px (15.67%)<br>bbox: [105, 82, 1275, 1530]<br>mean abs RGB: 24.4233<br>RMSE RGB: 69.7976<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 2</td>
   <td><img src="images/Template for MSc Thesis_p2_heatmap.png" width="760" alt="Template for MSc Thesis page 2 difference heatmap"></td>
-  <td>changed: 262815 px (12.49%)<br>bbox: [105, 81, 1203, 1517]<br>mean abs RGB: 19.0861<br>RMSE RGB: 61.1007<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 214796 px (10.21%)<br>bbox: [105, 81, 1275, 1513]<br>mean abs RGB: 15.9365<br>RMSE RGB: 56.271<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 3</td>
   <td><img src="images/Template for MSc Thesis_p3_heatmap.png" width="760" alt="Template for MSc Thesis page 3 difference heatmap"></td>
-  <td>changed: 88904 px (4.23%)<br>bbox: [105, 88, 1172, 1387]<br>mean abs RGB: 7.2248<br>RMSE RGB: 38.9365<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 138596 px (6.59%)<br>bbox: [131, 88, 1172, 1387]<br>mean abs RGB: 10.6575<br>RMSE RGB: 46.46<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 4</td>
   <td><img src="images/Template for MSc Thesis_p4_heatmap.png" width="760" alt="Template for MSc Thesis page 4 difference heatmap"></td>
-  <td>changed: 109030 px (5.18%)<br>bbox: [131, 88, 1172, 1485]<br>mean abs RGB: 8.8623<br>RMSE RGB: 43.2424<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 133139 px (6.33%)<br>bbox: [131, 88, 1172, 1438]<br>mean abs RGB: 10.3645<br>RMSE RGB: 46.0963<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 5</td>
   <td><img src="images/Template for MSc Thesis_p5_heatmap.png" width="760" alt="Template for MSc Thesis page 5 difference heatmap"></td>
-  <td>changed: 151293 px (7.19%)<br>bbox: [105, 75, 1203, 1483]<br>mean abs RGB: 11.6503<br>RMSE RGB: 48.79<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 234757 px (11.16%)<br>bbox: [105, 75, 1275, 1483]<br>mean abs RGB: 17.2785<br>RMSE RGB: 58.5145<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 6</td>
   <td><img src="images/Template for MSc Thesis_p6_heatmap.png" width="760" alt="Template for MSc Thesis page 6 difference heatmap"></td>
-  <td>changed: 20979 px (1.00%)<br>bbox: [217, 83, 1060, 285]<br>mean abs RGB: 1.7198<br>RMSE RGB: 19.0247<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 6387 px (0.30%)<br>bbox: [456, 83, 848, 134]<br>mean abs RGB: 0.5624<br>RMSE RGB: 11.1244<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 7</td>
   <td><img src="images/Template for MSc Thesis_p7_heatmap.png" width="760" alt="Template for MSc Thesis page 7 difference heatmap"></td>
-  <td>changed: 116144 px (5.52%)<br>bbox: [71, 83, 1215, 1446]<br>mean abs RGB: 8.2454<br>RMSE RGB: 39.8852<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 5321 px (0.25%)<br>bbox: [479, 83, 816, 139]<br>mean abs RGB: 0.4658<br>RMSE RGB: 10.1181<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 8</td>
   <td><img src="images/Template for MSc Thesis_p8_heatmap.png" width="760" alt="Template for MSc Thesis page 8 difference heatmap"></td>
-  <td>changed: 27981 px (1.33%)<br>bbox: [105, 83, 1199, 385]<br>mean abs RGB: 2.1724<br>RMSE RGB: 21.0498<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 29269 px (1.39%)<br>bbox: [105, 83, 1275, 378]<br>mean abs RGB: 2.2751<br>RMSE RGB: 21.5838<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 9</td>
   <td><img src="images/Template for MSc Thesis_p9_heatmap.png" width="760" alt="Template for MSc Thesis page 9 difference heatmap"></td>
-  <td>changed: 6200 px (0.29%)<br>bbox: [456, 83, 848, 156]<br>mean abs RGB: 0.5456<br>RMSE RGB: 10.9791<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 54592 px (2.60%)<br>bbox: [182, 83, 1224, 1536]<br>mean abs RGB: 5.2947<br>RMSE RGB: 35.0853<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 10</td>
   <td><img src="images/Template for MSc Thesis_p10_heatmap.png" width="760" alt="Template for MSc Thesis page 10 difference heatmap"></td>
-  <td>changed: 47811 px (2.27%)<br>bbox: [192, 83, 1070, 1435]<br>mean abs RGB: 4.2553<br>RMSE RGB: 30.7682<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 49274 px (2.34%)<br>bbox: [192, 83, 1070, 1435]<br>mean abs RGB: 4.3781<br>RMSE RGB: 31.1753<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 11</td>
   <td><img src="images/Template for MSc Thesis_p11_heatmap.png" width="760" alt="Template for MSc Thesis page 11 difference heatmap"></td>
-  <td>changed: 17826 px (0.85%)<br>bbox: [105, 83, 1167, 531]<br>mean abs RGB: 1.3004<br>RMSE RGB: 15.9026<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 5060 px (0.24%)<br>bbox: [509, 83, 795, 137]<br>mean abs RGB: 0.4374<br>RMSE RGB: 9.8214<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 12</td>
   <td><img src="images/Template for MSc Thesis_p12_heatmap.png" width="760" alt="Template for MSc Thesis page 12 difference heatmap"></td>
-  <td>changed: 79945 px (3.80%)<br>bbox: [104, 84, 1223, 1650]<br>mean abs RGB: 7.2937<br>RMSE RGB: 40.2294<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 8960 px (0.43%)<br>bbox: [106, 84, 803, 338]<br>mean abs RGB: 0.7581<br>RMSE RGB: 12.7636<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 13</td>
   <td><img src="images/Template for MSc Thesis_p13_heatmap.png" width="760" alt="Template for MSc Thesis page 13 difference heatmap"></td>
-  <td>changed: 3587 px (0.17%)<br>bbox: [489, 84, 815, 111]<br>mean abs RGB: 0.3541<br>RMSE RGB: 9.0639<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>Template for MSc Thesis</b><br>Page 14</td>
-  <td><img src="images/Template for MSc Thesis_p14_heatmap.png" width="760" alt="Template for MSc Thesis page 14 difference heatmap"></td>
-  <td>changed: 7282 px (0.35%)<br>bbox: [479, 84, 824, 270]<br>mean abs RGB: 0.6387<br>RMSE RGB: 11.8022<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>Template for MSc Thesis</b><br>Page 15</td>
-  <td><img src="images/Template for MSc Thesis_p15_heatmap.png" width="760" alt="Template for MSc Thesis page 15 difference heatmap"></td>
-  <td>changed: 5714 px (0.27%)<br>bbox: [106, 83, 754, 176]<br>mean abs RGB: 0.5096<br>RMSE RGB: 10.6455<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>Template for MSc Thesis</b><br>Page 16</td>
-  <td><img src="images/Template for MSc Thesis_p16_heatmap.png" width="760" alt="Template for MSc Thesis page 16 difference heatmap"></td>
-  <td>changed: 7814 px (0.37%)<br>bbox: [106, 83, 789, 456]<br>mean abs RGB: 0.6406<br>RMSE RGB: 11.6267<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>Template for MSc Thesis</b><br>Page 17</td>
-  <td><img src="images/Template for MSc Thesis_p17_heatmap.png" width="760" alt="Template for MSc Thesis page 17 difference heatmap"></td>
-  <td>changed: 3914 px (0.19%)<br>bbox: [541, 83, 764, 156]<br>mean abs RGB: 0.3456<br>RMSE RGB: 8.723<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 5037 px (0.24%)<br>bbox: [489, 84, 815, 134]<br>mean abs RGB: 0.4645<br>RMSE RGB: 10.2075<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue61</b><br>Page 1</td>
@@ -1002,32 +982,32 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>TestIssue78</b><br>Page 1</td>
   <td><img src="images/TestIssue78_p1_heatmap.png" width="760" alt="TestIssue78 page 1 difference heatmap"></td>
-  <td>changed: 151162 px (6.94%)<br>bbox: [186, 317, 1202, 1291]<br>mean abs RGB: 9.9895<br>RMSE RGB: 43.1415<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 145977 px (6.71%)<br>bbox: [188, 317, 1191, 1291]<br>mean abs RGB: 9.7368<br>RMSE RGB: 42.778<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue90</b><br>Page 1</td>
   <td><img src="images/TestIssue90_p1_heatmap.png" width="760" alt="TestIssue90 page 1 difference heatmap"></td>
-  <td>changed: 169853 px (8.07%)<br>bbox: [148, 119, 1125, 1501]<br>mean abs RGB: 11.3455<br>RMSE RGB: 49.5242<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 164101 px (7.80%)<br>bbox: [148, 119, 1125, 1501]<br>mean abs RGB: 10.7823<br>RMSE RGB: 48.0197<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue91</b><br>Page 1</td>
   <td><img src="images/TestIssue91_p1_heatmap.png" width="760" alt="TestIssue91 page 1 difference heatmap"></td>
-  <td>changed: 193900 px (9.22%)<br>bbox: [148, 106, 1126, 1538]<br>mean abs RGB: 13.8132<br>RMSE RGB: 53.2746<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 184491 px (8.77%)<br>bbox: [148, 93, 1122, 1538]<br>mean abs RGB: 13.2175<br>RMSE RGB: 51.648<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue91</b><br>Page 2</td>
   <td><img src="images/TestIssue91_p2_heatmap.png" width="760" alt="TestIssue91 page 2 difference heatmap"></td>
-  <td>changed: 244869 px (11.64%)<br>bbox: [150, 99, 1147, 1538]<br>mean abs RGB: 17.0216<br>RMSE RGB: 57.1066<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 276662 px (13.15%)<br>bbox: [150, 99, 1126, 1538]<br>mean abs RGB: 20.785<br>RMSE RGB: 64.709<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue91</b><br>Page 3</td>
   <td><img src="images/TestIssue91_p3_heatmap.png" width="760" alt="TestIssue91 page 3 difference heatmap"></td>
-  <td>changed: 138150 px (6.57%)<br>bbox: [150, 94, 1136, 1539]<br>mean abs RGB: 10.1222<br>RMSE RGB: 44.8995<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 143053 px (6.80%)<br>bbox: [150, 94, 1126, 1539]<br>mean abs RGB: 10.2515<br>RMSE RGB: 44.8255<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue93</b><br>Page 1</td>
   <td><img src="images/TestIssue93_p1_heatmap.png" width="760" alt="TestIssue93 page 1 difference heatmap"></td>
-  <td>changed: 126447 px (5.81%)<br>bbox: [89, 96, 1147, 1136]<br>mean abs RGB: 7.1189<br>RMSE RGB: 35.1836<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 125745 px (5.78%)<br>bbox: [89, 92, 1147, 1126]<br>mean abs RGB: 7.2454<br>RMSE RGB: 35.4697<br>threshold: 12, gain: 5.0</td>
 </tr>
 </table>
 
@@ -1039,7 +1019,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 <tr><th>java MiniPdf</th><th>Microsoft 365 Word Reference</th><th>LibreOffice</th></tr>
 <tr>
   <td><b>13_IEEE_Style_Paper<br><small>format: docx | case: 13_IEEE_Style_Paper | scope: java-issue-docx</small></b></td>
-  <td colspan="2">13_IEEE_Style_Paper <span style="color:#3fb950">⬤</span> 98.0%</td>
+  <td colspan="2">13_IEEE_Style_Paper <span style="color:#3fb950">⬤</span> 98.6%</td>
 </tr>
 <tr>
   <td><img src="images/13_IEEE_Style_Paper_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1053,7 +1033,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>14_Thesis_Chapter<br><small>format: docx | case: 14_Thesis_Chapter | scope: java-issue-docx</small></b></td>
-  <td colspan="2">14_Thesis_Chapter <span style="color:#3fb950">⬤</span> 97.8%</td>
+  <td colspan="2">14_Thesis_Chapter <span style="color:#3fb950">⬤</span> 98.6%</td>
 </tr>
 <tr>
   <td><img src="images/14_Thesis_Chapter_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1067,7 +1047,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>20260317_sample_CN<br><small>format: docx | case: 20260317_sample_CN | scope: java-issue-docx</small></b></td>
-  <td colspan="2">20260317_sample_CN <span style="color:#f85149">⬤</span> 66.0%</td>
+  <td colspan="2">20260317_sample_CN <span style="color:#f85149">⬤</span> 65.9%</td>
 </tr>
 <tr>
   <td><img src="images/20260317_sample_CN_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1081,7 +1061,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>20260318_issue<br><small>format: docx | case: 20260318_issue | scope: java-issue-docx</small></b></td>
-  <td colspan="2">20260318_issue <span style="color:#f85149">⬤</span> 59.2%</td>
+  <td colspan="2">20260318_issue <span style="color:#f85149">⬤</span> 58.1%</td>
 </tr>
 <tr>
   <td><img src="images/20260318_issue_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1229,7 +1209,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>Class News<br><small>format: docx | case: Class News | scope: java-issue-docx</small></b></td>
-  <td colspan="2">Class News <span style="color:#f85149">⬤</span> 29.9%</td>
+  <td colspan="2">Class News <span style="color:#3fb950">⬤</span> 90.6%</td>
 </tr>
 <tr>
   <td><img src="images/Class News_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1306,7 +1286,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>Fabrikam<br><small>format: docx | case: Fabrikam | scope: java-issue-docx</small></b></td>
-  <td colspan="2">Fabrikam <span style="color:#f85149">⬤</span> 46.8%</td>
+  <td colspan="2">Fabrikam <span style="color:#d29922">⬤</span> 80.7%</td>
 </tr>
 <tr>
   <td><img src="images/Fabrikam_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1314,18 +1294,8 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td><img src="images/Fabrikam_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Fabrikam_p2_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><i>missing</i></td>
-  <td><i>missing</i></td>
-</tr>
-<tr>
-  <td><img src="images/Fabrikam_p3_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><i>missing</i></td>
-  <td><i>missing</i></td>
-</tr>
-<tr>
   <td><b>Invoice<br><small>format: docx | case: Invoice | scope: java-issue-docx</small></b></td>
-  <td colspan="2">Invoice <span style="color:#f85149">⬤</span> 51.2%</td>
+  <td colspan="2">Invoice <span style="color:#d29922">⬤</span> 82.9%</td>
 </tr>
 <tr>
   <td><img src="images/Invoice_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1333,13 +1303,8 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td><img src="images/Invoice_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Invoice_p2_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><i>missing</i></td>
-  <td><i>missing</i></td>
-</tr>
-<tr>
   <td><b>Issue79_FilledContract<br><small>format: docx | case: Issue79_FilledContract | scope: java-issue-docx</small></b></td>
-  <td colspan="2">Issue79_FilledContract <span style="color:#3fb950">⬤</span> 99.1%</td>
+  <td colspan="2">Issue79_FilledContract <span style="color:#3fb950">⬤</span> 98.6%</td>
 </tr>
 <tr>
   <td><img src="images/Issue79_FilledContract_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1348,7 +1313,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>Issue79_TemplateContract<br><small>format: docx | case: Issue79_TemplateContract | scope: java-issue-docx</small></b></td>
-  <td colspan="2">Issue79_TemplateContract <span style="color:#3fb950">⬤</span> 99.1%</td>
+  <td colspan="2">Issue79_TemplateContract <span style="color:#3fb950">⬤</span> 97.5%</td>
 </tr>
 <tr>
   <td><img src="images/Issue79_TemplateContract_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1375,7 +1340,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>issue202605<br><small>format: docx | case: issue202605 | scope: java-issue-docx</small></b></td>
-  <td colspan="2">issue202605 <span style="color:#f85149">⬤</span> 64.9%</td>
+  <td colspan="2">issue202605 <span style="color:#f85149">⬤</span> 66.3%</td>
 </tr>
 <tr>
   <td><img src="images/issue202605_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1394,7 +1359,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>issue26050501<br><small>format: docx | case: issue26050501 | scope: java-issue-docx</small></b></td>
-  <td colspan="2">issue26050501 <span style="color:#f85149">⬤</span> 65.8%</td>
+  <td colspan="2">issue26050501 <span style="color:#f85149">⬤</span> 64.6%</td>
 </tr>
 <tr>
   <td><img src="images/issue26050501_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1413,7 +1378,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>issues66<br><small>format: docx | case: issues66 | scope: java-issue-docx</small></b></td>
-  <td colspan="2">issues66 <span style="color:#3fb950">⬤</span> 98.8%</td>
+  <td colspan="2">issues66 <span style="color:#3fb950">⬤</span> 98.7%</td>
 </tr>
 <tr>
   <td><img src="images/issues66_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1432,7 +1397,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>MODERN LIVING<br><small>format: docx | case: MODERN LIVING | scope: java-issue-docx</small></b></td>
-  <td colspan="2">MODERN LIVING <span style="color:#f85149">⬤</span> 19.9%</td>
+  <td colspan="2">MODERN LIVING <span style="color:#f85149">⬤</span> 37.9%</td>
 </tr>
 <tr>
   <td><img src="images/MODERN LIVING_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1560,7 +1525,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>OSCAR WARD<br><small>format: docx | case: OSCAR WARD | scope: java-issue-docx</small></b></td>
-  <td colspan="2">OSCAR WARD <span style="color:#d29922">⬤</span> 72.0%</td>
+  <td colspan="2">OSCAR WARD <span style="color:#d29922">⬤</span> 73.5%</td>
 </tr>
 <tr>
   <td><img src="images/OSCAR WARD_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1597,7 +1562,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>Template for MSc Thesis<br><small>format: docx | case: Template for MSc Thesis | scope: java-issue-docx</small></b></td>
-  <td colspan="2">Template for MSc Thesis <span style="color:#3fb950">⬤</span> 94.8%</td>
+  <td colspan="2">Template for MSc Thesis <span style="color:#d29922">⬤</span> 76.8%</td>
 </tr>
 <tr>
   <td><img src="images/Template for MSc Thesis_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1665,22 +1630,22 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td><img src="images/Template for MSc Thesis_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p14_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
   <td><img src="images/Template for MSc Thesis_p14_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p15_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
   <td><img src="images/Template for MSc Thesis_p15_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p16_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
   <td><img src="images/Template for MSc Thesis_p16_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p16_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p17_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
   <td><img src="images/Template for MSc Thesis_p17_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p17_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1739,7 +1704,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>TestIssue90<br><small>format: docx | case: TestIssue90 | scope: java-issue-docx</small></b></td>
-  <td colspan="2">TestIssue90 <span style="color:#3fb950">⬤</span> 98.1%</td>
+  <td colspan="2">TestIssue90 <span style="color:#3fb950">⬤</span> 97.9%</td>
 </tr>
 <tr>
   <td><img src="images/TestIssue90_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1748,7 +1713,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>TestIssue91<br><small>format: docx | case: TestIssue91 | scope: java-issue-docx</small></b></td>
-  <td colspan="2">TestIssue91 <span style="color:#3fb950">⬤</span> 96.9%</td>
+  <td colspan="2">TestIssue91 <span style="color:#3fb950">⬤</span> 96.0%</td>
 </tr>
 <tr>
   <td><img src="images/TestIssue91_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1767,7 +1732,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>TestIssue93<br><small>format: docx | case: TestIssue93 | scope: java-issue-docx</small></b></td>
-  <td colspan="2">TestIssue93 <span style="color:#3fb950">⬤</span> 91.8%</td>
+  <td colspan="2">TestIssue93 <span style="color:#3fb950">⬤</span> 91.9%</td>
 </tr>
 <tr>
   <td><img src="images/TestIssue93_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -1782,27 +1747,23 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: 13_IEEE_Style_Paper | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/13_IEEE_Style_Paper.docx
-- **Text Similarity:** 0.9944
-- **Visual Average:** 0.9548
-- **Overall Score:** 0.9797
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.9645
+- **Overall Score:** 0.9858
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=21826 bytes, Reference=175037 bytes
+- **File Size:** MiniPdf=60479 bytes, Reference=175037 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/13_IEEE_Style_Paper.pdf
 +++ reference/13_IEEE_Style_Paper.pdf
-@@ -1,41 +1,34 @@
+@@ -1,6 +1,8 @@
  A Novel Approach to Document
 
--Conversion Using Layout-Aware
+-Conversion Using Layout-Aware Parsing
 
--Parsing
-
--First Author, Second Author, Third Author Department of Computer Science, University
-
--of Technology email@university.edu
+-First Author, Second Author, Third Author Department of Computer Science, University of Technology
 
 +Conversion
 
@@ -1812,91 +1773,11 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 +Department of Computer Science, University of Technology
 
-+email@university.edu
+ email@university.edu
 
  Abstract
 
--This paper presents a novel approach to converting document formats while
-
--preserving layout fidelity. We propose a multi-pass parsing algorithm that
-
--analyzes document structure, extracts semantic content, and reconstructs the
-
--layout in the target format. Our method achieves 95% layout accuracy on a
-
--benchmark of 500 documents across various formats including DOCX, XLSX, and
-
--PDF.
-
-+This paper presents a novel approach to converting document formats while preserving layout fidelity.
-
-+We propose a multi-pass parsing algorithm that analyzes document structure, extracts semantic content, and
-
-+reconstructs the layout in the target format. Our method achieves 95% layout accuracy on a benchmark of
-
-+500 documents across various formats including DOCX, XLSX, and PDF.
-
- 1. Introduction
-
--Document format conversion is a fundamental problem in information technology.
-
--Organizations frequently need to convert documents between formats for
-
--archival, sharing, and processing purposes. The challenge lies in preserving
-
--the visual layout, formatting, and semantic structure of the original document
-
-+Document format conversion is a fundamental problem in information technology. Organizations
-
-+frequently need to convert documents between formats for archival, sharing, and processing purposes. The
-
-+challenge lies in preserving the visual layout, formatting, and semantic structure of the original document
-
- [1].
-
--Traditional approaches rely on simple text extraction followed by re-
-
--rendering, which often loses important formatting information such as margins,
-
--indentation, font styles, and table layouts [2].
-
-+Traditional approaches rely on simple text extraction followed by re-rendering, which often loses important
-
-+formatting information such as margins, indentation, font styles, and table layouts [2].
-
- 2. Related Work
-
--Several approaches have been proposed for document conversion. Smith et al.
-
--[4] introduced a rule-based system that handles specific format pairs.
-
-+Several approaches have been proposed for document conversion. Smith et al. [4] introduced a rule-based
-
-+system that handles specific format pairs.
-
- 3. Experimental Results
-
- Table 1 shows the comparison of our method against baselines.
-
-----PAGE---
-
- Method Accuracy (%) Speed (docs/s) Memory (MB)
-
- Rule-based 78.2 120 256
-
- ML-based 85.5 45 1024
-
- Ours 95.1 89 512
-
- References
-
--[1] A. Brown, Document Processing: Principles and Practice, IEEE Trans., vol.
-
--45, 2023.
-
--[2] C. Davis et al., Layout-aware text extracti
-... (663 more characters)
-
+ This paper presents a novel approach to converting document formats while preserving layout fidelity.
 ```
 </details>
 
@@ -1904,125 +1785,23 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: 14_Thesis_Chapter | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/14_Thesis_Chapter.docx
-- **Text Similarity:** 0.9914
-- **Visual Average:** 0.9533
-- **Overall Score:** 0.9779
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.9658
+- **Overall Score:** 0.9863
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=41363 bytes, Reference=159980 bytes
+- **File Size:** MiniPdf=61518 bytes, Reference=159980 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/14_Thesis_Chapter.pdf
-+++ reference/14_Thesis_Chapter.pdf
-@@ -2,15 +2,14 @@
- METHODOLOGY AND EXPERIMENTAL DESIGN
-
- 3.1 Research Methodology
-
- This chapter describes the research methodology employed in this study. The
-
--experimental framework consists of three main phases: data collection, model
-
--training, and evaluation.
-
--The data collection phase involved gathering documents from multiple sources
-
--including government repositories, academic databases, and corporate archives.
-
--A total of 10,000 documents were collected, spanning 15 different document
-
--types.
-
-+experimental framework consists of three main phases: data collection, model training,
-
-+and evaluation.
-
-+The data collection phase involved gathering documents from multiple sources including
-
-+government repositories, academic databases, and corporate archives. A total of 10,000
-
-+documents were collected, spanning 15 different document types.
-
- 3.1.1 Data Collection
-
--Documents were collected using a web crawler that respected robots.txt
-
--directives. Table 3.1 summarizes the distribution of collected documents.
-
-+Documents were collected using a web crawler that respected robots.txt directives. Table
-
-+3.1 summarizes the distribution of collected documents.
-
- Document Type Count Percentage
-
- Government Reports 3,245 32.5%
-
- Academic Papers 2,891 28.9%
-
-@@ -19,18 +18,17 @@
- Other 874 8.7%
-
- 3.2 Model Architecture
-
- The proposed model architecture is based on a transformer encoder-decoder framework.
-
--Multi-head attention mechanism for layout understanding
-
--Positional encoding for spatial relationships
-
--Cross-attention between text and layout features
-
--Format-specific output heads for different target formats
-
-+• Multi-head attention mechanism for layout understanding
-
-+• Positional encoding for spatial relationships
-
-+• Cross-attention between text and layout features
-
-+• Format-specific output heads for different target formats
-
- 3.3 Evaluation Metrics
-
- We evaluate our approach using three complementary metrics:
-
- 1. Visual Similarity Score (VSS): Measures pixel-level similarity.
-
- 2. Structural Accuracy (SA): Evaluates document structure preservation.
-
- 3. Content Fidelity (CF): Checks text content correctness.
-
-+---PAGE---
-
- 3.4 Experimental Setup
-
-----PAGE---
-
--All experiments were conducted on a workstation equipped with an NVIDIA RTX
-
--4090 GPU, 64 GB of RAM, and an Intel Core i9-13900K processor. The model was
-
--trained for 100 epochs using the AdamW optimizer with a learning rate of 1e-4
-
--and batch size of 32.
-+All experiments were conducted on a workstation equipped with an NVIDIA RTX 4090
-
-+GPU, 64 GB of RAM, and an Intel Core i9-13900K processor. The model was trained for
-
-+100 epochs using the AdamW optimizer with a learning rate of 1e-4 and batch size of 32.
-```
-</details>
+Text content: ✅ Identical
 
 ### 20260317_sample_CN
 
 - **Case Metadata:** format: docx | case: 20260317_sample_CN | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/20260317_sample_CN.docx
 - **Text Similarity:** 0.9279
-- **Visual Average:** 0.4719
-- **Overall Score:** 0.6599
+- **Visual Average:** 0.4692
+- **Overall Score:** 0.6588
 - **Pages:** MiniPdf=1, Reference=2
-- **File Size:** MiniPdf=42503 bytes, Reference=201411 bytes
+- **File Size:** MiniPdf=124530 bytes, Reference=201411 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2069,18 +1848,20 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: 20260318_issue | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/20260318_issue.docx
-- **Text Similarity:** 0.9065
-- **Visual Average:** 0.3243
-- **Overall Score:** 0.5923
+- **Text Similarity:** 0.8639
+- **Visual Average:** 0.3386
+- **Overall Score:** 0.581
 - **Pages:** MiniPdf=3, Reference=7
-- **File Size:** MiniPdf=232470 bytes, Reference=344825 bytes
+- **File Size:** MiniPdf=233827 bytes, Reference=344825 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/20260318_issue.pdf
 +++ reference/20260318_issue.pdf
-@@ -1,58 +1,85 @@
+@@ -1,54 +1,85 @@
+-Revision Histo ry
+
 +页眉的名称 ……………………..
 
 +页眉 换了一行 .
@@ -2097,7 +1878,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 +页眉 换了一行 .
 
- Revision History
++Revision History
 
  Date Revision Author Description
 
@@ -2105,9 +1886,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 -RESTRICTED DISTRIBUTION1
 
--The information is standard Company Confidential but due to its sensitivity it has restricted
-
--distribution and viewing within Volvo Cars.
+-The information is standard Company Confidential but due to its sensitivity it has restricted distribu
 
 +页脚的公司名称
 
@@ -2123,9 +1902,13 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 +The information is standard Company Confidential but due to its sensitivity it has restricted distribution and viewing
 
-+within Volvo Cars.
+ within Volvo Cars.
 
  Document Version Control
+
+-1
+
+----PAGE---
 
  Date Issued Version Description Author
 
@@ -2135,13 +1918,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  Contributors
 
--The content of this document has been authored with the combined input of the following group
-
--of key individuals.
-
--1
-
-----PAGE---
+-The content of this document has been authored with the combined input of the following group of key i
 
 +The content of this document has been authored with the combined input of the following group of key individuals.
 
@@ -2155,13 +1932,11 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  Document Sign-off Requirements
 
--The following table contains the people required to sign-off and/or review this document and
-
--those that require the document for information only.
+-The following table contains the people required to sign-off and/or review this document and those tha
 
 +The following table contains the people required to sign-off and/or review this document and those that require the
 
-+document for information only.
+ document for information only.
 
  Name Department Responsibility
 
@@ -2171,11 +1946,9 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 -Definition Information is Group confidential and needs to be protected
 
--Context Where loss of information confidentiality would result in significant
+-Context Where loss of information confidentiality would result in significant harm to
 
--harm to the interests of the organization, financial loss, embarrassment
-
--or loss of information
+-interests of the organization, financial loss, embarrassment or loss of infor
 
 +Company Confidential
 
@@ -2205,24 +1978,22 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  The Process Definition Document (PDD) captures the flow of a business process to be developed.
 
--The flowchart contained within the document captures, at a high level, the business process to
+-The flowchart contained within the document captures, at a high level, the business process to be auto
 
--be automated, the target systems used within the process and any assumptions that have been
++The flowchart contained within the document captures, at a high level, the business process to be automated, the
 
--taken into account.
+ target systems used within the process and any assumptions that have been taken into account.
 
--Once agreed as the basis for the automation of the target process, the flowchart and
+-Once agreed as the basis for the automation of the target process, the flowchart and assumptions will
 
--assumptions will be used as a platform from which the automated solution will be designed.
++Once agreed as the basis for the automation of the target process, the flowchart and assumptions will be used as a
 
--Changes to this business process may constitute a request for change and will be subject to the
+ platform from which the automated solution will be designed.
 
--agreed agility program change procedures.
+-Changes to this business process may constitute a request for change and will be subject to the agreed
 
--Note: This document must be completed in the absence of existing process documentation that
-
--provides the level of detail require
-... (2504 more characters)
++Changes to this business process may constitute
+... (1968 more characters)
 
 ```
 </details>
@@ -2371,37 +2142,27 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: Class News | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/Class News.docx
-- **Text Similarity:** 0.1361
-- **Visual Average:** 0.1118
-- **Overall Score:** 0.2992
+- **Text Similarity:** 0.9473
+- **Visual Average:** 0.8168
+- **Overall Score:** 0.9056
 - **Pages:** MiniPdf=4, Reference=4
-- **File Size:** MiniPdf=17552 bytes, Reference=124498 bytes
+- **File Size:** MiniPdf=236477 bytes, Reference=124498 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/Class News.pdf
 +++ reference/Class News.pdf
-@@ -2,36 +2,135 @@
- Ms. Tanaka
+@@ -7,31 +7,31 @@
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non varius
 
- (718) 555–0100
+ ipsum. Fusce venenatis quam vel libero scelerisque, a mattis diam
 
- sycamoremiddle.org
+ sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 
--ytanaka@sycamoremiddle.e
+-non varius ipsum. Fusce venenatis quam vel libero sce lerisque, a mattis diam
 
--du
-
-+ytanaka@sycamoremiddle.edu
-
- Welcome back to school!
-
-+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non varius
-
-+ipsum. Fusce venenatis quam vel libero scelerisque, a mattis diam
-
-+sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+-sollicitudin.
 
 +non varius ipsum. Fusce venenatis quam vel libero sce lerisque, a mattis
 
@@ -2409,7 +2170,9 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  Upcoming Events
 
--School Dance
+-Maecenas massa velit, consectetur sit amet da pibus et, dapibus sit amet
+
+-School Dance odio. Vestibulum ultric ies erat sit amet massa ullamcorper ferm entum.
 
 +School Dance Maecenas massa velit, consectetur sit amet da pibus et, dapibus sit amet
 
@@ -2417,23 +2180,37 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 +odio. Vestibulum ultric ies erat sit amet massa ullamcorper ferm entum.
 
-+Quisque a suscipit nulla, non posuere tellus. Vivamus justo erat, suscipit sit
+ Quisque a suscipit nulla, non posuere tellus. Vivamus justo erat, suscipit sit
 
- Book Fair
++Book Fair
 
-+amet ultr icie. Ma ecenas massa velit, consectetur sit amet dapibus et,
+ amet ultr icie. Ma ecenas massa velit, consectetur sit amet dapibus et,
 
- 10.1 - 11.1
+-Book Fair
 
-+dapibus sit amet odio. Vestibulum ultricies erat sit amet massa ullamcorper.
++10.1 - 11.1
 
- Picture Day
+ dapibus sit amet odio. Vestibulum ultricies erat sit amet massa ullamcorper.
 
-+Lorem ipsum dolor sit amet, consectetur adipi scing elit. Aliquam non varius
+-10.1 - 11.1
 
- 10.15
++Picture Day
 
-+ipsum. Fusce ven enatis quam vel libero scelerisque, a mattis diam
+ Lorem ipsum dolor sit amet, consectetur adipi scing elit. Aliquam non varius
+
+-Picture Day
+
++10.15
+
+ ipsum. Fusce ven enatis quam vel libero scelerisque, a mattis diam
+
+-10.15
+
+-sollicitudin. Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Aliquam
+
+-non varius ipsum. Fusce venenatis quam vel libero sce lerisque, a mattis diam
+
+-sollicitudin. Quisque a suscipit nulla, non posuere tellus.
 
 +sollicitudin. Lorem ipsum dolor sit amet, cons ectetur adipiscing elit.
 
@@ -2445,68 +2222,51 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  Recent highlights
 
--Our next area of focus
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non varius
 
-+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non varius
+ ipsum. Fusce venenatis quam vel libero scelerisque, a mattis diam
 
-+ipsum. Fusce venenatis quam vel libero scelerisque, a mattis diam
+ sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 
-+sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+-non varius ipsum. Fusce venenatis quam vel libero scelerisque, a mattis diam
+
+-sollicitudin.
 
 +non varius ipsum. Fusce venenatis quam vel libero scelerisque, a mattis
 
 +diam sollicitudin.
 
-+Maecenas massa velit, consectetur sit amet dapibus et, dapibus sit amet
+ Maecenas massa velit, consectetur sit amet dapibus et, dapibus sit amet
 
-+odio. Vestibulum ultricies erat sit amet massa ullamco rper ferme ntum.
+ odio. Vestibulum ultricies erat sit amet massa ullamco rper ferme ntum.
 
-+Quisque a suscipit nulla, non posuere tellus. Viva mus justo erat, suscipit sit
+ Quisque a suscipit nulla, non posuere tellus. Viva mus justo erat, suscipit sit
 
-+amet dui sed, ultricies porttitor mi.
+@@ -44,14 +44,15 @@
+ consec tetur adi piscing elit.
 
-+Aliquam pharetra risus vitae odio imperdiet condimentum. Fusce in quam
+ Aliquam non varius ipsum.
 
-+varius, dictum mi sit amet, aliquam mi. Suspe ndisse potenti. Pellentesque
+ Fusce venenatis quam vel
 
-+auctor id neque vel maximus.
+-Our next area of focus
 
- Fall highlights
-
-+Lorem ipsum dolor sit amet,
-
-+consec tetur adi piscing elit.
-
-+Aliquam non varius ipsum.
-
-+Fusce venenatis quam vel
+-libero scelerisque. Quam vel
 
 +libero scelerisque. Quam vel Our next area of focus
 
-+libero sce lerisque, a matm.
+ libero sce lerisque, a matm.
 
-+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ma ecenas massa
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ma ecenas massa
 
 +Lorem ipsum dolor sit amet,
 
-+velit, consectetur sit amet dapibus et, dapibus sit amet odio. Aliquam non
+ velit, consectetur sit amet dapibus et, dapibus sit amet odio. Aliquam non
 
-+consec tetur adi piscing elit.
+-Lorem ipsum dolor sit amet,
 
-+varius ipsum. Fusce venenatis quam vel libero scelerisque, a mattis diam
-
-+Aliquam non varius ipsum.
-
-+sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non
-
-+Fusce venenatis quam vel
-
-+varius ipsum. Fusce venenatis quam vel libero sce lerisque, a mattis.
-
-+libero scelerisque. Quam vel
-
-+libero sce lerisque, a
-... (4001 more characters)
+-consec tetur adi piscing elit. varius ipsum. Fusce venenatis quam vel libero sceler
+... (3199 more characters)
 
 ```
 </details>
@@ -2931,20 +2691,18 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: Fabrikam | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/Fabrikam.docx
-- **Text Similarity:** 0.9079
-- **Visual Average:** 0.0112
-- **Overall Score:** 0.4676
-- **Pages:** MiniPdf=3, Reference=1
-- **File Size:** MiniPdf=5002 bytes, Reference=55486 bytes
+- **Text Similarity:** 0.9199
+- **Visual Average:** 0.5976
+- **Overall Score:** 0.807
+- **Pages:** MiniPdf=1, Reference=1
+- **File Size:** MiniPdf=4796 bytes, Reference=55486 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/Fabrikam.pdf
 +++ reference/Fabrikam.pdf
-@@ -1,32 +1,30 @@
-----PAGE---
-
+@@ -1,31 +1,30 @@
  Fabrikam, Inc. Fabrikam, Inc.
 
 -Wei Wei
@@ -2957,7 +2715,9 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  www.fabrikam.com www.fabrikam.com
 
--(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam
+-(415) 555-0123 | kristel@fabrikam.com
+
+-(415) 555-0123 | kristel@fabrikam.c
 
 +(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam.com
 
@@ -2973,7 +2733,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  www.fabrikam.com www.fabrikam.com
 
--(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam
+-(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam.c
 
 +(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam.com
 
@@ -2989,7 +2749,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  www.fabrikam.com www.fabrikam.com
 
--(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam
+-(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam.c
 
 +(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam.com
 
@@ -3005,7 +2765,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  www.fabrikam.com www.fabrikam.com
 
--(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam
+-(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam.c
 
 +(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam.com
 
@@ -3021,9 +2781,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  www.fabrikam.com www.fabrikam.com
 
--(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam
-
-----PAGE---
+-(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam.c
 +(415) 555-0123 | kristel@fabrikam.com (415) 555-0123 | kristel@fabrikam.com
 ```
 </details>
@@ -3032,18 +2790,18 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: Invoice | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/Invoice.docx
-- **Text Similarity:** 0.6856
-- **Visual Average:** 0.3433
-- **Overall Score:** 0.5116
-- **Pages:** MiniPdf=2, Reference=1
-- **File Size:** MiniPdf=15270 bytes, Reference=54735 bytes
+- **Text Similarity:** 0.6868
+- **Visual Average:** 0.8867
+- **Overall Score:** 0.8294
+- **Pages:** MiniPdf=1, Reference=1
+- **File Size:** MiniPdf=35901 bytes, Reference=54735 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/Invoice.pdf
 +++ reference/Invoice.pdf
-@@ -1,22 +1,22 @@
+@@ -1,20 +1,22 @@
 -Invoice
 
 -DATE: To: Anjali Chaturvedi
@@ -3084,10 +2842,6 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  Oscar Ward Sales Due on receipt 1/30/23
 
--1
-
-----PAGE---
-
 -Qty Description Unit Price Line Total
 
 +QTY DESCRIPTION UNIT PRICE LINE TOTAL
@@ -3116,7 +2870,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 -Create & Co. 123 Main St. | Seattle, WA 78910 | Phone: 111-222-3333 | Fax: 111-222-3334
 
--2
+-1
 +CREATE & CO. 123 MAIN ST. | SEATTLE, WA 78910 | PHONE: 111-222-3333 | FAX: 111-222-3334
 ```
 </details>
@@ -3125,25 +2879,169 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: Issue79_FilledContract | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/Issue79_FilledContract.docx
-- **Text Similarity:** 1.0
-- **Visual Average:** 0.9775
-- **Overall Score:** 0.991
+- **Text Similarity:** 0.9856
+- **Visual Average:** 0.9781
+- **Overall Score:** 0.9855
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=38764 bytes, Reference=75476 bytes
+- **File Size:** MiniPdf=38695 bytes, Reference=75476 bytes
 
-Text content: ✅ Identical
+<details><summary>Text Diff</summary>
+
+```diff
+--- minipdf/Issue79_FilledContract.pdf
++++ reference/Issue79_FilledContract.pdf
+@@ -2,19 +2,19 @@
+ 甲方：甲方公司
+
+ 乙方：乙方公司
+
+ 乙方根据双方签署合同为甲方提供服务。
+
+-1. 合作时间： 2026 年 06 月 29 日
+
+-2. 项目汇总
+
++1.合作时间：2026 年06 月29 日
+
++2.项目汇总
+
+ 类型项目 项目合作日期 总金额（元）
+
+ 技术服务费 2026-06-29 666
+
+-总金额（小写）： 666
+
++总金额（小写）：666
+
+ 总金额（大写）：陆佰陆拾陆元
+
+-3. 乙方按照双方约定内容提供合法有效、等额的增值税专用发票给甲方。
+
++3.乙方按照双方约定内容提供合法有效、等额的增值税专用发票给甲方。
+
+ 公司名称：甲方公司
+
+-纳税人识别号： WUISBIFUWBEUIBUI
+
++纳税人识别号：WUISBIFUWBEUIBUI
+
+ 注册地址及电话：甲方注册地址
+
+ 开户行及账号：甲方银行开户行
+
+-开票项目：信息系统增值服务 * 信息技术服务费现代服务 * 现代信息技术服务费
+
+-4. 甲方以双方签署的协议为付款依据，对本结算单所产生的费用，应支付到以下乙方账户内。
+
++开票项目：信息系统增值服务*信息技术服务费现代服务*现代信息技术服务费
+
++4.甲方以双方签署的协议为付款依据，对本结算单所产生的费用，应支付到以下乙方账户内。
+
+ 乙方账户信息：
+
+ 账户名称：乙方公司
+
+ 开户行：乙方开户行
+```
+</details>
 
 ### Issue79_TemplateContract
 
 - **Case Metadata:** format: docx | case: Issue79_TemplateContract | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/Issue79_TemplateContract.docx
-- **Text Similarity:** 1.0
-- **Visual Average:** 0.9772
-- **Overall Score:** 0.9909
+- **Text Similarity:** 0.9595
+- **Visual Average:** 0.9774
+- **Overall Score:** 0.9748
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=39744 bytes, Reference=74748 bytes
+- **File Size:** MiniPdf=40734 bytes, Reference=74748 bytes
 
-Text content: ✅ Identical
+<details><summary>Text Diff</summary>
+
+```diff
+--- minipdf/Issue79_TemplateContract.pdf
++++ reference/Issue79_TemplateContract.pdf
+@@ -1,24 +1,24 @@
+ 测试结算单
+
+-甲方： {{PartyA}}
+
+-乙方： {{PartyB}}
+
++甲方：{{PartyA}}
+
++乙方：{{PartyB}}
+
+ 乙方根据双方签署合同为甲方提供服务。
+
+-1. 合作时间： {{ChineseTime}}
+
+-2. 项目汇总
+
++1.合作时间：{{ChineseTime}}
+
++2.项目汇总
+
+ 类型项目 项目合作日期 总金额（元）
+
+ 技术服务费 {{Time}} {{Money}}
+
+-总金额（小写）： {{Money}}
+
+-总金额（大写）： {{BigMoney}}
+
+-3. 乙方按照双方约定内容提供合法有效、等额的增值税专用发票给甲方。
+
+-公司名称： {{PartyA}}
+
+-纳税人识别号： {{PartyACode}}
+
+-注册地址及电话： {{PartyAddressAndPhone}}
+
+-开户行及账号： {{PartyABankAndAccount}}
+
+-开票项目：信息系统增值服务 * 信息技术服务费现代服务 * 现代信息技术服务费
+
+-4. 甲方以双方签署的协议为付款依据，对本结算单所产生的费用，应支付到以下乙方账户内。
+
++总金额（小写）：{{Money}}
+
++总金额（大写）：{{BigMoney}}
+
++3.乙方按照双方约定内容提供合法有效、等额的增值税专用发票给甲方。
+
++公司名称：{{PartyA}}
+
++纳税人识别号：{{PartyACode}}
+
++注册地址及电话：{{PartyAddressAndPhone}}
+
++开户行及账号：{{PartyABankAndAccount}}
+
++开票项目：信息系统增值服务*信息技术服务费现代服务*现代信息技术服务费
+
++4.甲方以双方签署的协议为付款依据，对本结算单所产生的费用，应支付到以下乙方账户内。
+
+ 乙方账户信息：
+
+-账户名称： {{PartyB}}
+
+-开户行： {{PartyBBank}}
+
+-账号： {{PartyBAccount}}
+
++账户名称：{{PartyB}}
+
++开户行：{{PartyBBank}}
+
++账号：{{PartyBAccount}}
+
+ 本结算单与原合同具有同等的法律效力。
+
+ 甲方：{{PartyA}} 乙方：{{PartyB}}
+
+ 授权代表：{{PartyAAuthor}} 授权代表：{{PartyBAuthor}}
+```
+</details>
 
 ### Issue83_Output
 
@@ -3173,18 +3071,18 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: issue202605 | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/issue202605.docx
-- **Text Similarity:** 0.8162
-- **Visual Average:** 0.5563
-- **Overall Score:** 0.649
+- **Text Similarity:** 0.8372
+- **Visual Average:** 0.5713
+- **Overall Score:** 0.6634
 - **Pages:** MiniPdf=3, Reference=2
-- **File Size:** MiniPdf=60894 bytes, Reference=154739 bytes
+- **File Size:** MiniPdf=62046 bytes, Reference=154739 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/issue202605.pdf
 +++ reference/issue202605.pdf
-@@ -1,78 +1,60 @@
+@@ -1,60 +1,60 @@
  國立清華大學電機資訊學院
 
 -115學年度博士班入學甄試聯合招生
@@ -3201,13 +3099,13 @@ Text content: ✅ Identical
 
  畢業論文名稱 指導教授
 
--進入本系博士班 擬研
+-進入本系博士班 擬研 □計算機網路 □晶片系統設計與電子設計自動化 □電腦系統
+
+-讀領域/方向
 
 +進入本系博士班
 
- □計算機網路 □晶片系統設計與電子設計自動化 □電腦系統
-
--讀領域/方向
++□計算機網路 □晶片系統設計與電子設計自動化 □電腦系統
 
 +擬研讀領域/方向
 
@@ -3219,11 +3117,7 @@ Text content: ✅ Identical
 
  姓名(至多三位)
 
--□應屆
-
--□一般生
-
-+□應屆 □一般生
+ □應屆 □一般生
 
  就學狀況 報考身分
 
@@ -3261,31 +3155,27 @@ Text content: ✅ Identical
 
  語文能力表現 (請檢附檢定證明，如無資料可免填。)
 
--1
-
--全民英檢 □初級 □中試 □中高級 □高級 □優級 通過考試階段：□初試　□複試
-
--.
-
--2
-
--英文檢定 □托福/分數：        □多益/分數：        □其他       /分數：
-
--.
-
--3
-
--其他
-
--.
+-1. 全民英檢 □初級 □中試 □中高級 □高級 □優級 通過考試階段：□初試　□複試
 
 +1. 全民英檢 □初級 □中試 □中高級 □高級 □優級 通過考試階段：□初試 □複試
 
-+2. 英文檢定 □托福/分數：        □多益/分數：        □其他       /分數：
+ 2. 英文檢定 □托福/分數：        □多益/分數：        □其他       /分數：
 
-+3. 其他
+ 3. 其他
 
  工作經歷 (請依序填寫大學畢業後之全職工作經歷(不含兼任研究助理)；如無可免填。)
+
+-1. 服務機構名稱 服務部門 職稱 起迄年月（西元年/月）
+
+-/     至　   /
+
+-2. 服務機構名稱 服務部門 職稱 起迄年月（西元年/月）
+
+-/     至　   /
+
+-3. 服務機構名稱 服務部門 職稱 起迄年月（西元年/月）
+
+-/     至　   /
 
 +服 務 機 構 名 稱 服 務 部 門 職 稱 起迄年月（西元年/月）
 
@@ -3309,18 +3199,6 @@ Text content: ✅ Identical
 
  ---PAGE---
 
--1. 服務機構名稱 服務部門 職稱 起迄年月（西元年/月）
-
--/     至　   /
-
--2. 服務機構名稱 服務部門 職稱 起迄年月（西元年/月）
-
--/     至　   /
-
--3. 服務機構名稱 服務部門 職稱 起迄年月（西元年/月）
-
--/     至　   /
-
 -著作發表 (請條列曾發表之論文或其他著作、專利，並檢附證明；如無資料
 
 -可免填。)
@@ -3343,25 +3221,15 @@ Text content: ✅ Identical
 
  項目名稱 日期(西元年/月)
 
--1
+ 1.
 
--.
+ 2.
 
--2
+ 3.
 
--.
+ 4.
 
--3
-
--.
-
--4
-
--.
-
--5
-
--.
+ 5.
 
 -其他有利審查資料 (如：書卷獎、專業證照、社會服務…等。請擇優至多5項。)
 
@@ -3369,49 +3237,19 @@ Text content: ✅ Identical
 
 ----PAGE---
 
--1
-
--.
-
--2
-
--.
-
--3
-
--.
-
--4
-
--.
-
--5
-
--.
-
--3 頁
-+1.
-
-+2.
-
-+3.
-
-+4.
-
-+5.
-
 +其他有利審查資料 (如：書卷獎、專業證照、社會服務…等。請擇優至多 5 項。)
 
-+1.
+ 1.
 
-+2.
+ 2.
 
-+3.
+ 3.
 
-+4.
+ 4.
 
-+5.
+ 5.
 
+-3 頁
 +2 頁
 ```
 </details>
@@ -3420,67 +3258,56 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: issue26050501 | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/issue26050501.docx
-- **Text Similarity:** 0.8994
-- **Visual Average:** 0.4968
-- **Overall Score:** 0.6585
+- **Text Similarity:** 0.8701
+- **Visual Average:** 0.4939
+- **Overall Score:** 0.6456
 - **Pages:** MiniPdf=3, Reference=2
-- **File Size:** MiniPdf=104916 bytes, Reference=111155 bytes
+- **File Size:** MiniPdf=117767 bytes, Reference=111155 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/issue26050501.pdf
 +++ reference/issue26050501.pdf
-@@ -1,50 +1,54 @@
+@@ -1,5 +1,4 @@
  Week 10 MapReduce & Hadoop 學習指引
 
-+章節大綱
+----PAGE---
 
-+學習指引 (Study Guide)
+ 章節大綱
 
-+(Outline)
+ 學習指引 (Study Guide)
 
-+學習 Hadoop 的首要任務是理解它試圖解決的問題：大數據
+ (Outline)
 
-+帶來的巨大挑戰。請詳細複習大數據的核心特徵，也就是著
+@@ -24,20 +23,32 @@
+ 架。請複習它的發展起源以及核心設計目標：Hadoop 專為在
 
-+名的 3V：資料量龐大 (Volume)、生成與處理速度極快
+ 由商用廉價硬體 (Commodity hardware) 所組成的龐大叢集
 
-+What is big (Velocity)，以及資料結構多樣化 (Variety)，包含了大量
+ 上運行而生。您的學習重點在於理解 Hadoop 如何「化劣勢
 
-+data? 非結構化或半結構化的資料。您必須清楚釐清，傳統的關聯
+-Meet Hadoop 為優勢」，也就是它並不強求底層硬體具備高可靠性，而是
 
-+式資料庫 (RDBMS) 在面對這類海量且缺乏固定 Schema 的資
+-透過軟體架構層面（如資料多重副本與任務自動重試）提供
 
-+料時，會遭遇嚴重的效能瓶頸與擴展限制，這正是業界急需
+-卓越的容錯機制 (Fault Tolerance)。這使得企業能以極低
 
-+全新分散式運算與儲存架構的根本原因。
+-的硬體成本，獲得具備強大橫向擴展能力的大數據處理平
 
-+MapReduce 是處理巨量資料的核心程式設計模型，其設計哲
+-台。
 
-+學深受「分而治之 (Divide and Conquer)」概念的影響。您
+-HDFS 是支撐整個 Hadoop 生態系的儲存骨幹，專為儲存超大
 
-+需要深刻理解兩個階段的明確分工：Map 階段負責在各個資
+-檔案而設計。請深入探討其「一次寫入，多次讀取 (write-
 
-+料節點上就近進行資料過濾、轉換與提取，並產出 Key-
+-once, read-many)」的串流存取設計理念。您需要熟練掌握
 
-+MapReduce Value 對；Reduce 階段則負責將這些中間結果進行跨節點的
+-Hadoop HDFS 的核心架構：預設 64MB (或 128MB) 的資料區塊
 
-+彙總與整合。此外，請務必掌握系統層面的運作邏輯，包括
+-Distributed (Block) 設計有何優勢？Namenode (Master 節點) 如何負責
 
-+JobTracker 如何進行全域的任務排程與資源分配，以及
-
-+TaskTracker 如何在各個節點上監控並執行具體的 Map 或
-
-+Reduce 任務。
-
-+認識 Hadoop 這個由 Apache 基金會維護的重量級開源框
-
-+架。請複習它的發展起源以及核心設計目標：Hadoop 專為在
-
-+由商用廉價硬體 (Commodity hardware) 所組成的龐大叢集
-
-+上運行而生。您的學習重點在於理解 Hadoop 如何「化劣勢
+-File System 管理整個檔案系統的 Metadata (如檔案名稱、權限與區塊映
 
 +Meet Hadoop
 
@@ -3494,69 +3321,13 @@ Text content: ✅ Identical
 
 +Hadoop HDFS 是支撐整個 Hadoop 生態系的儲存骨幹，專為儲存超大
 
- ---PAGE---
++---PAGE---
 
- 章節大綱
++章節大綱
 
- 學習指引 (Study Guide)
++學習指引 (Study Guide)
 
- (Outline)
-
--學習 Hadoop 的首要任務是理解它試圖解決的問題：大數據帶來的巨
-
--大挑戰。請詳細複習大數據的核心特徵，也就是著名的 3V：資料量
-
--龐大 (Volume)、生成與處理速度極快 (Velocity)，以及資料結構多
-
--What is big
-
--樣化 (Variety)，包含了大量非結構化或半結構化的資料。您必須清
-
--data?
-
--楚釐清，傳統的關聯式資料庫 (RDBMS) 在面對這類海量且缺乏固定
-
--Schema 的資料時，會遭遇嚴重的效能瓶頸與擴展限制，這正是業界
-
--急需全新分散式運算與儲存架構的根本原因。
-
--MapReduce 是處理巨量資料的核心程式設計模型，其設計哲學深受
-
--「分而治之 (Divide and Conquer)」概念的影響。您需要深刻理解
-
--兩個階段的明確分工：Map 階段負責在各個資料節點上就近進行資料
-
--過濾、轉換與提取，並產出 Key-Value 對；Reduce 階段則負責將這
-
--MapReduce
-
--些中間結果進行跨節點的彙總與整合。此外，請務必掌握系統層面的
-
--運作邏輯，包括 JobTracker 如何進行全域的任務排程與資源分配，
-
--以及 TaskTracker 如何在各個節點上監控並執行具體的 Map 或
-
--Reduce 任務。
-
--認識 Hadoop 這個由 Apache 基金會維護的重量級開源框架。請複習
-
--它的發展起源以及核心設計目標：Hadoop 專為在由商用廉價硬體
-
--(Commodity hardware) 所組成的龐大叢集上運行而生。您的學習重
-
--Meet Hadoop 點在於理解 Hadoop 如何「化劣勢為優勢」，也就是它並不強求底層
-
--硬體具備高可靠性，而是透過軟體架構層面（如資料多重副本與任務
-
--自動重試）提供卓越的容錯機制 (Fault Tolerance)。這使得企業能
-
--以極低的硬體成本，獲得具備強大橫向擴展能力的大數據處理平台。
-
--HDFS 是支撐整個 Hadoop 生態系的儲存骨幹，專為儲存超大檔案而
-
--設計。請深入探討其「一次寫入，多次讀取 (write-once, read-
-
--many)」的串流存取設計理念。您需要熟練掌握 HDFS 的核心架構：
++(Outline)
 
 +Distributed 檔案而設計。請深入探討其「一次寫入，多次讀取 (write-
 
@@ -3568,16 +3339,17 @@ Text content: ✅ Identical
 
 +管理整個檔案系統的 Metadata (如檔案名稱、權限與區塊映
 
-+射表)？而 Datanode (Slave 節點) 又是如何負責實際儲存
+ 射表)？而 Datanode (Slave 節點) 又是如何負責實際儲存
 
-+資料區塊並定期發送心跳訊號 (Heartbeat)？理解這些節點
+ 資料區塊並定期發送心跳訊號 (Heartbeat)？理解這些節點
 
-+間的互動是掌握分散式儲存的關鍵。
+ 間的互動是掌握分散式儲存的關鍵。
 
-+任何雲端與大數據的理論都必須透過實際動手做來驗證。本
+ 任何雲端與大數據的理論都必須透過實際動手做來驗證。本
 
-+節要求您具備從零開始建置 Hadoop 偽分散式 (Pseudo-
+ 節要求您具備從零開始建置 Hadoop 偽分散式 (Pseudo-
 
+----PAGE---
 +distributed) 叢集的能力。請複習所有關鍵的前置作業：包
 
 +含在虛擬機 (VM) 中安裝 Linux 系統、正確配置 Java 執行
@@ -3586,35 +3358,15 @@ Text content: ✅ Identical
 
 +環境，以及設定 SSH 無密碼登入機制。接著，您需要熟悉
 
- Hadoop
++Hadoop
 
--預設 64MB (或 128MB) 的資料區塊 (Block) 設計有何優勢
++Hadoop 的核心 XML 設定檔 (core-site.xml, hdfs-
 
--Distributed File
++site.xml 等) 的配置意義。最後，請務必親自執行格式化
 
--？Namenode (Master 節點) 如何負責管理整個檔案系統的 Metadata
++Namenode 的指令，並透過經典的 Wordcount 範例，體驗完
 
--System
-
--(如檔案名稱、權限與區塊映射表)？而 Datanode (Slave 節點) 又
-
--是如何負責實際儲存資料區塊並定期發送心跳訊號 (Heartbeat)？理
-
--解這些節點間的互動是掌握分散式儲存的關鍵。
-
--任何雲端與大數據的理論都必須透過實際動手做來驗證。本節要求您
-
--具備從零開始建置 Hadoop 偽分散式 (Pseudo-distributed) 叢集的
-
--能力。請複習所有關鍵的前置作業：包含在虛擬機 (VM) 中安裝
-
--How to install Linux 系統、正確配置 Java 執行環境，以及設定 SSH 無密碼登入
-
--Hadoop 機制。接著，您需要熟悉 Hadoop 的核心 XML 設定檔 (core-
-
--site.xml
-... (246 more characters)
-
++整的任務提交、執行與結果檢視流程。
 ```
 </details>
 
@@ -3622,18 +3374,30 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: issues66 | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/issues66.docx
-- **Text Similarity:** 0.9882
-- **Visual Average:** 0.9829
-- **Overall Score:** 0.9884
+- **Text Similarity:** 0.9835
+- **Visual Average:** 0.9837
+- **Overall Score:** 0.9869
 - **Pages:** MiniPdf=3, Reference=3
-- **File Size:** MiniPdf=69029 bytes, Reference=229713 bytes
+- **File Size:** MiniPdf=65464 bytes, Reference=229713 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/issues66.pdf
 +++ reference/issues66.pdf
-@@ -6,7 +6,8 @@
+@@ -1,20 +1,20 @@
+ 微纳加工平台工艺申请表 （ 2014 年版）
+
+-批号 : 显微镜 #1-20251126 14:40~20251126 14:45
+
++批号 : 显微镜#1-20251126 14:40~20251126 14:45
+
+ 020-
+
+ 申请人 init 申请人电话 88888888<br /> 申请人邮箱 1@my.com 申请人签字
+
+ 13888888888
+
  付费人 init 课题编号 测试项目 付费人邮箱 1@my.com 付费人签字
 
  申请日期 20251126 所属单位 985 高校
@@ -3652,16 +3416,34 @@ Text content: ✅ Identical
 
  工艺名称 工艺要求及说明 日期 计价和确认 备注
 
-@@ -23,13 +24,13 @@
+ 号
+
+ 总费用：0.80￥ 总用时：0 天0 时
+
+ 2025 年11 月26 日14 时40 分 机时费：0.80￥ 5 分0 秒
+
+-显微镜#1
+
+-8 至 开机用时：
+
++8 显微镜#1 至 开机用时：
+
+ 2025 年11 月26 日14 时45 分 工艺负责人确认： 关机用时：
+
+ 工艺申请人确认： 沉积用时：
+
+ 加工平台批准人签字
+
+@@ -24,13 +24,13 @@
  工艺流程总计价： 0.80￥ 计价核准人签字： 日期：
 
  备注：
 
  1 ）所有衬底材料部分须清楚填写包括：列明至少表面的三层材料的成分和支撑（主）衬底材料、尺寸和厚度等相关信息。
 
--2）使用涉及设定温度的设备时（如PECVD、蒸镀衬底温度、回流炉、高温炉、键合机等），请填写使用温度的上限和时间。使用如PECVD、蒸镀等设备时
+-2）使用涉及设定温度的设备时（如PECVD、蒸镀衬底温度、回流炉、高温炉、键合机等），请填写使用温度的上限和时间。使用如PECVD、蒸镀等设备时，衬底
 
--，衬底温度没有特殊要求的可填写：常规。
+-温度没有特殊要求的可填写：常规。
 
 +2 ）使用涉及设定温度的设备时（如PECVD、蒸镀衬底温度、回流炉、高温炉、键合机等），请填写使用温度的上限和时间。使用如PECVD、蒸镀等设备时，衬底温
 
@@ -3671,11 +3453,15 @@ Text content: ✅ Identical
 
  ---PAGE---
 
- 3）使用涉及真空的设备，在样品进入腔室之前必须清洗；可根据样品的材料自己填写使用清洗溶液。
+-3 ）使用涉及真空的设备，在样品进入腔室之前必须清洗；可根据样品的材料自己填写使用清洗溶液。
 
- 4）涉及沉积和蒸镀使用的原材料时候，必须清楚填写材料的种类、厚度。
+-4 ）涉及沉积和蒸镀使用的原材料时候，必须清楚填写材料的种类、厚度。
 
--5 ）接触光刻胶的种类，薄光刻胶可使用： AR-P 5350 （ lift-off 正胶）； SUN lift130 （负胶）；厚胶可使用SU8。
+-5 ）接触光刻胶的种类，薄光刻胶可使用： AR-P 5350 （ lift-off 正胶）； SUN lift130 （负胶） ；厚胶可使用 SU8 。
+
++3）使用涉及真空的设备，在样品进入腔室之前必须清洗；可根据样品的材料自己填写使用清洗溶液。
+
++4）涉及沉积和蒸镀使用的原材料时候，必须清楚填写材料的种类、厚度。
 
 +5 ）接触光刻胶的种类，薄光刻胶可使用： AR-P 5350 （ lift-off 正胶）； SUN lift130 （负胶） ；厚胶可使用SU8。
 
@@ -3691,29 +3477,89 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: MODERN LIVING | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/MODERN LIVING.docx
-- **Text Similarity:** 0.2018
-- **Visual Average:** 0.0456
-- **Overall Score:** 0.199
+- **Text Similarity:** 0.6139
+- **Visual Average:** 0.0845
+- **Overall Score:** 0.3794
 - **Pages:** MiniPdf=4, Reference=2
-- **File Size:** MiniPdf=154477 bytes, Reference=212025 bytes
+- **File Size:** MiniPdf=302716 bytes, Reference=212025 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/MODERN LIVING.pdf
 +++ reference/MODERN LIVING.pdf
-@@ -1,34 +1,67 @@
+@@ -1,92 +1,67 @@
+----PAGE---
+
+-OCTOBER / 20XX
+
+-/ ISSUE #10
+
+-MODERN
+
+-LIVING
+
 +OCTOBER / 20XX / ISSUE #10
 
 +M O D E R N L I V I N G
 
-+Your guide to buy or rent
+ Your guide to buy or rent
+
+-Ready to What’s New
+
+-settle?
+
+-TAKE A LOOK
 
 +WHAT’S NEW
 
 +Ready to settle?
 
-+By Peyton Davis
+ By Peyton Davis
+
+-INSIDE
+
+-Add
+
+-Newsletters are periodicals
+
+-description
+
+-used to advertise or update
+
+-text here to
+
+-your subscribers with get your
+
+-subscribers
+
+-information about your
+
+-interested in
+
+-product or blog. They can be
+
+-your topic
+
+-printed or emailed and are
+
+-an excellent way to maintain
+
+-PROPERTY
+
+-regular contact with your
+
+-TRENDS
+
+-subscribers and drive
+
+-traffic to your site. Type
+
+-Add description
+
+-the content of your text here to get
+
+-your
 
 +TAKE A LOOK INSIDE
 
@@ -3727,7 +3573,29 @@ Text content: ✅ Identical
 
 +subscribers and drive traffic to your site. Type the content of your
 
-+newsletter here.
+ newsletter here.
+
+-subscribers
+
+-interested in
+
+-Newsletters are periodicals
+
+-your topic
+
+-used to advertise or update
+
+-your subscribers with
+
+-ARE YOU
+
+-information about your
+
+-READY TO
+
+----PAGE---
+
+-
 
 +PROPERTY TRENDS
 
@@ -3755,78 +3623,23 @@ Text content: ✅ Identical
 
  ---PAGE---
 
--MODERN LIVING OCTOBER /
+ Property trends
 
--Your guide to buy or rent 20XX / ISSUE
+ Take a look inside
 
--#10
+ By Vanja Jovanovic
 
--Ready to settle?
+ By Kemen Ikaztegieta
 
--What’s New
+-Newsletters are periodicals used to advertise or
 
--By Peyton Davis
+-update your subscribers with information about your
 
--TAKE A LOOK
+-product or blog. They can be printed or emailed and
 
--INSIDE
+-are an excellent way to maintain regular contact with
 
--Add
-
--description
-
--text here to
-
--get your
-
--subscribers
-
--interested
-
--in your
-
--topic
-
--PROPERTY
-
--TRENDS
-
--Add
-
--description
-
--text here to
-
--get your
-
--subscribers
-
--interested
-
--in your
-
--topic
-
-----PAGE---
-
--
-
-----PAGE---
-
--Take a look inside Property trends
-
--By Kemen Ikaztegieta By Vanja Jovanovic
-
--Are you  ready to list?
-
--By Adrian King
-+Property trends
-
-+Take a look inside
-
-+By Vanja Jovanovic
-
-+By Kemen Ikaztegieta
+-your subscribers and drive traffic to your site. Type
 
 +Newsletters are periodicals used to advertise or update your
 
@@ -3849,33 +3662,7 @@ Text content: ✅ Identical
 +regular contact with your subscribers and drive traffic to your
 
 +advertise or update your subscribers with
-
-+site. Type your content here.
-
-+information about your product or blog.
-
-+They can be printed or emailed and are an
-
-+Newsletters are periodicals use to advertise or update your
-
-+excellent way to maintain regular contact
-
-+subscribers with information about your product or blog. Type
-
-+with your subscribers and drive traffic to
-
-+the content of your newsletter here.
-
-+your site. Type the content of your
-
-+newsletter here.
-
-+Newsletters are periodicals used to
-
-+advertise or update your subscribers with
-
-+information about
-... (745 more characters)
+... (2809 more characters)
 
 ```
 </details>
@@ -4087,70 +3874,29 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: OSCAR WARD | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/OSCAR WARD.docx
-- **Text Similarity:** 0.9822
-- **Visual Average:** 0.3184
-- **Overall Score:** 0.7202
+- **Text Similarity:** 0.9941
+- **Visual Average:** 0.3423
+- **Overall Score:** 0.7346
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=5681 bytes, Reference=62719 bytes
+- **File Size:** MiniPdf=23347 bytes, Reference=62719 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/OSCAR WARD.pdf
 +++ reference/OSCAR WARD.pdf
-@@ -1,20 +1,21 @@
--OSCAR WARD SALES REPRESENTATIVE
+@@ -11,10 +11,11 @@
+ expertise to the company’s ongoing initiatives. I found our discussion about future goals
 
-+SALES REPRESENTATIVE
+ particularly inspiring, and it further solidified my excitement about this opportunity.
 
-+OSCAR WARD
+ The role’s focus on impactful work aligns with my professional background, and I look
 
- Lamna Healthcare
+-forward to the possibility of applying my skills to support the company’s growth. I am
 
- 123 South St. Manhattan, NY 43210
+-eager to bring my experience in driving efficiency and innovation to the team while
 
- (324) 555-0132
-
- Chanchal Sharma
-
- 123 45th Ave Chicago, IL
-
- Dear Chanchal,
-
--I sincerely appreciate the opportunity to interview and learn more about the role.
-
--Our conversation reinforced my enthusiasm for contributing to the team and bringing
-
--my expertise to the company’s ongoing initiatives. I found our discussion about
-
--future goals particularly inspiring, and it further solidified my excitement about
-
--this opportunity.
-
--The role’s focus on impactful work aligns with my professional background, and I
-
--look forward to the possibility of applying my skills to support the company’s
-
--growth. I am eager to bring my experience in driving efficiency and innovation to the
-
--team while continuing to develop and refine my abilities in a fast-paced environment.
-
--Thank you again for your time and thoughtful discussion. I appreciate the chance to
-
--be considered and look forward to next steps. Please let me know if I can provide any
-
--additional details to assist in the decision-making process.
-
--Warm regards,
-+I sincerely appreciate the opportunity to interview and learn more about the role. Our
-
-+conversation reinforced my enthusiasm for contributing to the team and bringing my
-
-+expertise to the company’s ongoing initiatives. I found our discussion about future goals
-
-+particularly inspiring, and it further solidified my excitement about this opportunity.
-
-+The role’s focus on impactful work aligns with my professional background, and I look
+-continuing to develop and refine my abilities in a fast-paced environment.
 
 +forward to the possibility of applying my skills to support the company’s growth. I am eager to
 
@@ -4158,8 +3904,13 @@ Text content: ✅ Identical
 
 +develop and refine my abilities in a fast-paced environment.
 
-+Thank you again for your time and thoughtful discussion. I appreciate the chance to be
+ Thank you again for your time and thoughtful discussion. I appreciate the chance to be
 
+-considered and look forward to next steps. Please let me know if I can provide any
+
+-additional details to assist in the decision-making process.
+
+-Warm regards,
 +considered and look forward to next steps. Please let me know if I can provide any additional
 
 +details to assist in the decision-making process.
@@ -4459,93 +4210,71 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: Template for MSc Thesis | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/Template for MSc Thesis.docx
-- **Text Similarity:** 0.9678
-- **Visual Average:** 0.901
-- **Overall Score:** 0.9475
-- **Pages:** MiniPdf=17, Reference=17
-- **File Size:** MiniPdf=142737 bytes, Reference=403479 bytes
+- **Text Similarity:** 0.9556
+- **Visual Average:** 0.7137
+- **Overall Score:** 0.7677
+- **Pages:** MiniPdf=13, Reference=17
+- **File Size:** MiniPdf=195507 bytes, Reference=403479 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/Template for MSc Thesis.pdf
 +++ reference/Template for MSc Thesis.pdf
-@@ -1,82 +1,66 @@
+@@ -1,66 +1,66 @@
  INDIAN INSTITUTE OF TECHNOLOGY INDORE
 
- Template for the M.Sc. Thesis
+-Template for the M .Sc. Thesis
 
- SOME IMPORTANT POINTS
+-SOME IMPORTANT POINT S
 
--COLOR COMBINATION for the Cover page of final thesis (i.e. Hard bound
+-• COLOR COMBINATION for the Cover page of final thesis (i.e. Hard bound copies ):
 
--copies):
++Template for the M.Sc. Thesis
 
--Color of the Front Page: Sky Blue; Color of Font on the Cover Page:
-
--Black.
-
--FONT SIZE on the cover page should be same as provided in this
-
--template
-
--Font and Font size for the general text of the report: Times New Roman
-
--12
-
--LINE SPACING: 1.5
-
--MARGINS: At least 2.5 inch on the binding side; 1 inch at top and
-
--bottom
-
--PAGE NUMBERING: Roman numerals till the first page of first chapter.
-
--The chapters to be numbered in the Arabic numerals. The Page number
-
--should be bottom centered
-
--PAPER TYPE AND SIZE: A4 size Executive Bond Paper
-
--PRINTING: BOTH SIDE PRINTING
-
--Number of copies of M.Sc. thesis to be submitted: 5 + number of thesis
-
--supervisor(s)
-
--REFERENCES: List of References should include only those published or
-
--accepted for publication works that are cited in the text. Use of
-
--footnotes or endnotes should be avoided as a substitute for a
-
--reference list. Ideally, the names of all authors should be provided,
-
--but for the long author lists “et al” can be used.
-
--Following are two ways of citing the references and preparing the list
-
--of references
-
--[A] Citations of the reference in the text by its number in a square
-
--bracket i.e. 1. Negotiation research spans many departments [3]; 2.
-
--This result was later contradicted by Becker and Seligman [5]. 3. This
-
--effect has been widely studied [1-3, 7].
-
--[A.1] Reference list: The references for such style should be listed
-
--and numbered consecutively in the order of citation.
-
--[B] Citation of the reference by surname(s) of the author(s) directly
-
--(or parenthetically) and year of publications i.e. as demonstrated
++SOME IMPORTANT POINTS
 
 +➢ COLOR COMBINATION for the Cover page of final thesis (i.e. Hard bound copies) :
 
-+Color of the Front Page: Sky Blue; Color of Font on the Cover Page : Black.
+ Color of the Front Page: Sky Blue; Color of Font on the Cover Page : Black.
+
+-• FONT SIZE on the cover page should be same as provided in th is template
+
+-• Font and Font size for the general text of the report : Times New Roman 12
+
+-• LINE SPACING: 1.5
+
+-• MARGINS: At least 2.5 inch on the binding side; 1 inch at top and bottom
+
+-• PAGE NUMBERING: Roman numerals till the first page of first chapter. The cha
+
+-to be numbered in the Arabic numerals. The Page number should be bottom center
+
+-• PAPER TYPE AND SIZE : A4 size Executive Bond Paper
+
+-• PRINTING: BOTH SIDE PRINTING
+
+-• Number of copies of M.Sc. thesis to be submitted: 5 + number of thesis supervisor(s)
+
+-• REFERENCES: List of References should include only those published or accept
+
+-publication works that are cited in the text. Use of footnotes or endnotes sho
+
+-avoided as a substitute for a reference list. Ideally, the names of all author
+
+-provided, but for the long author lists “et al” can be used.
+
+-Following are two ways of citing the references and preparing the list of reference
+
+-[A] Citations of the reference in the text by its number in a square bracket i
+
+-Negotiation research spans many departments [3]; 2. This result was later
+
+-contradicted by Becker and Seligman [5]. 3. This effect has been widely studie
+
+-7].
+
+-[A.1] Reference list: The references for such style should be listed and numbe
 
 +M.Sc. Thesis
 
@@ -4577,7 +4306,12 @@ Text content: ✅ Identical
 
 +for the long author lists “ et al ” can be used.
 
-... (9821 more characters)
++Following are two ways of citing the references and preparing the list of references
+
++[A] Citations of the reference in the text by its number in a square bracket i.e. 1.
+
++Negotiation research spans many departments [3]; 2. This result was
+... (8668 more characters)
 
 ```
 </details>
@@ -4668,10 +4402,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: TestIssue78 | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/TestIssue78.docx
 - **Text Similarity:** 0.9692
-- **Visual Average:** 0.9554
-- **Overall Score:** 0.9698
+- **Visual Average:** 0.9568
+- **Overall Score:** 0.9704
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=49115 bytes, Reference=117949 bytes
+- **File Size:** MiniPdf=47673 bytes, Reference=117949 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -4709,9 +4443,9 @@ Text content: ✅ Identical
 
 -检测记录填写，应按照如下要求进行填写：
 
--检测记录信息页按照检验报告、使用登记证、产品合格证、维保合同等现场实际情况
+-检测记录信息页按照检验报告、使用登记证、产品合格证、维保合同等现场实际情况信息
 
--信息进行填写，保证其信息的准确性；
+-进行填写，保证其信息的准确性；
 +三、 检测项目分为关键检测项目和一般检测项目两个类别，其中标有“*”的为关键检
 
 +测项目；
@@ -4736,21 +4470,29 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: TestIssue90 | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/TestIssue90.docx
-- **Text Similarity:** 0.9957
-- **Visual Average:** 0.9576
-- **Overall Score:** 0.9813
+- **Text Similarity:** 0.992
+- **Visual Average:** 0.9542
+- **Overall Score:** 0.9785
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=57642 bytes, Reference=169801 bytes
+- **File Size:** MiniPdf=40105 bytes, Reference=169801 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/TestIssue90.pdf
 +++ reference/TestIssue90.pdf
-@@ -4,15 +4,18 @@
+@@ -2,18 +2,20 @@
+ Độc lập - Tự do - Hạnh Phúc
+
+ ----o0o----
+
  GIẤY ĐỀ NGHỊ MỞ TIỂU KHOẢN CHỨNG KHOÁN
 
- Kính gửi : CÔNG TY TNHH CHỨNG KHOÁN NHTMCP NGOẠI THƯƠNG VN (VCBS)
+-Kính gửi : CÔNG TY TNHH CHỨNG KHOÁN NHTMCP NGOẠI THƯƠNG VN
+
+-(VCBS)
+
++Kính gửi : CÔNG TY TNHH CHỨNG KHOÁN NHTMCP NGOẠI THƯƠNG VN (VCBS)
 
  Họ tên khách hàng: ____________
 
@@ -4762,9 +4504,13 @@ Text content: ✅ Identical
 
  Tài khoản chứng khoán tại VCBS:  _____________
 
- Nay, đề nghị VCBS thực hiện mở Tiểu khoản giao dịch và lưu ký chứng khoán cho Tài khoản
+-Nay, đề nghị VCBS thực hiện mở Tiểu khoản giao dịch và lưu ký chứng khoán cho Tài
 
- chứng khoán của tôi tại VCBS như sau:
+-khoản chứng khoán của tôi tại VCBS như sau:
+
++Nay, đề nghị VCBS thực hiện mở Tiểu khoản giao dịch và lưu ký chứng khoán cho Tài khoản
+
++chứng khoán của tôi tại VCBS như sau:
 
  Loại tiểu khoản: API-ALGO
 
@@ -4793,19 +4539,31 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: TestIssue91 | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/TestIssue91.docx
-- **Text Similarity:** 0.9708
-- **Visual Average:** 0.9519
-- **Overall Score:** 0.9691
+- **Text Similarity:** 0.9585
+- **Visual Average:** 0.9428
+- **Overall Score:** 0.9605
 - **Pages:** MiniPdf=3, Reference=3
-- **File Size:** MiniPdf=73174 bytes, Reference=175213 bytes
+- **File Size:** MiniPdf=47920 bytes, Reference=175213 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/TestIssue91.pdf
 +++ reference/TestIssue91.pdf
-@@ -5,78 +5,81 @@
- (“Hợp Đồng”)
+@@ -1,86 +1,85 @@
+ Bên B chấp nhận chịu, chỉ được gia hạn khi có sự chấp nhận
+
+ PHỤ LỤC - KHOẢN VAY VỐN ĐẦU TƯ
+
+ Số: [CONTRACT_CODE]
+
+-Căn cứ Hợp đồng vay vốn đầu tư chứng khoán số [CONTRACT_CODE ký ngày
+
+-[OPEN_DATE] (“Hợp Đồng”)
+
++Căn cứ Hợp đồng vay vốn đầu tư chứng khoán số [CONTRACT_CODE ký ngày [OPEN_DATE]
+
++(“Hợp Đồng”)
 
  Hôm nay, ngày [DAY] tháng [MONTH] năm [YEAR], Chúng tôi gồm:
 
@@ -4867,6 +4625,10 @@ Text content: ✅ Identical
 
  Số Tài khoản Chứng khoán mở tại CTCK: [DCTERM_CODE]
 
+-Trong Phụ lục này, Bên Cho Vay và Bên Vay được gọi riêng là “Bên” và được gọi chung là
+
+-“Các Bên”. Các Bên đã thống nhất ký kết và thực hiện Hợp Đồng với các nội dung tại Phụ Lục
+
 -1 Giấy phép tương đương hợp pháp khác (nếu có)
 
 +1
@@ -4877,23 +4639,17 @@ Text content: ✅ Identical
 
  ---PAGE---
 
--Trong Phụ lục này, Bên Cho Vay và Bên Vay được gọi riêng là “Bên” và được gọi chung là “Các
-
--Bên”. Các Bên đã thống nhất ký kết và thực hiện Hợp Đồng với các nội dung tại Phụ Lục này như
-
--sau:
-
 +Trong Phụ lục này, Bên Cho Vay và Bên Vay được gọi riêng là “ Bên ” và được gọi chung là
 
 +“ Các Bên ”. Các Bên đã thống nhất ký kết và thực hiện Hợp Đồng với các nội dung tại Phụ Lục
 
-+này như sau:
+ này như sau:
 
  ĐIỀU 1: GIÁ TRỊ TÀI SẢN CHO VAY
 
- Bên A đồng ý cho Bên B vay và Bên B đồng ý vay số tiền là: [CASH_LOAN] VNĐ (Bằng
+-Bên A đồng ý cho Bên B vay và Bên B đồng ý vay số tiền là: [CASH_LOAN] VNĐ
 
- chữ: [CASH_LOAN_TEXT] đồng).
+-(Bằng chữ: [CASH_LOAN_TEXT] đồng).
 
 -Mục đích vay: Vay vốn đầu tư chứng khoán
 
@@ -4901,30 +4657,22 @@ Text content: ✅ Identical
 
 -Thời hạn vay là: [TERM] ngày, được tính kể từ ngày giải ngân thực tế.
 
--Phương thức vay: Bên A giao toàn bộ số tiền cho Bên B vay nêu trên bằng hình thức: Bên
+-Phương thức vay: Bên A giao toàn bộ số tiền cho Bên B vay nêu trên bằng hình thức:
 
--A hoặc Bên thứ ba được Bên A ủy quyền chuyển khoản vào tài khoản chứng khoán của Bên B số
+-Bên A hoặc Bên thứ ba được Bên A ủy quyền chuyển khoản vào tài khoản chứng khoán của Bên
 
-+Mục đích vay: Vay vốn đầu tư chứng khoán
+-B số tài khoản chứng khoán [DCTERM_CODE], mở tại CTCK.
 
-+ĐIỀU 2: THỜI HẠN VÀ PHƯƠNG THỨC VAY
+-Phương thức và thời hạn trả nợ: Đến ngày đáo hạn, Bên B hoặc Bên thứ ba được Bên B
 
-+Thời hạn vay là: [TERM] ngày, được tính kể từ ngày giải ngân thực tế.
+-ủy quyền sẽ chuyển khoản toàn bộ gốc và lãi cho bên A vào tài khoản ngân hàng của Bên A số
 
-+Phương thức vay: Bên A giao toàn bộ số tiền cho Bên B vay nêu trên bằng hình thức: Bên
+-tài khoản [DELIVER_REPRE_ACC_BANK_CODE], mở tại [REPRE_BANK_NAME].
 
-+A hoặc Bên thứ ba được Bên A ủy quyền chuyển khoản vào tài khoản chứng khoán của Bên B số
+-ĐIỀU 3: LÃI SUẤT
 
- tài khoản chứng khoán [DCTERM_CODE], mở tại CTCK.
-
- Phương thức và thời hạn trả nợ: Đến ngày đáo hạn, Bên B hoặc Bên thứ ba được Bên B ủy
-
--quyền sẽ chuyển khoản toàn bộ gốc và lãi cho bên A vào tài khoản ngân hàng của Bên A số tài
-
-+quyền sẽ chuyển khoản toàn bộ gốc và lãi cho bên A vào tài khoản ngân hàng của Bên A số tài
-
- kho
-... (4719 more characters)
+-Các bên thỏa thuận lãi suất cho toàn bộ số tiền vay nêu trên là [INTEREST_
+... (5392 more characters)
 
 ```
 </details>
@@ -4934,10 +4682,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: TestIssue93 | scope: java-issue-docx
 - **Source:** tests/Issue_Files/docx/TestIssue93.docx
 - **Text Similarity:** 0.8489
-- **Visual Average:** 0.9469
-- **Overall Score:** 0.9183
+- **Visual Average:** 0.9481
+- **Overall Score:** 0.9188
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=58326 bytes, Reference=127582 bytes
+- **File Size:** MiniPdf=59094 bytes, Reference=127582 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -5060,20 +4808,18 @@ Text content: ✅ Identical
 
 ### ⚠ Low-Score Test Cases (below 0.8)
 
-1. **MODERN LIVING** (score: 0.199)
-1. **Class News** (score: 0.2992)
-1. **Fabrikam** (score: 0.4676)
-1. **Invoice** (score: 0.5116)
+1. **MODERN LIVING** (score: 0.3794)
 1. **nthu_article** (score: 0.5644)
-1. **20260318_issue** (score: 0.5923)
+1. **20260318_issue** (score: 0.581)
 1. **Cooperation Agreement Template** (score: 0.62)
 1. **CCU_article** (score: 0.6427)
-1. **issue202605** (score: 0.649)
-1. **issue26050501** (score: 0.6585)
-1. **20260317_sample_CN** (score: 0.6599)
+1. **issue26050501** (score: 0.6456)
+1. **20260317_sample_CN** (score: 0.6588)
+1. **issue202605** (score: 0.6634)
 1. **Confirmatory_Affidavit** (score: 0.674)
-1. **OSCAR WARD** (score: 0.7202)
 1. **TestIssue61** (score: 0.7288)
+1. **OSCAR WARD** (score: 0.7346)
 1. **SA8000 ch sample** (score: 0.7373)
+1. **Template for MSc Thesis** (score: 0.7677)
 
 Review the text diffs and visual comparisons above to identify specific rendering issues.
