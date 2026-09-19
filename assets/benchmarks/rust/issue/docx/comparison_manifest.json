@@ -121,6 +121,18 @@
       "auxiliary_reference_exists": false
     },
     {
+      "name": "Issue159_PageLayoutOptions",
+      "case_id": "Issue159_PageLayoutOptions",
+      "suite": "issue",
+      "format": "docx",
+      "source_path": "tests/Issue_Files/docx/Issue159_PageLayoutOptions.docx",
+      "conversion_status": "pending",
+      "conversion_exit_code": null,
+      "candidate_exists": false,
+      "reference_exists": false,
+      "auxiliary_reference_exists": false
+    },
+    {
       "name": "issue202605",
       "case_id": "issue202605",
       "suite": "issue",
