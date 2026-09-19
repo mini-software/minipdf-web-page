@@ -1,36 +1,37 @@
 # java MiniPdf vs Microsoft 365 Excel Reference PDF Comparison Report
 
-Generated: 2026-09-07T11:54:12.982984
+Generated: 2026-09-19T23:37:51.932662
 
 ## Summary
 
 | # | Test Case | Valid | Text Sim | Visual Avg | Pages (M/R) | Overall |
 |---|-----------|-------|----------|------------|-------------|--------|
-| 1 | 🟡 Academic Achievement Summary Table | ✅ | 0.9068 | 0.6289 | 4/2 | **0.7143** |
-| 2 | 🟡 AcademicAchievement_temp | ✅ | 0.9068 | 0.6289 | 4/2 | **0.7143** |
-| 3 | 🟢 Business expense budget1 | ✅ | 0.9712 | 0.8317 | 4/4 | **0.9212** |
-| 4 | 🟡 Business expenses budget2 | ✅ | 0.8422 | 0.8064 | 4/4 | **0.8594** |
+| 1 | 🔴 Academic Achievement Summary Table | ✅ | 0.9941 | 0.4717 | 4/2 | **0.6863** |
+| 2 | 🔴 AcademicAchievement_temp | ✅ | 0.9941 | 0.4717 | 4/2 | **0.6863** |
+| 3 | 🟢 Business expense budget1 | ✅ | 0.9657 | 0.857 | 4/4 | **0.9291** |
+| 4 | 🟡 Business expenses budget2 | ✅ | 0.8393 | 0.8157 | 4/4 | **0.862** |
 | 5 | 🟡 Business plan checklist with SWOT analysis1 | ✅ | 0.8583 | 0.582 | 1/1 | **0.7761** |
-| 6 | 🟡 Event budget1 | ✅ | 0.9859 | 0.741 | 7/5 | **0.7908** |
+| 6 | 🔴 Event budget1 | ✅ | 0.9709 | 0.5005 | 7/5 | **0.6886** |
 | 7 | 🟡 Expense report basic1 | ✅ | 0.9556 | 0.5218 | 1/1 | **0.791** |
 | 8 | 🟡 Grocery list1 | ✅ | 0.8403 | 0.6961 | 1/1 | **0.8146** |
-| 9 | 🟢 Issue202609031340 | ✅ | 0.9022 | 0.9262 | 4/4 | **0.9314** |
-| 10 | 🔴 payroll-calculator_f | ✅ | 0.8386 | 0.4835 | 36/29 | **0.6288** |
-| 11 | 🟡 PO_anonymized | ✅ | 0.9385 | 0.743 | 69/9 | **0.7726** |
+| 9 | 🟢 Issue202609031340 | ✅ | 0.9014 | 0.853 | 4/4 | **0.9018** |
+| 10 | 🔴 payroll-calculator_f | ✅ | 0.8202 | 0.5445 | 36/29 | **0.6459** |
+| 11 | 🔴 PO_anonymized | ✅ | 0.8718 | 0.532 | 69/9 | **0.6615** |
 | 12 | 🟡 Simple invoice1 | ✅ | 0.7573 | 0.6953 | 1/1 | **0.781** |
-| 13 | 🟡 Small business cash flow forecast1 | ✅ | 0.9004 | 0.6894 | 3/5 | **0.7359** |
-| 14 | 🟢 Wedding_timeline_planner1_copy | ✅ | 0.9295 | 0.8964 | 8/8 | **0.9304** |
+| 13 | 🔴 Small business cash flow forecast1 | ✅ | 0.8981 | 0.4136 | 3/5 | **0.6247** |
+| 14 | 🟢 Wedding_timeline_planner1_copy | ✅ | 0.934 | 0.9519 | 8/8 | **0.9544** |
 | 15 | 🔴 Weekly schedule planner1 | ✅ | 0.6289 | 0.3729 | 2/1 | **0.5007** |
-| 16 | 🟡 XlsxIssue75 | ✅ | 0.9694 | 0.9592 | 152/144 | **0.8714** |
+| 16 | 🟡 XlsxIssue75 | ✅ | 0.9702 | 0.9659 | 152/144 | **0.8744** |
 | 17 | 🟢 XlsxIssue77_MergedCellAlignment | ✅ | 1.0 | 0.891 | 2/2 | **0.9564** |
-| 18 | 🟢 XlsxIssue77_Template1 | ✅ | 0.9905 | 0.9007 | 6/6 | **0.9565** |
-| 19 | 🟢 XlsxIssue77_Template2_Workaround | ✅ | 0.9905 | 0.9048 | 6/6 | **0.9581** |
-| 20 | 🟡 XlsxIssue81_LayoutOptions | ✅ | 0.9188 | 0.807 | 16/16 | **0.8903** |
-| 21 | 🔴 XlsxIssue82_5mb | ✅ | 0.6052 | 0.8405 | 383/766 | **0.6783** |
-| 22 | 🟡 XlsxIssue82_SampleTestData5mb | ✅ | 0.6595 | 0.8828 | 466/1668 | **0.7169** |
-| 23 | 🟡 XlsxIssue82_WideTable | ✅ | 0.9103 | 0.7519 | 13/13 | **0.8649** |
+| 18 | 🟢 XlsxIssue77_Template1 | ✅ | 0.9906 | 0.9047 | 6/6 | **0.9581** |
+| 19 | 🟢 XlsxIssue77_Template2_Workaround | ✅ | 0.9906 | 0.9089 | 6/6 | **0.9598** |
+| 20 | 🟢 XlsxIssue81_LayoutOptions | ✅ | 0.9461 | 0.8451 | 16/16 | **0.9165** |
+| 21 | 🔴 XlsxIssue82_5mb | ✅ | 0.2428 | 0.8416 | 383/766 | **0.5338** |
+| 22 | 🟡 XlsxIssue82_SampleTestData5mb | ✅ | 0.6762 | 0.8797 | 466/1668 | **0.7224** |
+| 23 | 🟡 XlsxIssue82_WideTable | ✅ | 0.8497 | 0.8173 | 13/13 | **0.8668** |
+| 24 | ⚪ XlsxIssue152_ClusteredNonZeroBarChart | ✅ | N/A | N/A | ?/? | **N/A** |
 
-**Average Overall Score: 0.8068**
+**Average Overall Score: 0.7538**
 
 ## Labeled Side-by-Side Comparison
 
@@ -65,6 +66,10 @@ Generated: 2026-09-07T11:54:12.982984
   <td><img src="side-by-side/Business expense budget1_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expense budget1 page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>Business expense budget1<br><small>format: xlsx | case: Business expense budget1 | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Business expense budget1_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expense budget1 page 4 comparison"></td>
+</tr>
+<tr>
   <td><b>Business expenses budget2<br><small>format: xlsx | case: Business expenses budget2 | scope: java-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/Business expenses budget2_p1_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expenses budget2 page 1 comparison"></td>
 </tr>
@@ -75,6 +80,10 @@ Generated: 2026-09-07T11:54:12.982984
 <tr>
   <td><b>Business expenses budget2<br><small>format: xlsx | case: Business expenses budget2 | scope: java-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/Business expenses budget2_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expenses budget2 page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>Business expenses budget2<br><small>format: xlsx | case: Business expenses budget2 | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Business expenses budget2_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expenses budget2 page 4 comparison"></td>
 </tr>
 <tr>
   <td><b>Business plan checklist with SWOT analysis1<br><small>format: xlsx | case: Business plan checklist with SWOT analysis1 | scope: java-issue-xlsx</small></b><br>Page 1</td>
@@ -91,6 +100,14 @@ Generated: 2026-09-07T11:54:12.982984
 <tr>
   <td><b>Event budget1<br><small>format: xlsx | case: Event budget1 | scope: java-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/Event budget1_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Event budget1 page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>Event budget1<br><small>format: xlsx | case: Event budget1 | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Event budget1_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Event budget1 page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>Event budget1<br><small>format: xlsx | case: Event budget1 | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/Event budget1_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Event budget1 page 5 comparison"></td>
 </tr>
 <tr>
   <td><b>Expense report basic1<br><small>format: xlsx | case: Expense report basic1 | scope: java-issue-xlsx</small></b><br>Page 1</td>
@@ -113,6 +130,10 @@ Generated: 2026-09-07T11:54:12.982984
   <td><img src="side-by-side/Issue202609031340_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Issue202609031340 page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>Issue202609031340<br><small>format: xlsx | case: Issue202609031340 | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Issue202609031340_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Issue202609031340 page 4 comparison"></td>
+</tr>
+<tr>
   <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/payroll-calculator_f_p1_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 1 comparison"></td>
 </tr>
@@ -125,6 +146,54 @@ Generated: 2026-09-07T11:54:12.982984
   <td><img src="side-by-side/payroll-calculator_f_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/payroll-calculator_f_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/payroll-calculator_f_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/payroll-calculator_f_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/payroll-calculator_f_p7_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/payroll-calculator_f_p8_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/payroll-calculator_f_p9_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/payroll-calculator_f_p10_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/payroll-calculator_f_p11_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/payroll-calculator_f_p12_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/payroll-calculator_f_p13_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/payroll-calculator_f_p14_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/payroll-calculator_f_p15_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 15 comparison"></td>
+</tr>
+<tr>
   <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: java-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/PO_anonymized_p1_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 1 comparison"></td>
 </tr>
@@ -135,6 +204,30 @@ Generated: 2026-09-07T11:54:12.982984
 <tr>
   <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: java-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/PO_anonymized_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/PO_anonymized_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/PO_anonymized_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/PO_anonymized_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: java-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/PO_anonymized_p7_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: java-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/PO_anonymized_p8_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: java-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/PO_anonymized_p9_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 9 comparison"></td>
 </tr>
 <tr>
   <td><b>Simple invoice1<br><small>format: xlsx | case: Simple invoice1 | scope: java-issue-xlsx</small></b><br>Page 1</td>
@@ -153,6 +246,14 @@ Generated: 2026-09-07T11:54:12.982984
   <td><img src="side-by-side/Small business cash flow forecast1_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Small business cash flow forecast1 page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>Small business cash flow forecast1<br><small>format: xlsx | case: Small business cash flow forecast1 | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Small business cash flow forecast1_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Small business cash flow forecast1 page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>Small business cash flow forecast1<br><small>format: xlsx | case: Small business cash flow forecast1 | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/Small business cash flow forecast1_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Small business cash flow forecast1 page 5 comparison"></td>
+</tr>
+<tr>
   <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: java-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/Wedding_timeline_planner1_copy_p1_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 1 comparison"></td>
 </tr>
@@ -163,6 +264,26 @@ Generated: 2026-09-07T11:54:12.982984
 <tr>
   <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: java-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/Wedding_timeline_planner1_copy_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Wedding_timeline_planner1_copy_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/Wedding_timeline_planner1_copy_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/Wedding_timeline_planner1_copy_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: java-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/Wedding_timeline_planner1_copy_p7_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: java-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/Wedding_timeline_planner1_copy_p8_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 8 comparison"></td>
 </tr>
 <tr>
   <td><b>Weekly schedule planner1<br><small>format: xlsx | case: Weekly schedule planner1 | scope: java-issue-xlsx</small></b><br>Page 1</td>
@@ -179,6 +300,54 @@ Generated: 2026-09-07T11:54:12.982984
 <tr>
   <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/XlsxIssue75_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue75_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue75_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue75_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue75_p7_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue75_p8_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue75_p9_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue75_p10_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue75_p11_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue75_p12_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue75_p13_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/XlsxIssue75_p14_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/XlsxIssue75_p15_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 15 comparison"></td>
 </tr>
 <tr>
   <td><b>XlsxIssue77_MergedCellAlignment<br><small>format: xlsx | case: XlsxIssue77_MergedCellAlignment | scope: java-issue-xlsx</small></b><br>Page 1</td>
@@ -201,6 +370,18 @@ Generated: 2026-09-07T11:54:12.982984
   <td><img src="side-by-side/XlsxIssue77_Template1_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template1 page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>XlsxIssue77_Template1<br><small>format: xlsx | case: XlsxIssue77_Template1 | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue77_Template1_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template1 page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template1<br><small>format: xlsx | case: XlsxIssue77_Template1 | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue77_Template1_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template1 page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template1<br><small>format: xlsx | case: XlsxIssue77_Template1 | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue77_Template1_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template1 page 6 comparison"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: java-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p1_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 1 comparison"></td>
 </tr>
@@ -211,6 +392,18 @@ Generated: 2026-09-07T11:54:12.982984
 <tr>
   <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: java-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 6 comparison"></td>
 </tr>
 <tr>
   <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 1</td>
@@ -225,6 +418,54 @@ Generated: 2026-09-07T11:54:12.982984
   <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p7_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p8_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p9_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p10_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p11_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p12_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p13_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p14_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p15_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 15 comparison"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/XlsxIssue82_5mb_p1_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 1 comparison"></td>
 </tr>
@@ -235,6 +476,54 @@ Generated: 2026-09-07T11:54:12.982984
 <tr>
   <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/XlsxIssue82_5mb_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p7_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p8_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p9_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p10_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p11_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p12_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p13_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p14_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p15_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 15 comparison"></td>
 </tr>
 <tr>
   <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 1</td>
@@ -249,6 +538,54 @@ Generated: 2026-09-07T11:54:12.982984
   <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p7_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p8_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p9_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p10_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p11_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p12_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p13_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p14_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p15_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 15 comparison"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/XlsxIssue82_WideTable_p1_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 1 comparison"></td>
 </tr>
@@ -259,6 +596,46 @@ Generated: 2026-09-07T11:54:12.982984
 <tr>
   <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/XlsxIssue82_WideTable_p3_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p4_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p5_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p6_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p7_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p8_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p9_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p10_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p11_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p12_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p13_java_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 13 comparison"></td>
 </tr>
 </table>
 
@@ -304,6 +681,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 217907 px (10.01%)<br>bbox: [112, 297, 450, 1596]<br>mean abs RGB: 12.8481<br>RMSE RGB: 48.2032<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>Business expense budget1</b><br>Page 4</td>
+  <td><img src="images/Business expense budget1_p4_heatmap.png" width="760" alt="Business expense budget1 page 4 difference heatmap"></td>
+  <td>changed: 29987 px (1.38%)<br>bbox: [112, 178, 450, 1225]<br>mean abs RGB: 1.6779<br>RMSE RGB: 16.3966<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>Business expenses budget2</b><br>Page 1</td>
   <td><img src="images/Business expenses budget2_p1_heatmap.png" width="760" alt="Business expenses budget2 page 1 difference heatmap"></td>
   <td>changed: 470506 px (21.62%)<br>bbox: [229, 75, 1522, 1124]<br>mean abs RGB: 11.7846<br>RMSE RGB: 35.2513<br>threshold: 12, gain: 5.0</td>
@@ -317,6 +699,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>Business expenses budget2</b><br>Page 3</td>
   <td><img src="images/Business expenses budget2_p3_heatmap.png" width="760" alt="Business expenses budget2 page 3 difference heatmap"></td>
   <td>changed: 435364 px (20.00%)<br>bbox: [153, 75, 1598, 1163]<br>mean abs RGB: 10.0189<br>RMSE RGB: 29.5823<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Business expenses budget2</b><br>Page 4</td>
+  <td><img src="images/Business expenses budget2_p4_heatmap.png" width="760" alt="Business expenses budget2 page 4 difference heatmap"></td>
+  <td>changed: 231305 px (10.63%)<br>bbox: [279, 75, 1473, 1160]<br>mean abs RGB: 8.2459<br>RMSE RGB: 32.2238<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Business plan checklist with SWOT analysis1</b><br>Page 1</td>
@@ -337,6 +724,16 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>Event budget1</b><br>Page 3</td>
   <td><img src="images/Event budget1_p3_heatmap.png" width="760" alt="Event budget1 page 3 difference heatmap"></td>
   <td>changed: 481866 px (22.14%)<br>bbox: [62, 114, 1211, 568]<br>mean abs RGB: 4.318<br>RMSE RGB: 14.6122<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Event budget1</b><br>Page 4</td>
+  <td><img src="images/Event budget1_p4_heatmap.png" width="760" alt="Event budget1 page 4 difference heatmap"></td>
+  <td>changed: 980093 px (45.03%)<br>bbox: [60, 141, 1213, 1603]<br>mean abs RGB: 19.5878<br>RMSE RGB: 44.2<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Event budget1</b><br>Page 5</td>
+  <td><img src="images/Event budget1_p5_heatmap.png" width="760" alt="Event budget1 page 5 difference heatmap"></td>
+  <td>changed: 462646 px (21.25%)<br>bbox: [60, 141, 1213, 667]<br>mean abs RGB: 10.6119<br>RMSE RGB: 37.4322<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Expense report basic1</b><br>Page 1</td>
@@ -364,6 +761,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 258293 px (11.87%)<br>bbox: [34, 29, 1196, 1725]<br>mean abs RGB: 16.8844<br>RMSE RGB: 56.4854<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>Issue202609031340</b><br>Page 4</td>
+  <td><img src="images/Issue202609031340_p4_heatmap.png" width="760" alt="Issue202609031340 page 4 difference heatmap"></td>
+  <td>changed: 16551 px (0.76%)<br>bbox: [42, 35, 1196, 1009]<br>mean abs RGB: 1.3189<br>RMSE RGB: 16.625<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>payroll-calculator_f</b><br>Page 1</td>
   <td><img src="images/payroll-calculator_f_p1_heatmap.png" width="760" alt="payroll-calculator_f page 1 difference heatmap"></td>
   <td>changed: 532215 px (24.45%)<br>bbox: [23, 29, 1754, 1160]<br>mean abs RGB: 17.5896<br>RMSE RGB: 42.8265<br>threshold: 12, gain: 5.0</td>
@@ -379,6 +781,66 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 488426 px (22.44%)<br>bbox: [23, 29, 1504, 1160]<br>mean abs RGB: 21.1973<br>RMSE RGB: 55.8296<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>payroll-calculator_f</b><br>Page 4</td>
+  <td><img src="images/payroll-calculator_f_p4_heatmap.png" width="760" alt="payroll-calculator_f page 4 difference heatmap"></td>
+  <td>changed: 1209024 px (55.54%)<br>bbox: [23, 29, 1689, 1160]<br>mean abs RGB: 36.0171<br>RMSE RGB: 59.5003<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 5</td>
+  <td><img src="images/payroll-calculator_f_p5_heatmap.png" width="760" alt="payroll-calculator_f page 5 difference heatmap"></td>
+  <td>changed: 1211550 px (55.66%)<br>bbox: [58, 29, 1754, 1160]<br>mean abs RGB: 37.5416<br>RMSE RGB: 61.3188<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 6</td>
+  <td><img src="images/payroll-calculator_f_p6_heatmap.png" width="760" alt="payroll-calculator_f page 6 difference heatmap"></td>
+  <td>changed: 615007 px (28.25%)<br>bbox: [58, 29, 1696, 1160]<br>mean abs RGB: 21.0131<br>RMSE RGB: 49.0562<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 7</td>
+  <td><img src="images/payroll-calculator_f_p7_heatmap.png" width="760" alt="payroll-calculator_f page 7 difference heatmap"></td>
+  <td>changed: 430723 px (19.79%)<br>bbox: [460, 29, 1640, 1160]<br>mean abs RGB: 14.1302<br>RMSE RGB: 39.5934<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 8</td>
+  <td><img src="images/payroll-calculator_f_p8_heatmap.png" width="760" alt="payroll-calculator_f page 8 difference heatmap"></td>
+  <td>changed: 361013 px (23.44%)<br>bbox: [30, 27, 1210, 740]<br>mean abs RGB: 17.6564<br>RMSE RGB: 48.6024<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 9</td>
+  <td><img src="images/payroll-calculator_f_p9_heatmap.png" width="760" alt="payroll-calculator_f page 9 difference heatmap"></td>
+  <td>changed: 1083585 px (70.36%)<br>bbox: [19, 22, 1241, 1190]<br>mean abs RGB: 44.9399<br>RMSE RGB: 68.5849<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 10</td>
+  <td><img src="images/payroll-calculator_f_p10_heatmap.png" width="760" alt="payroll-calculator_f page 10 difference heatmap"></td>
+  <td>changed: 689994 px (31.70%)<br>bbox: [23, 29, 1754, 1190]<br>mean abs RGB: 20.9069<br>RMSE RGB: 48.346<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 11</td>
+  <td><img src="images/payroll-calculator_f_p11_heatmap.png" width="760" alt="payroll-calculator_f page 11 difference heatmap"></td>
+  <td>changed: 409089 px (18.79%)<br>bbox: [23, 29, 1706, 1190]<br>mean abs RGB: 5.4417<br>RMSE RGB: 13.8381<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 12</td>
+  <td><img src="images/payroll-calculator_f_p12_heatmap.png" width="760" alt="payroll-calculator_f page 12 difference heatmap"></td>
+  <td>changed: 957149 px (43.97%)<br>bbox: [23, 29, 1706, 1190]<br>mean abs RGB: 21.8119<br>RMSE RGB: 37.3632<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 13</td>
+  <td><img src="images/payroll-calculator_f_p13_heatmap.png" width="760" alt="payroll-calculator_f page 13 difference heatmap"></td>
+  <td>changed: 765729 px (35.18%)<br>bbox: [23, 29, 1706, 1190]<br>mean abs RGB: 21.7976<br>RMSE RGB: 45.6181<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 14</td>
+  <td><img src="images/payroll-calculator_f_p14_heatmap.png" width="760" alt="payroll-calculator_f page 14 difference heatmap"></td>
+  <td>changed: 297376 px (13.66%)<br>bbox: [23, 29, 1640, 1190]<br>mean abs RGB: 8.379<br>RMSE RGB: 29.6402<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 15</td>
+  <td><img src="images/payroll-calculator_f_p15_heatmap.png" width="760" alt="payroll-calculator_f page 15 difference heatmap"></td>
+  <td>changed: 205098 px (9.42%)<br>bbox: [23, 29, 1640, 1190]<br>mean abs RGB: 4.7175<br>RMSE RGB: 18.2486<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>PO_anonymized</b><br>Page 1</td>
   <td><img src="images/PO_anonymized_p1_heatmap.png" width="760" alt="PO_anonymized page 1 difference heatmap"></td>
   <td>changed: 514717 px (23.65%)<br>bbox: [58, 45, 1182, 1713]<br>mean abs RGB: 29.8818<br>RMSE RGB: 76.4864<br>threshold: 12, gain: 5.0</td>
@@ -386,7 +848,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>PO_anonymized</b><br>Page 2</td>
   <td><img src="images/PO_anonymized_p2_heatmap.png" width="760" alt="PO_anonymized page 2 difference heatmap"></td>
-  <td>changed: 651275 px (29.92%)<br>bbox: [59, 45, 1181, 1713]<br>mean abs RGB: 34.8838<br>RMSE RGB: 80.9979<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 651331 px (29.92%)<br>bbox: [59, 45, 1181, 1713]<br>mean abs RGB: 34.8905<br>RMSE RGB: 81.0072<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>PO_anonymized</b><br>Page 3</td>
@@ -394,9 +856,39 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 122180 px (5.61%)<br>bbox: [61, 45, 1181, 1713]<br>mean abs RGB: 7.7594<br>RMSE RGB: 40.8676<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>PO_anonymized</b><br>Page 4</td>
+  <td><img src="images/PO_anonymized_p4_heatmap.png" width="760" alt="PO_anonymized page 4 difference heatmap"></td>
+  <td>changed: 74703 px (3.43%)<br>bbox: [59, 45, 1181, 1713]<br>mean abs RGB: 3.6048<br>RMSE RGB: 24.9722<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 5</td>
+  <td><img src="images/PO_anonymized_p5_heatmap.png" width="760" alt="PO_anonymized page 5 difference heatmap"></td>
+  <td>changed: 77572 px (3.56%)<br>bbox: [59, 45, 1181, 1713]<br>mean abs RGB: 3.6284<br>RMSE RGB: 25.1982<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 6</td>
+  <td><img src="images/PO_anonymized_p6_heatmap.png" width="760" alt="PO_anonymized page 6 difference heatmap"></td>
+  <td>changed: 71466 px (3.28%)<br>bbox: [61, 45, 1181, 1713]<br>mean abs RGB: 3.5136<br>RMSE RGB: 24.7858<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 7</td>
+  <td><img src="images/PO_anonymized_p7_heatmap.png" width="760" alt="PO_anonymized page 7 difference heatmap"></td>
+  <td>changed: 77052 px (3.54%)<br>bbox: [61, 45, 1181, 1713]<br>mean abs RGB: 3.6735<br>RMSE RGB: 25.0531<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 8</td>
+  <td><img src="images/PO_anonymized_p8_heatmap.png" width="760" alt="PO_anonymized page 8 difference heatmap"></td>
+  <td>changed: 75823 px (3.48%)<br>bbox: [61, 45, 1181, 1713]<br>mean abs RGB: 3.5822<br>RMSE RGB: 25.0271<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 9</td>
+  <td><img src="images/PO_anonymized_p9_heatmap.png" width="760" alt="PO_anonymized page 9 difference heatmap"></td>
+  <td>changed: 75412 px (3.46%)<br>bbox: [61, 45, 1181, 1713]<br>mean abs RGB: 3.5779<br>RMSE RGB: 25.0552<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>Simple invoice1</b><br>Page 1</td>
   <td><img src="images/Simple invoice1_p1_heatmap.png" width="760" alt="Simple invoice1 page 1 difference heatmap"></td>
-  <td>changed: 344628 px (15.83%)<br>bbox: [36, 114, 1237, 1451]<br>mean abs RGB: 18.2359<br>RMSE RGB: 60.1872<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 344696 px (15.84%)<br>bbox: [36, 114, 1237, 1451]<br>mean abs RGB: 18.2404<br>RMSE RGB: 60.1938<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Small business cash flow forecast1</b><br>Page 1</td>
@@ -429,9 +921,34 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 291508 px (13.39%)<br>bbox: [102, 183, 1158, 1516]<br>mean abs RGB: 13.5658<br>RMSE RGB: 44.6731<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>Wedding_timeline_planner1_copy</b><br>Page 4</td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p4_heatmap.png" width="760" alt="Wedding_timeline_planner1_copy page 4 difference heatmap"></td>
+  <td>changed: 160305 px (7.36%)<br>bbox: [102, 183, 1158, 811]<br>mean abs RGB: 7.2149<br>RMSE RGB: 31.3697<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy</b><br>Page 5</td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p5_heatmap.png" width="760" alt="Wedding_timeline_planner1_copy page 5 difference heatmap"></td>
+  <td>changed: 180 px (0.01%)<br>bbox: [105, 197, 106, 377]<br>mean abs RGB: 0.0141<br>RMSE RGB: 1.6233<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy</b><br>Page 6</td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p6_heatmap.png" width="760" alt="Wedding_timeline_planner1_copy page 6 difference heatmap"></td>
+  <td>changed: 180 px (0.01%)<br>bbox: [105, 197, 106, 377]<br>mean abs RGB: 0.0141<br>RMSE RGB: 1.6233<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy</b><br>Page 7</td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p7_heatmap.png" width="760" alt="Wedding_timeline_planner1_copy page 7 difference heatmap"></td>
+  <td>changed: 180 px (0.01%)<br>bbox: [105, 197, 106, 377]<br>mean abs RGB: 0.0141<br>RMSE RGB: 1.6233<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy</b><br>Page 8</td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p8_heatmap.png" width="760" alt="Wedding_timeline_planner1_copy page 8 difference heatmap"></td>
+  <td>changed: 180 px (0.01%)<br>bbox: [105, 197, 106, 377]<br>mean abs RGB: 0.0141<br>RMSE RGB: 1.6233<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>Weekly schedule planner1</b><br>Page 1</td>
   <td><img src="images/Weekly schedule planner1_p1_heatmap.png" width="760" alt="Weekly schedule planner1 page 1 difference heatmap"></td>
-  <td>changed: 686598 px (31.54%)<br>bbox: [121, 96, 1571, 1144]<br>mean abs RGB: 25.2436<br>RMSE RGB: 60.9064<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 686771 px (31.55%)<br>bbox: [121, 96, 1571, 1144]<br>mean abs RGB: 25.2671<br>RMSE RGB: 60.9449<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>XlsxIssue75</b><br>Page 1</td>
@@ -447,6 +964,66 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>XlsxIssue75</b><br>Page 3</td>
   <td><img src="images/XlsxIssue75_p3_heatmap.png" width="760" alt="XlsxIssue75 page 3 difference heatmap"></td>
   <td>changed: 102955 px (4.73%)<br>bbox: [114, 120, 1076, 1649]<br>mean abs RGB: 7.6331<br>RMSE RGB: 39.3545<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue75_p4_heatmap.png" width="760" alt="XlsxIssue75 page 4 difference heatmap"></td>
+  <td>changed: 98163 px (4.51%)<br>bbox: [114, 120, 1076, 1649]<br>mean abs RGB: 7.242<br>RMSE RGB: 38.2872<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue75_p5_heatmap.png" width="760" alt="XlsxIssue75 page 5 difference heatmap"></td>
+  <td>changed: 92054 px (4.23%)<br>bbox: [115, 120, 1076, 1649]<br>mean abs RGB: 6.7832<br>RMSE RGB: 37.0478<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue75_p6_heatmap.png" width="760" alt="XlsxIssue75 page 6 difference heatmap"></td>
+  <td>changed: 98896 px (4.54%)<br>bbox: [114, 120, 1076, 1649]<br>mean abs RGB: 7.3107<br>RMSE RGB: 38.4873<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue75_p7_heatmap.png" width="760" alt="XlsxIssue75 page 7 difference heatmap"></td>
+  <td>changed: 101103 px (4.64%)<br>bbox: [114, 120, 1076, 1649]<br>mean abs RGB: 7.4437<br>RMSE RGB: 38.7964<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue75_p8_heatmap.png" width="760" alt="XlsxIssue75 page 8 difference heatmap"></td>
+  <td>changed: 96763 px (4.45%)<br>bbox: [114, 120, 1023, 1649]<br>mean abs RGB: 7.0922<br>RMSE RGB: 37.8468<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue75_p9_heatmap.png" width="760" alt="XlsxIssue75 page 9 difference heatmap"></td>
+  <td>changed: 98384 px (4.52%)<br>bbox: [114, 120, 1067, 1649]<br>mean abs RGB: 7.2332<br>RMSE RGB: 38.2544<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue75_p10_heatmap.png" width="760" alt="XlsxIssue75 page 10 difference heatmap"></td>
+  <td>changed: 99595 px (4.58%)<br>bbox: [114, 120, 1076, 1649]<br>mean abs RGB: 7.2764<br>RMSE RGB: 38.3234<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue75_p11_heatmap.png" width="760" alt="XlsxIssue75 page 11 difference heatmap"></td>
+  <td>changed: 99063 px (4.55%)<br>bbox: [114, 120, 1076, 1649]<br>mean abs RGB: 7.2294<br>RMSE RGB: 38.1995<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue75_p12_heatmap.png" width="760" alt="XlsxIssue75 page 12 difference heatmap"></td>
+  <td>changed: 99148 px (4.55%)<br>bbox: [114, 120, 1076, 1649]<br>mean abs RGB: 7.2261<br>RMSE RGB: 38.1789<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue75_p13_heatmap.png" width="760" alt="XlsxIssue75 page 13 difference heatmap"></td>
+  <td>changed: 99546 px (4.57%)<br>bbox: [114, 120, 1076, 1649]<br>mean abs RGB: 7.3304<br>RMSE RGB: 38.4881<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 14</td>
+  <td><img src="images/XlsxIssue75_p14_heatmap.png" width="760" alt="XlsxIssue75 page 14 difference heatmap"></td>
+  <td>changed: 111111 px (5.10%)<br>bbox: [114, 120, 1076, 1649]<br>mean abs RGB: 8.2971<br>RMSE RGB: 41.0856<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 15</td>
+  <td><img src="images/XlsxIssue75_p15_heatmap.png" width="760" alt="XlsxIssue75 page 15 difference heatmap"></td>
+  <td>changed: 117295 px (5.39%)<br>bbox: [115, 120, 1023, 1649]<br>mean abs RGB: 8.6907<br>RMSE RGB: 42.0621<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>XlsxIssue77_MergedCellAlignment</b><br>Page 1</td>
@@ -474,6 +1051,21 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 380167 px (17.47%)<br>bbox: [82, 166, 1157, 1565]<br>mean abs RGB: 20.7364<br>RMSE RGB: 62.3609<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>XlsxIssue77_Template1</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue77_Template1_p4_heatmap.png" width="760" alt="XlsxIssue77_Template1 page 4 difference heatmap"></td>
+  <td>changed: 380163 px (17.46%)<br>bbox: [82, 166, 1157, 1565]<br>mean abs RGB: 20.7436<br>RMSE RGB: 62.3841<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template1</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue77_Template1_p5_heatmap.png" width="760" alt="XlsxIssue77_Template1 page 5 difference heatmap"></td>
+  <td>changed: 380165 px (17.47%)<br>bbox: [82, 166, 1157, 1565]<br>mean abs RGB: 20.7417<br>RMSE RGB: 62.3644<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template1</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue77_Template1_p6_heatmap.png" width="760" alt="XlsxIssue77_Template1 page 6 difference heatmap"></td>
+  <td>changed: 259109 px (11.90%)<br>bbox: [82, 166, 1157, 916]<br>mean abs RGB: 12.6427<br>RMSE RGB: 48.3903<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_Template2_Workaround</b><br>Page 1</td>
   <td><img src="images/XlsxIssue77_Template2_Workaround_p1_heatmap.png" width="760" alt="XlsxIssue77_Template2_Workaround page 1 difference heatmap"></td>
   <td>changed: 375573 px (17.25%)<br>bbox: [78, 166, 1153, 1569]<br>mean abs RGB: 20.7999<br>RMSE RGB: 62.6342<br>threshold: 12, gain: 5.0</td>
@@ -487,6 +1079,21 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>XlsxIssue77_Template2_Workaround</b><br>Page 3</td>
   <td><img src="images/XlsxIssue77_Template2_Workaround_p3_heatmap.png" width="760" alt="XlsxIssue77_Template2_Workaround page 3 difference heatmap"></td>
   <td>changed: 374804 px (17.22%)<br>bbox: [78, 166, 1153, 1569]<br>mean abs RGB: 20.6898<br>RMSE RGB: 62.408<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p4_heatmap.png" width="760" alt="XlsxIssue77_Template2_Workaround page 4 difference heatmap"></td>
+  <td>changed: 374805 px (17.22%)<br>bbox: [78, 166, 1153, 1569]<br>mean abs RGB: 20.6864<br>RMSE RGB: 62.3838<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p5_heatmap.png" width="760" alt="XlsxIssue77_Template2_Workaround page 5 difference heatmap"></td>
+  <td>changed: 374803 px (17.22%)<br>bbox: [78, 166, 1153, 1569]<br>mean abs RGB: 20.6866<br>RMSE RGB: 62.3935<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p6_heatmap.png" width="760" alt="XlsxIssue77_Template2_Workaround page 6 difference heatmap"></td>
+  <td>changed: 251894 px (11.57%)<br>bbox: [78, 166, 1153, 920]<br>mean abs RGB: 12.4426<br>RMSE RGB: 48.2208<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>XlsxIssue81_LayoutOptions</b><br>Page 1</td>
@@ -504,6 +1111,66 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 511075 px (24.96%)<br>bbox: [36, 74, 1068, 1570]<br>mean abs RGB: 31.9801<br>RMSE RGB: 77.0071<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p4_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 4 difference heatmap"></td>
+  <td>changed: 127821 px (6.24%)<br>bbox: [36, 74, 1068, 386]<br>mean abs RGB: 8.3008<br>RMSE RGB: 38.1128<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p5_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 5 difference heatmap"></td>
+  <td>changed: 402947 px (19.68%)<br>bbox: [36, 74, 1067, 1570]<br>mean abs RGB: 23.4849<br>RMSE RGB: 65.3971<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p6_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 6 difference heatmap"></td>
+  <td>changed: 406069 px (19.83%)<br>bbox: [36, 74, 1067, 1570]<br>mean abs RGB: 23.7164<br>RMSE RGB: 65.7502<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p7_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 7 difference heatmap"></td>
+  <td>changed: 407767 px (19.91%)<br>bbox: [36, 74, 1067, 1566]<br>mean abs RGB: 23.8549<br>RMSE RGB: 65.9376<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p8_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 8 difference heatmap"></td>
+  <td>changed: 115003 px (5.62%)<br>bbox: [36, 74, 1067, 386]<br>mean abs RGB: 7.2625<br>RMSE RGB: 35.3354<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p9_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 9 difference heatmap"></td>
+  <td>changed: 457826 px (22.36%)<br>bbox: [36, 74, 834, 1570]<br>mean abs RGB: 29.6485<br>RMSE RGB: 74.3935<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p10_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 10 difference heatmap"></td>
+  <td>changed: 458959 px (22.41%)<br>bbox: [36, 74, 834, 1570]<br>mean abs RGB: 29.6897<br>RMSE RGB: 74.4299<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p11_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 11 difference heatmap"></td>
+  <td>changed: 458045 px (22.37%)<br>bbox: [36, 74, 834, 1570]<br>mean abs RGB: 29.6914<br>RMSE RGB: 74.4662<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p12_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 12 difference heatmap"></td>
+  <td>changed: 106162 px (5.18%)<br>bbox: [36, 74, 834, 386]<br>mean abs RGB: 7.0729<br>RMSE RGB: 35.3885<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p13_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 13 difference heatmap"></td>
+  <td>changed: 460545 px (22.49%)<br>bbox: [36, 74, 914, 1570]<br>mean abs RGB: 30.645<br>RMSE RGB: 76.0264<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 14</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p14_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 14 difference heatmap"></td>
+  <td>changed: 460650 px (22.50%)<br>bbox: [36, 74, 914, 1570]<br>mean abs RGB: 30.6488<br>RMSE RGB: 76.0323<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 15</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p15_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 15 difference heatmap"></td>
+  <td>changed: 460238 px (22.48%)<br>bbox: [36, 74, 914, 1570]<br>mean abs RGB: 30.6175<br>RMSE RGB: 75.9898<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_5mb</b><br>Page 1</td>
   <td><img src="images/XlsxIssue82_5mb_p1_heatmap.png" width="760" alt="XlsxIssue82_5mb page 1 difference heatmap"></td>
   <td>changed: 434905 px (21.24%)<br>bbox: [106, 122, 1100, 1523]<br>mean abs RGB: 31.9401<br>RMSE RGB: 78.688<br>threshold: 12, gain: 5.0</td>
@@ -517,6 +1184,66 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>XlsxIssue82_5mb</b><br>Page 3</td>
   <td><img src="images/XlsxIssue82_5mb_p3_heatmap.png" width="760" alt="XlsxIssue82_5mb page 3 difference heatmap"></td>
   <td>changed: 433772 px (21.18%)<br>bbox: [106, 122, 1100, 1522]<br>mean abs RGB: 31.8166<br>RMSE RGB: 78.4756<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue82_5mb_p4_heatmap.png" width="760" alt="XlsxIssue82_5mb page 4 difference heatmap"></td>
+  <td>changed: 431684 px (21.08%)<br>bbox: [106, 122, 1100, 1523]<br>mean abs RGB: 31.6553<br>RMSE RGB: 78.2675<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue82_5mb_p5_heatmap.png" width="760" alt="XlsxIssue82_5mb page 5 difference heatmap"></td>
+  <td>changed: 431780 px (21.09%)<br>bbox: [106, 122, 1100, 1523]<br>mean abs RGB: 31.6562<br>RMSE RGB: 78.2654<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue82_5mb_p6_heatmap.png" width="760" alt="XlsxIssue82_5mb page 6 difference heatmap"></td>
+  <td>changed: 437693 px (21.38%)<br>bbox: [106, 122, 1100, 1523]<br>mean abs RGB: 32.1135<br>RMSE RGB: 78.8284<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue82_5mb_p7_heatmap.png" width="760" alt="XlsxIssue82_5mb page 7 difference heatmap"></td>
+  <td>changed: 434814 px (21.23%)<br>bbox: [106, 122, 1100, 1523]<br>mean abs RGB: 31.8468<br>RMSE RGB: 78.4773<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue82_5mb_p8_heatmap.png" width="760" alt="XlsxIssue82_5mb page 8 difference heatmap"></td>
+  <td>changed: 429640 px (20.98%)<br>bbox: [106, 122, 1100, 1522]<br>mean abs RGB: 31.5253<br>RMSE RGB: 78.1571<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue82_5mb_p9_heatmap.png" width="760" alt="XlsxIssue82_5mb page 9 difference heatmap"></td>
+  <td>changed: 430772 px (21.04%)<br>bbox: [106, 122, 1100, 1523]<br>mean abs RGB: 31.618<br>RMSE RGB: 78.246<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue82_5mb_p10_heatmap.png" width="760" alt="XlsxIssue82_5mb page 10 difference heatmap"></td>
+  <td>changed: 428182 px (20.91%)<br>bbox: [106, 122, 1096, 1523]<br>mean abs RGB: 31.347<br>RMSE RGB: 77.8406<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue82_5mb_p11_heatmap.png" width="760" alt="XlsxIssue82_5mb page 11 difference heatmap"></td>
+  <td>changed: 434213 px (21.21%)<br>bbox: [106, 122, 1100, 1523]<br>mean abs RGB: 31.8505<br>RMSE RGB: 78.4957<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue82_5mb_p12_heatmap.png" width="760" alt="XlsxIssue82_5mb page 12 difference heatmap"></td>
+  <td>changed: 432355 px (21.11%)<br>bbox: [106, 122, 1100, 1523]<br>mean abs RGB: 31.6757<br>RMSE RGB: 78.2713<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue82_5mb_p13_heatmap.png" width="760" alt="XlsxIssue82_5mb page 13 difference heatmap"></td>
+  <td>changed: 435409 px (21.26%)<br>bbox: [106, 122, 1100, 1522]<br>mean abs RGB: 31.8684<br>RMSE RGB: 78.5161<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 14</td>
+  <td><img src="images/XlsxIssue82_5mb_p14_heatmap.png" width="760" alt="XlsxIssue82_5mb page 14 difference heatmap"></td>
+  <td>changed: 430283 px (21.01%)<br>bbox: [106, 122, 1100, 1523]<br>mean abs RGB: 31.5115<br>RMSE RGB: 78.0713<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 15</td>
+  <td><img src="images/XlsxIssue82_5mb_p15_heatmap.png" width="760" alt="XlsxIssue82_5mb page 15 difference heatmap"></td>
+  <td>changed: 433648 px (21.18%)<br>bbox: [106, 122, 1100, 1522]<br>mean abs RGB: 31.7855<br>RMSE RGB: 78.4269<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 1</td>
@@ -534,6 +1261,66 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 369955 px (17.00%)<br>bbox: [114, 157, 1078, 1599]<br>mean abs RGB: 27.6909<br>RMSE RGB: 75.189<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p4_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 4 difference heatmap"></td>
+  <td>changed: 372843 px (17.13%)<br>bbox: [115, 157, 1078, 1600]<br>mean abs RGB: 27.8472<br>RMSE RGB: 75.3628<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p5_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 5 difference heatmap"></td>
+  <td>changed: 378384 px (17.38%)<br>bbox: [114, 157, 1078, 1600]<br>mean abs RGB: 28.271<br>RMSE RGB: 75.9382<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p6_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 6 difference heatmap"></td>
+  <td>changed: 376793 px (17.31%)<br>bbox: [114, 157, 1078, 1600]<br>mean abs RGB: 28.1487<br>RMSE RGB: 75.7644<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p7_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 7 difference heatmap"></td>
+  <td>changed: 377427 px (17.34%)<br>bbox: [114, 157, 1078, 1600]<br>mean abs RGB: 28.1661<br>RMSE RGB: 75.7618<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p8_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 8 difference heatmap"></td>
+  <td>changed: 380299 px (17.47%)<br>bbox: [114, 157, 1078, 1600]<br>mean abs RGB: 28.2749<br>RMSE RGB: 75.8708<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p9_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 9 difference heatmap"></td>
+  <td>changed: 378642 px (17.40%)<br>bbox: [114, 157, 1078, 1600]<br>mean abs RGB: 28.2691<br>RMSE RGB: 75.9012<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p10_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 10 difference heatmap"></td>
+  <td>changed: 375129 px (17.23%)<br>bbox: [114, 157, 1078, 1600]<br>mean abs RGB: 28.0331<br>RMSE RGB: 75.5735<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p11_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 11 difference heatmap"></td>
+  <td>changed: 375945 px (17.27%)<br>bbox: [114, 157, 1078, 1598]<br>mean abs RGB: 28.0981<br>RMSE RGB: 75.6769<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p12_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 12 difference heatmap"></td>
+  <td>changed: 381533 px (17.53%)<br>bbox: [114, 157, 1078, 1598]<br>mean abs RGB: 28.3781<br>RMSE RGB: 75.9967<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p13_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 13 difference heatmap"></td>
+  <td>changed: 379853 px (17.45%)<br>bbox: [114, 157, 1078, 1598]<br>mean abs RGB: 28.2906<br>RMSE RGB: 75.9102<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 14</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p14_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 14 difference heatmap"></td>
+  <td>changed: 380916 px (17.50%)<br>bbox: [114, 157, 1078, 1599]<br>mean abs RGB: 28.3942<br>RMSE RGB: 76.0407<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 15</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p15_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 15 difference heatmap"></td>
+  <td>changed: 378167 px (17.37%)<br>bbox: [114, 157, 1078, 1599]<br>mean abs RGB: 28.1834<br>RMSE RGB: 75.7681<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_WideTable</b><br>Page 1</td>
   <td><img src="images/XlsxIssue82_WideTable_p1_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 1 difference heatmap"></td>
   <td>changed: 466771 px (22.80%)<br>bbox: [52, 73, 1522, 1168]<br>mean abs RGB: 27.6719<br>RMSE RGB: 70.3825<br>threshold: 12, gain: 5.0</td>
@@ -548,6 +1335,56 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><img src="images/XlsxIssue82_WideTable_p3_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 3 difference heatmap"></td>
   <td>changed: 467887 px (22.85%)<br>bbox: [52, 73, 1522, 1168]<br>mean abs RGB: 27.692<br>RMSE RGB: 70.4004<br>threshold: 12, gain: 5.0</td>
 </tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue82_WideTable_p4_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 4 difference heatmap"></td>
+  <td>changed: 184675 px (9.02%)<br>bbox: [52, 73, 1522, 560]<br>mean abs RGB: 11.6966<br>RMSE RGB: 45.5688<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue82_WideTable_p5_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 5 difference heatmap"></td>
+  <td>changed: 450579 px (22.00%)<br>bbox: [52, 73, 1401, 1168]<br>mean abs RGB: 26.8631<br>RMSE RGB: 69.2737<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue82_WideTable_p6_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 6 difference heatmap"></td>
+  <td>changed: 445587 px (21.76%)<br>bbox: [52, 73, 1401, 1168]<br>mean abs RGB: 26.9921<br>RMSE RGB: 69.6078<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue82_WideTable_p7_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 7 difference heatmap"></td>
+  <td>changed: 453956 px (22.17%)<br>bbox: [52, 73, 1401, 1168]<br>mean abs RGB: 27.1046<br>RMSE RGB: 69.6218<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue82_WideTable_p8_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 8 difference heatmap"></td>
+  <td>changed: 182686 px (8.92%)<br>bbox: [52, 73, 1401, 560]<br>mean abs RGB: 11.7922<br>RMSE RGB: 46.004<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue82_WideTable_p9_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 9 difference heatmap"></td>
+  <td>changed: 295861 px (14.45%)<br>bbox: [52, 73, 920, 1168]<br>mean abs RGB: 19.7011<br>RMSE RGB: 60.8785<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue82_WideTable_p10_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 10 difference heatmap"></td>
+  <td>changed: 294689 px (14.39%)<br>bbox: [52, 73, 920, 1168]<br>mean abs RGB: 19.7554<br>RMSE RGB: 61.0085<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue82_WideTable_p11_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 11 difference heatmap"></td>
+  <td>changed: 297754 px (14.54%)<br>bbox: [52, 73, 931, 1168]<br>mean abs RGB: 19.8601<br>RMSE RGB: 61.1452<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue82_WideTable_p12_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 12 difference heatmap"></td>
+  <td>changed: 114278 px (5.58%)<br>bbox: [52, 73, 931, 560]<br>mean abs RGB: 7.9053<br>RMSE RGB: 38.6492<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue82_WideTable_p13_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 13 difference heatmap"></td>
+  <td>changed: 241485 px (11.79%)<br>bbox: [58, 82, 1019, 1017]<br>mean abs RGB: 18.2517<br>RMSE RGB: 60.0162<br>threshold: 12, gain: 5.0</td>
+</tr>
 </table>
 
 ## Visual Comparison
@@ -558,7 +1395,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 <tr><th>java MiniPdf</th><th>Microsoft 365 Excel Reference</th><th>LibreOffice</th></tr>
 <tr>
   <td><b>Academic Achievement Summary Table<br><small>format: xlsx | case: Academic Achievement Summary Table | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">Academic Achievement Summary Table <span style="color:#d29922">⬤</span> 71.4%</td>
+  <td colspan="2">Academic Achievement Summary Table <span style="color:#f85149">⬤</span> 68.6%</td>
 </tr>
 <tr>
   <td><img src="images/Academic Achievement Summary Table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -576,8 +1413,13 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><i>missing</i></td>
 </tr>
 <tr>
+  <td><img src="images/Academic Achievement Summary Table_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>AcademicAchievement_temp<br><small>format: xlsx | case: AcademicAchievement_temp | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">AcademicAchievement_temp <span style="color:#d29922">⬤</span> 71.4%</td>
+  <td colspan="2">AcademicAchievement_temp <span style="color:#f85149">⬤</span> 68.6%</td>
 </tr>
 <tr>
   <td><img src="images/AcademicAchievement_temp_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -595,8 +1437,13 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><i>missing</i></td>
 </tr>
 <tr>
+  <td><img src="images/AcademicAchievement_temp_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>Business expense budget1<br><small>format: xlsx | case: Business expense budget1 | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">Business expense budget1 <span style="color:#3fb950">⬤</span> 92.1%</td>
+  <td colspan="2">Business expense budget1 <span style="color:#3fb950">⬤</span> 92.9%</td>
 </tr>
 <tr>
   <td><img src="images/Business expense budget1_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -614,8 +1461,13 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/Business expense budget1_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/Business expense budget1_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Business expense budget1_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Business expense budget1_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>Business expenses budget2<br><small>format: xlsx | case: Business expenses budget2 | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">Business expenses budget2 <span style="color:#d29922">⬤</span> 85.9%</td>
+  <td colspan="2">Business expenses budget2 <span style="color:#d29922">⬤</span> 86.2%</td>
 </tr>
 <tr>
   <td><img src="images/Business expenses budget2_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -633,6 +1485,11 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/Business expenses budget2_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/Business expenses budget2_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Business expenses budget2_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Business expenses budget2_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>Business plan checklist with SWOT analysis1<br><small>format: xlsx | case: Business plan checklist with SWOT analysis1 | scope: java-issue-xlsx</small></b></td>
   <td colspan="2">Business plan checklist with SWOT analysis1 <span style="color:#d29922">⬤</span> 77.6%</td>
 </tr>
@@ -643,7 +1500,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 </tr>
 <tr>
   <td><b>Event budget1<br><small>format: xlsx | case: Event budget1 | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">Event budget1 <span style="color:#d29922">⬤</span> 79.1%</td>
+  <td colspan="2">Event budget1 <span style="color:#f85149">⬤</span> 68.9%</td>
 </tr>
 <tr>
   <td><img src="images/Event budget1_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -659,6 +1516,26 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/Event budget1_p3_minipdf.png" width="260" alt="java MiniPdf"></td>
   <td><img src="images/Event budget1_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/Event budget1_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Event budget1_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Event budget1_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Event budget1_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Event budget1_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Event budget1_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Event budget1_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Event budget1_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Event budget1_p7_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
 </tr>
 <tr>
   <td><b>Expense report basic1<br><small>format: xlsx | case: Expense report basic1 | scope: java-issue-xlsx</small></b></td>
@@ -680,7 +1557,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 </tr>
 <tr>
   <td><b>Issue202609031340<br><small>format: xlsx | case: Issue202609031340 | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">Issue202609031340 <span style="color:#3fb950">⬤</span> 93.1%</td>
+  <td colspan="2">Issue202609031340 <span style="color:#3fb950">⬤</span> 90.2%</td>
 </tr>
 <tr>
   <td><img src="images/Issue202609031340_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -698,8 +1575,13 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/Issue202609031340_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/Issue202609031340_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Issue202609031340_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Issue202609031340_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">payroll-calculator_f <span style="color:#f85149">⬤</span> 62.9%</td>
+  <td colspan="2">payroll-calculator_f <span style="color:#f85149">⬤</span> 64.6%</td>
 </tr>
 <tr>
   <td><img src="images/payroll-calculator_f_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -717,8 +1599,68 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/payroll-calculator_f_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/payroll-calculator_f_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p7_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p8_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p9_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p10_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p11_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p12_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p13_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p14_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p15_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">PO_anonymized <span style="color:#d29922">⬤</span> 77.3%</td>
+  <td colspan="2">PO_anonymized <span style="color:#f85149">⬤</span> 66.1%</td>
 </tr>
 <tr>
   <td><img src="images/PO_anonymized_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -736,6 +1678,66 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/PO_anonymized_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/PO_anonymized_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p7_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p8_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p9_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p10_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p11_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p12_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p13_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p14_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p15_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>Simple invoice1<br><small>format: xlsx | case: Simple invoice1 | scope: java-issue-xlsx</small></b></td>
   <td colspan="2">Simple invoice1 <span style="color:#d29922">⬤</span> 78.1%</td>
 </tr>
@@ -746,7 +1748,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 </tr>
 <tr>
   <td><b>Small business cash flow forecast1<br><small>format: xlsx | case: Small business cash flow forecast1 | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">Small business cash flow forecast1 <span style="color:#d29922">⬤</span> 73.6%</td>
+  <td colspan="2">Small business cash flow forecast1 <span style="color:#f85149">⬤</span> 62.5%</td>
 </tr>
 <tr>
   <td><img src="images/Small business cash flow forecast1_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -764,8 +1766,18 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/Small business cash flow forecast1_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><i>missing</i></td>
+  <td><img src="images/Small business cash flow forecast1_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Small business cash flow forecast1_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/Small business cash flow forecast1_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Small business cash flow forecast1_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">Wedding_timeline_planner1_copy <span style="color:#3fb950">⬤</span> 93.0%</td>
+  <td colspan="2">Wedding_timeline_planner1_copy <span style="color:#3fb950">⬤</span> 95.4%</td>
 </tr>
 <tr>
   <td><img src="images/Wedding_timeline_planner1_copy_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -783,6 +1795,31 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/Wedding_timeline_planner1_copy_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/Wedding_timeline_planner1_copy_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Wedding_timeline_planner1_copy_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Wedding_timeline_planner1_copy_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Wedding_timeline_planner1_copy_p7_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Wedding_timeline_planner1_copy_p8_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>Weekly schedule planner1<br><small>format: xlsx | case: Weekly schedule planner1 | scope: java-issue-xlsx</small></b></td>
   <td colspan="2">Weekly schedule planner1 <span style="color:#f85149">⬤</span> 50.1%</td>
 </tr>
@@ -798,7 +1835,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 </tr>
 <tr>
   <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue75 <span style="color:#d29922">⬤</span> 87.1%</td>
+  <td colspan="2">XlsxIssue75 <span style="color:#d29922">⬤</span> 87.4%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue75_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -816,6 +1853,66 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/XlsxIssue75_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue75_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p7_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p8_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p9_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p10_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p11_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p12_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p13_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p14_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p15_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_MergedCellAlignment<br><small>format: xlsx | case: XlsxIssue77_MergedCellAlignment | scope: java-issue-xlsx</small></b></td>
   <td colspan="2">XlsxIssue77_MergedCellAlignment <span style="color:#3fb950">⬤</span> 95.6%</td>
 </tr>
@@ -831,7 +1928,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 </tr>
 <tr>
   <td><b>XlsxIssue77_Template1<br><small>format: xlsx | case: XlsxIssue77_Template1 | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue77_Template1 <span style="color:#3fb950">⬤</span> 95.7%</td>
+  <td colspan="2">XlsxIssue77_Template1 <span style="color:#3fb950">⬤</span> 95.8%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue77_Template1_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -849,8 +1946,23 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/XlsxIssue77_Template1_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue77_Template1_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue77_Template1_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template1_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue77_Template1_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue77_Template1_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template1_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue77_Template1_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue77_Template1_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template1_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue77_Template2_Workaround <span style="color:#3fb950">⬤</span> 95.8%</td>
+  <td colspan="2">XlsxIssue77_Template2_Workaround <span style="color:#3fb950">⬤</span> 96.0%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue77_Template2_Workaround_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -868,8 +1980,23 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/XlsxIssue77_Template2_Workaround_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue81_LayoutOptions <span style="color:#d29922">⬤</span> 89.0%</td>
+  <td colspan="2">XlsxIssue81_LayoutOptions <span style="color:#3fb950">⬤</span> 91.6%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue81_LayoutOptions_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -887,8 +2014,68 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/XlsxIssue81_LayoutOptions_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p7_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p8_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p9_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p10_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p11_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p12_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p13_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p14_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p15_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue82_5mb <span style="color:#f85149">⬤</span> 67.8%</td>
+  <td colspan="2">XlsxIssue82_5mb <span style="color:#f85149">⬤</span> 53.4%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue82_5mb_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -906,8 +2093,68 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/XlsxIssue82_5mb_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue82_5mb_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p7_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p8_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p9_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p10_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p11_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p12_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p13_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p14_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p15_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue82_SampleTestData5mb <span style="color:#d29922">⬤</span> 71.7%</td>
+  <td colspan="2">XlsxIssue82_SampleTestData5mb <span style="color:#d29922">⬤</span> 72.2%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue82_SampleTestData5mb_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -925,8 +2172,68 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/XlsxIssue82_SampleTestData5mb_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p7_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p8_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p9_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p10_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p11_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p12_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p13_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p14_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p15_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue82_WideTable <span style="color:#d29922">⬤</span> 86.5%</td>
+  <td colspan="2">XlsxIssue82_WideTable <span style="color:#d29922">⬤</span> 86.7%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue82_WideTable_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -943,6 +2250,63 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td><img src="images/XlsxIssue82_WideTable_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/XlsxIssue82_WideTable_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p4_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p5_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p6_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p7_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p8_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p9_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p10_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p11_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p12_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p13_minipdf.png" width="260" alt="java MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue152_ClusteredNonZeroBarChart<br><small>format: xlsx | case: XlsxIssue152_ClusteredNonZeroBarChart | scope: java-issue-xlsx</small></b></td>
+  <td colspan="2">XlsxIssue152_ClusteredNonZeroBarChart N/A</td>
+</tr>
+<tr>
+  <td colspan="3"><i>No images</i></td>
+</tr>
 </table>
 
 ## Detailed Results
@@ -951,126 +2315,31 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: Academic Achievement Summary Table | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Academic Achievement Summary Table.xlsx
-- **Text Similarity:** 0.9068
-- **Visual Average:** 0.6289
-- **Overall Score:** 0.7143
+- **Text Similarity:** 0.9941
+- **Visual Average:** 0.4717
+- **Overall Score:** 0.6863
 - **Pages:** MiniPdf=4, Reference=2
-- **File Size:** MiniPdf=54546 bytes, Reference=151877 bytes
+- **File Size:** MiniPdf=54543 bytes, Reference=151877 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/Academic Achievement Summary Table.pdf
 +++ reference/Academic Achievement Summary Table.pdf
-@@ -1,10 +1,10 @@
- 附件3
+@@ -44,7 +44,4 @@
+ 日期：    年   月   日
 
- 学术业绩汇总表
+ 填表说明：1.请将各类学术成果按等级、层次及水平自高到低顺序填写。不加行、减行，不加页、减页，本表采用A4正反面打印。
 
--报考岗位： 报考岗位代码： 考⽣姓名：
+ 2.核心期刊是指北京大学图书馆“中文核心期刊”、南京大学“中文社会科学引文索引（CSSCI）来源期刊”（含扩展版、集刊）、中国科学技术信息研究所
 
--博⼠论⽂题⽬： 博⼠论⽂研究⽅向：
-
--公开发表的主要论⽂情况
-
--⻆⾊ 转载刊物、转载字数及 是否为代表作
-
--序号 题⽬ 刊物名称 核⼼期刊情况 刊号 发表时间
-
-+报考岗位： 报考岗位代码： 考生姓名：
-
-+博士论文题目： 博士论文研究方向：
-
-+公开发表的主要论文情况
-
-+角色 转载刊物、转载字数及 是否为代表作
-
-+序号 题目 刊物名称 核心期刊情况 刊号 发表时间
-
- （排名） 转载时间等 （指定1篇）
-
- 1
-
- 2
-
-@@ -20,29 +20,28 @@
- 12
-
- ---PAGE---
-
- 公开出版的主要专（译）著、教材情况
-
--⻆⾊ 全书⽂ 本⼈写 转载刊物、转载字数及
-
--序号 题⽬ 出版社名称 出版号 出版时间 备注
-
-+角色 全书文 本人写 转载刊物、转载字数及
-
-+序号 题目 出版社名称 出版号 出版时间 备注
-
- （排名） 字数 作量 转载时间等
-
- 1
-
- 2
-
- 获批的决策咨询报告情况
-
--序号 题⽬ 批⽰领导级别 获批时间 ⻆⾊（排名） 备注
-
-+序号 题目 批示领导级别 获批时间 角色（排名） 备注
-
- 1
-
- 2
-
- 3
-
- 4
-
- 承担的主要科研课题情况
-
--项⽬
-
--序号 课题名称 项⽬来源 课题编号 ⻆⾊（排名） 起⽌时间 成果鉴定（评价） 备注
-
-+项目
-
-+序号 课题名称 项目来源 课题编号 角色（排名） 起止时间 成果鉴定（评价） 备注
-
- 级别
-
- 1
-
- 2
-
- 3
-
- 4
-
--本⼈承诺以上情况属实，并有相应证明。如有不实之处，愿意承担相应责任。
-
--报名⼈员签名：
-
--⽇期：    年   ⽉   ⽇
-
--填表说明：1.请将各类学术成果按等级、层次及⽔平⾃⾼到低顺序填写。不加⾏、减⾏，不加⻚、减⻚，本表采⽤A4正反⾯打印。
-
--2.核⼼期刊是指北京⼤学图书馆“中⽂核⼼期刊”、南京⼤学“中⽂社会科学引⽂索引（CSSCI）来源期刊”（含扩展版、集刊）、中国科学技术信息研究所
-
--“中国科技论⽂统计源期刊”和科学引⽂索引（SCI）、社会科学引⽂索引（SSCI）。其中，被SCI、SSCI收录的期刊要求进⼊所在学科领域Q1、Q2。
+-“中国科技论文统计源期刊”和科学引文索引（SCI）、社会科学引文索引（SSCI）。其中，被SCI、SSCI收录的期刊要求进入所在学科领域Q1、Q2。
 
 ----PAGE---
-+本人承诺以上情况属实，并有相应证明。如有不实之处，愿意承担相应责任。
 
-+报名人员签名：
+-
 
-+日期：    年   月   日
-
-+填表说明：1.请将各类学术成果按等级、层次及水平自高到低顺序填写。不加行、减行，不加页、减页，本表采用A4正反面打印。
-
-+2.核心期刊是指北京大学图书馆“中文核心期刊”、南京大学“中文社会科学引文索引（CSSCI）来源期刊”（含扩展版、集刊）、中国科学技术信息研究所
-
+----PAGE---
 +“中国科技论文统计源期刊”和科学引文索引（SCI）、社会科学引文索引（SSCI）。其中，被SCI、SSCI收录的期刊要求进入所在学科领域Q1、Q2。
 ```
 </details>
@@ -1079,126 +2348,31 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: AcademicAchievement_temp | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/AcademicAchievement_temp.xlsx
-- **Text Similarity:** 0.9068
-- **Visual Average:** 0.6289
-- **Overall Score:** 0.7143
+- **Text Similarity:** 0.9941
+- **Visual Average:** 0.4717
+- **Overall Score:** 0.6863
 - **Pages:** MiniPdf=4, Reference=2
-- **File Size:** MiniPdf=54546 bytes, Reference=151877 bytes
+- **File Size:** MiniPdf=54543 bytes, Reference=151877 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/AcademicAchievement_temp.pdf
 +++ reference/AcademicAchievement_temp.pdf
-@@ -1,10 +1,10 @@
- 附件3
+@@ -44,7 +44,4 @@
+ 日期：    年   月   日
 
- 学术业绩汇总表
+ 填表说明：1.请将各类学术成果按等级、层次及水平自高到低顺序填写。不加行、减行，不加页、减页，本表采用A4正反面打印。
 
--报考岗位： 报考岗位代码： 考⽣姓名：
+ 2.核心期刊是指北京大学图书馆“中文核心期刊”、南京大学“中文社会科学引文索引（CSSCI）来源期刊”（含扩展版、集刊）、中国科学技术信息研究所
 
--博⼠论⽂题⽬： 博⼠论⽂研究⽅向：
-
--公开发表的主要论⽂情况
-
--⻆⾊ 转载刊物、转载字数及 是否为代表作
-
--序号 题⽬ 刊物名称 核⼼期刊情况 刊号 发表时间
-
-+报考岗位： 报考岗位代码： 考生姓名：
-
-+博士论文题目： 博士论文研究方向：
-
-+公开发表的主要论文情况
-
-+角色 转载刊物、转载字数及 是否为代表作
-
-+序号 题目 刊物名称 核心期刊情况 刊号 发表时间
-
- （排名） 转载时间等 （指定1篇）
-
- 1
-
- 2
-
-@@ -20,29 +20,28 @@
- 12
-
- ---PAGE---
-
- 公开出版的主要专（译）著、教材情况
-
--⻆⾊ 全书⽂ 本⼈写 转载刊物、转载字数及
-
--序号 题⽬ 出版社名称 出版号 出版时间 备注
-
-+角色 全书文 本人写 转载刊物、转载字数及
-
-+序号 题目 出版社名称 出版号 出版时间 备注
-
- （排名） 字数 作量 转载时间等
-
- 1
-
- 2
-
- 获批的决策咨询报告情况
-
--序号 题⽬ 批⽰领导级别 获批时间 ⻆⾊（排名） 备注
-
-+序号 题目 批示领导级别 获批时间 角色（排名） 备注
-
- 1
-
- 2
-
- 3
-
- 4
-
- 承担的主要科研课题情况
-
--项⽬
-
--序号 课题名称 项⽬来源 课题编号 ⻆⾊（排名） 起⽌时间 成果鉴定（评价） 备注
-
-+项目
-
-+序号 课题名称 项目来源 课题编号 角色（排名） 起止时间 成果鉴定（评价） 备注
-
- 级别
-
- 1
-
- 2
-
- 3
-
- 4
-
--本⼈承诺以上情况属实，并有相应证明。如有不实之处，愿意承担相应责任。
-
--报名⼈员签名：
-
--⽇期：    年   ⽉   ⽇
-
--填表说明：1.请将各类学术成果按等级、层次及⽔平⾃⾼到低顺序填写。不加⾏、减⾏，不加⻚、减⻚，本表采⽤A4正反⾯打印。
-
--2.核⼼期刊是指北京⼤学图书馆“中⽂核⼼期刊”、南京⼤学“中⽂社会科学引⽂索引（CSSCI）来源期刊”（含扩展版、集刊）、中国科学技术信息研究所
-
--“中国科技论⽂统计源期刊”和科学引⽂索引（SCI）、社会科学引⽂索引（SSCI）。其中，被SCI、SSCI收录的期刊要求进⼊所在学科领域Q1、Q2。
+-“中国科技论文统计源期刊”和科学引文索引（SCI）、社会科学引文索引（SSCI）。其中，被SCI、SSCI收录的期刊要求进入所在学科领域Q1、Q2。
 
 ----PAGE---
-+本人承诺以上情况属实，并有相应证明。如有不实之处，愿意承担相应责任。
 
-+报名人员签名：
+-
 
-+日期：    年   月   日
-
-+填表说明：1.请将各类学术成果按等级、层次及水平自高到低顺序填写。不加行、减行，不加页、减页，本表采用A4正反面打印。
-
-+2.核心期刊是指北京大学图书馆“中文核心期刊”、南京大学“中文社会科学引文索引（CSSCI）来源期刊”（含扩展版、集刊）、中国科学技术信息研究所
-
+----PAGE---
 +“中国科技论文统计源期刊”和科学引文索引（SCI）、社会科学引文索引（SSCI）。其中，被SCI、SSCI收录的期刊要求进入所在学科领域Q1、Q2。
 ```
 </details>
@@ -1207,9 +2381,9 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: Business expense budget1 | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Business expense budget1.xlsx
-- **Text Similarity:** 0.9712
-- **Visual Average:** 0.8317
-- **Overall Score:** 0.9212
+- **Text Similarity:** 0.9657
+- **Visual Average:** 0.857
+- **Overall Score:** 0.9291
 - **Pages:** MiniPdf=4, Reference=4
 - **File Size:** MiniPdf=45757 bytes, Reference=159864 bytes
 
@@ -1342,6 +2516,20 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
  Q2 ACTUAL VARIANCE
 
  45,800.00 1,000.00
+
+@@ -69,4 +72,6 @@
+ 2,100.00 0.00
+
+ 12,600.00 1,200.00
+
+ ---PAGE---
+
+-121,600.00 6,350.00
++121,600.00 6,350.00
+
++Total Budget
+
++Total Actual
 ```
 </details>
 
@@ -1349,9 +2537,9 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: Business expenses budget2 | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Business expenses budget2.xlsx
-- **Text Similarity:** 0.8422
-- **Visual Average:** 0.8064
-- **Overall Score:** 0.8594
+- **Text Similarity:** 0.8393
+- **Visual Average:** 0.8157
+- **Overall Score:** 0.862
 - **Pages:** MiniPdf=4, Reference=4
 - **File Size:** MiniPdf=232162 bytes, Reference=376973 bytes
 
@@ -1360,7 +2548,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 ```diff
 --- minipdf/Business expenses budget2.pdf
 +++ reference/Business expenses budget2.pdf
-@@ -1,81 +1,81 @@
+@@ -1,94 +1,109 @@
  Market Financial Consulting
 
  PLANNED EXPENSES
@@ -1399,8 +2587,8 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 -Collateral preparation $   5,000.00 $   - 0 $   - 0 $   5,000.00 $   - 0 $   - 0 $   5,000.00 $   - 0 $   - 0 $   5,000.00 $   - 0 $   - 0 $   20,000.00
 
--Co
-... (13972 more characters)
+-C
+... (14949 more characters)
 
 ```
 </details>
@@ -1542,9 +2730,9 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: Event budget1 | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Event budget1.xlsx
-- **Text Similarity:** 0.9859
-- **Visual Average:** 0.741
-- **Overall Score:** 0.7908
+- **Text Similarity:** 0.9709
+- **Visual Average:** 0.5005
+- **Overall Score:** 0.6886
 - **Pages:** MiniPdf=7, Reference=5
 - **File Size:** MiniPdf=61943 bytes, Reference=121223 bytes
 
@@ -1598,7 +2786,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
  $882.00 $333.00
 
-@@ -31,10 +32,10 @@
+@@ -31,13 +32,14 @@
  Photocopying/Printing $20.00 Gifts $100.00
 
  Postage Total $100.00 $0.00
@@ -1617,10 +2805,64 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
  Fax services
 
--Total $12.00 $13.00
-+Total $12.00 $13.00
+ Total $12.00 $13.00
 
 +---PAGE---
+
++
+
+ ---PAGE---
+
+ Event budget INCOME
+
+ Estimated Actual
+
+@@ -62,7 +64,6 @@
+ Small booths @ $0.00 $0.00
+
+ Total $0.00 $0.00
+
+ SALE OF ITEMS
+
+----PAGE---
+
+ Estimated no. Actual no. Type Price Estimated income Actual income
+
+ Items @ $0.00 $0.00
+
+ Items @ $0.00 $0.00
+
+@@ -71,9 +72,14 @@
+ Total $0.00 $0.00
+
+ ---PAGE---
+
+ Event budget PROFIT
+
++Total income
+
+ LOSS SUMMARY
+
+-Total Estimated Actual
+
++Total expenses
+
++Estimated Actual
+
++$1,831 $333
+
++ACT U AL
+
+ Total income $1,936.00 $1,831.00
+
+ Total expenses $882.00 $333.00
+
++$1,936 $882
+
+ Total profit (or loss) $1,054.00 $1,498.00
+
+----PAGE---
++E ST I M AT E D
 ```
 </details>
 
@@ -1851,9 +3093,9 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: Issue202609031340 | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Issue202609031340.xlsx
-- **Text Similarity:** 0.9022
-- **Visual Average:** 0.9262
-- **Overall Score:** 0.9314
+- **Text Similarity:** 0.9014
+- **Visual Average:** 0.853
+- **Overall Score:** 0.9018
 - **Pages:** MiniPdf=4, Reference=4
 - **File Size:** MiniPdf=446118 bytes, Reference=346206 bytes
 
@@ -2124,8 +3366,8 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
  XXXXXX有限公司
 
-@@ -83,7
-... (132 more characters)
+@@ -83,8
+... (164 more characters)
 
 ```
 </details>
@@ -2134,9 +3376,9 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: payroll-calculator_f | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/payroll-calculator_f.xlsx
-- **Text Similarity:** 0.8386
-- **Visual Average:** 0.4835
-- **Overall Score:** 0.6288
+- **Text Similarity:** 0.8202
+- **Visual Average:** 0.5445
+- **Overall Score:** 0.6459
 - **Pages:** MiniPdf=36, Reference=29
 - **File Size:** MiniPdf=1021293 bytes, Reference=606513 bytes
 
@@ -2145,7 +3387,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 ```diff
 --- minipdf/payroll-calculator_f.pdf
 +++ reference/payroll-calculator_f.pdf
-@@ -1,43 +1,49 @@
+@@ -1,87 +1,94 @@
  Employee Register
 
 -Information contained in this employee register is highly confidential Filing Status (W-4 before 2020) Filing Status (W-4 from 2020 or later)
@@ -2261,7 +3503,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 -The results provided by this calculator are o
 
 -nly estimates and may not apply to your
-... (802 more characters)
+... (10115 more characters)
 
 ```
 </details>
@@ -2270,11 +3512,11 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: PO_anonymized | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/PO_anonymized.xlsx
-- **Text Similarity:** 0.9385
-- **Visual Average:** 0.743
-- **Overall Score:** 0.7726
+- **Text Similarity:** 0.8718
+- **Visual Average:** 0.532
+- **Overall Score:** 0.6615
 - **Pages:** MiniPdf=69, Reference=9
-- **File Size:** MiniPdf=165573 bytes, Reference=409049 bytes
+- **File Size:** MiniPdf=170784 bytes, Reference=409049 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2284,9 +3526,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 @@ -1,36 +1,35 @@
 -Final Inspec Ɵon Report
 
-+Final Inspection Report
-
- Client: Global Tech Supplier: Alpha Labs Client PO#: PO-XX328
+-Client: Global Tech Supplier: Alpha Labs Client PO#: PO-XX328
 
 -XXX oﬃce: TX Inspector: Sam Davis XXX PO#: 21668732
 
@@ -2296,6 +3536,16 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 -Date of Manufacture:    1/18/2026~1/21/2026 Lot ID: 9928-539898(1st lot)
 
+-Item#: XX-ABC-68878-C
+
+-Descrip Ɵon: Standard Component Assembly with Seal Insert
+
+-Sign-oﬀ sample: Yes Approved drawings Yes (Drawing#: K1VRJNVG REV: C )
+
++Final Inspection Report
+
++Client: Global Tech Supplier: Alpha Labs Client PO#: PO-XX328
+
 +XXX office: TX Inspector: Sam Davis XXX PO#: 21668732
 
 +PM: Avery Wilson Inspection Site: Greenfield county, Metro city PO Quantity: N/A
@@ -2304,11 +3554,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 +Date of Manufacture: 1/18/2026~1/21/2026 Lot ID: 9928-539898(1st lot)
 
- Item#: XX-ABC-68878-C
-
--Descrip Ɵon: Standard Component Assembly with Seal Insert
-
--Sign-oﬀ sample: Yes Approved drawings Yes (Drawing#: K1VRJNVG REV: C )
++Item#: XX-ABC-68878-C
 
 +Description: Standard Component Assembly with Seal Insert
 
@@ -2423,22 +3669,16 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
  Total: 41,466 8,462 61 16
 
-+Doc#: FIR-003.5
-
-+Effective: 20171109 Page 1 of 9
-
- ---PAGE---
+----PAGE---
 
 -Final Inspec Ɵon Report
 
-+Final Inspection Report
-
- Client: Global Tech Supplier: Alpha Labs Client PO#: PO-XX328
+-Client: Global Tech Supplier: Alpha Labs Client PO#: PO-XX328
 
 -XXX oﬃce: TX Inspector: Sam Davis XXX PO#: 21668732
 
--PM: Avery Wilson I
-... (2959 more characters)
+-PM: Aver
+... (9873 more characters)
 
 ```
 </details>
@@ -2451,7 +3691,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 - **Visual Average:** 0.6953
 - **Overall Score:** 0.781
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=52865 bytes, Reference=94130 bytes
+- **File Size:** MiniPdf=52864 bytes, Reference=94130 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2465,7 +3705,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
  Invoice #: 10654
 
--Invoice date: 9/7/26
+-Invoice date: 9/19/26
 
 -Embrace
 
@@ -2555,9 +3795,9 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: Small business cash flow forecast1 | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Small business cash flow forecast1.xlsx
-- **Text Similarity:** 0.9004
-- **Visual Average:** 0.6894
-- **Overall Score:** 0.7359
+- **Text Similarity:** 0.8981
+- **Visual Average:** 0.4136
+- **Overall Score:** 0.6247
 - **Pages:** MiniPdf=3, Reference=5
 - **File Size:** MiniPdf=48698 bytes, Reference=93247 bytes
 
@@ -2566,7 +3806,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 ```diff
 --- minipdf/Small business cash flow forecast1.pdf
 +++ reference/Small business cash flow forecast1.pdf
-@@ -1,59 +1,82 @@
+@@ -1,59 +1,86 @@
  ELBIDE REALTY
 
  Cash flow forecast
@@ -2638,7 +3878,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 -Interest expense $   - 0
 
 -Materials and supplies (in COGS) $   1,200.00  $   1,200.00
-... (3800 more characters)
+... (3843 more characters)
 
 ```
 </details>
@@ -2647,18 +3887,18 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: Wedding_timeline_planner1_copy | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Wedding_timeline_planner1_copy.xlsx
-- **Text Similarity:** 0.9295
-- **Visual Average:** 0.8964
-- **Overall Score:** 0.9304
+- **Text Similarity:** 0.934
+- **Visual Average:** 0.9519
+- **Overall Score:** 0.9544
 - **Pages:** MiniPdf=8, Reference=8
-- **File Size:** MiniPdf=408701 bytes, Reference=180076 bytes
+- **File Size:** MiniPdf=408704 bytes, Reference=180076 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/Wedding_timeline_planner1_copy.pdf
 +++ reference/Wedding_timeline_planner1_copy.pdf
-@@ -1,114 +1,121 @@
+@@ -1,126 +1,133 @@
  Wedding timeline planner
 
  DONE?
@@ -2810,7 +4050,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 +☐ Shop for wedding rings.
 
 +Select and order
-... (5652 more characters)
+... (6389 more characters)
 
 ```
 </details>
@@ -2823,7 +4063,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 - **Visual Average:** 0.3729
 - **Overall Score:** 0.5007
 - **Pages:** MiniPdf=2, Reference=1
-- **File Size:** MiniPdf=72332 bytes, Reference=148591 bytes
+- **File Size:** MiniPdf=72544 bytes, Reference=148591 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2833,7 +4073,7 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 @@ -1,16 +1,15 @@
  Weekly schedule planner
 
--Week of: 9/7/26
+-Week of: 9/14/26
 
 +Week of: 8/24/2026
 
@@ -2847,11 +4087,11 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
  Stretch Pick up dry cleaning
 
--46272.0 46273.0 46274.0 46275.0 46276.0 46277.0 46278.0
+-46279.0 46280.0 46281.0 46282.0 46283.0 46284.0 46285.0
 
--07
+-14
 
--September 08 September 09 September 10 September 11 September 12 September 13 September
+-September 15 September 16 September 17 September 18 September 19 September 20 September
 
 -? Run ? Run ? Run Run Run Run Run
 
@@ -2890,9 +4130,9 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue75 | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue75.xlsx
-- **Text Similarity:** 0.9694
-- **Visual Average:** 0.9592
-- **Overall Score:** 0.8714
+- **Text Similarity:** 0.9702
+- **Visual Average:** 0.9659
+- **Overall Score:** 0.8744
 - **Pages:** MiniPdf=152, Reference=144
 - **File Size:** MiniPdf=393485 bytes, Reference=5896201 bytes
 
@@ -2910,11 +4150,17 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
 ----PAGE---
 
- 30184 Fred Invoice
+-30184 Fred Invoice
 
- 30184 Fred Invoice
+-30184 Fred Invoice
 
- 30184 Fred Invoice
+-30184 Fred Invoice
+
++30184 Fred Invoice
+
++30184 Fred Invoice
+
++30184 Fred Invoice
 
 +---PAGE---
 
@@ -2953,33 +4199,224 @@ Scores compare java MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
 
  BLAC002 Fred Invoice
 
-@@ -143,4 +143,13 @@
+@@ -144,7 +144,6 @@
  26202 Fred Invoice
 
  26202 Fred Invoice
 
  26202 Fred Invoice
 
--26202 Fred Invoice
-+26202 Fred Invoice
+----PAGE---
 
-+26202 Fred Invoice
+ 26202 Fred Invoice
 
-+26202 Fred Invoice
+ 26202 Fred Invoice
 
-+26202 Fred Invoice
+ 26202 Fred Invoice
 
-+12011 Fred Invoice
+@@ -154,6 +153,7 @@
+ 48105 Fred Credit Memo
 
-+011299 Fred Credit Memo
+ 12112 Fred Invoice
 
-+48105 Fred Credit Memo
+ 14449 Fred Invoice
 
-+48105 Fred Credit Memo
++---PAGE---
 
-+12112 Fred Invoice
+ 16668 Fred Invoice
 
-+14449 Fred Invoice
+ 16668 Fred Credit Memo
+
+ 16668 Fred Credit Memo
+
+@@ -193,19 +193,19 @@
+ 17957 Fred Invoice
+
+ 17957 Fred Invoice
+
+ 17957 Fred Invoice
+
+----PAGE---
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++---PAGE---
+
+ 17957 Fred Invoice
+
+ 17957 Fred Invoice
+
+ 17957 Fred Invoice
+
+@@ -242,22 +242,22 @@
+ 17957 Fred Invoice
+
+ 17957 Fred Invoice
+
+ 17957 Fred Invoice
+
+----PAGE---
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
+-17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++17957 Fred Invoice
+
++---PAGE---
+
+ 17957 Fred Invoice
+
+ 17957 Fred Invoice
+
+ 17957 Fred Invoice
+
+@@ -291,7 +291,6 @@
+ 3991152 Fred Invoice
+
+ 23453 Fred Invoice
+
+ 23420 Fred Invoice
+
+----PAGE---
+
+ 3991103 Fred Invoice
+
+ 3991103 Fred Invoice
+
+ 3991103 Fred Invoice
+
+@@ -310,6 +309,7 @@
+ DUOC031 Fred Invoice
+
+ DUOC031 Fred Invoice
+
+ EPICOR Fred Invoice
+
++---PAGE---
+
+ EPICOR Fred Invoice
+
+ EPICOR Fred Invoice
+
+ EPICOR Fred Invoice
+
+@@ -340,105 +340,104 @@
+ 36853 Fred Invoice
+
+ 36853 Fred Invoice
+
+ 36853 Fred Invoice
+
+----PAGE---
+
+-36853 Fred Invoice
+
+-36853 Fred Invoice
+
+-36853 Fred Invoice
+... (12982 more characters)
+
 ```
 </details>
 
@@ -2999,9 +4436,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue77_Template1 | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue77_Template1.xlsx
-- **Text Similarity:** 0.9905
-- **Visual Average:** 0.9007
-- **Overall Score:** 0.9565
+- **Text Similarity:** 0.9906
+- **Visual Average:** 0.9047
+- **Overall Score:** 0.9581
 - **Pages:** MiniPdf=6, Reference=6
 - **File Size:** MiniPdf=60540 bytes, Reference=64464 bytes
 
@@ -3072,6 +4509,42 @@ Text content: ✅ Identical
  Part No. Per Unit
 
  Invoice # Authorized
+
+@@ -48,8 +48,8 @@
+ Attn Customer:   Please return parts to the return address below.
+
+ Customer Name Sales Person Requestor
+
+ Return Address: Reason for Return:
+
+-NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR cod
+
+-e, original factory packaging, with no extra labels or markings on the product.
+
++NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR
+
++code, original factory packaging, with no extra labels or markings on the product.
+
+ Original Qty
+
+ Part No. Per Unit
+
+ Invoice # Authorized
+
+@@ -62,8 +62,8 @@
+ Attn Customer:   Please return parts to the return address below.
+
+ Customer Name Sales Person Requestor
+
+ Return Address: Reason for Return:
+
+-NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR cod
+
+-e, original factory packaging, with no extra labels or markings on the product.
+
++NOTE - All parts returned for c
+... (860 more characters)
+
 ```
 </details>
 
@@ -3079,9 +4552,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue77_Template2_Workaround.xlsx
-- **Text Similarity:** 0.9905
-- **Visual Average:** 0.9048
-- **Overall Score:** 0.9581
+- **Text Similarity:** 0.9906
+- **Visual Average:** 0.9089
+- **Overall Score:** 0.9598
 - **Pages:** MiniPdf=6, Reference=6
 - **File Size:** MiniPdf=60494 bytes, Reference=64466 bytes
 
@@ -3152,6 +4625,42 @@ Text content: ✅ Identical
  Part No. Per Unit
 
  Invoice # Authorized
+
+@@ -48,8 +48,8 @@
+ Attn Customer:   Please return parts to the return address below.
+
+ Customer Name Sales Person Requestor
+
+ Return Address: Reason for Return:
+
+-NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR cod
+
+-e, original factory packaging, with no extra labels or markings on the product.
+
++NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR
+
++code, original factory packaging, with no extra labels or markings on the product.
+
+ Original Qty
+
+ Part No. Per Unit
+
+ Invoice # Authorized
+
+@@ -62,8 +62,8 @@
+ Attn Customer:   Please return parts to the return address below.
+
+ Customer Name Sales Person Requestor
+
+ Return Address: Reason for Return:
+
+-NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR cod
+
+-e, original factory packaging, with no extra labels or markings on the product.
+
++NOTE - Al
+... (882 more characters)
+
 ```
 </details>
 
@@ -3159,9 +4668,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue81_LayoutOptions | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue81_LayoutOptions.xlsx
-- **Text Similarity:** 0.9188
-- **Visual Average:** 0.807
-- **Overall Score:** 0.8903
+- **Text Similarity:** 0.9461
+- **Visual Average:** 0.8451
+- **Overall Score:** 0.9165
 - **Pages:** MiniPdf=16, Reference=16
 - **File Size:** MiniPdf=61053 bytes, Reference=242251 bytes
 
@@ -3170,7 +4679,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue81_LayoutOptions.pdf
 +++ reference/XlsxIssue81_LayoutOptions.pdf
-@@ -1,122 +1,119 @@
+@@ -1,132 +1,132 @@
  Invoice Customer Region Owner
 
 -INV-00001 Customer account with extended legal nam Europe Opera Ɵons owner 2
@@ -3242,7 +4751,7 @@ Text content: ✅ Identical
 -INV-00034 Customer account with extended legal nam Asia Paciﬁc Opera Ɵons owner 8
 
 -INV-00035 Customer
-... (16477 more characters)
+... (60647 more characters)
 
 ```
 </details>
@@ -3251,9 +4760,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue82_5mb | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue82_5mb.xlsx
-- **Text Similarity:** 0.6052
-- **Visual Average:** 0.8405
-- **Overall Score:** 0.6783
+- **Text Similarity:** 0.2428
+- **Visual Average:** 0.8416
+- **Overall Score:** 0.5338
 - **Pages:** MiniPdf=383, Reference=766
 - **File Size:** MiniPdf=9053125 bytes, Reference=21494385 bytes
 
@@ -3262,7 +4771,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue82_5mb.pdf
 +++ reference/XlsxIssue82_5mb.pdf
-@@ -1,143 +1,143 @@
+@@ -1,719 +1,719 @@
 -Name Email Phone Address Company Text Descrip Ɵo Job Title
 
 -Quen Ɵn H oschiller@573.920.9 22808 LueMraz and Labore et Non delenEmergenc
@@ -3336,7 +4845,7 @@ Text content: ✅ Identical
 -Jarod Grimqblanda@283-286-9315 O'HarUpton GroAperiam aQuasi repeCrane and
 
 -Mr. Mor
-... (21972 more characters)
+... (121702 more characters)
 
 ```
 </details>
@@ -3345,9 +4854,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue82_SampleTestData5mb.xlsx
-- **Text Similarity:** 0.6595
-- **Visual Average:** 0.8828
-- **Overall Score:** 0.7169
+- **Text Similarity:** 0.6762
+- **Visual Average:** 0.8797
+- **Overall Score:** 0.7224
 - **Pages:** MiniPdf=466, Reference=1668
 - **File Size:** MiniPdf=12343878 bytes, Reference=32924505 bytes
 
@@ -3356,7 +4865,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue82_SampleTestData5mb.pdf
 +++ reference/XlsxIssue82_SampleTestData5mb.pdf
-@@ -1,131 +1,146 @@
+@@ -1,659 +1,734 @@
 -ID Name Email City Country DepartmenNotes Value1 Value2 RandomTe
 
 -1 User 1 user1@exaToronto UK IT pwJqdCFm760613 0.6770745 aJ3NulIjekF
@@ -3434,7 +4943,7 @@ Text content: ✅ Identical
 -37 User 37 user37@exBerlin Germany Ops f3VPwwbQ335553 0.8283657 xevCKmwR
 
 -38 User 38 use
-... (16587 more characters)
+... (96817 more characters)
 
 ```
 </details>
@@ -3443,9 +4952,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue82_WideTable | scope: java-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue82_WideTable.xlsx
-- **Text Similarity:** 0.9103
-- **Visual Average:** 0.7519
-- **Overall Score:** 0.8649
+- **Text Similarity:** 0.8497
+- **Visual Average:** 0.8173
+- **Overall Score:** 0.8668
 - **Pages:** MiniPdf=13, Reference=13
 - **File Size:** MiniPdf=67131 bytes, Reference=467940 bytes
 
@@ -3454,7 +4963,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue82_WideTable.pdf
 +++ reference/XlsxIssue82_WideTable.pdf
-@@ -1,110 +1,113 @@
+@@ -1,415 +1,415 @@
  Record ID First Name Last Name Street Address City Region Postal Code
 
  ID-00001 Naveen Adhikari 1000 North Evergreen Avenue Suite 200 Kathmandu WA 98000
@@ -3528,26 +5037,30 @@ Text content: ✅ Identical
  ID-00025 Daniel Chen 1024 North Evergreen Avenue Suite 224 Kathmandu WA 98024
 
  ID-00026 Mei Tanaka 1025 North
-... (9623 more characters)
+... (48628 more characters)
 
 ```
 </details>
+
+### XlsxIssue152_ClusteredNonZeroBarChart
+
+**Error:** Reference PDF not found
 
 ## Improvement Suggestions
 
 ### ⚠ Low-Score Test Cases (below 0.8)
 
 1. **Weekly schedule planner1** (score: 0.5007)
-1. **payroll-calculator_f** (score: 0.6288)
-1. **XlsxIssue82_5mb** (score: 0.6783)
-1. **Academic Achievement Summary Table** (score: 0.7143)
-1. **AcademicAchievement_temp** (score: 0.7143)
-1. **XlsxIssue82_SampleTestData5mb** (score: 0.7169)
-1. **Small business cash flow forecast1** (score: 0.7359)
-1. **PO_anonymized** (score: 0.7726)
+1. **XlsxIssue82_5mb** (score: 0.5338)
+1. **Small business cash flow forecast1** (score: 0.6247)
+1. **payroll-calculator_f** (score: 0.6459)
+1. **PO_anonymized** (score: 0.6615)
+1. **Academic Achievement Summary Table** (score: 0.6863)
+1. **AcademicAchievement_temp** (score: 0.6863)
+1. **Event budget1** (score: 0.6886)
+1. **XlsxIssue82_SampleTestData5mb** (score: 0.7224)
 1. **Business plan checklist with SWOT analysis1** (score: 0.7761)
 1. **Simple invoice1** (score: 0.781)
-1. **Event budget1** (score: 0.7908)
 1. **Expense report basic1** (score: 0.791)
 
 Review the text diffs and visual comparisons above to identify specific rendering issues.

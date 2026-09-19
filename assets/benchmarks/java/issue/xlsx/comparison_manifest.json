@@ -181,6 +181,18 @@
       "auxiliary_reference_exists": false
     },
     {
+      "name": "XlsxIssue152_ClusteredNonZeroBarChart",
+      "case_id": "XlsxIssue152_ClusteredNonZeroBarChart",
+      "suite": "issue",
+      "format": "xlsx",
+      "source_path": "tests/Issue_Files/xlsx/XlsxIssue152_ClusteredNonZeroBarChart.xlsx",
+      "conversion_status": "pending",
+      "conversion_exit_code": null,
+      "candidate_exists": false,
+      "reference_exists": false,
+      "auxiliary_reference_exists": false
+    },
+    {
       "name": "XlsxIssue75",
       "case_id": "XlsxIssue75",
       "suite": "issue",

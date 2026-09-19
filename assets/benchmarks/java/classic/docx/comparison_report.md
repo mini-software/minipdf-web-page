@@ -1,6 +1,6 @@
 # java MiniPdf vs Microsoft 365 Word Reference PDF Comparison Report
 
-Generated: 2026-09-17T13:26:54.248730
+Generated: 2026-09-19T23:26:37.967269
 
 ## Summary
 
@@ -15,179 +15,179 @@ Generated: 2026-09-17T13:26:54.248730
 | 7 | 🟢 docx_classic07_alignment | ✅ | 1.0 | 0.9589 | 1/1 | **0.9836** |
 | 8 | 🟢 docx_classic08_bullet_list | ✅ | 0.918 | 0.9931 | 1/1 | **0.9644** |
 | 9 | 🟢 docx_classic09_numbered_list | ✅ | 0.9282 | 0.9876 | 1/1 | **0.9663** |
-| 10 | 🟢 docx_classic10_simple_table | ❌ | 1.0 | 0.9736 | 1/1 | **0.9894** |
-| 11 | 🟡 docx_classic11_table_with_shading | ❌ | 1.0 | 0.7122 | 1/1 | **0.8849** |
-| 12 | 🟢 docx_classic12_merged_cells_table | ❌ | 1.0 | 0.9764 | 1/1 | **0.9906** |
+| 10 | 🟢 docx_classic10_simple_table | ❌ | 1.0 | 0.9885 | 1/1 | **0.9954** |
+| 11 | 🟡 docx_classic11_table_with_shading | ❌ | 1.0 | 0.7216 | 1/1 | **0.8886** |
+| 12 | 🟢 docx_classic12_merged_cells_table | ❌ | 1.0 | 0.9899 | 1/1 | **0.996** |
 | 13 | 🟡 docx_classic13_long_document | ✅ | 1.0 | 0.658 | 3/4 | **0.7632** |
-| 14 | 🟢 docx_classic14_mixed_content | ❌ | 0.9929 | 0.9799 | 1/1 | **0.9891** |
+| 14 | ⚪ docx_classic14_mixed_content | ✅ | N/A | N/A | ?/? | **N/A** |
 | 15 | 🟢 docx_classic15_indentation | ✅ | 1.0 | 0.9539 | 1/1 | **0.9816** |
 | 16 | 🟢 docx_classic16_line_spacing | ✅ | 1.0 | 0.9659 | 1/1 | **0.9864** |
 | 17 | 🟢 docx_classic17_page_break | ✅ | 1.0 | 0.9968 | 3/3 | **0.9987** |
 | 18 | 🟡 docx_classic18_embedded_image | ✅ | 1.0 | 0.5648 | 1/1 | **0.8259** |
 | 19 | 🟡 docx_classic19_multiple_images | ✅ | 1.0 | 0.4867 | 1/1 | **0.7947** |
-| 20 | 🟢 docx_classic20_table_with_many_rows | ❌ | 1.0 | 0.9438 | 1/1 | **0.9775** |
+| 20 | 🟢 docx_classic20_table_with_many_rows | ❌ | 1.0 | 0.9559 | 1/1 | **0.9824** |
 | 21 | 🟢 docx_classic21_nested_lists | ✅ | 0.9371 | 0.9872 | 1/1 | **0.9697** |
 | 22 | 🟢 docx_classic22_horizontal_rule | ✅ | 1.0 | 0.9794 | 1/1 | **0.9918** |
 | 23 | 🟢 docx_classic23_mixed_formatting_runs | ✅ | 1.0 | 0.9938 | 1/1 | **0.9975** |
-| 24 | 🟢 docx_classic24_two_column_table_layout | ❌ | 1.0 | 0.9788 | 1/1 | **0.9915** |
+| 24 | 🟢 docx_classic24_two_column_table_layout | ❌ | 0.9098 | 0.987 | 1/1 | **0.9587** |
 | 25 | 🟢 docx_classic25_title_and_subtitle | ✅ | 1.0 | 0.9925 | 2/2 | **0.997** |
-| 26 | 🟢 docx_classic26_table_alignment | ❌ | 1.0 | 0.9762 | 1/1 | **0.9905** |
+| 26 | 🟢 docx_classic26_table_alignment | ❌ | 1.0 | 0.9905 | 1/1 | **0.9962** |
 | 27 | 🟢 docx_classic27_long_paragraph_wrapping | ✅ | 1.0 | 0.9001 | 1/1 | **0.96** |
 | 28 | 🟢 docx_classic28_special_characters | ❌ | 1.0 | 0.9862 | 1/1 | **0.9945** |
-| 29 | 🟢 docx_classic29_table_with_image | ❌ | 1.0 | 0.8003 | 1/1 | **0.9201** |
-| 30 | 🟡 docx_classic30_comprehensive_report | ❌ | 0.986 | 0.5229 | 2/3 | **0.7036** |
-| 31 | 🟡 docx_classic31_product_card_with_image | ❌ | 1.0 | 0.6337 | 1/1 | **0.8535** |
+| 29 | 🟢 docx_classic29_table_with_image | ❌ | 1.0 | 0.994 | 1/1 | **0.9976** |
+| 30 | 🟡 docx_classic30_comprehensive_report | ❌ | 0.9944 | 0.551 | 2/3 | **0.7182** |
+| 31 | 🟡 docx_classic31_product_card_with_image | ❌ | 0.9872 | 0.6192 | 1/1 | **0.8426** |
 | 32 | 🟢 docx_classic31_strikethrough_text | ✅ | 1.0 | 0.9872 | 1/1 | **0.9949** |
-| 33 | 🟢 docx_classic32_company_logo_header | ❌ | 1.0 | 0.8 | 1/1 | **0.92** |
+| 33 | 🟢 docx_classic32_company_logo_header | ❌ | 1.0 | 0.8986 | 1/1 | **0.9594** |
 | 34 | 🟢 docx_classic32_superscript_subscript | ✅ | 0.9262 | 0.9866 | 1/1 | **0.9651** |
 | 35 | 🟢 docx_classic33_highlighted_text | ✅ | 1.0 | 0.949 | 1/1 | **0.9796** |
-| 36 | 🟡 docx_classic33_two_products_side_by_side | ❌ | 1.0 | 0.5855 | 1/1 | **0.8342** |
+| 36 | 🟡 docx_classic33_two_products_side_by_side | ❌ | 1.0 | 0.6307 | 1/1 | **0.8523** |
 | 37 | 🔴 docx_classic34_employee_directory_with_photo | ✅ | 1.0 | 0.3247 | 1/2 | **0.6299** |
 | 38 | 🟢 docx_classic34_paragraph_borders | ✅ | 1.0 | 0.9798 | 1/1 | **0.9919** |
-| 39 | 🔴 docx_classic35_inventory_with_product_photos | ❌ | 1.0 | 0.3383 | 1/2 | **0.6353** |
+| 39 | 🔴 docx_classic35_inventory_with_product_photos | ❌ | 1.0 | 0.367 | 1/2 | **0.6468** |
 | 40 | 🟢 docx_classic35_tab_stops | ✅ | 0.8727 | 0.9806 | 1/1 | **0.9413** |
-| 41 | 🟢 docx_classic36_invoice_with_logo | ❌ | 1.0 | 0.8979 | 1/1 | **0.9592** |
-| 42 | 🟢 docx_classic36_wide_table | ❌ | 1.0 | 0.9158 | 1/1 | **0.9663** |
-| 43 | 🟢 docx_classic37_nested_table | ❌ | 0.8971 | 0.9788 | 1/1 | **0.9504** |
-| 44 | 🟡 docx_classic37_real_estate_listing | ❌ | 1.0 | 0.5458 | 1/1 | **0.8183** |
+| 41 | 🟢 docx_classic36_invoice_with_logo | ❌ | 1.0 | 0.9375 | 1/1 | **0.975** |
+| 42 | 🟢 docx_classic36_wide_table | ❌ | 1.0 | 0.93 | 1/1 | **0.972** |
+| 43 | 🟢 docx_classic37_nested_table | ❌ | 0.8897 | 0.9916 | 1/1 | **0.9525** |
+| 44 | 🟡 docx_classic37_real_estate_listing | ❌ | 1.0 | 0.5741 | 1/1 | **0.8296** |
 | 45 | 🔴 docx_classic38_restaurant_menu_with_photos | ✅ | 1.0 | 0.2923 | 1/2 | **0.6169** |
-| 46 | 🟢 docx_classic38_table_column_widths | ❌ | 1.0 | 0.9668 | 1/1 | **0.9867** |
+| 46 | 🟢 docx_classic38_table_column_widths | ❌ | 1.0 | 0.9844 | 1/1 | **0.9938** |
 | 47 | 🟡 docx_classic39_cover_page_with_image | ✅ | 1.0 | 0.6871 | 2/2 | **0.8748** |
-| 48 | 🟢 docx_classic39_financial_report | ❌ | 1.0 | 0.9666 | 1/1 | **0.9866** |
-| 49 | 🟢 docx_classic40_product_catalog_with_images | ❌ | 1.0 | 0.7604 | 1/1 | **0.9042** |
+| 48 | 🟢 docx_classic39_financial_report | ❌ | 1.0 | 0.9612 | 1/1 | **0.9845** |
+| 49 | 🟢 docx_classic40_product_catalog_with_images | ❌ | 1.0 | 0.8163 | 1/1 | **0.9265** |
 | 50 | 🟢 docx_classic40_resume | ✅ | 0.9935 | 0.9517 | 1/1 | **0.9781** |
 | 51 | 🟢 docx_classic41_business_letter | ✅ | 1.0 | 0.9564 | 1/1 | **0.9826** |
 | 52 | 🟡 docx_classic41_newsletter_with_hero_image | ✅ | 0.9912 | 0.3725 | 1/1 | **0.7455** |
-| 53 | 🟡 docx_classic42_chart_image_with_data | ❌ | 1.0 | 0.5441 | 1/1 | **0.8176** |
-| 54 | 🟢 docx_classic42_meeting_minutes | ❌ | 1.0 | 0.9269 | 1/1 | **0.9708** |
-| 55 | 🟡 docx_classic43_event_flyer_with_banner | ❌ | 1.0 | 0.41 | 1/1 | **0.764** |
-| 56 | 🟢 docx_classic43_invoice_document | ❌ | 0.9775 | 0.9451 | 1/1 | **0.969** |
-| 57 | 🟡 docx_classic44_dashboard_with_kpi_image | ❌ | 1.0 | 0.4964 | 1/1 | **0.7986** |
+| 53 | 🟡 docx_classic42_chart_image_with_data | ❌ | 1.0 | 0.5345 | 1/1 | **0.8138** |
+| 54 | 🟢 docx_classic42_meeting_minutes | ❌ | 0.9903 | 0.9272 | 1/1 | **0.967** |
+| 55 | 🟡 docx_classic43_event_flyer_with_banner | ❌ | 1.0 | 0.5904 | 1/1 | **0.8362** |
+| 56 | 🟢 docx_classic43_invoice_document | ❌ | 1.0 | 0.9602 | 1/1 | **0.9841** |
+| 57 | 🟡 docx_classic44_dashboard_with_kpi_image | ❌ | 1.0 | 0.4987 | 1/1 | **0.7995** |
 | 58 | 🟢 docx_classic44_memo | ✅ | 0.9912 | 0.9542 | 1/1 | **0.9782** |
 | 59 | 🟡 docx_classic45_certificate_with_seal | ✅ | 1.0 | 0.7002 | 1/1 | **0.8801** |
-| 60 | 🟢 docx_classic45_project_plan | ❌ | 1.0 | 0.9434 | 1/1 | **0.9774** |
-| 61 | 🟢 docx_classic46_comparison_table | ❌ | 1.0 | 0.9544 | 1/1 | **0.9818** |
+| 60 | 🟢 docx_classic45_project_plan | ❌ | 0.9945 | 0.939 | 1/1 | **0.9734** |
+| 61 | 🟢 docx_classic46_comparison_table | ❌ | 1.0 | 0.9656 | 1/1 | **0.9862** |
 | 62 | 🟡 docx_classic46_product_image_grid | ✅ | 1.0 | 0.4756 | 1/1 | **0.7902** |
-| 63 | 🟢 docx_classic47_data_dictionary | ❌ | 1.0 | 0.9375 | 1/1 | **0.975** |
+| 63 | 🟢 docx_classic47_data_dictionary | ❌ | 1.0 | 0.9312 | 1/1 | **0.9725** |
 | 64 | 🟡 docx_classic47_news_article_with_hero_image | ✅ | 1.0 | 0.3938 | 1/1 | **0.7575** |
 | 65 | 🟡 docx_classic48_multi_level_headings | ✅ | 1.0 | 0.6234 | 2/3 | **0.7494** |
-| 66 | 🟢 docx_classic48_task_list_with_status_icons | ❌ | 1.0 | 0.9429 | 1/1 | **0.9772** |
+| 66 | 🟢 docx_classic48_task_list_with_status_icons | ❌ | 1.0 | 0.9598 | 1/1 | **0.9839** |
 | 67 | 🟡 docx_classic49_cjk_document | ✅ | 0.669 | 0.9524 | 1/1 | **0.8486** |
-| 68 | 🟡 docx_classic49_wide_panoramic_banner | ❌ | 1.0 | 0.2904 | 1/1 | **0.7162** |
-| 69 | 🟡 docx_classic50_long_table_with_formatting | ❌ | 0.7253 | 0.5786 | 2/2 | **0.7216** |
+| 68 | 🟡 docx_classic49_wide_panoramic_banner | ❌ | 1.0 | 0.5202 | 1/1 | **0.8081** |
+| 69 | 🟡 docx_classic50_long_table_with_formatting | ❌ | 0.743 | 0.5801 | 2/2 | **0.7292** |
 | 70 | 🟢 docx_classic50_portrait_tall_image | ✅ | 0.97 | 0.7942 | 1/1 | **0.9057** |
 | 71 | 🟡 docx_classic51_step_by_step_with_images | ✅ | 1.0 | 0.5596 | 1/1 | **0.8238** |
 | 72 | 🟢 docx_classic51_underline_styles | ✅ | 1.0 | 0.9869 | 1/1 | **0.9948** |
 | 73 | 🟡 docx_classic52_before_after_comparison | ✅ | 1.0 | 0.4644 | 1/1 | **0.7858** |
 | 74 | 🟢 docx_classic52_spacing_before_after | ✅ | 1.0 | 0.9364 | 1/1 | **0.9746** |
 | 75 | 🟡 docx_classic53_color_swatch_palette | ✅ | 1.0 | 0.6495 | 1/1 | **0.8598** |
-| 76 | 🟢 docx_classic53_table_merged_complex | ❌ | 1.0 | 0.8768 | 1/1 | **0.9507** |
+| 76 | 🟢 docx_classic53_table_merged_complex | ❌ | 1.0 | 0.8906 | 1/1 | **0.9562** |
 | 77 | 🟢 docx_classic54_multi_font_family | ✅ | 1.0 | 0.9607 | 1/1 | **0.9843** |
-| 78 | 🟡 docx_classic54_travel_destination_cards | ❌ | 1.0 | 0.6638 | 1/1 | **0.8655** |
+| 78 | 🟡 docx_classic54_travel_destination_cards | ❌ | 1.0 | 0.7307 | 1/1 | **0.8923** |
 | 79 | 🟡 docx_classic55_background_shading_paragraph | ✅ | 1.0 | 0.5458 | 1/1 | **0.8183** |
-| 80 | 🟡 docx_classic55_lab_results_with_image | ❌ | 1.0 | 0.747 | 1/1 | **0.8988** |
-| 81 | 🟡 docx_classic56_images_and_tables_mixed | ❌ | 1.0 | 0.639 | 1/1 | **0.8556** |
-| 82 | 🟡 docx_classic56_software_screenshot_features | ❌ | 1.0 | 0.6289 | 1/1 | **0.8516** |
+| 80 | 🟢 docx_classic55_lab_results_with_image | ❌ | 1.0 | 0.8653 | 1/1 | **0.9461** |
+| 81 | 🟡 docx_classic56_images_and_tables_mixed | ❌ | 1.0 | 0.6622 | 1/1 | **0.8649** |
+| 82 | 🟡 docx_classic56_software_screenshot_features | ❌ | 1.0 | 0.5913 | 1/1 | **0.8365** |
 | 83 | 🟢 docx_classic57_right_to_left_text | ✅ | 0.913 | 0.9787 | 1/1 | **0.9567** |
-| 84 | 🟢 docx_classic57_sports_results_with_logos | ❌ | 1.0 | 0.9156 | 1/1 | **0.9662** |
+| 84 | 🟢 docx_classic57_sports_results_with_logos | ❌ | 1.0 | 0.9036 | 1/1 | **0.9614** |
 | 85 | 🟡 docx_classic58_dense_paragraph_document | ✅ | 1.0 | 0.7411 | 6/7 | **0.7964** |
-| 86 | 🟢 docx_classic58_report_with_footer_image | ❌ | 1.0 | 0.8214 | 1/1 | **0.9286** |
+| 86 | 🟢 docx_classic58_report_with_footer_image | ❌ | 1.0 | 0.9183 | 1/1 | **0.9673** |
 | 87 | 🟢 docx_classic59_numbered_and_bullet_mixed | ✅ | 0.9656 | 0.9686 | 1/1 | **0.9737** |
-| 88 | 🟡 docx_classic59_nutrition_label_with_image | ❌ | 1.0 | 0.6064 | 1/1 | **0.8426** |
-| 89 | 🔴 docx_classic60_comprehensive_styled_report | ❌ | 0.9847 | 0.4692 | 2/3 | **0.6816** |
-| 90 | 🔴 docx_classic60_project_status_with_milestones | ❌ | 0.9947 | 0.2518 | 1/2 | **0.5986** |
+| 88 | 🟡 docx_classic59_nutrition_label_with_image | ❌ | 1.0 | 0.6225 | 1/1 | **0.849** |
+| 89 | 🟡 docx_classic60_comprehensive_styled_report | ❌ | 0.9926 | 0.5114 | 2/3 | **0.7016** |
+| 90 | ⚪ docx_classic60_project_status_with_milestones | ✅ | N/A | N/A | ?/? | **N/A** |
 | 91 | 🟢 docx_classic61_header_and_footer | ✅ | 0.9702 | 0.9289 | 1/1 | **0.9596** |
 | 92 | 🟢 docx_classic62_footnote_references | ✅ | 0.9897 | 0.9512 | 1/1 | **0.9764** |
-| 93 | 🟢 docx_classic63_toc_style_headings | ❌ | 1.0 | 0.9628 | 1/1 | **0.9851** |
-| 94 | 🟢 docx_classic64_multi_column_layout | ❌ | 0.8649 | 0.9613 | 1/1 | **0.9305** |
+| 93 | 🟢 docx_classic63_toc_style_headings | ❌ | 1.0 | 0.9822 | 1/1 | **0.9929** |
+| 94 | 🟢 docx_classic64_multi_column_layout | ❌ | 0.8682 | 0.9572 | 1/1 | **0.9302** |
 | 95 | 🟡 docx_classic65_code_block_styling | ✅ | 1.0 | 0.4641 | 1/1 | **0.7856** |
 | 96 | 🟡 docx_classic66_colored_title_page | ✅ | 1.0 | 0.4445 | 1/1 | **0.7778** |
-| 97 | 🟡 docx_classic67_alternating_row_table | ❌ | 0.9889 | 0.6818 | 1/1 | **0.8683** |
-| 98 | 🟡 docx_classic68_sidebar_layout | ❌ | 0.8283 | 0.8066 | 1/1 | **0.854** |
+| 97 | 🟡 docx_classic67_alternating_row_table | ❌ | 1.0 | 0.6999 | 1/1 | **0.88** |
+| 98 | 🟡 docx_classic68_sidebar_layout | ❌ | 0.8283 | 0.7711 | 1/1 | **0.8398** |
 | 99 | 🟢 docx_classic69_blockquote_styling | ✅ | 1.0 | 0.9665 | 1/1 | **0.9866** |
-| 100 | 🔴 docx_classic70_academic_paper | ❌ | 0.9924 | 0.4608 | 2/1 | **0.6813** |
+| 100 | 🟢 docx_classic70_academic_paper | ❌ | 0.9924 | 0.9402 | 1/1 | **0.973** |
 | 101 | 🟢 docx_classic71_legal_document | ✅ | 1.0 | 0.9238 | 1/1 | **0.9695** |
-| 102 | 🟢 docx_classic72_technical_specification | ❌ | 0.9953 | 0.9298 | 1/1 | **0.97** |
-| 103 | 🟢 docx_classic73_calendar_layout | ❌ | 1.0 | 0.7947 | 1/1 | **0.9179** |
-| 104 | 🟡 docx_classic74_org_chart | ❌ | 0.7714 | 0.6286 | 1/1 | **0.76** |
-| 105 | 🟡 docx_classic75_newsletter_layout | ❌ | 1.0 | 0.6193 | 1/1 | **0.8477** |
-| 106 | 🟢 docx_classic76_recipe_card | ❌ | 0.9462 | 0.9491 | 1/1 | **0.9581** |
-| 107 | 🟢 docx_classic77_timeline_layout | ❌ | 1.0 | 0.839 | 1/1 | **0.9356** |
+| 102 | ⚪ docx_classic72_technical_specification | ✅ | N/A | N/A | ?/? | **N/A** |
+| 103 | 🟢 docx_classic73_calendar_layout | ❌ | 1.0 | 0.8086 | 1/1 | **0.9234** |
+| 104 | 🟡 docx_classic74_org_chart | ❌ | 0.7714 | 0.5968 | 1/1 | **0.7473** |
+| 105 | 🟡 docx_classic75_newsletter_layout | ❌ | 0.9645 | 0.7317 | 1/1 | **0.8785** |
+| 106 | ⚪ docx_classic76_recipe_card | ✅ | N/A | N/A | ?/? | **N/A** |
+| 107 | 🟢 docx_classic77_timeline_layout | ❌ | 1.0 | 0.8569 | 1/1 | **0.9428** |
 | 108 | 🟢 docx_classic78_faq_document | ✅ | 1.0 | 0.814 | 2/2 | **0.9256** |
 | 109 | 🟢 docx_classic79_glossary | ✅ | 1.0 | 0.9468 | 1/1 | **0.9787** |
-| 110 | 🟡 docx_classic80_matrix_grid | ❌ | 0.9868 | 0.4779 | 1/1 | **0.7859** |
-| 111 | 🟢 docx_classic81_budget_table | ❌ | 1.0 | 0.7705 | 1/1 | **0.9082** |
-| 112 | 🟡 docx_classic82_survey_questionnaire | ❌ | 0.9765 | 0.5756 | 3/2 | **0.7208** |
-| 113 | 🟢 docx_classic83_medical_form | ❌ | 1.0 | 0.9209 | 1/1 | **0.9684** |
-| 114 | 🟢 docx_classic84_shipping_label | ❌ | 0.9714 | 0.9294 | 1/1 | **0.9603** |
-| 115 | 🟢 docx_classic85_report_card | ❌ | 1.0 | 0.8864 | 1/1 | **0.9546** |
+| 110 | 🟡 docx_classic80_matrix_grid | ❌ | 1.0 | 0.4938 | 1/1 | **0.7975** |
+| 111 | 🟢 docx_classic81_budget_table | ❌ | 1.0 | 0.7918 | 1/1 | **0.9167** |
+| 112 | 🟢 docx_classic82_survey_questionnaire | ❌ | 0.9883 | 0.9461 | 2/2 | **0.9738** |
+| 113 | 🟢 docx_classic83_medical_form | ❌ | 1.0 | 0.9149 | 1/1 | **0.966** |
+| 114 | 🟢 docx_classic84_shipping_label | ❌ | 1.0 | 0.9303 | 1/1 | **0.9721** |
+| 115 | 🟢 docx_classic85_report_card | ❌ | 1.0 | 0.9132 | 1/1 | **0.9653** |
 | 116 | 🟢 docx_classic86_checklist_document | ✅ | 0.9548 | 0.9606 | 1/1 | **0.9662** |
 | 117 | 🟢 docx_classic87_bibliography | ✅ | 1.0 | 0.931 | 1/1 | **0.9724** |
-| 118 | 🟡 docx_classic88_presentation_handout | ❌ | 1.0 | 0.4627 | 2/2 | **0.7851** |
-| 119 | 🟡 docx_classic89_multi_image_gallery | ❌ | 1.0 | 0.502 | 1/1 | **0.8008** |
-| 120 | 🔴 docx_classic90_comprehensive_annual_report | ❌ | 0.9672 | 0.3985 | 2/4 | **0.6463** |
-| 121 | 🟢 docx_classic91_landscape_page | ❌ | 1.0 | 0.9622 | 1/1 | **0.9849** |
+| 118 | 🟡 docx_classic88_presentation_handout | ❌ | 1.0 | 0.4676 | 2/2 | **0.787** |
+| 119 | 🟢 docx_classic89_multi_image_gallery | ❌ | 1.0 | 0.9195 | 1/1 | **0.9678** |
+| 120 | 🔴 docx_classic90_comprehensive_annual_report | ❌ | 0.9707 | 0.3969 | 2/4 | **0.647** |
+| 121 | 🟢 docx_classic91_landscape_page | ❌ | 1.0 | 0.9564 | 1/1 | **0.9826** |
 | 122 | 🟢 docx_classic92_first_line_indent | ✅ | 0.9868 | 0.9295 | 1/1 | **0.9665** |
 | 123 | 🟢 docx_classic93_hanging_indent | ✅ | 1.0 | 0.935 | 1/1 | **0.974** |
 | 124 | 🟢 docx_classic94_custom_bullet_characters | ✅ | 0.9658 | 0.9711 | 1/1 | **0.9748** |
-| 125 | 🟢 docx_classic95_contract_template | ❌ | 1.0 | 0.9613 | 1/1 | **0.9845** |
-| 126 | 🟡 docx_classic96_dense_data_table | ❌ | 1.0 | 0.7442 | 1/1 | **0.8977** |
-| 127 | 🔴 docx_classic97_product_catalog | ❌ | 1.0 | 0.3246 | 2/1 | **0.6298** |
+| 125 | 🟢 docx_classic95_contract_template | ❌ | 1.0 | 0.9765 | 1/1 | **0.9906** |
+| 126 | 🟡 docx_classic96_dense_data_table | ❌ | 1.0 | 0.7366 | 1/1 | **0.8946** |
+| 127 | 🟢 docx_classic97_product_catalog | ❌ | 1.0 | 0.9132 | 1/1 | **0.9653** |
 | 128 | 🟢 docx_classic98_training_manual | ✅ | 0.9944 | 0.9375 | 1/1 | **0.9728** |
-| 129 | 🔴 docx_classic99_policy_document | ❌ | 1.0 | 0.4607 | 2/1 | **0.6843** |
-| 130 | 🟡 docx_classic100_multi_page_table | ❌ | 0.8116 | 0.5848 | 2/2 | **0.7586** |
+| 129 | 🔴 docx_classic99_policy_document | ❌ | 1.0 | 0.4681 | 2/1 | **0.6872** |
+| 130 | 🟡 docx_classic100_multi_page_table | ❌ | 0.7052 | 0.5863 | 2/2 | **0.7166** |
 | 131 | 🟢 docx_classic101_warranty_document | ✅ | 0.9884 | 0.9447 | 1/1 | **0.9732** |
-| 132 | 🟢 docx_classic102_curriculum_syllabus | ❌ | 0.9904 | 0.9325 | 1/1 | **0.9692** |
-| 133 | 🟡 docx_classic103_event_program | ❌ | 0.9917 | 0.7012 | 2/2 | **0.8772** |
-| 134 | 🟢 docx_classic104_sop_document | ❌ | 0.9883 | 0.9655 | 2/2 | **0.9815** |
-| 135 | 🟢 docx_classic105_certificate | ❌ | 1.0 | 0.9741 | 1/1 | **0.9896** |
-| 136 | 🟢 docx_classic106_multi_section_orientation | ❌ | 0.9829 | 0.9677 | 3/3 | **0.9802** |
-| 137 | 🟢 docx_classic107_order_form | ❌ | 0.9859 | 0.937 | 1/1 | **0.9692** |
+| 132 | 🟢 docx_classic102_curriculum_syllabus | ❌ | 0.9904 | 0.9226 | 1/1 | **0.9652** |
+| 133 | 🟡 docx_classic103_event_program | ❌ | 0.9835 | 0.7044 | 2/2 | **0.8752** |
+| 134 | ⚪ docx_classic104_sop_document | ✅ | N/A | N/A | ?/? | **N/A** |
+| 135 | 🟢 docx_classic105_certificate | ❌ | 1.0 | 0.9725 | 1/1 | **0.989** |
+| 136 | 🟢 docx_classic106_multi_section_orientation | ❌ | 0.9761 | 0.9543 | 3/3 | **0.9722** |
+| 137 | 🟢 docx_classic107_order_form | ❌ | 1.0 | 0.9463 | 1/1 | **0.9785** |
 | 138 | 🔴 docx_classic108_comparison_matrix | ✅ | 0.8039 | 0.2801 | 2/1 | **0.5336** |
 | 139 | 🟢 docx_classic109_release_notes | ✅ | 0.978 | 0.9572 | 1/1 | **0.9741** |
 | 140 | 🟢 docx_classic110_troubleshooting_guide | ✅ | 1.0 | 0.9527 | 1/1 | **0.9811** |
 | 141 | 🟢 docx_classic111_meeting_agenda | ✅ | 0.885 | 0.9372 | 1/1 | **0.9289** |
 | 142 | 🟢 docx_classic112_project_status_report | ✅ | 0.9293 | 0.8906 | 1/1 | **0.928** |
-| 143 | 🟢 docx_classic113_address_labels | ❌ | 1.0 | 0.9704 | 1/1 | **0.9882** |
-| 144 | 🟢 docx_classic114_test_report | ❌ | 0.9836 | 0.9394 | 1/1 | **0.9692** |
-| 145 | 🟡 docx_classic115_price_list | ❌ | 0.9903 | 0.752 | 1/1 | **0.8969** |
-| 146 | 🟡 docx_classic116_risk_assessment | ❌ | 1.0 | 0.7186 | 1/1 | **0.8874** |
-| 147 | 🟢 docx_classic117_employee_handbook_excerpt | ❌ | 0.9878 | 0.9457 | 1/1 | **0.9734** |
-| 148 | 🟢 docx_classic118_data_report_with_summary | ❌ | 0.9971 | 0.915 | 1/1 | **0.9648** |
+| 143 | 🟢 docx_classic113_address_labels | ❌ | 1.0 | 0.9681 | 1/1 | **0.9872** |
+| 144 | 🟢 docx_classic114_test_report | ❌ | 0.9836 | 0.9333 | 1/1 | **0.9668** |
+| 145 | 🟢 docx_classic115_price_list | ❌ | 0.9903 | 0.7665 | 1/1 | **0.9027** |
+| 146 | 🟡 docx_classic116_risk_assessment | ❌ | 1.0 | 0.7217 | 1/1 | **0.8887** |
+| 147 | ⚪ docx_classic117_employee_handbook_excerpt | ✅ | N/A | N/A | ?/? | **N/A** |
+| 148 | 🟢 docx_classic118_data_report_with_summary | ❌ | 1.0 | 0.9206 | 1/1 | **0.9682** |
 | 149 | 🟢 docx_classic119_multi_language_document | ✅ | 0.8975 | 0.9503 | 1/1 | **0.9391** |
-| 150 | 🟡 docx_classic120_comprehensive_business_proposal | ❌ | 0.9754 | 0.5474 | 2/3 | **0.7091** |
-| 151 | 🟢 docx_classic121_thin_border_table | ❌ | 1.0 | 0.9814 | 1/1 | **0.9926** |
-| 152 | 🟢 docx_classic122_thick_outer_border_table | ❌ | 1.0 | 0.9733 | 1/1 | **0.9893** |
-| 153 | 🟢 docx_classic123_dashed_border_table | ❌ | 1.0 | 0.9881 | 1/1 | **0.9952** |
-| 154 | 🟢 docx_classic124_colored_border_table | ❌ | 1.0 | 0.9786 | 1/1 | **0.9914** |
-| 155 | 🟡 docx_classic125_solid_cell_fills | ❌ | 1.0 | 0.7467 | 1/1 | **0.8987** |
-| 156 | 🟢 docx_classic126_dark_header_table | ❌ | 1.0 | 0.9582 | 1/1 | **0.9833** |
-| 157 | 🟢 docx_classic127_font_styles_showcase | ❌ | 1.0 | 0.9754 | 1/1 | **0.9902** |
+| 150 | 🟢 docx_classic120_comprehensive_business_proposal | ❌ | 0.9866 | 0.7691 | 3/3 | **0.9023** |
+| 151 | 🟢 docx_classic121_thin_border_table | ❌ | 1.0 | 0.9764 | 1/1 | **0.9906** |
+| 152 | 🟢 docx_classic122_thick_outer_border_table | ❌ | 1.0 | 0.9841 | 1/1 | **0.9936** |
+| 153 | 🟢 docx_classic123_dashed_border_table | ❌ | 1.0 | 0.9874 | 1/1 | **0.995** |
+| 154 | 🟢 docx_classic124_colored_border_table | ❌ | 1.0 | 0.9728 | 1/1 | **0.9891** |
+| 155 | 🟢 docx_classic125_solid_cell_fills | ❌ | 1.0 | 0.7575 | 1/1 | **0.903** |
+| 156 | 🟢 docx_classic126_dark_header_table | ❌ | 1.0 | 0.9704 | 1/1 | **0.9882** |
+| 157 | 🟢 docx_classic127_font_styles_showcase | ❌ | 1.0 | 0.9709 | 1/1 | **0.9884** |
 | 158 | 🟢 docx_classic128_font_sizes_showcase | ❌ | 1.0 | 0.9361 | 1/1 | **0.9744** |
-| 159 | 🟢 docx_classic129_alignment_combinations | ❌ | 1.0 | 0.9831 | 1/1 | **0.9932** |
+| 159 | 🟢 docx_classic129_alignment_combinations | ❌ | 1.0 | 0.9794 | 1/1 | **0.9918** |
 | 160 | 🟢 docx_classic130_wrap_and_indent | ✅ | 1.0 | 0.9369 | 1/1 | **0.9748** |
-| 161 | 🟢 docx_classic131_number_format_table | ❌ | 1.0 | 0.9732 | 1/1 | **0.9893** |
-| 162 | 🟡 docx_classic132_striped_table | ❌ | 1.0 | 0.7122 | 1/1 | **0.8849** |
-| 163 | 🟡 docx_classic133_gradient_rows_table | ❌ | 1.0 | 0.5716 | 1/1 | **0.8286** |
-| 164 | 🟡 docx_classic134_heatmap_table | ❌ | 1.0 | 0.6553 | 1/1 | **0.8621** |
+| 161 | 🟢 docx_classic131_number_format_table | ❌ | 1.0 | 0.9664 | 1/1 | **0.9866** |
+| 162 | 🟡 docx_classic132_striped_table | ❌ | 1.0 | 0.7263 | 1/1 | **0.8905** |
+| 163 | 🟡 docx_classic133_gradient_rows_table | ❌ | 1.0 | 0.5564 | 1/1 | **0.8226** |
+| 164 | 🟡 docx_classic134_heatmap_table | ❌ | 1.0 | 0.6442 | 1/1 | **0.8577** |
 | 165 | 🟢 docx_classic135_bottom_border_paragraphs | ✅ | 1.0 | 0.8545 | 1/1 | **0.9418** |
-| 166 | 🟢 docx_classic136_financial_statement | ❌ | 1.0 | 0.9229 | 1/1 | **0.9692** |
-| 167 | 🟡 docx_classic137_checkerboard_table | ❌ | 1.0 | 0.549 | 1/1 | **0.8196** |
-| 168 | 🟡 docx_classic138_color_grid_table | ❌ | 1.0 | 0.7084 | 1/1 | **0.8834** |
+| 166 | 🟢 docx_classic136_financial_statement | ❌ | 1.0 | 0.9481 | 1/1 | **0.9792** |
+| 167 | 🟡 docx_classic137_checkerboard_table | ❌ | 1.0 | 0.5647 | 1/1 | **0.8259** |
+| 168 | 🟡 docx_classic138_color_grid_table | ❌ | 1.0 | 0.7287 | 1/1 | **0.8915** |
 | 169 | 🟡 docx_classic139_paragraph_shading_patterns | ✅ | 1.0 | 0.4546 | 1/1 | **0.7818** |
-| 170 | 🟢 docx_classic140_rotated_text_table | ❌ | 0.8158 | 0.9824 | 1/1 | **0.9193** |
-| 171 | 🟢 docx_classic141_mixed_border_styles | ❌ | 1.0 | 0.9867 | 1/1 | **0.9947** |
-| 172 | 🟡 docx_classic142_styled_invoice_document | ❌ | 0.9767 | 0.5924 | 1/1 | **0.8276** |
-| 173 | 🟡 docx_classic143_multi_section_document | ❌ | 1.0 | 0.6488 | 1/1 | **0.8595** |
-| 174 | 🟢 docx_classic144_note_style_paragraphs | ❌ | 1.0 | 0.9405 | 1/1 | **0.9762** |
-| 175 | 🟢 docx_classic145_status_badge_table | ❌ | 1.0 | 0.8663 | 1/1 | **0.9465** |
-| 176 | 🟢 docx_classic146_double_border_table | ❌ | 1.0 | 0.9137 | 1/1 | **0.9655** |
-| 177 | 🟢 docx_classic147_multi_section_styled_report | ❌ | 1.0 | 0.9147 | 1/1 | **0.9659** |
-| 178 | 🟡 docx_classic148_data_grid_document | ❌ | 1.0 | 0.6935 | 1/1 | **0.8774** |
-| 179 | 🟡 docx_classic149_merged_section_report | ❌ | 1.0 | 0.6837 | 1/1 | **0.8735** |
-| 180 | 🟢 docx_classic150_kitchen_sink_styles | ❌ | 1.0 | 0.7907 | 2/2 | **0.9163** |
+| 170 | 🟢 docx_classic140_rotated_text_table | ❌ | 0.8158 | 0.9702 | 1/1 | **0.9144** |
+| 171 | 🟢 docx_classic141_mixed_border_styles | ❌ | 1.0 | 0.9853 | 1/1 | **0.9941** |
+| 172 | 🟡 docx_classic142_styled_invoice_document | ❌ | 1.0 | 0.6018 | 1/1 | **0.8407** |
+| 173 | 🟡 docx_classic143_multi_section_document | ❌ | 1.0 | 0.6498 | 1/1 | **0.8599** |
+| 174 | 🟢 docx_classic144_note_style_paragraphs | ❌ | 1.0 | 0.9363 | 1/1 | **0.9745** |
+| 175 | 🟢 docx_classic145_status_badge_table | ❌ | 1.0 | 0.903 | 1/1 | **0.9612** |
+| 176 | 🟢 docx_classic146_double_border_table | ❌ | 1.0 | 0.9702 | 1/1 | **0.9881** |
+| 177 | 🟢 docx_classic147_multi_section_styled_report | ❌ | 1.0 | 0.9134 | 1/1 | **0.9654** |
+| 178 | 🟡 docx_classic148_data_grid_document | ❌ | 1.0 | 0.7105 | 1/1 | **0.8842** |
+| 179 | 🟡 docx_classic149_merged_section_report | ❌ | 1.0 | 0.6631 | 1/1 | **0.8652** |
+| 180 | 🟢 docx_classic150_kitchen_sink_styles | ❌ | 1.0 | 0.7843 | 2/2 | **0.9137** |
 
-**Average Overall Score: 0.9038**
+**Average Overall Score: 0.8838**
 
 ## Labeled Side-by-Side Comparison
 
@@ -256,10 +256,6 @@ Generated: 2026-09-17T13:26:54.248730
 <tr>
   <td><b>docx_classic13_long_document<br><small>format: docx | case: docx_classic13_long_document | scope: java-classic-docx</small></b><br>Page 4</td>
   <td><img src="side-by-side/docx_classic13_long_document_p4_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic13_long_document page 4 comparison"></td>
-</tr>
-<tr>
-  <td><b>docx_classic14_mixed_content<br><small>format: docx | case: docx_classic14_mixed_content | scope: java-classic-docx</small></b><br>Page 1</td>
-  <td><img src="side-by-side/docx_classic14_mixed_content_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic14_mixed_content page 1 comparison"></td>
 </tr>
 <tr>
   <td><b>docx_classic15_indentation<br><small>format: docx | case: docx_classic15_indentation | scope: java-classic-docx</small></b><br>Page 1</td>
@@ -642,14 +638,6 @@ Generated: 2026-09-17T13:26:54.248730
   <td><img src="side-by-side/docx_classic60_comprehensive_styled_report_p3_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic60_comprehensive_styled_report page 3 comparison"></td>
 </tr>
 <tr>
-  <td><b>docx_classic60_project_status_with_milestones<br><small>format: docx | case: docx_classic60_project_status_with_milestones | scope: java-classic-docx</small></b><br>Page 1</td>
-  <td><img src="side-by-side/docx_classic60_project_status_with_milestones_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic60_project_status_with_milestones page 1 comparison"></td>
-</tr>
-<tr>
-  <td><b>docx_classic60_project_status_with_milestones<br><small>format: docx | case: docx_classic60_project_status_with_milestones | scope: java-classic-docx</small></b><br>Page 2</td>
-  <td><img src="side-by-side/docx_classic60_project_status_with_milestones_p2_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic60_project_status_with_milestones page 2 comparison"></td>
-</tr>
-<tr>
   <td><b>docx_classic61_header_and_footer<br><small>format: docx | case: docx_classic61_header_and_footer | scope: java-classic-docx</small></b><br>Page 1</td>
   <td><img src="side-by-side/docx_classic61_header_and_footer_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic61_header_and_footer page 1 comparison"></td>
 </tr>
@@ -694,10 +682,6 @@ Generated: 2026-09-17T13:26:54.248730
   <td><img src="side-by-side/docx_classic71_legal_document_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic71_legal_document page 1 comparison"></td>
 </tr>
 <tr>
-  <td><b>docx_classic72_technical_specification<br><small>format: docx | case: docx_classic72_technical_specification | scope: java-classic-docx</small></b><br>Page 1</td>
-  <td><img src="side-by-side/docx_classic72_technical_specification_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic72_technical_specification page 1 comparison"></td>
-</tr>
-<tr>
   <td><b>docx_classic73_calendar_layout<br><small>format: docx | case: docx_classic73_calendar_layout | scope: java-classic-docx</small></b><br>Page 1</td>
   <td><img src="side-by-side/docx_classic73_calendar_layout_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic73_calendar_layout page 1 comparison"></td>
 </tr>
@@ -708,10 +692,6 @@ Generated: 2026-09-17T13:26:54.248730
 <tr>
   <td><b>docx_classic75_newsletter_layout<br><small>format: docx | case: docx_classic75_newsletter_layout | scope: java-classic-docx</small></b><br>Page 1</td>
   <td><img src="side-by-side/docx_classic75_newsletter_layout_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic75_newsletter_layout page 1 comparison"></td>
-</tr>
-<tr>
-  <td><b>docx_classic76_recipe_card<br><small>format: docx | case: docx_classic76_recipe_card | scope: java-classic-docx</small></b><br>Page 1</td>
-  <td><img src="side-by-side/docx_classic76_recipe_card_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic76_recipe_card page 1 comparison"></td>
 </tr>
 <tr>
   <td><b>docx_classic77_timeline_layout<br><small>format: docx | case: docx_classic77_timeline_layout | scope: java-classic-docx</small></b><br>Page 1</td>
@@ -854,14 +834,6 @@ Generated: 2026-09-17T13:26:54.248730
   <td><img src="side-by-side/docx_classic103_event_program_p2_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic103_event_program page 2 comparison"></td>
 </tr>
 <tr>
-  <td><b>docx_classic104_sop_document<br><small>format: docx | case: docx_classic104_sop_document | scope: java-classic-docx</small></b><br>Page 1</td>
-  <td><img src="side-by-side/docx_classic104_sop_document_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic104_sop_document page 1 comparison"></td>
-</tr>
-<tr>
-  <td><b>docx_classic104_sop_document<br><small>format: docx | case: docx_classic104_sop_document | scope: java-classic-docx</small></b><br>Page 2</td>
-  <td><img src="side-by-side/docx_classic104_sop_document_p2_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic104_sop_document page 2 comparison"></td>
-</tr>
-<tr>
   <td><b>docx_classic105_certificate<br><small>format: docx | case: docx_classic105_certificate | scope: java-classic-docx</small></b><br>Page 1</td>
   <td><img src="side-by-side/docx_classic105_certificate_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic105_certificate page 1 comparison"></td>
 </tr>
@@ -916,10 +888,6 @@ Generated: 2026-09-17T13:26:54.248730
 <tr>
   <td><b>docx_classic116_risk_assessment<br><small>format: docx | case: docx_classic116_risk_assessment | scope: java-classic-docx</small></b><br>Page 1</td>
   <td><img src="side-by-side/docx_classic116_risk_assessment_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic116_risk_assessment page 1 comparison"></td>
-</tr>
-<tr>
-  <td><b>docx_classic117_employee_handbook_excerpt<br><small>format: docx | case: docx_classic117_employee_handbook_excerpt | scope: java-classic-docx</small></b><br>Page 1</td>
-  <td><img src="side-by-side/docx_classic117_employee_handbook_excerpt_p1_java_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="docx_classic117_employee_handbook_excerpt page 1 comparison"></td>
 </tr>
 <tr>
   <td><b>docx_classic118_data_report_with_summary<br><small>format: docx | case: docx_classic118_data_report_with_summary | scope: java-classic-docx</small></b><br>Page 1</td>
@@ -1121,17 +1089,17 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic10_simple_table</b><br>Page 1</td>
   <td><img src="images/docx_classic10_simple_table_p1_heatmap.png" width="760" alt="docx_classic10_simple_table page 1 difference heatmap"></td>
-  <td>changed: 38963 px (1.85%)<br>bbox: [175, 178, 1088, 421]<br>mean abs RGB: 2.7245<br>RMSE RGB: 22.659<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 38064 px (1.81%)<br>bbox: [175, 157, 1077, 384]<br>mean abs RGB: 2.4885<br>RMSE RGB: 21.0134<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic11_table_with_shading</b><br>Page 1</td>
   <td><img src="images/docx_classic11_table_with_shading_p1_heatmap.png" width="760" alt="docx_classic11_table_with_shading page 1 difference heatmap"></td>
-  <td>changed: 102725 px (4.88%)<br>bbox: [175, 178, 1088, 463]<br>mean abs RGB: 4.8086<br>RMSE RGB: 27.9326<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 101116 px (4.81%)<br>bbox: [175, 157, 1077, 432]<br>mean abs RGB: 4.5078<br>RMSE RGB: 26.4073<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic12_merged_cells_table</b><br>Page 1</td>
   <td><img src="images/docx_classic12_merged_cells_table_p1_heatmap.png" width="760" alt="docx_classic12_merged_cells_table page 1 difference heatmap"></td>
-  <td>changed: 34108 px (1.62%)<br>bbox: [175, 178, 1088, 421]<br>mean abs RGB: 2.3983<br>RMSE RGB: 21.2653<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 33198 px (1.58%)<br>bbox: [175, 157, 1077, 384]<br>mean abs RGB: 2.1957<br>RMSE RGB: 19.8183<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic13_long_document</b><br>Page 1</td>
@@ -1147,11 +1115,6 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>docx_classic13_long_document</b><br>Page 3</td>
   <td><img src="images/docx_classic13_long_document_p3_heatmap.png" width="760" alt="docx_classic13_long_document page 3 difference heatmap"></td>
   <td>changed: 286892 px (13.64%)<br>bbox: [112, 95, 1078, 1439]<br>mean abs RGB: 22.346<br>RMSE RGB: 67.5191<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>docx_classic14_mixed_content</b><br>Page 1</td>
-  <td><img src="images/docx_classic14_mixed_content_p1_heatmap.png" width="760" alt="docx_classic14_mixed_content page 1 difference heatmap"></td>
-  <td>changed: 68555 px (3.26%)<br>bbox: [175, 208, 1088, 745]<br>mean abs RGB: 4.8974<br>RMSE RGB: 30.4537<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic15_indentation</b><br>Page 1</td>
@@ -1191,7 +1154,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic20_table_with_many_rows</b><br>Page 1</td>
   <td><img src="images/docx_classic20_table_with_many_rows_p1_heatmap.png" width="760" alt="docx_classic20_table_with_many_rows page 1 difference heatmap"></td>
-  <td>changed: 152273 px (7.24%)<br>bbox: [175, 178, 1088, 1137]<br>mean abs RGB: 11.1125<br>RMSE RGB: 46.8647<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 150516 px (7.15%)<br>bbox: [175, 157, 1077, 1206]<br>mean abs RGB: 10.723<br>RMSE RGB: 45.3982<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic21_nested_lists</b><br>Page 1</td>
@@ -1211,7 +1174,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic24_two_column_table_layout</b><br>Page 1</td>
   <td><img src="images/docx_classic24_two_column_table_layout_p1_heatmap.png" width="760" alt="docx_classic24_two_column_table_layout page 1 difference heatmap"></td>
-  <td>changed: 31868 px (1.51%)<br>bbox: [186, 178, 1088, 412]<br>mean abs RGB: 2.3488<br>RMSE RGB: 21.5472<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 30428 px (1.45%)<br>bbox: [187, 157, 1066, 329]<br>mean abs RGB: 2.276<br>RMSE RGB: 21.2672<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic25_title_and_subtitle</b><br>Page 1</td>
@@ -1226,7 +1189,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic26_table_alignment</b><br>Page 1</td>
   <td><img src="images/docx_classic26_table_alignment_p1_heatmap.png" width="760" alt="docx_classic26_table_alignment page 1 difference heatmap"></td>
-  <td>changed: 32503 px (1.54%)<br>bbox: [175, 178, 1088, 421]<br>mean abs RGB: 2.2428<br>RMSE RGB: 20.443<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 32420 px (1.54%)<br>bbox: [175, 157, 1077, 384]<br>mean abs RGB: 2.0965<br>RMSE RGB: 19.2205<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic27_long_paragraph_wrapping</b><br>Page 1</td>
@@ -1241,22 +1204,22 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic29_table_with_image</b><br>Page 1</td>
   <td><img src="images/docx_classic29_table_with_image_p1_heatmap.png" width="760" alt="docx_classic29_table_with_image page 1 difference heatmap"></td>
-  <td>changed: 55884 px (2.66%)<br>bbox: [175, 178, 1088, 409]<br>mean abs RGB: 4.3767<br>RMSE RGB: 29.0859<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 24529 px (1.17%)<br>bbox: [175, 157, 1077, 395]<br>mean abs RGB: 1.5387<br>RMSE RGB: 16.4132<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic30_comprehensive_report</b><br>Page 1</td>
   <td><img src="images/docx_classic30_comprehensive_report_p1_heatmap.png" width="760" alt="docx_classic30_comprehensive_report page 1 difference heatmap"></td>
-  <td>changed: 79553 px (3.78%)<br>bbox: [184, 165, 1091, 1428]<br>mean abs RGB: 5.2882<br>RMSE RGB: 30.666<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 90027 px (4.28%)<br>bbox: [175, 160, 1091, 1482]<br>mean abs RGB: 6.6899<br>RMSE RGB: 36.1879<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic30_comprehensive_report</b><br>Page 2</td>
   <td><img src="images/docx_classic30_comprehensive_report_p2_heatmap.png" width="760" alt="docx_classic30_comprehensive_report page 2 difference heatmap"></td>
-  <td>changed: 94203 px (4.48%)<br>bbox: [175, 158, 1077, 1285]<br>mean abs RGB: 6.8663<br>RMSE RGB: 36.0888<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 287112 px (13.65%)<br>bbox: [175, 72, 1088, 1285]<br>mean abs RGB: 21.7275<br>RMSE RGB: 62.5343<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic31_product_card_with_image</b><br>Page 1</td>
   <td><img src="images/docx_classic31_product_card_with_image_p1_heatmap.png" width="760" alt="docx_classic31_product_card_with_image page 1 difference heatmap"></td>
-  <td>changed: 204713 px (9.73%)<br>bbox: [175, 208, 1088, 968]<br>mean abs RGB: 12.8706<br>RMSE RGB: 45.2146<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 323015 px (15.35%)<br>bbox: [175, 0, 1088, 968]<br>mean abs RGB: 20.1694<br>RMSE RGB: 55.7183<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic31_strikethrough_text</b><br>Page 1</td>
@@ -1266,7 +1229,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic32_company_logo_header</b><br>Page 1</td>
   <td><img src="images/docx_classic32_company_logo_header_p1_heatmap.png" width="760" alt="docx_classic32_company_logo_header page 1 difference heatmap"></td>
-  <td>changed: 135928 px (6.46%)<br>bbox: [175, 150, 1091, 760]<br>mean abs RGB: 11.5877<br>RMSE RGB: 48.5998<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 166602 px (7.92%)<br>bbox: [175, 89, 1091, 770]<br>mean abs RGB: 14.4761<br>RMSE RGB: 54.3525<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic32_superscript_subscript</b><br>Page 1</td>
@@ -1281,7 +1244,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic33_two_products_side_by_side</b><br>Page 1</td>
   <td><img src="images/docx_classic33_two_products_side_by_side_p1_heatmap.png" width="760" alt="docx_classic33_two_products_side_by_side page 1 difference heatmap"></td>
-  <td>changed: 280008 px (13.31%)<br>bbox: [175, 208, 1088, 1299]<br>mean abs RGB: 18.6048<br>RMSE RGB: 54.9476<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 435600 px (20.71%)<br>bbox: [175, 59, 1088, 1299]<br>mean abs RGB: 28.8253<br>RMSE RGB: 67.8578<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic34_employee_directory_with_photo</b><br>Page 1</td>
@@ -1296,7 +1259,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic35_inventory_with_product_photos</b><br>Page 1</td>
   <td><img src="images/docx_classic35_inventory_with_product_photos_p1_heatmap.png" width="760" alt="docx_classic35_inventory_with_product_photos page 1 difference heatmap"></td>
-  <td>changed: 270815 px (12.87%)<br>bbox: [175, 209, 1088, 1456]<br>mean abs RGB: 18.3245<br>RMSE RGB: 55.0659<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 426393 px (20.27%)<br>bbox: [175, 158, 1088, 1456]<br>mean abs RGB: 28.8322<br>RMSE RGB: 68.5108<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic35_tab_stops</b><br>Page 1</td>
@@ -1306,22 +1269,22 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic36_invoice_with_logo</b><br>Page 1</td>
   <td><img src="images/docx_classic36_invoice_with_logo_p1_heatmap.png" width="760" alt="docx_classic36_invoice_with_logo page 1 difference heatmap"></td>
-  <td>changed: 108774 px (5.17%)<br>bbox: [175, 150, 1091, 865]<br>mean abs RGB: 8.3967<br>RMSE RGB: 40.8016<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 127192 px (6.05%)<br>bbox: [175, 114, 1091, 909]<br>mean abs RGB: 10.1297<br>RMSE RGB: 44.9259<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic36_wide_table</b><br>Page 1</td>
   <td><img src="images/docx_classic36_wide_table_p1_heatmap.png" width="760" alt="docx_classic36_wide_table page 1 difference heatmap"></td>
-  <td>changed: 80041 px (3.80%)<br>bbox: [175, 178, 1088, 506]<br>mean abs RGB: 5.7615<br>RMSE RGB: 32.803<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 77356 px (3.68%)<br>bbox: [175, 157, 1077, 481]<br>mean abs RGB: 5.364<br>RMSE RGB: 31.025<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic37_nested_table</b><br>Page 1</td>
   <td><img src="images/docx_classic37_nested_table_p1_heatmap.png" width="760" alt="docx_classic37_nested_table page 1 difference heatmap"></td>
-  <td>changed: 30139 px (1.43%)<br>bbox: [175, 178, 1088, 371]<br>mean abs RGB: 2.0123<br>RMSE RGB: 19.1397<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 29067 px (1.38%)<br>bbox: [175, 158, 1077, 351]<br>mean abs RGB: 1.8206<br>RMSE RGB: 17.6474<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic37_real_estate_listing</b><br>Page 1</td>
   <td><img src="images/docx_classic37_real_estate_listing_p1_heatmap.png" width="760" alt="docx_classic37_real_estate_listing page 1 difference heatmap"></td>
-  <td>changed: 271398 px (12.90%)<br>bbox: [175, 208, 1088, 913]<br>mean abs RGB: 14.7396<br>RMSE RGB: 45.596<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 400302 px (19.03%)<br>bbox: [175, 0, 1088, 913]<br>mean abs RGB: 22.9616<br>RMSE RGB: 56.5058<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic38_restaurant_menu_with_photos</b><br>Page 1</td>
@@ -1331,7 +1294,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic38_table_column_widths</b><br>Page 1</td>
   <td><img src="images/docx_classic38_table_column_widths_p1_heatmap.png" width="760" alt="docx_classic38_table_column_widths page 1 difference heatmap"></td>
-  <td>changed: 51745 px (2.46%)<br>bbox: [175, 178, 1163, 463]<br>mean abs RGB: 3.6557<br>RMSE RGB: 26.4267<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 52908 px (2.51%)<br>bbox: [175, 157, 1152, 432]<br>mean abs RGB: 3.6543<br>RMSE RGB: 26.1123<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic39_cover_page_with_image</b><br>Page 1</td>
@@ -1346,12 +1309,12 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic39_financial_report</b><br>Page 1</td>
   <td><img src="images/docx_classic39_financial_report_p1_heatmap.png" width="760" alt="docx_classic39_financial_report page 1 difference heatmap"></td>
-  <td>changed: 84473 px (4.02%)<br>bbox: [175, 208, 1088, 653]<br>mean abs RGB: 6.2936<br>RMSE RGB: 34.4621<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 83453 px (3.97%)<br>bbox: [175, 158, 1077, 661]<br>mean abs RGB: 6.0445<br>RMSE RGB: 33.3072<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic40_product_catalog_with_images</b><br>Page 1</td>
   <td><img src="images/docx_classic40_product_catalog_with_images_p1_heatmap.png" width="760" alt="docx_classic40_product_catalog_with_images page 1 difference heatmap"></td>
-  <td>changed: 169308 px (8.05%)<br>bbox: [175, 208, 1088, 1094]<br>mean abs RGB: 12.6611<br>RMSE RGB: 47.9301<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 255098 px (12.13%)<br>bbox: [175, 158, 1088, 1094]<br>mean abs RGB: 19.309<br>RMSE RGB: 59.0286<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic40_resume</b><br>Page 1</td>
@@ -1371,27 +1334,27 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic42_chart_image_with_data</b><br>Page 1</td>
   <td><img src="images/docx_classic42_chart_image_with_data_p1_heatmap.png" width="760" alt="docx_classic42_chart_image_with_data page 1 difference heatmap"></td>
-  <td>changed: 337719 px (16.05%)<br>bbox: [175, 208, 1088, 997]<br>mean abs RGB: 24.6441<br>RMSE RGB: 65.2552<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 524027 px (24.91%)<br>bbox: [175, 0, 1088, 997]<br>mean abs RGB: 38.8824<br>RMSE RGB: 81.9146<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic42_meeting_minutes</b><br>Page 1</td>
   <td><img src="images/docx_classic42_meeting_minutes_p1_heatmap.png" width="760" alt="docx_classic42_meeting_minutes page 1 difference heatmap"></td>
-  <td>changed: 160688 px (7.64%)<br>bbox: [175, 208, 1088, 1194]<br>mean abs RGB: 9.1311<br>RMSE RGB: 40.7527<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 165260 px (7.86%)<br>bbox: [175, 158, 1077, 1269]<br>mean abs RGB: 9.3287<br>RMSE RGB: 40.9238<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic43_event_flyer_with_banner</b><br>Page 1</td>
   <td><img src="images/docx_classic43_event_flyer_with_banner_p1_heatmap.png" width="760" alt="docx_classic43_event_flyer_with_banner page 1 difference heatmap"></td>
-  <td>changed: 347297 px (16.51%)<br>bbox: [175, 150, 1091, 965]<br>mean abs RGB: 25.9516<br>RMSE RGB: 67.0963<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 405892 px (19.29%)<br>bbox: [175, 0, 1091, 965]<br>mean abs RGB: 30.4966<br>RMSE RGB: 72.7348<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic43_invoice_document</b><br>Page 1</td>
   <td><img src="images/docx_classic43_invoice_document_p1_heatmap.png" width="760" alt="docx_classic43_invoice_document page 1 difference heatmap"></td>
-  <td>changed: 139949 px (6.65%)<br>bbox: [175, 160, 1091, 1333]<br>mean abs RGB: 10.4657<br>RMSE RGB: 45.4003<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 125646 px (5.97%)<br>bbox: [175, 160, 1091, 1380]<br>mean abs RGB: 9.2844<br>RMSE RGB: 42.3949<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic44_dashboard_with_kpi_image</b><br>Page 1</td>
   <td><img src="images/docx_classic44_dashboard_with_kpi_image_p1_heatmap.png" width="760" alt="docx_classic44_dashboard_with_kpi_image page 1 difference heatmap"></td>
-  <td>changed: 399175 px (18.97%)<br>bbox: [175, 208, 1088, 1049]<br>mean abs RGB: 36.0525<br>RMSE RGB: 85.5166<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 613195 px (29.15%)<br>bbox: [175, 0, 1088, 1049]<br>mean abs RGB: 57.2141<br>RMSE RGB: 108.2286<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic44_memo</b><br>Page 1</td>
@@ -1406,12 +1369,12 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic45_project_plan</b><br>Page 1</td>
   <td><img src="images/docx_classic45_project_plan_p1_heatmap.png" width="760" alt="docx_classic45_project_plan page 1 difference heatmap"></td>
-  <td>changed: 166030 px (7.89%)<br>bbox: [175, 208, 1088, 1173]<br>mean abs RGB: 11.7272<br>RMSE RGB: 47.2888<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 165427 px (7.86%)<br>bbox: [175, 158, 1077, 1197]<br>mean abs RGB: 11.3608<br>RMSE RGB: 46.2562<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic46_comparison_table</b><br>Page 1</td>
   <td><img src="images/docx_classic46_comparison_table_p1_heatmap.png" width="760" alt="docx_classic46_comparison_table page 1 difference heatmap"></td>
-  <td>changed: 89127 px (4.24%)<br>bbox: [175, 208, 1088, 632]<br>mean abs RGB: 6.4141<br>RMSE RGB: 34.65<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 87904 px (4.18%)<br>bbox: [175, 158, 1077, 629]<br>mean abs RGB: 6.3221<br>RMSE RGB: 34.1622<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic46_product_image_grid</b><br>Page 1</td>
@@ -1421,7 +1384,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic47_data_dictionary</b><br>Page 1</td>
   <td><img src="images/docx_classic47_data_dictionary_p1_heatmap.png" width="760" alt="docx_classic47_data_dictionary page 1 difference heatmap"></td>
-  <td>changed: 171029 px (8.13%)<br>bbox: [175, 208, 1088, 1027]<br>mean abs RGB: 11.9034<br>RMSE RGB: 46.9687<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 171783 px (8.17%)<br>bbox: [175, 158, 1077, 1062]<br>mean abs RGB: 11.904<br>RMSE RGB: 47.0298<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic47_news_article_with_hero_image</b><br>Page 1</td>
@@ -1441,7 +1404,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic48_task_list_with_status_icons</b><br>Page 1</td>
   <td><img src="images/docx_classic48_task_list_with_status_icons_p1_heatmap.png" width="760" alt="docx_classic48_task_list_with_status_icons page 1 difference heatmap"></td>
-  <td>changed: 114243 px (5.43%)<br>bbox: [175, 208, 1088, 848]<br>mean abs RGB: 8.2942<br>RMSE RGB: 40.4471<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 101304 px (4.82%)<br>bbox: [175, 158, 1088, 898]<br>mean abs RGB: 7.1231<br>RMSE RGB: 36.6522<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic49_cjk_document</b><br>Page 1</td>
@@ -1451,17 +1414,17 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic49_wide_panoramic_banner</b><br>Page 1</td>
   <td><img src="images/docx_classic49_wide_panoramic_banner_p1_heatmap.png" width="760" alt="docx_classic49_wide_panoramic_banner page 1 difference heatmap"></td>
-  <td>changed: 494570 px (23.51%)<br>bbox: [175, 150, 1088, 1206]<br>mean abs RGB: 34.0227<br>RMSE RGB: 77.6607<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 684159 px (32.52%)<br>bbox: [175, 32, 1088, 1206]<br>mean abs RGB: 49.0513<br>RMSE RGB: 92.7486<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic50_long_table_with_formatting</b><br>Page 1</td>
   <td><img src="images/docx_classic50_long_table_with_formatting_p1_heatmap.png" width="760" alt="docx_classic50_long_table_with_formatting page 1 difference heatmap"></td>
-  <td>changed: 636837 px (30.27%)<br>bbox: [175, 209, 1077, 1476]<br>mean abs RGB: 17.4541<br>RMSE RGB: 48.3161<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 638426 px (30.35%)<br>bbox: [175, 158, 1077, 1476]<br>mean abs RGB: 17.5232<br>RMSE RGB: 48.3725<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic50_long_table_with_formatting</b><br>Page 2</td>
   <td><img src="images/docx_classic50_long_table_with_formatting_p2_heatmap.png" width="760" alt="docx_classic50_long_table_with_formatting page 2 difference heatmap"></td>
-  <td>changed: 314240 px (14.94%)<br>bbox: [175, 149, 1088, 1650]<br>mean abs RGB: 13.2963<br>RMSE RGB: 48.2811<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 316973 px (15.07%)<br>bbox: [175, 149, 1077, 1650]<br>mean abs RGB: 13.5043<br>RMSE RGB: 48.0263<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic50_portrait_tall_image</b><br>Page 1</td>
@@ -1496,7 +1459,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic53_table_merged_complex</b><br>Page 1</td>
   <td><img src="images/docx_classic53_table_merged_complex_p1_heatmap.png" width="760" alt="docx_classic53_table_merged_complex page 1 difference heatmap"></td>
-  <td>changed: 89199 px (4.24%)<br>bbox: [175, 208, 1088, 506]<br>mean abs RGB: 5.0762<br>RMSE RGB: 29.8088<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 87903 px (4.18%)<br>bbox: [175, 158, 1077, 484]<br>mean abs RGB: 4.9185<br>RMSE RGB: 28.9396<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic54_multi_font_family</b><br>Page 1</td>
@@ -1506,7 +1469,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic54_travel_destination_cards</b><br>Page 1</td>
   <td><img src="images/docx_classic54_travel_destination_cards_p1_heatmap.png" width="760" alt="docx_classic54_travel_destination_cards page 1 difference heatmap"></td>
-  <td>changed: 200915 px (9.55%)<br>bbox: [175, 208, 1088, 1032]<br>mean abs RGB: 11.736<br>RMSE RGB: 44.6082<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 328366 px (15.61%)<br>bbox: [175, 123, 1088, 1032]<br>mean abs RGB: 18.8173<br>RMSE RGB: 55.8778<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic55_background_shading_paragraph</b><br>Page 1</td>
@@ -1516,17 +1479,17 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic55_lab_results_with_image</b><br>Page 1</td>
   <td><img src="images/docx_classic55_lab_results_with_image_p1_heatmap.png" width="760" alt="docx_classic55_lab_results_with_image page 1 difference heatmap"></td>
-  <td>changed: 210115 px (9.99%)<br>bbox: [175, 208, 1088, 915]<br>mean abs RGB: 11.87<br>RMSE RGB: 44.1523<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 255692 px (12.15%)<br>bbox: [175, 158, 1088, 915]<br>mean abs RGB: 14.2176<br>RMSE RGB: 46.97<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic56_images_and_tables_mixed</b><br>Page 1</td>
   <td><img src="images/docx_classic56_images_and_tables_mixed_p1_heatmap.png" width="760" alt="docx_classic56_images_and_tables_mixed page 1 difference heatmap"></td>
-  <td>changed: 307032 px (14.59%)<br>bbox: [175, 208, 1088, 1371]<br>mean abs RGB: 21.136<br>RMSE RGB: 61.51<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 492161 px (23.39%)<br>bbox: [175, 123, 1088, 1371]<br>mean abs RGB: 33.9095<br>RMSE RGB: 77.347<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic56_software_screenshot_features</b><br>Page 1</td>
   <td><img src="images/docx_classic56_software_screenshot_features_p1_heatmap.png" width="760" alt="docx_classic56_software_screenshot_features page 1 difference heatmap"></td>
-  <td>changed: 273637 px (13.01%)<br>bbox: [175, 208, 1088, 1112]<br>mean abs RGB: 24.6773<br>RMSE RGB: 71.8384<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 412030 px (19.59%)<br>bbox: [175, 0, 1088, 1112]<br>mean abs RGB: 38.548<br>RMSE RGB: 90.0874<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic57_right_to_left_text</b><br>Page 1</td>
@@ -1536,7 +1499,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic57_sports_results_with_logos</b><br>Page 1</td>
   <td><img src="images/docx_classic57_sports_results_with_logos_p1_heatmap.png" width="760" alt="docx_classic57_sports_results_with_logos page 1 difference heatmap"></td>
-  <td>changed: 174005 px (8.27%)<br>bbox: [175, 208, 1088, 1399]<br>mean abs RGB: 13.2879<br>RMSE RGB: 51.3678<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 180491 px (8.58%)<br>bbox: [175, 158, 1088, 1399]<br>mean abs RGB: 13.8491<br>RMSE RGB: 52.3255<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic58_dense_paragraph_document</b><br>Page 1</td>
@@ -1571,7 +1534,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic58_report_with_footer_image</b><br>Page 1</td>
   <td><img src="images/docx_classic58_report_with_footer_image_p1_heatmap.png" width="760" alt="docx_classic58_report_with_footer_image page 1 difference heatmap"></td>
-  <td>changed: 147389 px (7.01%)<br>bbox: [175, 208, 1088, 693]<br>mean abs RGB: 10.8958<br>RMSE RGB: 44.2951<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 166387 px (7.91%)<br>bbox: [175, 158, 1088, 712]<br>mean abs RGB: 12.1839<br>RMSE RGB: 46.3722<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic59_numbered_and_bullet_mixed</b><br>Page 1</td>
@@ -1581,22 +1544,17 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic59_nutrition_label_with_image</b><br>Page 1</td>
   <td><img src="images/docx_classic59_nutrition_label_with_image_p1_heatmap.png" width="760" alt="docx_classic59_nutrition_label_with_image page 1 difference heatmap"></td>
-  <td>changed: 269514 px (12.81%)<br>bbox: [175, 208, 1088, 1189]<br>mean abs RGB: 14.9302<br>RMSE RGB: 51.9809<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 378555 px (17.99%)<br>bbox: [175, 0, 1088, 1189]<br>mean abs RGB: 19.9483<br>RMSE RGB: 59.4772<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic60_comprehensive_styled_report</b><br>Page 1</td>
   <td><img src="images/docx_classic60_comprehensive_styled_report_p1_heatmap.png" width="760" alt="docx_classic60_comprehensive_styled_report page 1 difference heatmap"></td>
-  <td>changed: 83633 px (3.98%)<br>bbox: [184, 165, 1091, 1435]<br>mean abs RGB: 5.6153<br>RMSE RGB: 31.8544<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 92530 px (4.40%)<br>bbox: [175, 160, 1091, 1473]<br>mean abs RGB: 6.8318<br>RMSE RGB: 36.3566<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic60_comprehensive_styled_report</b><br>Page 2</td>
   <td><img src="images/docx_classic60_comprehensive_styled_report_p2_heatmap.png" width="760" alt="docx_classic60_comprehensive_styled_report page 2 difference heatmap"></td>
-  <td>changed: 302858 px (14.40%)<br>bbox: [175, 158, 1077, 1480]<br>mean abs RGB: 18.7433<br>RMSE RGB: 56.519<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>docx_classic60_project_status_with_milestones</b><br>Page 1</td>
-  <td><img src="images/docx_classic60_project_status_with_milestones_p1_heatmap.png" width="760" alt="docx_classic60_project_status_with_milestones page 1 difference heatmap"></td>
-  <td>changed: 490038 px (23.29%)<br>bbox: [175, 208, 1088, 1459]<br>mean abs RGB: 35.9617<br>RMSE RGB: 78.4856<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 442717 px (21.04%)<br>bbox: [175, 0, 1088, 1480]<br>mean abs RGB: 29.44<br>RMSE RGB: 71.1059<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic61_header_and_footer</b><br>Page 1</td>
@@ -1611,12 +1569,12 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic63_toc_style_headings</b><br>Page 1</td>
   <td><img src="images/docx_classic63_toc_style_headings_p1_heatmap.png" width="760" alt="docx_classic63_toc_style_headings page 1 difference heatmap"></td>
-  <td>changed: 76046 px (3.61%)<br>bbox: [184, 165, 1091, 1057]<br>mean abs RGB: 5.7888<br>RMSE RGB: 34.2272<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 48507 px (2.31%)<br>bbox: [184, 159, 1091, 1057]<br>mean abs RGB: 3.6933<br>RMSE RGB: 27.296<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic64_multi_column_layout</b><br>Page 1</td>
   <td><img src="images/docx_classic64_multi_column_layout_p1_heatmap.png" width="760" alt="docx_classic64_multi_column_layout page 1 difference heatmap"></td>
-  <td>changed: 118836 px (5.65%)<br>bbox: [186, 208, 1088, 854]<br>mean abs RGB: 9.0382<br>RMSE RGB: 42.6326<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 119093 px (5.66%)<br>bbox: [187, 158, 1061, 749]<br>mean abs RGB: 9.0582<br>RMSE RGB: 42.6281<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic65_code_block_styling</b><br>Page 1</td>
@@ -1631,12 +1589,12 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic67_alternating_row_table</b><br>Page 1</td>
   <td><img src="images/docx_classic67_alternating_row_table_p1_heatmap.png" width="760" alt="docx_classic67_alternating_row_table page 1 difference heatmap"></td>
-  <td>changed: 306114 px (14.55%)<br>bbox: [175, 208, 1088, 988]<br>mean abs RGB: 13.3318<br>RMSE RGB: 47.4804<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 300686 px (14.29%)<br>bbox: [175, 158, 1077, 987]<br>mean abs RGB: 12.442<br>RMSE RGB: 44.968<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic68_sidebar_layout</b><br>Page 1</td>
   <td><img src="images/docx_classic68_sidebar_layout_p1_heatmap.png" width="760" alt="docx_classic68_sidebar_layout page 1 difference heatmap"></td>
-  <td>changed: 122989 px (5.85%)<br>bbox: [175, 208, 1163, 1012]<br>mean abs RGB: 8.8807<br>RMSE RGB: 39.9664<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 118523 px (5.63%)<br>bbox: [175, 158, 1152, 654]<br>mean abs RGB: 8.8454<br>RMSE RGB: 39.8825<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic69_blockquote_styling</b><br>Page 1</td>
@@ -1646,7 +1604,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic70_academic_paper</b><br>Page 1</td>
   <td><img src="images/docx_classic70_academic_paper_p1_heatmap.png" width="760" alt="docx_classic70_academic_paper page 1 difference heatmap"></td>
-  <td>changed: 196177 px (9.33%)<br>bbox: [175, 158, 1088, 1430]<br>mean abs RGB: 14.6181<br>RMSE RGB: 53.4891<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 204342 px (9.71%)<br>bbox: [175, 158, 1078, 1417]<br>mean abs RGB: 15.2301<br>RMSE RGB: 54.6005<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic71_legal_document</b><br>Page 1</td>
@@ -1654,34 +1612,24 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 176139 px (8.37%)<br>bbox: [113, 95, 1242, 1359]<br>mean abs RGB: 14.2963<br>RMSE RGB: 54.7134<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
-  <td><b>docx_classic72_technical_specification</b><br>Page 1</td>
-  <td><img src="images/docx_classic72_technical_specification_p1_heatmap.png" width="760" alt="docx_classic72_technical_specification page 1 difference heatmap"></td>
-  <td>changed: 198095 px (9.42%)<br>bbox: [175, 208, 1088, 1206]<br>mean abs RGB: 14.3502<br>RMSE RGB: 52.105<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
   <td><b>docx_classic73_calendar_layout</b><br>Page 1</td>
   <td><img src="images/docx_classic73_calendar_layout_p1_heatmap.png" width="760" alt="docx_classic73_calendar_layout page 1 difference heatmap"></td>
-  <td>changed: 93358 px (4.44%)<br>bbox: [175, 163, 1088, 543]<br>mean abs RGB: 5.0282<br>RMSE RGB: 30.1334<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 89707 px (4.26%)<br>bbox: [175, 163, 1077, 532]<br>mean abs RGB: 4.5101<br>RMSE RGB: 28.2203<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic74_org_chart</b><br>Page 1</td>
   <td><img src="images/docx_classic74_org_chart_p1_heatmap.png" width="760" alt="docx_classic74_org_chart page 1 difference heatmap"></td>
-  <td>changed: 184904 px (8.79%)<br>bbox: [175, 208, 1088, 594]<br>mean abs RGB: 7.9686<br>RMSE RGB: 34.5203<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 184355 px (8.76%)<br>bbox: [175, 158, 1077, 594]<br>mean abs RGB: 7.8412<br>RMSE RGB: 34.0795<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic75_newsletter_layout</b><br>Page 1</td>
   <td><img src="images/docx_classic75_newsletter_layout_p1_heatmap.png" width="760" alt="docx_classic75_newsletter_layout page 1 difference heatmap"></td>
-  <td>changed: 254731 px (12.11%)<br>bbox: [184, 166, 1091, 1064]<br>mean abs RGB: 18.3359<br>RMSE RGB: 57.7127<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>docx_classic76_recipe_card</b><br>Page 1</td>
-  <td><img src="images/docx_classic76_recipe_card_p1_heatmap.png" width="760" alt="docx_classic76_recipe_card page 1 difference heatmap"></td>
-  <td>changed: 101292 px (4.81%)<br>bbox: [175, 160, 1088, 1160]<br>mean abs RGB: 7.8385<br>RMSE RGB: 39.7509<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 363773 px (17.29%)<br>bbox: [184, 165, 1091, 1064]<br>mean abs RGB: 25.7492<br>RMSE RGB: 68.0793<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic77_timeline_layout</b><br>Page 1</td>
   <td><img src="images/docx_classic77_timeline_layout_p1_heatmap.png" width="760" alt="docx_classic77_timeline_layout page 1 difference heatmap"></td>
-  <td>changed: 141645 px (6.73%)<br>bbox: [175, 208, 863, 918]<br>mean abs RGB: 10.2455<br>RMSE RGB: 43.9095<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 144220 px (6.86%)<br>bbox: [175, 158, 852, 814]<br>mean abs RGB: 10.4854<br>RMSE RGB: 44.5693<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic78_faq_document</b><br>Page 1</td>
@@ -1701,37 +1649,37 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic80_matrix_grid</b><br>Page 1</td>
   <td><img src="images/docx_classic80_matrix_grid_p1_heatmap.png" width="760" alt="docx_classic80_matrix_grid page 1 difference heatmap"></td>
-  <td>changed: 431321 px (20.50%)<br>bbox: [175, 208, 1088, 1016]<br>mean abs RGB: 10.9644<br>RMSE RGB: 39.4112<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 431364 px (20.50%)<br>bbox: [175, 158, 1077, 945]<br>mean abs RGB: 10.3957<br>RMSE RGB: 37.2427<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic81_budget_table</b><br>Page 1</td>
   <td><img src="images/docx_classic81_budget_table_p1_heatmap.png" width="760" alt="docx_classic81_budget_table page 1 difference heatmap"></td>
-  <td>changed: 240333 px (11.42%)<br>bbox: [175, 208, 1088, 1011]<br>mean abs RGB: 12.858<br>RMSE RGB: 47.6527<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 241128 px (11.46%)<br>bbox: [175, 158, 1077, 1064]<br>mean abs RGB: 12.8477<br>RMSE RGB: 47.4022<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic82_survey_questionnaire</b><br>Page 1</td>
   <td><img src="images/docx_classic82_survey_questionnaire_p1_heatmap.png" width="760" alt="docx_classic82_survey_questionnaire page 1 difference heatmap"></td>
-  <td>changed: 148216 px (7.05%)<br>bbox: [175, 208, 1088, 1475]<br>mean abs RGB: 9.7156<br>RMSE RGB: 41.1807<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 165654 px (7.87%)<br>bbox: [175, 158, 1086, 1475]<br>mean abs RGB: 10.7795<br>RMSE RGB: 43.1166<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic82_survey_questionnaire</b><br>Page 2</td>
   <td><img src="images/docx_classic82_survey_questionnaire_p2_heatmap.png" width="760" alt="docx_classic82_survey_questionnaire page 2 difference heatmap"></td>
-  <td>changed: 83632 px (3.98%)<br>bbox: [175, 149, 1088, 949]<br>mean abs RGB: 5.7114<br>RMSE RGB: 32.4517<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 104365 px (4.96%)<br>bbox: [175, 149, 1087, 1236]<br>mean abs RGB: 7.252<br>RMSE RGB: 36.0557<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic83_medical_form</b><br>Page 1</td>
   <td><img src="images/docx_classic83_medical_form_p1_heatmap.png" width="760" alt="docx_classic83_medical_form page 1 difference heatmap"></td>
-  <td>changed: 180196 px (8.57%)<br>bbox: [175, 208, 1088, 1243]<br>mean abs RGB: 9.8608<br>RMSE RGB: 42.2195<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 183217 px (8.71%)<br>bbox: [175, 158, 1077, 1330]<br>mean abs RGB: 9.9086<br>RMSE RGB: 41.5559<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic84_shipping_label</b><br>Page 1</td>
   <td><img src="images/docx_classic84_shipping_label_p1_heatmap.png" width="760" alt="docx_classic84_shipping_label page 1 difference heatmap"></td>
-  <td>changed: 174286 px (8.28%)<br>bbox: [175, 149, 1091, 1429]<br>mean abs RGB: 9.484<br>RMSE RGB: 42.8059<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 176092 px (8.37%)<br>bbox: [175, 149, 1091, 1277]<br>mean abs RGB: 10.0451<br>RMSE RGB: 44.5652<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic85_report_card</b><br>Page 1</td>
   <td><img src="images/docx_classic85_report_card_p1_heatmap.png" width="760" alt="docx_classic85_report_card page 1 difference heatmap"></td>
-  <td>changed: 162984 px (7.75%)<br>bbox: [175, 160, 1088, 947]<br>mean abs RGB: 9.1762<br>RMSE RGB: 41.1971<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 154843 px (7.36%)<br>bbox: [175, 160, 1077, 970]<br>mean abs RGB: 8.707<br>RMSE RGB: 39.5738<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic86_checklist_document</b><br>Page 1</td>
@@ -1746,32 +1694,32 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic88_presentation_handout</b><br>Page 1</td>
   <td><img src="images/docx_classic88_presentation_handout_p1_heatmap.png" width="760" alt="docx_classic88_presentation_handout page 1 difference heatmap"></td>
-  <td>changed: 536604 px (25.51%)<br>bbox: [175, 208, 1088, 1451]<br>mean abs RGB: 40.4929<br>RMSE RGB: 87.7096<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 527957 px (25.10%)<br>bbox: [175, 158, 1077, 1451]<br>mean abs RGB: 39.9363<br>RMSE RGB: 87.2175<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic88_presentation_handout</b><br>Page 2</td>
   <td><img src="images/docx_classic88_presentation_handout_p2_heatmap.png" width="760" alt="docx_classic88_presentation_handout page 2 difference heatmap"></td>
-  <td>changed: 284819 px (13.54%)<br>bbox: [175, 149, 1088, 1193]<br>mean abs RGB: 19.8523<br>RMSE RGB: 59.5337<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 273198 px (12.99%)<br>bbox: [175, 149, 1077, 1154]<br>mean abs RGB: 19.353<br>RMSE RGB: 58.8582<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic89_multi_image_gallery</b><br>Page 1</td>
   <td><img src="images/docx_classic89_multi_image_gallery_p1_heatmap.png" width="760" alt="docx_classic89_multi_image_gallery page 1 difference heatmap"></td>
-  <td>changed: 340140 px (16.17%)<br>bbox: [175, 208, 1088, 974]<br>mean abs RGB: 19.2047<br>RMSE RGB: 57.637<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 159806 px (7.60%)<br>bbox: [175, 158, 1077, 1047]<br>mean abs RGB: 9.7016<br>RMSE RGB: 41.2472<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic90_comprehensive_annual_report</b><br>Page 1</td>
   <td><img src="images/docx_classic90_comprehensive_annual_report_p1_heatmap.png" width="760" alt="docx_classic90_comprehensive_annual_report page 1 difference heatmap"></td>
-  <td>changed: 280201 px (13.32%)<br>bbox: [186, 217, 1088, 1342]<br>mean abs RGB: 20.8925<br>RMSE RGB: 60.4564<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 365450 px (17.37%)<br>bbox: [175, 168, 1088, 1390]<br>mean abs RGB: 27.5907<br>RMSE RGB: 69.4223<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic90_comprehensive_annual_report</b><br>Page 2</td>
   <td><img src="images/docx_classic90_comprehensive_annual_report_p2_heatmap.png" width="760" alt="docx_classic90_comprehensive_annual_report page 2 difference heatmap"></td>
-  <td>changed: 67834 px (3.22%)<br>bbox: [186, 158, 1088, 1108]<br>mean abs RGB: 4.7041<br>RMSE RGB: 29.5242<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 254231 px (12.08%)<br>bbox: [175, 158, 1088, 1267]<br>mean abs RGB: 19.4347<br>RMSE RGB: 59.3023<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic91_landscape_page</b><br>Page 1</td>
   <td><img src="images/docx_classic91_landscape_page_p1_heatmap.png" width="760" alt="docx_classic91_landscape_page page 1 difference heatmap"></td>
-  <td>changed: 93360 px (4.44%)<br>bbox: [175, 162, 1463, 493]<br>mean abs RGB: 6.6391<br>RMSE RGB: 34.9668<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 97338 px (4.63%)<br>bbox: [175, 158, 1452, 507]<br>mean abs RGB: 7.0539<br>RMSE RGB: 35.9612<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic92_first_line_indent</b><br>Page 1</td>
@@ -1791,17 +1739,17 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic95_contract_template</b><br>Page 1</td>
   <td><img src="images/docx_classic95_contract_template_p1_heatmap.png" width="760" alt="docx_classic95_contract_template page 1 difference heatmap"></td>
-  <td>changed: 99466 px (4.73%)<br>bbox: [186, 160, 1088, 1136]<br>mean abs RGB: 7.9804<br>RMSE RGB: 40.7186<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 88942 px (4.23%)<br>bbox: [187, 160, 1075, 1152]<br>mean abs RGB: 7.1303<br>RMSE RGB: 38.5107<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic96_dense_data_table</b><br>Page 1</td>
   <td><img src="images/docx_classic96_dense_data_table_p1_heatmap.png" width="760" alt="docx_classic96_dense_data_table page 1 difference heatmap"></td>
-  <td>changed: 359034 px (17.07%)<br>bbox: [175, 208, 1088, 1343]<br>mean abs RGB: 15.8109<br>RMSE RGB: 52.9523<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 369444 px (17.56%)<br>bbox: [175, 158, 1077, 1266]<br>mean abs RGB: 15.2524<br>RMSE RGB: 51.5728<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic97_product_catalog</b><br>Page 1</td>
   <td><img src="images/docx_classic97_product_catalog_p1_heatmap.png" width="760" alt="docx_classic97_product_catalog page 1 difference heatmap"></td>
-  <td>changed: 177069 px (8.42%)<br>bbox: [175, 163, 1088, 937]<br>mean abs RGB: 13.0395<br>RMSE RGB: 49.0498<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 202078 px (9.61%)<br>bbox: [175, 163, 1077, 1147]<br>mean abs RGB: 14.826<br>RMSE RGB: 52.3815<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic98_training_manual</b><br>Page 1</td>
@@ -1811,17 +1759,17 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic99_policy_document</b><br>Page 1</td>
   <td><img src="images/docx_classic99_policy_document_p1_heatmap.png" width="760" alt="docx_classic99_policy_document page 1 difference heatmap"></td>
-  <td>changed: 187609 px (8.92%)<br>bbox: [175, 160, 1088, 1421]<br>mean abs RGB: 14.5446<br>RMSE RGB: 54.0781<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 195531 px (9.29%)<br>bbox: [175, 160, 1088, 1409]<br>mean abs RGB: 15.1562<br>RMSE RGB: 55.2381<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic100_multi_page_table</b><br>Page 1</td>
   <td><img src="images/docx_classic100_multi_page_table_p1_heatmap.png" width="760" alt="docx_classic100_multi_page_table page 1 difference heatmap"></td>
-  <td>changed: 643890 px (30.61%)<br>bbox: [175, 208, 1077, 1490]<br>mean abs RGB: 20.6257<br>RMSE RGB: 59.1547<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 645393 px (30.68%)<br>bbox: [175, 158, 1077, 1490]<br>mean abs RGB: 20.695<br>RMSE RGB: 59.2144<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic100_multi_page_table</b><br>Page 2</td>
   <td><img src="images/docx_classic100_multi_page_table_p2_heatmap.png" width="760" alt="docx_classic100_multi_page_table page 2 difference heatmap"></td>
-  <td>changed: 331108 px (15.74%)<br>bbox: [175, 149, 1088, 1650]<br>mean abs RGB: 19.5144<br>RMSE RGB: 61.7916<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 306127 px (14.55%)<br>bbox: [175, 149, 1077, 1650]<br>mean abs RGB: 17.5748<br>RMSE RGB: 57.9028<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic101_warranty_document</b><br>Page 1</td>
@@ -1831,52 +1779,42 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic102_curriculum_syllabus</b><br>Page 1</td>
   <td><img src="images/docx_classic102_curriculum_syllabus_p1_heatmap.png" width="760" alt="docx_classic102_curriculum_syllabus page 1 difference heatmap"></td>
-  <td>changed: 185079 px (8.80%)<br>bbox: [175, 208, 1088, 1237]<br>mean abs RGB: 13.1542<br>RMSE RGB: 49.5183<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 195564 px (9.30%)<br>bbox: [175, 158, 1077, 1306]<br>mean abs RGB: 13.7649<br>RMSE RGB: 50.5418<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic103_event_program</b><br>Page 1</td>
   <td><img src="images/docx_classic103_event_program_p1_heatmap.png" width="760" alt="docx_classic103_event_program page 1 difference heatmap"></td>
-  <td>changed: 192727 px (9.16%)<br>bbox: [186, 165, 1088, 1447]<br>mean abs RGB: 14.0618<br>RMSE RGB: 50.3758<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 253190 px (12.04%)<br>bbox: [175, 165, 1088, 1476]<br>mean abs RGB: 19.143<br>RMSE RGB: 59.0972<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic103_event_program</b><br>Page 2</td>
   <td><img src="images/docx_classic103_event_program_p2_heatmap.png" width="760" alt="docx_classic103_event_program page 2 difference heatmap"></td>
-  <td>changed: 107563 px (5.11%)<br>bbox: [175, 158, 1077, 1225]<br>mean abs RGB: 6.5029<br>RMSE RGB: 34.6606<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>docx_classic104_sop_document</b><br>Page 1</td>
-  <td><img src="images/docx_classic104_sop_document_p1_heatmap.png" width="760" alt="docx_classic104_sop_document page 1 difference heatmap"></td>
-  <td>changed: 134837 px (6.41%)<br>bbox: [175, 149, 1088, 1466]<br>mean abs RGB: 10.3201<br>RMSE RGB: 45.7224<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>docx_classic104_sop_document</b><br>Page 2</td>
-  <td><img src="images/docx_classic104_sop_document_p2_heatmap.png" width="760" alt="docx_classic104_sop_document page 2 difference heatmap"></td>
-  <td>changed: 18909 px (0.90%)<br>bbox: [187, 158, 703, 313]<br>mean abs RGB: 1.3961<br>RMSE RGB: 16.5782<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 110082 px (5.23%)<br>bbox: [175, 157, 1077, 1225]<br>mean abs RGB: 6.9079<br>RMSE RGB: 35.9044<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic105_certificate</b><br>Page 1</td>
   <td><img src="images/docx_classic105_certificate_p1_heatmap.png" width="760" alt="docx_classic105_certificate page 1 difference heatmap"></td>
-  <td>changed: 77711 px (3.69%)<br>bbox: [186, 270, 1088, 1302]<br>mean abs RGB: 6.0476<br>RMSE RGB: 34.9189<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 72879 px (3.46%)<br>bbox: [188, 270, 1067, 1302]<br>mean abs RGB: 5.1461<br>RMSE RGB: 31.2454<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic106_multi_section_orientation</b><br>Page 1</td>
   <td><img src="images/docx_classic106_multi_section_orientation_p1_heatmap.png" width="760" alt="docx_classic106_multi_section_orientation page 1 difference heatmap"></td>
-  <td>changed: 60107 px (2.86%)<br>bbox: [188, 207, 1077, 547]<br>mean abs RGB: 4.5482<br>RMSE RGB: 30.0693<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 70995 px (3.37%)<br>bbox: [188, 158, 1077, 547]<br>mean abs RGB: 5.4543<br>RMSE RGB: 33.1489<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic106_multi_section_orientation</b><br>Page 2</td>
   <td><img src="images/docx_classic106_multi_section_orientation_p2_heatmap.png" width="760" alt="docx_classic106_multi_section_orientation page 2 difference heatmap"></td>
-  <td>changed: 73630 px (4.53%)<br>bbox: [135, 152, 1275, 415]<br>mean abs RGB: 6.4468<br>RMSE RGB: 33.3316<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 76962 px (4.73%)<br>bbox: [135, 122, 1275, 415]<br>mean abs RGB: 6.7872<br>RMSE RGB: 34.2272<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic106_multi_section_orientation</b><br>Page 3</td>
   <td><img src="images/docx_classic106_multi_section_orientation_p3_heatmap.png" width="760" alt="docx_classic106_multi_section_orientation page 3 difference heatmap"></td>
-  <td>changed: 19432 px (0.92%)<br>bbox: [188, 186, 1080, 288]<br>mean abs RGB: 1.4156<br>RMSE RGB: 16.5454<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 21964 px (1.04%)<br>bbox: [188, 158, 1055, 278]<br>mean abs RGB: 1.5328<br>RMSE RGB: 16.9899<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic107_order_form</b><br>Page 1</td>
   <td><img src="images/docx_classic107_order_form_p1_heatmap.png" width="760" alt="docx_classic107_order_form page 1 difference heatmap"></td>
-  <td>changed: 154243 px (7.33%)<br>bbox: [175, 161, 1088, 1198]<br>mean abs RGB: 10.3804<br>RMSE RGB: 44.2687<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 147356 px (7.00%)<br>bbox: [175, 161, 1077, 1173]<br>mean abs RGB: 9.4947<br>RMSE RGB: 42.0031<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic108_comparison_matrix</b><br>Page 1</td>
@@ -1906,32 +1844,27 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic113_address_labels</b><br>Page 1</td>
   <td><img src="images/docx_classic113_address_labels_p1_heatmap.png" width="760" alt="docx_classic113_address_labels page 1 difference heatmap"></td>
-  <td>changed: 89311 px (4.25%)<br>bbox: [175, 208, 1088, 983]<br>mean abs RGB: 6.3562<br>RMSE RGB: 34.9418<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 90486 px (4.30%)<br>bbox: [175, 158, 1077, 1085]<br>mean abs RGB: 6.585<br>RMSE RGB: 35.8105<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic114_test_report</b><br>Page 1</td>
   <td><img src="images/docx_classic114_test_report_p1_heatmap.png" width="760" alt="docx_classic114_test_report page 1 difference heatmap"></td>
-  <td>changed: 160588 px (7.63%)<br>bbox: [175, 208, 1088, 1188]<br>mean abs RGB: 11.5474<br>RMSE RGB: 46.871<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 165369 px (7.86%)<br>bbox: [175, 158, 1077, 1128]<br>mean abs RGB: 11.7751<br>RMSE RGB: 46.7756<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic115_price_list</b><br>Page 1</td>
   <td><img src="images/docx_classic115_price_list_p1_heatmap.png" width="760" alt="docx_classic115_price_list page 1 difference heatmap"></td>
-  <td>changed: 293394 px (13.95%)<br>bbox: [175, 161, 1088, 1288]<br>mean abs RGB: 14.573<br>RMSE RGB: 50.9397<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 292698 px (13.91%)<br>bbox: [175, 161, 1077, 1325]<br>mean abs RGB: 14.5596<br>RMSE RGB: 50.7179<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic116_risk_assessment</b><br>Page 1</td>
   <td><img src="images/docx_classic116_risk_assessment_p1_heatmap.png" width="760" alt="docx_classic116_risk_assessment page 1 difference heatmap"></td>
-  <td>changed: 257177 px (12.22%)<br>bbox: [175, 208, 1088, 1177]<br>mean abs RGB: 19.4868<br>RMSE RGB: 61.329<br>threshold: 12, gain: 5.0</td>
-</tr>
-<tr>
-  <td><b>docx_classic117_employee_handbook_excerpt</b><br>Page 1</td>
-  <td><img src="images/docx_classic117_employee_handbook_excerpt_p1_heatmap.png" width="760" alt="docx_classic117_employee_handbook_excerpt page 1 difference heatmap"></td>
-  <td>changed: 179224 px (8.52%)<br>bbox: [175, 208, 1088, 1458]<br>mean abs RGB: 12.6934<br>RMSE RGB: 49.2855<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 257353 px (12.23%)<br>bbox: [175, 158, 1077, 1148]<br>mean abs RGB: 19.3359<br>RMSE RGB: 60.6859<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic118_data_report_with_summary</b><br>Page 1</td>
   <td><img src="images/docx_classic118_data_report_with_summary_p1_heatmap.png" width="760" alt="docx_classic118_data_report_with_summary page 1 difference heatmap"></td>
-  <td>changed: 213941 px (10.17%)<br>bbox: [175, 208, 1088, 1234]<br>mean abs RGB: 15.9846<br>RMSE RGB: 55.4777<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 199141 px (9.47%)<br>bbox: [175, 208, 1087, 1196]<br>mean abs RGB: 13.5847<br>RMSE RGB: 49.079<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic119_multi_language_document</b><br>Page 1</td>
@@ -1941,47 +1874,52 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic120_comprehensive_business_proposal</b><br>Page 1</td>
   <td><img src="images/docx_classic120_comprehensive_business_proposal_p1_heatmap.png" width="760" alt="docx_classic120_comprehensive_business_proposal page 1 difference heatmap"></td>
-  <td>changed: 231532 px (11.01%)<br>bbox: [187, 261, 1088, 1364]<br>mean abs RGB: 16.9824<br>RMSE RGB: 54.2218<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 286637 px (13.63%)<br>bbox: [187, 261, 1088, 1295]<br>mean abs RGB: 21.1936<br>RMSE RGB: 60.3835<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic120_comprehensive_business_proposal</b><br>Page 2</td>
   <td><img src="images/docx_classic120_comprehensive_business_proposal_p2_heatmap.png" width="760" alt="docx_classic120_comprehensive_business_proposal page 2 difference heatmap"></td>
-  <td>changed: 87546 px (4.16%)<br>bbox: [186, 158, 1088, 1269]<br>mean abs RGB: 5.8407<br>RMSE RGB: 32.7896<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 127427 px (6.06%)<br>bbox: [175, 158, 1086, 1453]<br>mean abs RGB: 9.9335<br>RMSE RGB: 44.9809<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>docx_classic120_comprehensive_business_proposal</b><br>Page 3</td>
+  <td><img src="images/docx_classic120_comprehensive_business_proposal_p3_heatmap.png" width="760" alt="docx_classic120_comprehensive_business_proposal page 3 difference heatmap"></td>
+  <td>changed: 174587 px (8.30%)<br>bbox: [175, 158, 1077, 1369]<br>mean abs RGB: 11.6371<br>RMSE RGB: 46.1587<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic121_thin_border_table</b><br>Page 1</td>
   <td><img src="images/docx_classic121_thin_border_table_p1_heatmap.png" width="760" alt="docx_classic121_thin_border_table page 1 difference heatmap"></td>
-  <td>changed: 47342 px (2.25%)<br>bbox: [175, 208, 1088, 506]<br>mean abs RGB: 3.4038<br>RMSE RGB: 25.6246<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 46726 px (2.22%)<br>bbox: [175, 158, 1077, 484]<br>mean abs RGB: 3.2679<br>RMSE RGB: 24.7995<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic122_thick_outer_border_table</b><br>Page 1</td>
   <td><img src="images/docx_classic122_thick_outer_border_table_p1_heatmap.png" width="760" alt="docx_classic122_thick_outer_border_table page 1 difference heatmap"></td>
-  <td>changed: 53006 px (2.52%)<br>bbox: [174, 208, 1088, 506]<br>mean abs RGB: 4.1477<br>RMSE RGB: 29.0749<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 52672 px (2.50%)<br>bbox: [174, 158, 1079, 484]<br>mean abs RGB: 4.0345<br>RMSE RGB: 28.3062<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic123_dashed_border_table</b><br>Page 1</td>
   <td><img src="images/docx_classic123_dashed_border_table_p1_heatmap.png" width="760" alt="docx_classic123_dashed_border_table page 1 difference heatmap"></td>
-  <td>changed: 33325 px (1.58%)<br>bbox: [186, 208, 1088, 545]<br>mean abs RGB: 2.4306<br>RMSE RGB: 21.8283<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 27613 px (1.31%)<br>bbox: [187, 158, 1080, 545]<br>mean abs RGB: 1.9568<br>RMSE RGB: 19.2936<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic124_colored_border_table</b><br>Page 1</td>
   <td><img src="images/docx_classic124_colored_border_table_p1_heatmap.png" width="760" alt="docx_classic124_colored_border_table page 1 difference heatmap"></td>
-  <td>changed: 60624 px (2.88%)<br>bbox: [175, 208, 1088, 548]<br>mean abs RGB: 4.3691<br>RMSE RGB: 29.5294<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 61883 px (2.94%)<br>bbox: [175, 158, 1077, 532]<br>mean abs RGB: 4.3913<br>RMSE RGB: 29.2888<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic125_solid_cell_fills</b><br>Page 1</td>
   <td><img src="images/docx_classic125_solid_cell_fills_p1_heatmap.png" width="760" alt="docx_classic125_solid_cell_fills page 1 difference heatmap"></td>
-  <td>changed: 142535 px (6.78%)<br>bbox: [175, 208, 1088, 617]<br>mean abs RGB: 5.5954<br>RMSE RGB: 29.9437<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 143710 px (6.83%)<br>bbox: [175, 158, 1077, 629]<br>mean abs RGB: 5.5602<br>RMSE RGB: 29.7781<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic126_dark_header_table</b><br>Page 1</td>
   <td><img src="images/docx_classic126_dark_header_table_p1_heatmap.png" width="760" alt="docx_classic126_dark_header_table page 1 difference heatmap"></td>
-  <td>changed: 73664 px (3.50%)<br>bbox: [175, 208, 1088, 506]<br>mean abs RGB: 5.4666<br>RMSE RGB: 32.2825<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 71668 px (3.41%)<br>bbox: [175, 158, 1077, 484]<br>mean abs RGB: 5.2395<br>RMSE RGB: 31.2796<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic127_font_styles_showcase</b><br>Page 1</td>
   <td><img src="images/docx_classic127_font_styles_showcase_p1_heatmap.png" width="760" alt="docx_classic127_font_styles_showcase page 1 difference heatmap"></td>
-  <td>changed: 65256 px (3.10%)<br>bbox: [175, 208, 1088, 576]<br>mean abs RGB: 4.7186<br>RMSE RGB: 30.1079<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 67976 px (3.23%)<br>bbox: [175, 158, 1077, 580]<br>mean abs RGB: 4.8444<br>RMSE RGB: 30.437<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic128_font_sizes_showcase</b><br>Page 1</td>
@@ -1991,7 +1929,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic129_alignment_combinations</b><br>Page 1</td>
   <td><img src="images/docx_classic129_alignment_combinations_p1_heatmap.png" width="760" alt="docx_classic129_alignment_combinations page 1 difference heatmap"></td>
-  <td>changed: 44625 px (2.12%)<br>bbox: [175, 208, 1088, 649]<br>mean abs RGB: 3.3576<br>RMSE RGB: 25.9486<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 44529 px (2.12%)<br>bbox: [175, 158, 1077, 628]<br>mean abs RGB: 3.1772<br>RMSE RGB: 24.6609<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic130_wrap_and_indent</b><br>Page 1</td>
@@ -2001,22 +1939,22 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic131_number_format_table</b><br>Page 1</td>
   <td><img src="images/docx_classic131_number_format_table_p1_heatmap.png" width="760" alt="docx_classic131_number_format_table page 1 difference heatmap"></td>
-  <td>changed: 80808 px (3.84%)<br>bbox: [175, 208, 1088, 716]<br>mean abs RGB: 5.9641<br>RMSE RGB: 34.1875<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 80197 px (3.81%)<br>bbox: [175, 158, 1077, 725]<br>mean abs RGB: 5.845<br>RMSE RGB: 33.6414<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic132_striped_table</b><br>Page 1</td>
   <td><img src="images/docx_classic132_striped_table_p1_heatmap.png" width="760" alt="docx_classic132_striped_table page 1 difference heatmap"></td>
-  <td>changed: 197435 px (9.38%)<br>bbox: [175, 208, 1088, 716]<br>mean abs RGB: 7.6986<br>RMSE RGB: 36.5493<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 198273 px (9.42%)<br>bbox: [175, 158, 1077, 725]<br>mean abs RGB: 7.5104<br>RMSE RGB: 35.657<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic133_gradient_rows_table</b><br>Page 1</td>
   <td><img src="images/docx_classic133_gradient_rows_table_p1_heatmap.png" width="760" alt="docx_classic133_gradient_rows_table page 1 difference heatmap"></td>
-  <td>changed: 274210 px (13.03%)<br>bbox: [175, 208, 1088, 716]<br>mean abs RGB: 25.3349<br>RMSE RGB: 76.3292<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 273762 px (13.01%)<br>bbox: [175, 158, 1077, 725]<br>mean abs RGB: 25.2297<br>RMSE RGB: 76.25<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic134_heatmap_table</b><br>Page 1</td>
   <td><img src="images/docx_classic134_heatmap_table_p1_heatmap.png" width="760" alt="docx_classic134_heatmap_table page 1 difference heatmap"></td>
-  <td>changed: 178004 px (8.46%)<br>bbox: [175, 208, 1088, 590]<br>mean abs RGB: 12.7411<br>RMSE RGB: 49.2498<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 179886 px (8.55%)<br>bbox: [175, 158, 1077, 580]<br>mean abs RGB: 12.9379<br>RMSE RGB: 49.7479<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic135_bottom_border_paragraphs</b><br>Page 1</td>
@@ -2026,17 +1964,17 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic136_financial_statement</b><br>Page 1</td>
   <td><img src="images/docx_classic136_financial_statement_p1_heatmap.png" width="760" alt="docx_classic136_financial_statement page 1 difference heatmap"></td>
-  <td>changed: 120442 px (5.73%)<br>bbox: [175, 208, 1088, 716]<br>mean abs RGB: 8.2362<br>RMSE RGB: 40.3636<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 121507 px (5.78%)<br>bbox: [175, 158, 1077, 733]<br>mean abs RGB: 8.0945<br>RMSE RGB: 39.8179<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic137_checkerboard_table</b><br>Page 1</td>
   <td><img src="images/docx_classic137_checkerboard_table_p1_heatmap.png" width="760" alt="docx_classic137_checkerboard_table page 1 difference heatmap"></td>
-  <td>changed: 212514 px (10.10%)<br>bbox: [175, 208, 1088, 590]<br>mean abs RGB: 11.9331<br>RMSE RGB: 47.3521<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 216562 px (10.29%)<br>bbox: [175, 158, 1077, 580]<br>mean abs RGB: 11.9923<br>RMSE RGB: 47.3482<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic138_color_grid_table</b><br>Page 1</td>
   <td><img src="images/docx_classic138_color_grid_table_p1_heatmap.png" width="760" alt="docx_classic138_color_grid_table page 1 difference heatmap"></td>
-  <td>changed: 110422 px (5.25%)<br>bbox: [175, 208, 1088, 421]<br>mean abs RGB: 4.7233<br>RMSE RGB: 26.8774<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 111727 px (5.31%)<br>bbox: [175, 158, 1077, 387]<br>mean abs RGB: 4.6684<br>RMSE RGB: 26.3671<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic139_paragraph_shading_patterns</b><br>Page 1</td>
@@ -2046,62 +1984,62 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>docx_classic140_rotated_text_table</b><br>Page 1</td>
   <td><img src="images/docx_classic140_rotated_text_table_p1_heatmap.png" width="760" alt="docx_classic140_rotated_text_table page 1 difference heatmap"></td>
-  <td>changed: 47522 px (2.26%)<br>bbox: [175, 208, 1088, 606]<br>mean abs RGB: 3.4524<br>RMSE RGB: 26.1105<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 46446 px (2.21%)<br>bbox: [175, 158, 1079, 560]<br>mean abs RGB: 3.2775<br>RMSE RGB: 25.0546<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic141_mixed_border_styles</b><br>Page 1</td>
   <td><img src="images/docx_classic141_mixed_border_styles_p1_heatmap.png" width="760" alt="docx_classic141_mixed_border_styles page 1 difference heatmap"></td>
-  <td>changed: 43038 px (2.05%)<br>bbox: [186, 208, 1088, 667]<br>mean abs RGB: 3.0973<br>RMSE RGB: 24.9284<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 38391 px (1.82%)<br>bbox: [187, 158, 1079, 667]<br>mean abs RGB: 2.7101<br>RMSE RGB: 23.2024<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic142_styled_invoice_document</b><br>Page 1</td>
   <td><img src="images/docx_classic142_styled_invoice_document_p1_heatmap.png" width="760" alt="docx_classic142_styled_invoice_document page 1 difference heatmap"></td>
-  <td>changed: 182829 px (8.69%)<br>bbox: [175, 150, 1091, 806]<br>mean abs RGB: 7.9674<br>RMSE RGB: 37.186<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 180907 px (8.60%)<br>bbox: [175, 150, 1091, 904]<br>mean abs RGB: 7.557<br>RMSE RGB: 35.7755<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic143_multi_section_document</b><br>Page 1</td>
   <td><img src="images/docx_classic143_multi_section_document_p1_heatmap.png" width="760" alt="docx_classic143_multi_section_document page 1 difference heatmap"></td>
-  <td>changed: 239017 px (11.36%)<br>bbox: [175, 149, 1091, 1132]<br>mean abs RGB: 17.6468<br>RMSE RGB: 62.4827<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 239229 px (11.37%)<br>bbox: [175, 149, 1091, 1160]<br>mean abs RGB: 17.673<br>RMSE RGB: 62.2247<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic144_note_style_paragraphs</b><br>Page 1</td>
   <td><img src="images/docx_classic144_note_style_paragraphs_p1_heatmap.png" width="760" alt="docx_classic144_note_style_paragraphs page 1 difference heatmap"></td>
-  <td>changed: 89719 px (4.26%)<br>bbox: [175, 209, 1088, 496]<br>mean abs RGB: 3.3662<br>RMSE RGB: 24.0722<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 89005 px (4.23%)<br>bbox: [175, 158, 1077, 484]<br>mean abs RGB: 3.0991<br>RMSE RGB: 22.5044<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic145_status_badge_table</b><br>Page 1</td>
   <td><img src="images/docx_classic145_status_badge_table_p1_heatmap.png" width="760" alt="docx_classic145_status_badge_table page 1 difference heatmap"></td>
-  <td>changed: 121531 px (5.78%)<br>bbox: [175, 208, 1088, 590]<br>mean abs RGB: 7.3647<br>RMSE RGB: 36.296<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 121538 px (5.78%)<br>bbox: [175, 158, 1077, 580]<br>mean abs RGB: 7.2738<br>RMSE RGB: 35.7121<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic146_double_border_table</b><br>Page 1</td>
   <td><img src="images/docx_classic146_double_border_table_p1_heatmap.png" width="760" alt="docx_classic146_double_border_table page 1 difference heatmap"></td>
-  <td>changed: 63337 px (3.01%)<br>bbox: [174, 208, 1088, 463]<br>mean abs RGB: 3.7782<br>RMSE RGB: 27.0194<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 65878 px (3.13%)<br>bbox: [174, 158, 1079, 435]<br>mean abs RGB: 3.8336<br>RMSE RGB: 26.9054<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic147_multi_section_styled_report</b><br>Page 1</td>
   <td><img src="images/docx_classic147_multi_section_styled_report_p1_heatmap.png" width="760" alt="docx_classic147_multi_section_styled_report page 1 difference heatmap"></td>
-  <td>changed: 179188 px (8.52%)<br>bbox: [175, 208, 1088, 1076]<br>mean abs RGB: 12.8261<br>RMSE RGB: 48.7464<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 181319 px (8.62%)<br>bbox: [175, 158, 1077, 1157]<br>mean abs RGB: 12.8977<br>RMSE RGB: 48.5724<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic148_data_grid_document</b><br>Page 1</td>
   <td><img src="images/docx_classic148_data_grid_document_p1_heatmap.png" width="760" alt="docx_classic148_data_grid_document page 1 difference heatmap"></td>
-  <td>changed: 386254 px (18.36%)<br>bbox: [175, 208, 1088, 1137]<br>mean abs RGB: 17.2031<br>RMSE RGB: 54.3491<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 390034 px (18.54%)<br>bbox: [175, 158, 1077, 1209]<br>mean abs RGB: 17.1766<br>RMSE RGB: 53.9358<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic149_merged_section_report</b><br>Page 1</td>
   <td><img src="images/docx_classic149_merged_section_report_p1_heatmap.png" width="760" alt="docx_classic149_merged_section_report page 1 difference heatmap"></td>
-  <td>changed: 183174 px (8.71%)<br>bbox: [175, 149, 1091, 783]<br>mean abs RGB: 12.0922<br>RMSE RGB: 48.7147<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 175184 px (8.33%)<br>bbox: [175, 149, 1091, 837]<br>mean abs RGB: 11.5506<br>RMSE RGB: 47.2633<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic150_kitchen_sink_styles</b><br>Page 1</td>
   <td><img src="images/docx_classic150_kitchen_sink_styles_p1_heatmap.png" width="760" alt="docx_classic150_kitchen_sink_styles page 1 difference heatmap"></td>
-  <td>changed: 271411 px (12.90%)<br>bbox: [175, 149, 1091, 1451]<br>mean abs RGB: 14.744<br>RMSE RGB: 50.8998<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 261941 px (12.45%)<br>bbox: [175, 149, 1091, 1451]<br>mean abs RGB: 13.9069<br>RMSE RGB: 48.7269<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>docx_classic150_kitchen_sink_styles</b><br>Page 2</td>
   <td><img src="images/docx_classic150_kitchen_sink_styles_p2_heatmap.png" width="760" alt="docx_classic150_kitchen_sink_styles page 2 difference heatmap"></td>
-  <td>changed: 15497 px (0.74%)<br>bbox: [189, 159, 757, 406]<br>mean abs RGB: 1.358<br>RMSE RGB: 17.367<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 18538 px (0.88%)<br>bbox: [188, 157, 757, 530]<br>mean abs RGB: 1.4798<br>RMSE RGB: 17.7121<br>threshold: 12, gain: 5.0</td>
 </tr>
 </table>
 
@@ -2194,7 +2132,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic10_simple_table<br><small>format: docx | case: docx_classic10_simple_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic10_simple_table <span style="color:#3fb950">⬤</span> 98.9%</td>
+  <td colspan="2">docx_classic10_simple_table <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic10_simple_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2203,7 +2141,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic11_table_with_shading<br><small>format: docx | case: docx_classic11_table_with_shading | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic11_table_with_shading <span style="color:#d29922">⬤</span> 88.5%</td>
+  <td colspan="2">docx_classic11_table_with_shading <span style="color:#d29922">⬤</span> 88.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic11_table_with_shading_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2212,7 +2150,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic12_merged_cells_table<br><small>format: docx | case: docx_classic12_merged_cells_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic12_merged_cells_table <span style="color:#3fb950">⬤</span> 99.1%</td>
+  <td colspan="2">docx_classic12_merged_cells_table <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic12_merged_cells_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2245,12 +2183,10 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic14_mixed_content<br><small>format: docx | case: docx_classic14_mixed_content | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic14_mixed_content <span style="color:#3fb950">⬤</span> 98.9%</td>
+  <td colspan="2">docx_classic14_mixed_content N/A</td>
 </tr>
 <tr>
-  <td><img src="images/docx_classic14_mixed_content_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><img src="images/docx_classic14_mixed_content_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
-  <td><img src="images/docx_classic14_mixed_content_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
+  <td colspan="3"><i>No images</i></td>
 </tr>
 <tr>
   <td><b>docx_classic15_indentation<br><small>format: docx | case: docx_classic15_indentation | scope: java-classic-docx</small></b></td>
@@ -2309,7 +2245,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic20_table_with_many_rows<br><small>format: docx | case: docx_classic20_table_with_many_rows | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic20_table_with_many_rows <span style="color:#3fb950">⬤</span> 97.8%</td>
+  <td colspan="2">docx_classic20_table_with_many_rows <span style="color:#3fb950">⬤</span> 98.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic20_table_with_many_rows_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2345,7 +2281,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic24_two_column_table_layout<br><small>format: docx | case: docx_classic24_two_column_table_layout | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic24_two_column_table_layout <span style="color:#3fb950">⬤</span> 99.2%</td>
+  <td colspan="2">docx_classic24_two_column_table_layout <span style="color:#3fb950">⬤</span> 95.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic24_two_column_table_layout_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2368,7 +2304,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic26_table_alignment<br><small>format: docx | case: docx_classic26_table_alignment | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic26_table_alignment <span style="color:#3fb950">⬤</span> 99.1%</td>
+  <td colspan="2">docx_classic26_table_alignment <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic26_table_alignment_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2395,7 +2331,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic29_table_with_image<br><small>format: docx | case: docx_classic29_table_with_image | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic29_table_with_image <span style="color:#3fb950">⬤</span> 92.0%</td>
+  <td colspan="2">docx_classic29_table_with_image <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic29_table_with_image_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2404,7 +2340,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic30_comprehensive_report<br><small>format: docx | case: docx_classic30_comprehensive_report | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic30_comprehensive_report <span style="color:#d29922">⬤</span> 70.4%</td>
+  <td colspan="2">docx_classic30_comprehensive_report <span style="color:#d29922">⬤</span> 71.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic30_comprehensive_report_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2423,7 +2359,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic31_product_card_with_image<br><small>format: docx | case: docx_classic31_product_card_with_image | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic31_product_card_with_image <span style="color:#d29922">⬤</span> 85.4%</td>
+  <td colspan="2">docx_classic31_product_card_with_image <span style="color:#d29922">⬤</span> 84.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic31_product_card_with_image_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2441,7 +2377,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic32_company_logo_header<br><small>format: docx | case: docx_classic32_company_logo_header | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic32_company_logo_header <span style="color:#3fb950">⬤</span> 92.0%</td>
+  <td colspan="2">docx_classic32_company_logo_header <span style="color:#3fb950">⬤</span> 95.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic32_company_logo_header_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2468,7 +2404,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic33_two_products_side_by_side<br><small>format: docx | case: docx_classic33_two_products_side_by_side | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic33_two_products_side_by_side <span style="color:#d29922">⬤</span> 83.4%</td>
+  <td colspan="2">docx_classic33_two_products_side_by_side <span style="color:#d29922">⬤</span> 85.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic33_two_products_side_by_side_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2500,7 +2436,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic35_inventory_with_product_photos<br><small>format: docx | case: docx_classic35_inventory_with_product_photos | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic35_inventory_with_product_photos <span style="color:#f85149">⬤</span> 63.5%</td>
+  <td colspan="2">docx_classic35_inventory_with_product_photos <span style="color:#f85149">⬤</span> 64.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic35_inventory_with_product_photos_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2523,7 +2459,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic36_invoice_with_logo<br><small>format: docx | case: docx_classic36_invoice_with_logo | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic36_invoice_with_logo <span style="color:#3fb950">⬤</span> 95.9%</td>
+  <td colspan="2">docx_classic36_invoice_with_logo <span style="color:#3fb950">⬤</span> 97.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic36_invoice_with_logo_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2532,7 +2468,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic36_wide_table<br><small>format: docx | case: docx_classic36_wide_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic36_wide_table <span style="color:#3fb950">⬤</span> 96.6%</td>
+  <td colspan="2">docx_classic36_wide_table <span style="color:#3fb950">⬤</span> 97.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic36_wide_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2541,7 +2477,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic37_nested_table<br><small>format: docx | case: docx_classic37_nested_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic37_nested_table <span style="color:#3fb950">⬤</span> 95.0%</td>
+  <td colspan="2">docx_classic37_nested_table <span style="color:#3fb950">⬤</span> 95.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic37_nested_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2550,7 +2486,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic37_real_estate_listing<br><small>format: docx | case: docx_classic37_real_estate_listing | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic37_real_estate_listing <span style="color:#d29922">⬤</span> 81.8%</td>
+  <td colspan="2">docx_classic37_real_estate_listing <span style="color:#d29922">⬤</span> 83.0%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic37_real_estate_listing_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2573,7 +2509,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic38_table_column_widths<br><small>format: docx | case: docx_classic38_table_column_widths | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic38_table_column_widths <span style="color:#3fb950">⬤</span> 98.7%</td>
+  <td colspan="2">docx_classic38_table_column_widths <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic38_table_column_widths_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2596,7 +2532,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic39_financial_report<br><small>format: docx | case: docx_classic39_financial_report | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic39_financial_report <span style="color:#3fb950">⬤</span> 98.7%</td>
+  <td colspan="2">docx_classic39_financial_report <span style="color:#3fb950">⬤</span> 98.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic39_financial_report_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2605,7 +2541,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic40_product_catalog_with_images<br><small>format: docx | case: docx_classic40_product_catalog_with_images | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic40_product_catalog_with_images <span style="color:#3fb950">⬤</span> 90.4%</td>
+  <td colspan="2">docx_classic40_product_catalog_with_images <span style="color:#3fb950">⬤</span> 92.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic40_product_catalog_with_images_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2641,7 +2577,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic42_chart_image_with_data<br><small>format: docx | case: docx_classic42_chart_image_with_data | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic42_chart_image_with_data <span style="color:#d29922">⬤</span> 81.8%</td>
+  <td colspan="2">docx_classic42_chart_image_with_data <span style="color:#d29922">⬤</span> 81.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic42_chart_image_with_data_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2650,7 +2586,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic42_meeting_minutes<br><small>format: docx | case: docx_classic42_meeting_minutes | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic42_meeting_minutes <span style="color:#3fb950">⬤</span> 97.1%</td>
+  <td colspan="2">docx_classic42_meeting_minutes <span style="color:#3fb950">⬤</span> 96.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic42_meeting_minutes_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2659,7 +2595,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic43_event_flyer_with_banner<br><small>format: docx | case: docx_classic43_event_flyer_with_banner | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic43_event_flyer_with_banner <span style="color:#d29922">⬤</span> 76.4%</td>
+  <td colspan="2">docx_classic43_event_flyer_with_banner <span style="color:#d29922">⬤</span> 83.6%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic43_event_flyer_with_banner_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2668,7 +2604,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic43_invoice_document<br><small>format: docx | case: docx_classic43_invoice_document | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic43_invoice_document <span style="color:#3fb950">⬤</span> 96.9%</td>
+  <td colspan="2">docx_classic43_invoice_document <span style="color:#3fb950">⬤</span> 98.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic43_invoice_document_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2677,7 +2613,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic44_dashboard_with_kpi_image<br><small>format: docx | case: docx_classic44_dashboard_with_kpi_image | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic44_dashboard_with_kpi_image <span style="color:#d29922">⬤</span> 79.9%</td>
+  <td colspan="2">docx_classic44_dashboard_with_kpi_image <span style="color:#d29922">⬤</span> 80.0%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic44_dashboard_with_kpi_image_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2704,7 +2640,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic45_project_plan<br><small>format: docx | case: docx_classic45_project_plan | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic45_project_plan <span style="color:#3fb950">⬤</span> 97.7%</td>
+  <td colspan="2">docx_classic45_project_plan <span style="color:#3fb950">⬤</span> 97.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic45_project_plan_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2713,7 +2649,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic46_comparison_table<br><small>format: docx | case: docx_classic46_comparison_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic46_comparison_table <span style="color:#3fb950">⬤</span> 98.2%</td>
+  <td colspan="2">docx_classic46_comparison_table <span style="color:#3fb950">⬤</span> 98.6%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic46_comparison_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2731,7 +2667,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic47_data_dictionary<br><small>format: docx | case: docx_classic47_data_dictionary | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic47_data_dictionary <span style="color:#3fb950">⬤</span> 97.5%</td>
+  <td colspan="2">docx_classic47_data_dictionary <span style="color:#3fb950">⬤</span> 97.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic47_data_dictionary_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2768,7 +2704,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic48_task_list_with_status_icons<br><small>format: docx | case: docx_classic48_task_list_with_status_icons | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic48_task_list_with_status_icons <span style="color:#3fb950">⬤</span> 97.7%</td>
+  <td colspan="2">docx_classic48_task_list_with_status_icons <span style="color:#3fb950">⬤</span> 98.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic48_task_list_with_status_icons_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2786,7 +2722,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic49_wide_panoramic_banner<br><small>format: docx | case: docx_classic49_wide_panoramic_banner | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic49_wide_panoramic_banner <span style="color:#d29922">⬤</span> 71.6%</td>
+  <td colspan="2">docx_classic49_wide_panoramic_banner <span style="color:#d29922">⬤</span> 80.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic49_wide_panoramic_banner_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2795,7 +2731,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic50_long_table_with_formatting<br><small>format: docx | case: docx_classic50_long_table_with_formatting | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic50_long_table_with_formatting <span style="color:#d29922">⬤</span> 72.2%</td>
+  <td colspan="2">docx_classic50_long_table_with_formatting <span style="color:#d29922">⬤</span> 72.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic50_long_table_with_formatting_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2863,7 +2799,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic53_table_merged_complex<br><small>format: docx | case: docx_classic53_table_merged_complex | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic53_table_merged_complex <span style="color:#3fb950">⬤</span> 95.1%</td>
+  <td colspan="2">docx_classic53_table_merged_complex <span style="color:#3fb950">⬤</span> 95.6%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic53_table_merged_complex_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2881,7 +2817,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic54_travel_destination_cards<br><small>format: docx | case: docx_classic54_travel_destination_cards | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic54_travel_destination_cards <span style="color:#d29922">⬤</span> 86.6%</td>
+  <td colspan="2">docx_classic54_travel_destination_cards <span style="color:#d29922">⬤</span> 89.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic54_travel_destination_cards_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2899,7 +2835,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic55_lab_results_with_image<br><small>format: docx | case: docx_classic55_lab_results_with_image | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic55_lab_results_with_image <span style="color:#d29922">⬤</span> 89.9%</td>
+  <td colspan="2">docx_classic55_lab_results_with_image <span style="color:#3fb950">⬤</span> 94.6%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic55_lab_results_with_image_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2908,7 +2844,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic56_images_and_tables_mixed<br><small>format: docx | case: docx_classic56_images_and_tables_mixed | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic56_images_and_tables_mixed <span style="color:#d29922">⬤</span> 85.6%</td>
+  <td colspan="2">docx_classic56_images_and_tables_mixed <span style="color:#d29922">⬤</span> 86.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic56_images_and_tables_mixed_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2917,7 +2853,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic56_software_screenshot_features<br><small>format: docx | case: docx_classic56_software_screenshot_features | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic56_software_screenshot_features <span style="color:#d29922">⬤</span> 85.2%</td>
+  <td colspan="2">docx_classic56_software_screenshot_features <span style="color:#d29922">⬤</span> 83.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic56_software_screenshot_features_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2935,7 +2871,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic57_sports_results_with_logos<br><small>format: docx | case: docx_classic57_sports_results_with_logos | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic57_sports_results_with_logos <span style="color:#3fb950">⬤</span> 96.6%</td>
+  <td colspan="2">docx_classic57_sports_results_with_logos <span style="color:#3fb950">⬤</span> 96.1%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic57_sports_results_with_logos_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -2983,7 +2919,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic58_report_with_footer_image<br><small>format: docx | case: docx_classic58_report_with_footer_image | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic58_report_with_footer_image <span style="color:#3fb950">⬤</span> 92.9%</td>
+  <td colspan="2">docx_classic58_report_with_footer_image <span style="color:#3fb950">⬤</span> 96.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic58_report_with_footer_image_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3001,7 +2937,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic59_nutrition_label_with_image<br><small>format: docx | case: docx_classic59_nutrition_label_with_image | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic59_nutrition_label_with_image <span style="color:#d29922">⬤</span> 84.3%</td>
+  <td colspan="2">docx_classic59_nutrition_label_with_image <span style="color:#d29922">⬤</span> 84.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic59_nutrition_label_with_image_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3010,7 +2946,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic60_comprehensive_styled_report<br><small>format: docx | case: docx_classic60_comprehensive_styled_report | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic60_comprehensive_styled_report <span style="color:#f85149">⬤</span> 68.2%</td>
+  <td colspan="2">docx_classic60_comprehensive_styled_report <span style="color:#d29922">⬤</span> 70.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic60_comprehensive_styled_report_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3029,17 +2965,10 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic60_project_status_with_milestones<br><small>format: docx | case: docx_classic60_project_status_with_milestones | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic60_project_status_with_milestones <span style="color:#f85149">⬤</span> 59.9%</td>
+  <td colspan="2">docx_classic60_project_status_with_milestones N/A</td>
 </tr>
 <tr>
-  <td><img src="images/docx_classic60_project_status_with_milestones_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><img src="images/docx_classic60_project_status_with_milestones_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
-  <td><img src="images/docx_classic60_project_status_with_milestones_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
-</tr>
-<tr>
-  <td><i>missing</i></td>
-  <td><img src="images/docx_classic60_project_status_with_milestones_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
-  <td><img src="images/docx_classic60_project_status_with_milestones_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
+  <td colspan="3"><i>No images</i></td>
 </tr>
 <tr>
   <td><b>docx_classic61_header_and_footer<br><small>format: docx | case: docx_classic61_header_and_footer | scope: java-classic-docx</small></b></td>
@@ -3061,7 +2990,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic63_toc_style_headings<br><small>format: docx | case: docx_classic63_toc_style_headings | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic63_toc_style_headings <span style="color:#3fb950">⬤</span> 98.5%</td>
+  <td colspan="2">docx_classic63_toc_style_headings <span style="color:#3fb950">⬤</span> 99.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic63_toc_style_headings_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3097,7 +3026,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic67_alternating_row_table<br><small>format: docx | case: docx_classic67_alternating_row_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic67_alternating_row_table <span style="color:#d29922">⬤</span> 86.8%</td>
+  <td colspan="2">docx_classic67_alternating_row_table <span style="color:#d29922">⬤</span> 88.0%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic67_alternating_row_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3106,7 +3035,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic68_sidebar_layout<br><small>format: docx | case: docx_classic68_sidebar_layout | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic68_sidebar_layout <span style="color:#d29922">⬤</span> 85.4%</td>
+  <td colspan="2">docx_classic68_sidebar_layout <span style="color:#d29922">⬤</span> 84.0%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic68_sidebar_layout_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3124,17 +3053,12 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic70_academic_paper<br><small>format: docx | case: docx_classic70_academic_paper | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic70_academic_paper <span style="color:#f85149">⬤</span> 68.1%</td>
+  <td colspan="2">docx_classic70_academic_paper <span style="color:#3fb950">⬤</span> 97.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic70_academic_paper_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
   <td><img src="images/docx_classic70_academic_paper_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/docx_classic70_academic_paper_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
-</tr>
-<tr>
-  <td><img src="images/docx_classic70_academic_paper_p2_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><i>missing</i></td>
-  <td><i>missing</i></td>
 </tr>
 <tr>
   <td><b>docx_classic71_legal_document<br><small>format: docx | case: docx_classic71_legal_document | scope: java-classic-docx</small></b></td>
@@ -3147,16 +3071,14 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic72_technical_specification<br><small>format: docx | case: docx_classic72_technical_specification | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic72_technical_specification <span style="color:#3fb950">⬤</span> 97.0%</td>
+  <td colspan="2">docx_classic72_technical_specification N/A</td>
 </tr>
 <tr>
-  <td><img src="images/docx_classic72_technical_specification_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><img src="images/docx_classic72_technical_specification_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
-  <td><img src="images/docx_classic72_technical_specification_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
+  <td colspan="3"><i>No images</i></td>
 </tr>
 <tr>
   <td><b>docx_classic73_calendar_layout<br><small>format: docx | case: docx_classic73_calendar_layout | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic73_calendar_layout <span style="color:#3fb950">⬤</span> 91.8%</td>
+  <td colspan="2">docx_classic73_calendar_layout <span style="color:#3fb950">⬤</span> 92.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic73_calendar_layout_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3165,7 +3087,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic74_org_chart<br><small>format: docx | case: docx_classic74_org_chart | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic74_org_chart <span style="color:#d29922">⬤</span> 76.0%</td>
+  <td colspan="2">docx_classic74_org_chart <span style="color:#d29922">⬤</span> 74.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic74_org_chart_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3174,7 +3096,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic75_newsletter_layout<br><small>format: docx | case: docx_classic75_newsletter_layout | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic75_newsletter_layout <span style="color:#d29922">⬤</span> 84.8%</td>
+  <td colspan="2">docx_classic75_newsletter_layout <span style="color:#d29922">⬤</span> 87.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic75_newsletter_layout_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3183,16 +3105,14 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic76_recipe_card<br><small>format: docx | case: docx_classic76_recipe_card | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic76_recipe_card <span style="color:#3fb950">⬤</span> 95.8%</td>
+  <td colspan="2">docx_classic76_recipe_card N/A</td>
 </tr>
 <tr>
-  <td><img src="images/docx_classic76_recipe_card_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><img src="images/docx_classic76_recipe_card_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
-  <td><img src="images/docx_classic76_recipe_card_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
+  <td colspan="3"><i>No images</i></td>
 </tr>
 <tr>
   <td><b>docx_classic77_timeline_layout<br><small>format: docx | case: docx_classic77_timeline_layout | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic77_timeline_layout <span style="color:#3fb950">⬤</span> 93.6%</td>
+  <td colspan="2">docx_classic77_timeline_layout <span style="color:#3fb950">⬤</span> 94.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic77_timeline_layout_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3224,7 +3144,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic80_matrix_grid<br><small>format: docx | case: docx_classic80_matrix_grid | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic80_matrix_grid <span style="color:#d29922">⬤</span> 78.6%</td>
+  <td colspan="2">docx_classic80_matrix_grid <span style="color:#d29922">⬤</span> 79.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic80_matrix_grid_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3233,7 +3153,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic81_budget_table<br><small>format: docx | case: docx_classic81_budget_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic81_budget_table <span style="color:#3fb950">⬤</span> 90.8%</td>
+  <td colspan="2">docx_classic81_budget_table <span style="color:#3fb950">⬤</span> 91.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic81_budget_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3242,7 +3162,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic82_survey_questionnaire<br><small>format: docx | case: docx_classic82_survey_questionnaire | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic82_survey_questionnaire <span style="color:#d29922">⬤</span> 72.1%</td>
+  <td colspan="2">docx_classic82_survey_questionnaire <span style="color:#3fb950">⬤</span> 97.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic82_survey_questionnaire_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3255,13 +3175,8 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td><img src="images/docx_classic82_survey_questionnaire_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/docx_classic82_survey_questionnaire_p3_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><i>missing</i></td>
-  <td><i>missing</i></td>
-</tr>
-<tr>
   <td><b>docx_classic83_medical_form<br><small>format: docx | case: docx_classic83_medical_form | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic83_medical_form <span style="color:#3fb950">⬤</span> 96.8%</td>
+  <td colspan="2">docx_classic83_medical_form <span style="color:#3fb950">⬤</span> 96.6%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic83_medical_form_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3270,7 +3185,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic84_shipping_label<br><small>format: docx | case: docx_classic84_shipping_label | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic84_shipping_label <span style="color:#3fb950">⬤</span> 96.0%</td>
+  <td colspan="2">docx_classic84_shipping_label <span style="color:#3fb950">⬤</span> 97.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic84_shipping_label_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3279,7 +3194,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic85_report_card<br><small>format: docx | case: docx_classic85_report_card | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic85_report_card <span style="color:#3fb950">⬤</span> 95.5%</td>
+  <td colspan="2">docx_classic85_report_card <span style="color:#3fb950">⬤</span> 96.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic85_report_card_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3306,7 +3221,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic88_presentation_handout<br><small>format: docx | case: docx_classic88_presentation_handout | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic88_presentation_handout <span style="color:#d29922">⬤</span> 78.5%</td>
+  <td colspan="2">docx_classic88_presentation_handout <span style="color:#d29922">⬤</span> 78.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic88_presentation_handout_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3320,7 +3235,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic89_multi_image_gallery<br><small>format: docx | case: docx_classic89_multi_image_gallery | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic89_multi_image_gallery <span style="color:#d29922">⬤</span> 80.1%</td>
+  <td colspan="2">docx_classic89_multi_image_gallery <span style="color:#3fb950">⬤</span> 96.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic89_multi_image_gallery_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3329,7 +3244,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic90_comprehensive_annual_report<br><small>format: docx | case: docx_classic90_comprehensive_annual_report | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic90_comprehensive_annual_report <span style="color:#f85149">⬤</span> 64.6%</td>
+  <td colspan="2">docx_classic90_comprehensive_annual_report <span style="color:#f85149">⬤</span> 64.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic90_comprehensive_annual_report_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3353,7 +3268,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic91_landscape_page<br><small>format: docx | case: docx_classic91_landscape_page | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic91_landscape_page <span style="color:#3fb950">⬤</span> 98.5%</td>
+  <td colspan="2">docx_classic91_landscape_page <span style="color:#3fb950">⬤</span> 98.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic91_landscape_page_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3389,7 +3304,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic95_contract_template<br><small>format: docx | case: docx_classic95_contract_template | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic95_contract_template <span style="color:#3fb950">⬤</span> 98.5%</td>
+  <td colspan="2">docx_classic95_contract_template <span style="color:#3fb950">⬤</span> 99.1%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic95_contract_template_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3398,7 +3313,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic96_dense_data_table<br><small>format: docx | case: docx_classic96_dense_data_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic96_dense_data_table <span style="color:#d29922">⬤</span> 89.8%</td>
+  <td colspan="2">docx_classic96_dense_data_table <span style="color:#d29922">⬤</span> 89.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic96_dense_data_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3407,17 +3322,12 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic97_product_catalog<br><small>format: docx | case: docx_classic97_product_catalog | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic97_product_catalog <span style="color:#f85149">⬤</span> 63.0%</td>
+  <td colspan="2">docx_classic97_product_catalog <span style="color:#3fb950">⬤</span> 96.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic97_product_catalog_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
   <td><img src="images/docx_classic97_product_catalog_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/docx_classic97_product_catalog_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
-</tr>
-<tr>
-  <td><img src="images/docx_classic97_product_catalog_p2_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><i>missing</i></td>
-  <td><i>missing</i></td>
 </tr>
 <tr>
   <td><b>docx_classic98_training_manual<br><small>format: docx | case: docx_classic98_training_manual | scope: java-classic-docx</small></b></td>
@@ -3430,7 +3340,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic99_policy_document<br><small>format: docx | case: docx_classic99_policy_document | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic99_policy_document <span style="color:#f85149">⬤</span> 68.4%</td>
+  <td colspan="2">docx_classic99_policy_document <span style="color:#f85149">⬤</span> 68.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic99_policy_document_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3444,7 +3354,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic100_multi_page_table<br><small>format: docx | case: docx_classic100_multi_page_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic100_multi_page_table <span style="color:#d29922">⬤</span> 75.9%</td>
+  <td colspan="2">docx_classic100_multi_page_table <span style="color:#d29922">⬤</span> 71.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic100_multi_page_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3467,7 +3377,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic102_curriculum_syllabus<br><small>format: docx | case: docx_classic102_curriculum_syllabus | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic102_curriculum_syllabus <span style="color:#3fb950">⬤</span> 96.9%</td>
+  <td colspan="2">docx_classic102_curriculum_syllabus <span style="color:#3fb950">⬤</span> 96.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic102_curriculum_syllabus_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3476,7 +3386,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic103_event_program<br><small>format: docx | case: docx_classic103_event_program | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic103_event_program <span style="color:#d29922">⬤</span> 87.7%</td>
+  <td colspan="2">docx_classic103_event_program <span style="color:#d29922">⬤</span> 87.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic103_event_program_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3490,21 +3400,14 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic104_sop_document<br><small>format: docx | case: docx_classic104_sop_document | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic104_sop_document <span style="color:#3fb950">⬤</span> 98.2%</td>
+  <td colspan="2">docx_classic104_sop_document N/A</td>
 </tr>
 <tr>
-  <td><img src="images/docx_classic104_sop_document_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><img src="images/docx_classic104_sop_document_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
-  <td><img src="images/docx_classic104_sop_document_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
-</tr>
-<tr>
-  <td><img src="images/docx_classic104_sop_document_p2_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><img src="images/docx_classic104_sop_document_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
-  <td><img src="images/docx_classic104_sop_document_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
+  <td colspan="3"><i>No images</i></td>
 </tr>
 <tr>
   <td><b>docx_classic105_certificate<br><small>format: docx | case: docx_classic105_certificate | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic105_certificate <span style="color:#3fb950">⬤</span> 99.0%</td>
+  <td colspan="2">docx_classic105_certificate <span style="color:#3fb950">⬤</span> 98.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic105_certificate_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3513,7 +3416,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic106_multi_section_orientation<br><small>format: docx | case: docx_classic106_multi_section_orientation | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic106_multi_section_orientation <span style="color:#3fb950">⬤</span> 98.0%</td>
+  <td colspan="2">docx_classic106_multi_section_orientation <span style="color:#3fb950">⬤</span> 97.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic106_multi_section_orientation_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3532,7 +3435,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic107_order_form<br><small>format: docx | case: docx_classic107_order_form | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic107_order_form <span style="color:#3fb950">⬤</span> 96.9%</td>
+  <td colspan="2">docx_classic107_order_form <span style="color:#3fb950">⬤</span> 97.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic107_order_form_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3591,7 +3494,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic113_address_labels<br><small>format: docx | case: docx_classic113_address_labels | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic113_address_labels <span style="color:#3fb950">⬤</span> 98.8%</td>
+  <td colspan="2">docx_classic113_address_labels <span style="color:#3fb950">⬤</span> 98.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic113_address_labels_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3600,7 +3503,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic114_test_report<br><small>format: docx | case: docx_classic114_test_report | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic114_test_report <span style="color:#3fb950">⬤</span> 96.9%</td>
+  <td colspan="2">docx_classic114_test_report <span style="color:#3fb950">⬤</span> 96.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic114_test_report_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3609,7 +3512,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic115_price_list<br><small>format: docx | case: docx_classic115_price_list | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic115_price_list <span style="color:#d29922">⬤</span> 89.7%</td>
+  <td colspan="2">docx_classic115_price_list <span style="color:#3fb950">⬤</span> 90.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic115_price_list_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3618,7 +3521,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic116_risk_assessment<br><small>format: docx | case: docx_classic116_risk_assessment | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic116_risk_assessment <span style="color:#d29922">⬤</span> 88.7%</td>
+  <td colspan="2">docx_classic116_risk_assessment <span style="color:#d29922">⬤</span> 88.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic116_risk_assessment_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3627,16 +3530,14 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic117_employee_handbook_excerpt<br><small>format: docx | case: docx_classic117_employee_handbook_excerpt | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic117_employee_handbook_excerpt <span style="color:#3fb950">⬤</span> 97.3%</td>
+  <td colspan="2">docx_classic117_employee_handbook_excerpt N/A</td>
 </tr>
 <tr>
-  <td><img src="images/docx_classic117_employee_handbook_excerpt_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
-  <td><img src="images/docx_classic117_employee_handbook_excerpt_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
-  <td><img src="images/docx_classic117_employee_handbook_excerpt_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
+  <td colspan="3"><i>No images</i></td>
 </tr>
 <tr>
   <td><b>docx_classic118_data_report_with_summary<br><small>format: docx | case: docx_classic118_data_report_with_summary | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic118_data_report_with_summary <span style="color:#3fb950">⬤</span> 96.5%</td>
+  <td colspan="2">docx_classic118_data_report_with_summary <span style="color:#3fb950">⬤</span> 96.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic118_data_report_with_summary_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3654,7 +3555,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic120_comprehensive_business_proposal<br><small>format: docx | case: docx_classic120_comprehensive_business_proposal | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic120_comprehensive_business_proposal <span style="color:#d29922">⬤</span> 70.9%</td>
+  <td colspan="2">docx_classic120_comprehensive_business_proposal <span style="color:#3fb950">⬤</span> 90.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic120_comprehensive_business_proposal_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3667,13 +3568,13 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td><img src="images/docx_classic120_comprehensive_business_proposal_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/docx_classic120_comprehensive_business_proposal_p3_minipdf.png" width="260" alt="java MiniPdf"></td>
   <td><img src="images/docx_classic120_comprehensive_business_proposal_p3_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/docx_classic120_comprehensive_business_proposal_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>docx_classic121_thin_border_table<br><small>format: docx | case: docx_classic121_thin_border_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic121_thin_border_table <span style="color:#3fb950">⬤</span> 99.3%</td>
+  <td colspan="2">docx_classic121_thin_border_table <span style="color:#3fb950">⬤</span> 99.1%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic121_thin_border_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3682,7 +3583,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic122_thick_outer_border_table<br><small>format: docx | case: docx_classic122_thick_outer_border_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic122_thick_outer_border_table <span style="color:#3fb950">⬤</span> 98.9%</td>
+  <td colspan="2">docx_classic122_thick_outer_border_table <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic122_thick_outer_border_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3700,7 +3601,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic124_colored_border_table<br><small>format: docx | case: docx_classic124_colored_border_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic124_colored_border_table <span style="color:#3fb950">⬤</span> 99.1%</td>
+  <td colspan="2">docx_classic124_colored_border_table <span style="color:#3fb950">⬤</span> 98.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic124_colored_border_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3709,7 +3610,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic125_solid_cell_fills<br><small>format: docx | case: docx_classic125_solid_cell_fills | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic125_solid_cell_fills <span style="color:#d29922">⬤</span> 89.9%</td>
+  <td colspan="2">docx_classic125_solid_cell_fills <span style="color:#3fb950">⬤</span> 90.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic125_solid_cell_fills_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3718,7 +3619,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic126_dark_header_table<br><small>format: docx | case: docx_classic126_dark_header_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic126_dark_header_table <span style="color:#3fb950">⬤</span> 98.3%</td>
+  <td colspan="2">docx_classic126_dark_header_table <span style="color:#3fb950">⬤</span> 98.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic126_dark_header_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3727,7 +3628,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic127_font_styles_showcase<br><small>format: docx | case: docx_classic127_font_styles_showcase | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic127_font_styles_showcase <span style="color:#3fb950">⬤</span> 99.0%</td>
+  <td colspan="2">docx_classic127_font_styles_showcase <span style="color:#3fb950">⬤</span> 98.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic127_font_styles_showcase_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3745,7 +3646,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic129_alignment_combinations<br><small>format: docx | case: docx_classic129_alignment_combinations | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic129_alignment_combinations <span style="color:#3fb950">⬤</span> 99.3%</td>
+  <td colspan="2">docx_classic129_alignment_combinations <span style="color:#3fb950">⬤</span> 99.2%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic129_alignment_combinations_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3763,7 +3664,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic131_number_format_table<br><small>format: docx | case: docx_classic131_number_format_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic131_number_format_table <span style="color:#3fb950">⬤</span> 98.9%</td>
+  <td colspan="2">docx_classic131_number_format_table <span style="color:#3fb950">⬤</span> 98.7%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic131_number_format_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3772,7 +3673,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic132_striped_table<br><small>format: docx | case: docx_classic132_striped_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic132_striped_table <span style="color:#d29922">⬤</span> 88.5%</td>
+  <td colspan="2">docx_classic132_striped_table <span style="color:#d29922">⬤</span> 89.0%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic132_striped_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3781,7 +3682,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic133_gradient_rows_table<br><small>format: docx | case: docx_classic133_gradient_rows_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic133_gradient_rows_table <span style="color:#d29922">⬤</span> 82.9%</td>
+  <td colspan="2">docx_classic133_gradient_rows_table <span style="color:#d29922">⬤</span> 82.3%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic133_gradient_rows_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3790,7 +3691,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic134_heatmap_table<br><small>format: docx | case: docx_classic134_heatmap_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic134_heatmap_table <span style="color:#d29922">⬤</span> 86.2%</td>
+  <td colspan="2">docx_classic134_heatmap_table <span style="color:#d29922">⬤</span> 85.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic134_heatmap_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3808,7 +3709,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic136_financial_statement<br><small>format: docx | case: docx_classic136_financial_statement | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic136_financial_statement <span style="color:#3fb950">⬤</span> 96.9%</td>
+  <td colspan="2">docx_classic136_financial_statement <span style="color:#3fb950">⬤</span> 97.9%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic136_financial_statement_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3817,7 +3718,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic137_checkerboard_table<br><small>format: docx | case: docx_classic137_checkerboard_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic137_checkerboard_table <span style="color:#d29922">⬤</span> 82.0%</td>
+  <td colspan="2">docx_classic137_checkerboard_table <span style="color:#d29922">⬤</span> 82.6%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic137_checkerboard_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3826,7 +3727,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic138_color_grid_table<br><small>format: docx | case: docx_classic138_color_grid_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic138_color_grid_table <span style="color:#d29922">⬤</span> 88.3%</td>
+  <td colspan="2">docx_classic138_color_grid_table <span style="color:#d29922">⬤</span> 89.1%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic138_color_grid_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3844,7 +3745,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic140_rotated_text_table<br><small>format: docx | case: docx_classic140_rotated_text_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic140_rotated_text_table <span style="color:#3fb950">⬤</span> 91.9%</td>
+  <td colspan="2">docx_classic140_rotated_text_table <span style="color:#3fb950">⬤</span> 91.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic140_rotated_text_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3853,7 +3754,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic141_mixed_border_styles<br><small>format: docx | case: docx_classic141_mixed_border_styles | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic141_mixed_border_styles <span style="color:#3fb950">⬤</span> 99.5%</td>
+  <td colspan="2">docx_classic141_mixed_border_styles <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic141_mixed_border_styles_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3862,7 +3763,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic142_styled_invoice_document<br><small>format: docx | case: docx_classic142_styled_invoice_document | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic142_styled_invoice_document <span style="color:#d29922">⬤</span> 82.8%</td>
+  <td colspan="2">docx_classic142_styled_invoice_document <span style="color:#d29922">⬤</span> 84.1%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic142_styled_invoice_document_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3880,7 +3781,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic144_note_style_paragraphs<br><small>format: docx | case: docx_classic144_note_style_paragraphs | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic144_note_style_paragraphs <span style="color:#3fb950">⬤</span> 97.6%</td>
+  <td colspan="2">docx_classic144_note_style_paragraphs <span style="color:#3fb950">⬤</span> 97.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic144_note_style_paragraphs_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3889,7 +3790,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic145_status_badge_table<br><small>format: docx | case: docx_classic145_status_badge_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic145_status_badge_table <span style="color:#3fb950">⬤</span> 94.7%</td>
+  <td colspan="2">docx_classic145_status_badge_table <span style="color:#3fb950">⬤</span> 96.1%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic145_status_badge_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3898,7 +3799,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic146_double_border_table<br><small>format: docx | case: docx_classic146_double_border_table | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic146_double_border_table <span style="color:#3fb950">⬤</span> 96.5%</td>
+  <td colspan="2">docx_classic146_double_border_table <span style="color:#3fb950">⬤</span> 98.8%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic146_double_border_table_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3907,7 +3808,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic147_multi_section_styled_report<br><small>format: docx | case: docx_classic147_multi_section_styled_report | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic147_multi_section_styled_report <span style="color:#3fb950">⬤</span> 96.6%</td>
+  <td colspan="2">docx_classic147_multi_section_styled_report <span style="color:#3fb950">⬤</span> 96.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic147_multi_section_styled_report_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3916,7 +3817,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic148_data_grid_document<br><small>format: docx | case: docx_classic148_data_grid_document | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic148_data_grid_document <span style="color:#d29922">⬤</span> 87.7%</td>
+  <td colspan="2">docx_classic148_data_grid_document <span style="color:#d29922">⬤</span> 88.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic148_data_grid_document_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3925,7 +3826,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic149_merged_section_report<br><small>format: docx | case: docx_classic149_merged_section_report | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic149_merged_section_report <span style="color:#d29922">⬤</span> 87.4%</td>
+  <td colspan="2">docx_classic149_merged_section_report <span style="color:#d29922">⬤</span> 86.5%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic149_merged_section_report_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -3934,7 +3835,7 @@ Scores compare java MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>docx_classic150_kitchen_sink_styles<br><small>format: docx | case: docx_classic150_kitchen_sink_styles | scope: java-classic-docx</small></b></td>
-  <td colspan="2">docx_classic150_kitchen_sink_styles <span style="color:#3fb950">⬤</span> 91.6%</td>
+  <td colspan="2">docx_classic150_kitchen_sink_styles <span style="color:#3fb950">⬤</span> 91.4%</td>
 </tr>
 <tr>
   <td><img src="images/docx_classic150_kitchen_sink_styles_p1_minipdf.png" width="260" alt="java MiniPdf"></td>
@@ -4167,10 +4068,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic10_simple_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic10_simple_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9736
-- **Overall Score:** 0.9894
+- **Visual Average:** 0.9885
+- **Overall Score:** 0.9954
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=4255 bytes, Reference=73744 bytes
+- **File Size:** MiniPdf=15535 bytes, Reference=73744 bytes
 
 Text content: ✅ Identical
 
@@ -4179,10 +4080,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic11_table_with_shading | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic11_table_with_shading.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7122
-- **Overall Score:** 0.8849
+- **Visual Average:** 0.7216
+- **Overall Score:** 0.8886
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6709 bytes, Reference=91111 bytes
+- **File Size:** MiniPdf=18734 bytes, Reference=91111 bytes
 
 Text content: ✅ Identical
 
@@ -4191,10 +4092,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic12_merged_cells_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic12_merged_cells_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9764
-- **Overall Score:** 0.9906
+- **Visual Average:** 0.9899
+- **Overall Score:** 0.996
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=4272 bytes, Reference=71750 bytes
+- **File Size:** MiniPdf=13905 bytes, Reference=71750 bytes
 
 Text content: ✅ Identical
 
@@ -4296,38 +4197,7 @@ Text content: ✅ Identical
 
 ### docx_classic14_mixed_content
 
-- **Case Metadata:** format: docx | case: docx_classic14_mixed_content | scope: java-classic-docx
-- **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic14_mixed_content.docx
-- **Text Similarity:** 0.9929
-- **Visual Average:** 0.9799
-- **Overall Score:** 0.9891
-- **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=5318 bytes, Reference=115112 bytes
-
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic14_mixed_content.pdf
-+++ reference/docx_classic14_mixed_content.pdf
-@@ -9,6 +9,6 @@
- Product sales increased by 15% compared to the previous quarter.
-
- Service revenue remained stable with a slight upward trend.
-
- Action Items
-
--Expand marketing campaign
-
--Hire two additional engineers
-
--Launch new subscription tier
-+• Expand marketing campaign
-
-+• Hire two additional engineers
-
-+• Launch new subscription tier
-```
-</details>
+**Error:** MiniPdf PDF not found
 
 ### docx_classic15_indentation
 
@@ -4456,10 +4326,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic20_table_with_many_rows | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic20_table_with_many_rows.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9438
-- **Overall Score:** 0.9775
+- **Visual Average:** 0.9559
+- **Overall Score:** 0.9824
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6132 bytes, Reference=95029 bytes
+- **File Size:** MiniPdf=18402 bytes, Reference=95029 bytes
 
 Text content: ✅ Identical
 
@@ -4550,13 +4420,36 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic24_two_column_table_layout | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic24_two_column_table_layout.docx
-- **Text Similarity:** 1.0
-- **Visual Average:** 0.9788
-- **Overall Score:** 0.9915
+- **Text Similarity:** 0.9098
+- **Visual Average:** 0.987
+- **Overall Score:** 0.9587
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=4136 bytes, Reference=72170 bytes
+- **File Size:** MiniPdf=15792 bytes, Reference=72170 bytes
 
-Text content: ✅ Identical
+<details><summary>Text Diff</summary>
+
+```diff
+--- minipdf/docx_classic24_two_column_table_layout.pdf
++++ reference/docx_classic24_two_column_table_layout.pdf
+@@ -1,5 +1,5 @@
+ Two-Column Layout
+
+-Left column content. This is the first Right column content. This is the
+
+-column of a two-column layout. It second column. Both columns should
+
+-demonstrates how tables can be used render side-by-side in the PDF output.
+
+-for text layout purposes.
++Left column content. This is the first Right column content. This is the second
+
++column of a two-column layout. It column. Both columns should render side-
+
++demonstrates how tables can be used for by-side in the PDF output.
+
++text layout purposes.
+```
+</details>
 
 ### docx_classic25_title_and_subtitle
 
@@ -4575,10 +4468,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic26_table_alignment | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic26_table_alignment.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9762
-- **Overall Score:** 0.9905
+- **Visual Average:** 0.9905
+- **Overall Score:** 0.9962
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6418 bytes, Reference=94051 bytes
+- **File Size:** MiniPdf=17192 bytes, Reference=94051 bytes
 
 Text content: ✅ Identical
 
@@ -4673,10 +4566,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic29_table_with_image | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic29_table_with_image.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.8003
-- **Overall Score:** 0.9201
+- **Visual Average:** 0.994
+- **Overall Score:** 0.9976
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=4008 bytes, Reference=70208 bytes
+- **File Size:** MiniPdf=14803 bytes, Reference=70208 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -4690,13 +4583,14 @@ Text content: ✅ Identical
 
 -MiniPdf Widget - A compact, efficient
 
--tool for PDF conversion. Lightweight and
+-tool for PDF conversion. Lightweight
 
+-and dependency-free.
 +MiniPdf Widget - A compact, efficient tool
 
 +for PDF conversion. Lightweight and
 
- dependency-free.
++dependency-free.
 ```
 </details>
 
@@ -4704,11 +4598,11 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic30_comprehensive_report | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic30_comprehensive_report.docx
-- **Text Similarity:** 0.986
-- **Visual Average:** 0.5229
-- **Overall Score:** 0.7036
+- **Text Similarity:** 0.9944
+- **Visual Average:** 0.551
+- **Overall Score:** 0.7182
 - **Pages:** MiniPdf=2, Reference=3
-- **File Size:** MiniPdf=19603 bytes, Reference=220886 bytes
+- **File Size:** MiniPdf=50448 bytes, Reference=220886 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -4728,57 +4622,16 @@ Text content: ✅ Identical
 
  2. Market Analysis
 
-@@ -7,9 +8,9 @@
- 4. Financial Overview
+@@ -23,12 +24,12 @@
+ • Edge computing for real-time processing
 
- 5. Recommendations
+ • Green technology and sustainable computing
 
- 1. Executive Summary
+ • Zero-trust security architectures
 
--This report provides a comprehensive analysis of the technology landscape in
+----PAGE---
 
--2026. Key findings include continued growth in AI adoption, increased focus on
-
--sustainability, and emerging trends in quantum computing.
-
-+This report provides a comprehensive analysis of the technology landscape in 2026. Key
-
-+findings include continued growth in AI adoption, increased focus on sustainability, and
-
-+emerging trends in quantum computing.
-
- 2. Market Analysis
-
- The following table summarizes market share across key sectors:
-
- Sector Market Share Growth
-
-@@ -19,16 +20,16 @@
- IoT 16% +8%
-
- 3. Technology Trends
-
- Key trends identified:
-
--Generative AI integration in enterprise software
-
--Edge computing for real-time processing
-
--Green technology and sustainable computing
-
--Zero-trust security architectures
-
--Low-code/no-code platform expansion
-
-+• Generative AI integration in enterprise software
-
-+• Edge computing for real-time processing
-
-+• Green technology and sustainable computing
-
-+• Zero-trust security architectures
-
-+• Low-code/no-code platform expansion
+ • Low-code/no-code platform expansion
 
  4. Visual Summary
 
@@ -4789,8 +4642,6 @@ Text content: ✅ Identical
  5. Recommendations
 
 -Invest in AI-driven automation tools
-
-----PAGE---
 
 -Prioritize cloud-native architectures
 
@@ -4811,11 +4662,11 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic31_product_card_with_image | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic31_product_card_with_image.docx
-- **Text Similarity:** 1.0
-- **Visual Average:** 0.6337
-- **Overall Score:** 0.8535
+- **Text Similarity:** 0.9872
+- **Visual Average:** 0.6192
+- **Overall Score:** 0.8426
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8607 bytes, Reference=108260 bytes
+- **File Size:** MiniPdf=39867 bytes, Reference=108260 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -4829,9 +4680,9 @@ Text content: ✅ Identical
 
  SKU: WBS-2026-PRO | Price: $49.99
 
--High-fidelity wireless speaker with 12-hour battery life, IPX7 waterproof
+-High-fidelity wireless speaker with 12-hour battery life, IPX7 waterproof rating, and built-
 
--rating, and built-in microphone for hands-free calls.
+-in microphone for hands-free calls.
 
 +High-fidelity wireless speaker with 12-hour battery life, IPX7 waterproof rating, and built-in
 
@@ -4862,38 +4713,12 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic32_company_logo_header | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic32_company_logo_header.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.8
-- **Overall Score:** 0.92
+- **Visual Average:** 0.8986
+- **Overall Score:** 0.9594
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8148 bytes, Reference=112769 bytes
+- **File Size:** MiniPdf=39206 bytes, Reference=112769 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic32_company_logo_header.pdf
-+++ reference/docx_classic32_company_logo_header.pdf
-@@ -1,8 +1,8 @@
- ACME CORPORATION
-
- 123 Business Ave, Suite 500 | New York, NY 10001
-
- Quarterly Report Q1 2026
-
--This report summarizes the activities and financial performance of ACME
-
--Corporation during the first quarter of 2026.
-
-+This report summarizes the activities and financial performance of ACME Corporation
-
-+during the first quarter of 2026.
-
- Metric Target Actual
-
- Revenue $5M $5.3M
-
- Customers 500 520
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic32_superscript_subscript
 
@@ -4957,10 +4782,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic33_two_products_side_by_side | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic33_two_products_side_by_side.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.5855
-- **Overall Score:** 0.8342
+- **Visual Average:** 0.6307
+- **Overall Score:** 0.8523
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8631 bytes, Reference=107718 bytes
+- **File Size:** MiniPdf=21892 bytes, Reference=107718 bytes
 
 Text content: ✅ Identical
 
@@ -5009,10 +4834,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic35_inventory_with_product_photos | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic35_inventory_with_product_photos.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.3383
-- **Overall Score:** 0.6353
+- **Visual Average:** 0.367
+- **Overall Score:** 0.6468
 - **Pages:** MiniPdf=1, Reference=2
-- **File Size:** MiniPdf=7035 bytes, Reference=84431 bytes
+- **File Size:** MiniPdf=22337 bytes, Reference=84431 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -5076,10 +4901,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic36_invoice_with_logo | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic36_invoice_with_logo.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.8979
-- **Overall Score:** 0.9592
+- **Visual Average:** 0.9375
+- **Overall Score:** 0.975
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8227 bytes, Reference=86303 bytes
+- **File Size:** MiniPdf=21172 bytes, Reference=86303 bytes
 
 Text content: ✅ Identical
 
@@ -5088,10 +4913,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic36_wide_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic36_wide_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9158
-- **Overall Score:** 0.9663
+- **Visual Average:** 0.93
+- **Overall Score:** 0.972
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7115 bytes, Reference=100125 bytes
+- **File Size:** MiniPdf=19793 bytes, Reference=100125 bytes
 
 Text content: ✅ Identical
 
@@ -5099,11 +4924,11 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic37_nested_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic37_nested_table.docx
-- **Text Similarity:** 0.8971
-- **Visual Average:** 0.9788
-- **Overall Score:** 0.9504
+- **Text Similarity:** 0.8897
+- **Visual Average:** 0.9916
+- **Overall Score:** 0.9525
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=3793 bytes, Reference=76696 bytes
+- **File Size:** MiniPdf=15586 bytes, Reference=76696 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -5115,9 +4940,11 @@ Text content: ✅ Identical
 
  Section A Section B
 
- Details: This cell contains plain text while the
+-Details: This cell contains plain text while
 
--adjacent cell has a nested table.
+-the adjacent cell has a nested table.
++Details: This cell contains plain text while the
+
 +Item Qty adjacent cell has a nested table.
 
 +Widget 10
@@ -5131,10 +4958,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic37_real_estate_listing | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic37_real_estate_listing.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.5458
-- **Overall Score:** 0.8183
+- **Visual Average:** 0.5741
+- **Overall Score:** 0.8296
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8602 bytes, Reference=106313 bytes
+- **File Size:** MiniPdf=23496 bytes, Reference=106313 bytes
 
 Text content: ✅ Identical
 
@@ -5196,10 +5023,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic38_table_column_widths | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic38_table_column_widths.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9668
-- **Overall Score:** 0.9867
+- **Visual Average:** 0.9844
+- **Overall Score:** 0.9938
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7502 bytes, Reference=102328 bytes
+- **File Size:** MiniPdf=20694 bytes, Reference=102328 bytes
 
 Text content: ✅ Identical
 
@@ -5220,10 +5047,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic39_financial_report | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic39_financial_report.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9666
-- **Overall Score:** 0.9866
+- **Visual Average:** 0.9612
+- **Overall Score:** 0.9845
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7857 bytes, Reference=111342 bytes
+- **File Size:** MiniPdf=21475 bytes, Reference=111342 bytes
 
 Text content: ✅ Identical
 
@@ -5232,10 +5059,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic40_product_catalog_with_images | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic40_product_catalog_with_images.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7604
-- **Overall Score:** 0.9042
+- **Visual Average:** 0.8163
+- **Overall Score:** 0.9265
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9158 bytes, Reference=117045 bytes
+- **File Size:** MiniPdf=26245 bytes, Reference=117045 bytes
 
 Text content: ✅ Identical
 
@@ -5389,10 +5216,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic42_chart_image_with_data | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic42_chart_image_with_data.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.5441
-- **Overall Score:** 0.8176
+- **Visual Average:** 0.5345
+- **Overall Score:** 0.8138
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8793 bytes, Reference=112851 bytes
+- **File Size:** MiniPdf=23703 bytes, Reference=112851 bytes
 
 Text content: ✅ Identical
 
@@ -5400,11 +5227,11 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic42_meeting_minutes | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic42_meeting_minutes.docx
-- **Text Similarity:** 1.0
-- **Visual Average:** 0.9269
-- **Overall Score:** 0.9708
+- **Text Similarity:** 0.9903
+- **Visual Average:** 0.9272
+- **Overall Score:** 0.967
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8391 bytes, Reference=112714 bytes
+- **File Size:** MiniPdf=41840 bytes, Reference=112714 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -5435,6 +5262,18 @@ Text content: ✅ Identical
  Owner Action Due Date
 
  Bob Submit revised budget March 10
+
+@@ -20,5 +20,4 @@
+ engineering roles
+
+ David Prepare onboarding March 14
+
+ materials
+
+-Eve Schedule follow-up March 5
+
+-meeting
++Eve Schedule follow-up meeting March 5
 ```
 </details>
 
@@ -5443,73 +5282,58 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic43_event_flyer_with_banner | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic43_event_flyer_with_banner.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.41
-- **Overall Score:** 0.764
+- **Visual Average:** 0.5904
+- **Overall Score:** 0.8362
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8401 bytes, Reference=109856 bytes
+- **File Size:** MiniPdf=22808 bytes, Reference=109856 bytes
 
-Text content: ✅ Identical
+<details><summary>Text Diff</summary>
+
+```diff
+--- minipdf/docx_classic43_event_flyer_with_banner.pdf
++++ reference/docx_classic43_event_flyer_with_banner.pdf
+@@ -2,8 +2,7 @@
+ April 15-17, 2026 | Convention Center, Austin TX
+
+ Schedule
+
+ Time Speaker Topic
+
+-9:00 AM Dr. Sarah Lee Future of AI in
+
+-Healthcare
+
++9:00 AM Dr. Sarah Lee Future of AI in Healthcare
+
+ 10:30 AM John Chen Building Scalable Cloud
+
+ Systems
+
+ 1:00 PM Maria Garcia DevOps Best Practices
+```
+</details>
 
 ### docx_classic43_invoice_document
 
 - **Case Metadata:** format: docx | case: docx_classic43_invoice_document | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic43_invoice_document.docx
-- **Text Similarity:** 0.9775
-- **Visual Average:** 0.9451
-- **Overall Score:** 0.969
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.9602
+- **Overall Score:** 0.9841
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9263 bytes, Reference=99728 bytes
+- **File Size:** MiniPdf=26117 bytes, Reference=99728 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic43_invoice_document.pdf
-+++ reference/docx_classic43_invoice_document.pdf
-@@ -12,12 +12,13 @@
- LIC-002 Enterprise 5 $499.00 $2,495.00
-
- License
-
- (Annual)
-
--HW-003 Server Hardware 2 $2,499.00 $4,998.00
-
--SUP-004 Premium Support 1 $1,800.00 $1,800.00
-
--Plan
-
-+HW-003 Server 2 $2,499.00 $4,998.00
-
-+Hardware
-
-+SUP-004 Premium 1 $1,800.00 $1,800.00
-
-+Support Plan
-
- TRN-005 On-site 1 $3,000.00 $3,000.00
-
- Training (2
-
- days)
-
- Subtotal:  $18,293.00
-
- Tax (8.25%):  $1,509.17
-
--Total Due:  $19,802.17
-+Total Due: $19,802.17
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic44_dashboard_with_kpi_image
 
 - **Case Metadata:** format: docx | case: docx_classic44_dashboard_with_kpi_image | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic44_dashboard_with_kpi_image.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.4964
-- **Overall Score:** 0.7986
+- **Visual Average:** 0.4987
+- **Overall Score:** 0.7995
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9231 bytes, Reference=116297 bytes
+- **File Size:** MiniPdf=25437 bytes, Reference=116297 bytes
 
 Text content: ✅ Identical
 
@@ -5597,18 +5421,18 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic45_project_plan | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic45_project_plan.docx
-- **Text Similarity:** 1.0
-- **Visual Average:** 0.9434
-- **Overall Score:** 0.9774
+- **Text Similarity:** 0.9945
+- **Visual Average:** 0.939
+- **Overall Score:** 0.9734
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9879 bytes, Reference=128979 bytes
+- **File Size:** MiniPdf=44616 bytes, Reference=128979 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic45_project_plan.pdf
 +++ reference/docx_classic45_project_plan.pdf
-@@ -1,8 +1,8 @@
+@@ -1,12 +1,12 @@
  Project Plan: Website Redesign
 
  Project Manager: Sarah Chen | Start Date: March 2026
@@ -5627,7 +5451,19 @@ Text content: ✅ Identical
 
  Phase Task Owner Start End
 
- Discovery User research & UX Team Mar 1 Mar 14
+-Discovery User research UX Team Mar 1 Mar 14
+
+-& interviews
+
++Discovery User research & UX Team Mar 1 Mar 14
+
++interviews
+
+ Discovery Competitive Marketing Mar 1 Mar 7
+
+ analysis
+
+ Design Wireframes Design Team Mar 15 Mar 28
 ```
 </details>
 
@@ -5636,10 +5472,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic46_comparison_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic46_comparison_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9544
-- **Overall Score:** 0.9818
+- **Visual Average:** 0.9656
+- **Overall Score:** 0.9862
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7749 bytes, Reference=107695 bytes
+- **File Size:** MiniPdf=19868 bytes, Reference=107695 bytes
 
 Text content: ✅ Identical
 
@@ -5660,12 +5496,29 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic47_data_dictionary | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic47_data_dictionary.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9375
-- **Overall Score:** 0.975
+- **Visual Average:** 0.9312
+- **Overall Score:** 0.9725
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8347 bytes, Reference=114030 bytes
+- **File Size:** MiniPdf=20708 bytes, Reference=114030 bytes
 
-Text content: ✅ Identical
+<details><summary>Text Diff</summary>
+
+```diff
+--- minipdf/docx_classic47_data_dictionary.pdf
++++ reference/docx_classic47_data_dictionary.pdf
+@@ -16,5 +16,4 @@
+ customers.id
+
+ total DECIMAL(10,2) NOT NULL Order total amount
+
+ status VARCHAR(20) DEFAULT 'pending' Order status
+
+-created_at DATETIME DEFAULT NOW() Order creation
+
+-date
++created_at DATETIME DEFAULT NOW() Order creation date
+```
+</details>
 
 ### docx_classic47_news_article_with_hero_image
 
@@ -5746,10 +5599,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic48_task_list_with_status_icons | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic48_task_list_with_status_icons.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9429
-- **Overall Score:** 0.9772
+- **Visual Average:** 0.9598
+- **Overall Score:** 0.9839
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8419 bytes, Reference=106209 bytes
+- **File Size:** MiniPdf=21907 bytes, Reference=106209 bytes
 
 Text content: ✅ Identical
 
@@ -5849,10 +5702,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic49_wide_panoramic_banner | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic49_wide_panoramic_banner.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.2904
-- **Overall Score:** 0.7162
+- **Visual Average:** 0.5202
+- **Overall Score:** 0.8081
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8837 bytes, Reference=108687 bytes
+- **File Size:** MiniPdf=24828 bytes, Reference=108687 bytes
 
 Text content: ✅ Identical
 
@@ -5860,18 +5713,18 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic50_long_table_with_formatting | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic50_long_table_with_formatting.docx
-- **Text Similarity:** 0.7253
-- **Visual Average:** 0.5786
-- **Overall Score:** 0.7216
+- **Text Similarity:** 0.743
+- **Visual Average:** 0.5801
+- **Overall Score:** 0.7292
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=9281 bytes, Reference=122324 bytes
+- **File Size:** MiniPdf=23930 bytes, Reference=122324 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic50_long_table_with_formatting.pdf
 +++ reference/docx_classic50_long_table_with_formatting.pdf
-@@ -1,39 +1,63 @@
+@@ -1,10 +1,9 @@
  Server Inventory Report
 
 ----PAGE---
@@ -5896,15 +5749,8 @@ Text content: ✅ Identical
 
  SRV-004 server- 10.0.0.4 Debian 12 Maintenance
 
- 004.local
-
--SRV-005 server- 10.0.0.5 CentOS Stream 9 Online
-
--005.local
-
-+SRV-005 server- 10.0.0.5 CentOS Stream Online
-
-+005.local 9
+@@ -13,8 +12,8 @@
+ 005.local 9
 
  SRV-006 server- 10.0.0.6 Ubuntu 22.04 Online
 
@@ -5924,15 +5770,8 @@ Text content: ✅ Identical
 
  SRV-009 server- 10.0.0.9 Debian 12 Online
 
- 009.local
-
--SRV-010 server- 10.0.0.10 CentOS Stream 9 Online
-
--010.local
-
-+SRV-010 server- 10.0.0.10 CentOS Stream Online
-
-+010.local 9
+@@ -23,8 +22,8 @@
+ 010.local 9
 
  SRV-011 server- 10.0.0.11 Ubuntu 22.04 Online
 
@@ -5952,15 +5791,8 @@ Text content: ✅ Identical
 
  SRV-014 server- 10.0.0.14 Debian 12 Maintenance
 
- 014.local
-
--SRV-015 server- 10.0.0.15 CentOS Stream 9 Online
-
--015.local
-
-+SRV-015 server- 10.0.0.15 CentOS Stream Online
-
-+015.local 9
+@@ -33,10 +32,32 @@
+ 015.local 9
 
  SRV-016 server- 10.0.0.16 Ubuntu 22.04 Online
 
@@ -5976,13 +5808,13 @@ Text content: ✅ Identical
 
  SRV-018 server- 10.0.0.18 RHEL 9 Online
 
--018.local
-+018.local
+ 018.local
 
-+SRV-019 server- 10.0.0.19 Debian 12 Online
+ SRV-019 server- 10.0.0.19 Debian 12 Online
 
-+019.local
+ 019.local
 
+-SRV 020 10 0 0 20 C tOS St O li
 +SRV-020 server- 10.0.0.20 CentOS Stream Online
 
 +020.local 9
@@ -6149,10 +5981,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic53_table_merged_complex | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic53_table_merged_complex.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.8768
-- **Overall Score:** 0.9507
+- **Visual Average:** 0.8906
+- **Overall Score:** 0.9562
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6320 bytes, Reference=93385 bytes
+- **File Size:** MiniPdf=17186 bytes, Reference=93385 bytes
 
 Text content: ✅ Identical
 
@@ -6173,10 +6005,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic54_travel_destination_cards | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic54_travel_destination_cards.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.6638
-- **Overall Score:** 0.8655
+- **Visual Average:** 0.7307
+- **Overall Score:** 0.8923
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7936 bytes, Reference=105061 bytes
+- **File Size:** MiniPdf=22887 bytes, Reference=105061 bytes
 
 Text content: ✅ Identical
 
@@ -6197,10 +6029,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic55_lab_results_with_image | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic55_lab_results_with_image.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.747
-- **Overall Score:** 0.8988
+- **Visual Average:** 0.8653
+- **Overall Score:** 0.9461
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8908 bytes, Reference=118015 bytes
+- **File Size:** MiniPdf=22546 bytes, Reference=118015 bytes
 
 Text content: ✅ Identical
 
@@ -6209,10 +6041,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic56_images_and_tables_mixed | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic56_images_and_tables_mixed.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.639
-- **Overall Score:** 0.8556
+- **Visual Average:** 0.6622
+- **Overall Score:** 0.8649
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6046 bytes, Reference=84307 bytes
+- **File Size:** MiniPdf=21151 bytes, Reference=84307 bytes
 
 Text content: ✅ Identical
 
@@ -6221,10 +6053,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic56_software_screenshot_features | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic56_software_screenshot_features.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.6289
-- **Overall Score:** 0.8516
+- **Visual Average:** 0.5913
+- **Overall Score:** 0.8365
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8588 bytes, Reference=118476 bytes
+- **File Size:** MiniPdf=26183 bytes, Reference=118476 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -6283,48 +6115,12 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic57_sports_results_with_logos | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic57_sports_results_with_logos.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9156
-- **Overall Score:** 0.9662
+- **Visual Average:** 0.9036
+- **Overall Score:** 0.9614
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9030 bytes, Reference=112026 bytes
+- **File Size:** MiniPdf=24510 bytes, Reference=112026 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic57_sports_results_with_logos.pdf
-+++ reference/docx_classic57_sports_results_with_logos.pdf
-@@ -1,10 +1,10 @@
- Premier League Standings
-
- Season 2025-26 | Updated: March 2026
-
--Arsenal  |  Points: 72  |  W: 22  D: 6  L: 4
-
--Man City  |  Points: 68  |  W: 20  D: 8  L: 4
-
--Liverpool  |  Points: 65  |  W: 19  D: 8  L: 5
-
--Chelsea  |  Points: 58  |  W: 17  D: 7  L: 8
-
--Tottenham  |  Points: 52  |  W: 15  D: 7  L: 10
-
-+Arsenal |  Points: 72  |  W: 22  D: 6  L: 4
-
-+Man City |  Points: 68  |  W: 20  D: 8  L: 4
-
-+Liverpool |  Points: 65  |  W: 19  D: 8  L: 5
-
-+Chelsea |  Points: 58  |  W: 17  D: 7  L: 8
-
-+Tottenham |  Points: 52  |  W: 15  D: 7  L: 10
-
- Detailed Table
-
- Pos Team Pts W D L
-
- 1 Arsenal 72 22 6 4
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic58_dense_paragraph_document
 
@@ -6421,10 +6217,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic58_report_with_footer_image | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic58_report_with_footer_image.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.8214
-- **Overall Score:** 0.9286
+- **Visual Average:** 0.9183
+- **Overall Score:** 0.9673
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9385 bytes, Reference=136402 bytes
+- **File Size:** MiniPdf=24915 bytes, Reference=136402 bytes
 
 Text content: ✅ Identical
 
@@ -6520,10 +6316,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic59_nutrition_label_with_image | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic59_nutrition_label_with_image.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.6064
-- **Overall Score:** 0.8426
+- **Visual Average:** 0.6225
+- **Overall Score:** 0.849
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9308 bytes, Reference=109697 bytes
+- **File Size:** MiniPdf=24669 bytes, Reference=109697 bytes
 
 Text content: ✅ Identical
 
@@ -6531,18 +6327,18 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic60_comprehensive_styled_report | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic60_comprehensive_styled_report.docx
-- **Text Similarity:** 0.9847
-- **Visual Average:** 0.4692
-- **Overall Score:** 0.6816
+- **Text Similarity:** 0.9926
+- **Visual Average:** 0.5114
+- **Overall Score:** 0.7016
 - **Pages:** MiniPdf=2, Reference=3
-- **File Size:** MiniPdf=21338 bytes, Reference=244937 bytes
+- **File Size:** MiniPdf=53081 bytes, Reference=244937 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic60_comprehensive_styled_report.pdf
 +++ reference/docx_classic60_comprehensive_styled_report.pdf
-@@ -2,9 +2,10 @@
+@@ -2,6 +2,7 @@
  Q1 2026 Analysis
 
  Prepared by MiniPdf Analytics Team
@@ -6553,66 +6349,18 @@ Text content: ✅ Identical
 
  Executive Summary
 
--Key Findings: The technology sector continues to show strong growth driven by
+ Key Findings: The technology sector continues to show strong growth driven by AI
 
--AI adoption, cloud migration, and digital transformation initiatives.
+ adoption, cloud migration, and digital transformation initiatives.
 
-+Key Findings: The technology sector continues to show strong growth driven by AI
-
-+adoption, cloud migration, and digital transformation initiatives.
-
- Market Overview
-
- Sector Q4 2025 Q1 2026 Change
-
- Cloud Computing $180B $195B +8.3%
-
-@@ -14,20 +15,20 @@
- Blockchain $12B $11B -8.3%
-
- Key Trends
-
- Artificial Intelligence
-
--Large Language Models becoming mainstream
-
--AI-assisted coding tools adoption growing
-
--Regulation frameworks being established
-
-+• Large Language Models becoming mainstream
-
-+• AI-assisted coding tools adoption growing
-
-+• Regulation frameworks being established
-
- Cloud & Infrastructure
-
--Multi-cloud strategies dominating
-
--Serverless architecture expanding
-
--Edge computing gaining traction
-
-+• Multi-cloud strategies dominating
-
-+• Serverless architecture expanding
-
-+• Edge computing gaining traction
+@@ -23,11 +24,11 @@
+ • Edge computing gaining traction
 
  Visual Summary
 
  Growth indicator (placeholder):
 
- Recommendations
-
--Accelerate AI integration strategy
-
--Diversify cloud vendor dependencies
-
--Invest in employee upskilling programs
-
--Strengthen data governance frameworks
++Recommendations
 
 +1. Accelerate AI integration strategy
 
@@ -6621,6 +6369,16 @@ Text content: ✅ Identical
 +3. Invest in employee upskilling programs
 
  ---PAGE---
+
+-Recommendations
+
+-Accelerate AI integration strategy
+
+-Diversify cloud vendor dependencies
+
+-Invest in employee upskilling programs
+
+-Strengthen data governance frameworks
 
 -Evaluate emerging quantum computing capabilities
 
@@ -6634,43 +6392,7 @@ Text content: ✅ Identical
 
 ### docx_classic60_project_status_with_milestones
 
-- **Case Metadata:** format: docx | case: docx_classic60_project_status_with_milestones | scope: java-classic-docx
-- **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic60_project_status_with_milestones.docx
-- **Text Similarity:** 0.9947
-- **Visual Average:** 0.2518
-- **Overall Score:** 0.5986
-- **Pages:** MiniPdf=1, Reference=2
-- **File Size:** MiniPdf=9474 bytes, Reference=141002 bytes
-
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic60_project_status_with_milestones.pdf
-+++ reference/docx_classic60_project_status_with_milestones.pdf
-@@ -11,7 +11,8 @@
- Load Testing Mar 28 - Planned
-
- Go Live Apr 15 - Planned
-
- Key Risks
-
--Database migration downtime exceeding 4-hour window
-
--Third-party API compatibility issues
-
--Team capacity constraints during March
-
-+• Database migration downtime exceeding 4-hour window
-
-+• Third-party API compatibility issues
-
-+• Team capacity constraints during March
-
-+---PAGE---
-
- Figure: Sprint velocity chart
-```
-</details>
+**Error:** MiniPdf PDF not found
 
 ### docx_classic61_header_and_footer
 
@@ -6759,10 +6481,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic63_toc_style_headings | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic63_toc_style_headings.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9628
-- **Overall Score:** 0.9851
+- **Visual Average:** 0.9822
+- **Overall Score:** 0.9929
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8753 bytes, Reference=116889 bytes
+- **File Size:** MiniPdf=22848 bytes, Reference=116889 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -6830,35 +6552,37 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic64_multi_column_layout | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic64_multi_column_layout.docx
-- **Text Similarity:** 0.8649
-- **Visual Average:** 0.9613
-- **Overall Score:** 0.9305
+- **Text Similarity:** 0.8682
+- **Visual Average:** 0.9572
+- **Overall Score:** 0.9302
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=5245 bytes, Reference=84036 bytes
+- **File Size:** MiniPdf=38482 bytes, Reference=84036 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic64_multi_column_layout.pdf
 +++ reference/docx_classic64_multi_column_layout.pdf
-@@ -1,16 +1,15 @@
+@@ -1,14 +1,12 @@
  Newsletter - March 2026
 
--Artificial intelligence continues to Cloud computing has become the backbone
+-Artificial intelligence continues to Cloud computing has become the
 
--reshape the technology landscape. New of modern enterprise IT. Multi-cloud
+-reshape the technology landscape. New backbone of modern enterprise IT.
 
--advances in large language models enable strategies allow organizations to
+-advances in large language models Multi-cloud strategies allow
 
--more natural human-computer interaction. leverage the best features of different
+-enable more natural human-computer organizations to leverage the best
 
--Companies worldwide are investing providers while avoiding vendor lock-in.
+-interaction. Companies worldwide are features of different providers while
 
--heavily in AI research and development, Edge computing supplements cloud by
+-investing heavily in AI research and avoiding vendor lock-in. Edge
 
--anticipating transformative impacts processing data closer to its source,
+-development, anticipating computing supplements cloud by
 
--across industries from healthcare to reducing latency for critical
+-transformative impacts across processing data closer to its source,
+
+-industries from healthcare to reducing latency for critical
 
 -manufacturing. applications.
 
@@ -6882,20 +6606,7 @@ Text content: ✅ Identical
 
  Open source software has become the foundation of modern software development.
 
--Projects like Linux, Kubernetes, and .NET have demonstrated how community-
-
--driven development can produce enterprise-grade software. The MiniPdf project
-
--itself is an example of this approach, providing PDF generation capabilities
-
--without proprietary dependencies.
-+Projects like Linux, Kubernetes, and .NET have demonstrated how community-driven
-
-+development can produce enterprise-grade software. The MiniPdf project itself is an
-
-+example of this approach, providing PDF generation capabilities without proprietary
-
-+dependencies.
+ Projects like Linux, Kubernetes, and .NET have demonstrated how community-driven
 ```
 </details>
 
@@ -6927,47 +6638,23 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic67_alternating_row_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic67_alternating_row_table.docx
-- **Text Similarity:** 0.9889
-- **Visual Average:** 0.6818
-- **Overall Score:** 0.8683
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.6999
+- **Overall Score:** 0.88
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8526 bytes, Reference=115887 bytes
+- **File Size:** MiniPdf=20501 bytes, Reference=115887 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic67_alternating_row_table.pdf
-+++ reference/docx_classic67_alternating_row_table.pdf
-@@ -11,7 +11,8 @@
- E006 Frank Miller Engineering Junior $75,000
-
- Developer
-
- E007 Grace Lee HR HR Specialist $82,000
-
--E008 Henry Wilson Engineering DevOps Engineer $110,000
-
-+E008 Henry Wilson Engineering DevOps $110,000
-
-+Engineer
-
- E009 Iris Taylor Finance CFO $180,000
-
- E010 Jack Martin Marketing Content Writer $68,000
-
- E011 Karen White Engineering QA Engineer $90,000
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic68_sidebar_layout
 
 - **Case Metadata:** format: docx | case: docx_classic68_sidebar_layout | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic68_sidebar_layout.docx
 - **Text Similarity:** 0.8283
-- **Visual Average:** 0.8066
-- **Overall Score:** 0.854
+- **Visual Average:** 0.7711
+- **Overall Score:** 0.8398
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7692 bytes, Reference=129996 bytes
+- **File Size:** MiniPdf=20501 bytes, Reference=129996 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -6981,11 +6668,15 @@ Text content: ✅ Identical
 
  Overview
 
+-MiniPdf is a lightweight .NET library for converting Word
+
+-and Excel documents to PDF format without requiring
+
 +MiniPdf is a lightweight .NET library for converting Word and
 
  Installation
 
--MiniPdf is a lightweight .NET library for
+-Microsoft Office.
 
 +Excel documents to PDF format without requiring Microsoft
 
@@ -6993,25 +6684,21 @@ Text content: ✅ Identical
 
 +Office.
 
- API Reference
++API Reference
 
--converting Word and Excel documents to PDF
+ Key Features
 
-+Key Features
+-API Reference
+
+-DOCX to PDF conversion
 
  FAQ
+
+-XLSX to PDF conversion
 
 +• DOCX to PDF conversion
 
  Changelog
-
--format without requiring Microsoft Office.
-
--Key Features
-
--DOCX to PDF conversion
-
--XLSX to PDF conversion
 
 -CJK font support
 
@@ -7045,17 +6732,17 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic70_academic_paper | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic70_academic_paper.docx
 - **Text Similarity:** 0.9924
-- **Visual Average:** 0.4608
-- **Overall Score:** 0.6813
-- **Pages:** MiniPdf=2, Reference=1
-- **File Size:** MiniPdf=9594 bytes, Reference=158286 bytes
+- **Visual Average:** 0.9402
+- **Overall Score:** 0.973
+- **Pages:** MiniPdf=1, Reference=1
+- **File Size:** MiniPdf=49009 bytes, Reference=158286 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic70_academic_paper.pdf
 +++ reference/docx_classic70_academic_paper.pdf
-@@ -2,20 +2,18 @@
+@@ -2,18 +2,18 @@
  John Smith, Jane Doe, Robert Johnson
 
  Department of Computer Science, University of Technology
@@ -7064,11 +6751,11 @@ Text content: ✅ Identical
 
 -This paper surveys modern techniques for generating PDF documents
 
--from structured office formats. We evaluate the quality and
+-from structured office formats. We evaluate the quality and performance
 
--performance of conversion tools across a benchmark suite of 90
+-of conversion tools across a benchmark suite of 90 test documents
 
--test documents covering diverse formatting features.
+-covering diverse formatting features.
 
 +This paper surveys modern techniques for generating PDF documents from
 
@@ -7082,11 +6769,9 @@ Text content: ✅ Identical
 
  PDF (Portable Document Format) remains the standard for sharing documents with
 
--consistent visual fidelity. Converting from editable office formats such as
+-consistent visual fidelity. Converting from editable office formats such as DOCX and
 
--DOCX and XLSX to PDF requires careful handling of fonts, layouts, images, and
-
--styling attributes.
+-XLSX to PDF requires careful handling of fonts, layouts, images, and styling attributes.
 
 +consistent visual fidelity. Converting from editable office formats such as DOCX and XLSX to
 
@@ -7094,13 +6779,11 @@ Text content: ✅ Identical
 
  2. Methodology
 
--Our benchmark suite consists of 90 DOCX test files and 90 XLSX test files,
+-Our benchmark suite consists of 90 DOCX test files and 90 XLSX test files, each
 
--each targeting specific formatting features. We compare output from MiniPdf
+-targeting specific formatting features. We compare output from MiniPdf against
 
--against LibreOffice-generated reference PDFs using pixel-level similarity
-
--scoring.
+-LibreOffice-generated reference PDFs using pixel-level similarity scoring.
 
 +Our benchmark suite consists of 90 DOCX test files and 90 XLSX test files, each targeting
 
@@ -7113,31 +6796,6 @@ Text content: ✅ Identical
  Feature Category Avg Score Sample Size
 
  Basic Text 98.5% 20
-
-@@ -23,10 +21,9 @@
- Images 94.8% 15
-
- Mixed Content 95.1% 30
-
- 4. Conclusion
-
--Modern lightweight PDF generation libraries can achieve high fidelity output
-
--for the majority of common document formatting features.
-
-+Modern lightweight PDF generation libraries can achieve high fidelity output for the
-
-+majority of common document formatting features.
-
- References
-
- [1] ISO 32000-2:2020. Document management - Portable document format.
-
- [2] ECMA-376. Office Open XML File Formats.
-
-----PAGE---
-
- [3] Smith et al. (2025). Benchmark-driven development for document conversion.
 ```
 </details>
 
@@ -7197,52 +6855,17 @@ Text content: ✅ Identical
 
 ### docx_classic72_technical_specification
 
-- **Case Metadata:** format: docx | case: docx_classic72_technical_specification | scope: java-classic-docx
-- **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic72_technical_specification.docx
-- **Text Similarity:** 0.9953
-- **Visual Average:** 0.9298
-- **Overall Score:** 0.97
-- **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8891 bytes, Reference=158590 bytes
-
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic72_technical_specification.pdf
-+++ reference/docx_classic72_technical_specification.pdf
-@@ -18,7 +18,7 @@
- SVG support Planned Low
-
- 3. Performance Targets
-
- The converter shall meet the following performance criteria:
-
--Convert a 10-page DOCX in under 2 seconds
-
--Convert a 100-row XLSX in under 3 seconds
-
--Memory usage shall not exceed 200 MB for standard documents
-
--Output PDF size shall be within 2x of reference PDF size
-+• Convert a 10-page DOCX in under 2 seconds
-
-+• Convert a 100-row XLSX in under 3 seconds
-
-+• Memory usage shall not exceed 200 MB for standard documents
-
-+• Output PDF size shall be within 2x of reference PDF size
-```
-</details>
+**Error:** MiniPdf PDF not found
 
 ### docx_classic73_calendar_layout
 
 - **Case Metadata:** format: docx | case: docx_classic73_calendar_layout | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic73_calendar_layout.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7947
-- **Overall Score:** 0.9179
+- **Visual Average:** 0.8086
+- **Overall Score:** 0.9234
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6230 bytes, Reference=68915 bytes
+- **File Size:** MiniPdf=18032 bytes, Reference=68915 bytes
 
 Text content: ✅ Identical
 
@@ -7251,10 +6874,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic74_org_chart | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic74_org_chart.docx
 - **Text Similarity:** 0.7714
-- **Visual Average:** 0.6286
-- **Overall Score:** 0.76
+- **Visual Average:** 0.5968
+- **Overall Score:** 0.7473
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7599 bytes, Reference=102171 bytes
+- **File Size:** MiniPdf=22759 bytes, Reference=102171 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -7295,158 +6918,114 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic75_newsletter_layout | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic75_newsletter_layout.docx
-- **Text Similarity:** 1.0
-- **Visual Average:** 0.6193
-- **Overall Score:** 0.8477
+- **Text Similarity:** 0.9645
+- **Visual Average:** 0.7317
+- **Overall Score:** 0.8785
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9528 bytes, Reference=112463 bytes
+- **File Size:** MiniPdf=43640 bytes, Reference=112463 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic75_newsletter_layout.pdf
 +++ reference/docx_classic75_newsletter_layout.pdf
-@@ -1,9 +1,9 @@
+@@ -1,11 +1,11 @@
  THE TECH WEEKLY
 
  Issue #42 | March 6, 2026
 
  AI Revolution in Software Development
 
--The integration of large language models into development workflows is
+-The integration of large language models into development workflows is transforming
 
--transforming how teams write, review, and deploy code. Industry experts
-
--predict that AI-assisted development will become standard practice by 2027.
+-how teams write, review, and deploy code. Industry experts predict that AI-assisted
 
 +The integration of large language models into development workflows is transforming how
 
 +teams write, review, and deploy code. Industry experts predict that AI-assisted
 
-+development will become standard practice by 2027.
+ development will become standard practice by 2027.
 
  Quick Updates
 
  Cloud Infrastructure Open Source
 
- Major cloud providers announce new edge The .NET Foundation releases new
+-Major cloud providers announce new The .NET Foundation releases new
+
+-edge computing regions in Asia- guidelines for community project
+
+-Pacific. governance.
++Major cloud providers announce new edge The .NET Foundation releases new
+
++computing regions in Asia-Pacific. guidelines for community project
+
++governance.
 ```
 </details>
 
 ### docx_classic76_recipe_card
 
-- **Case Metadata:** format: docx | case: docx_classic76_recipe_card | scope: java-classic-docx
-- **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic76_recipe_card.docx
-- **Text Similarity:** 0.9462
-- **Visual Average:** 0.9491
-- **Overall Score:** 0.9581
-- **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8207 bytes, Reference=138002 bytes
-
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic76_recipe_card.pdf
-+++ reference/docx_classic76_recipe_card.pdf
-@@ -1,23 +1,23 @@
- Classic Chocolate Chip Cookies
-
--Prep Time 15 min Cook Time 12 min Servings 36 cookies
-
-+Prep Time Cook Time Servings
-
-+15 min 12 min 36 cookies
-
- Ingredients
-
--2 1/4 cups all-purpose flour
-
--1 tsp baking soda
-
--1 tsp salt
-
--1 cup (2 sticks) butter, softened
-
--3/4 cup granulated sugar
-
--3/4 cup packed brown sugar
-
--2 large eggs
-
--2 tsp vanilla extract
-
--2 cups chocolate chips
-
-+• 2 1/4 cups all-purpose flour
-
-+• 1 tsp baking soda
-
-+• 1 tsp salt
-
-+• 1 cup (2 sticks) butter, softened
-
-+• 3/4 cup granulated sugar
-
-+• 3/4 cup packed brown sugar
-
-+• 2 large eggs
-
-+• 2 tsp vanilla extract
-
-+• 2 cups chocolate chips
-
- Instructions
-
--Preheat oven to 375 degrees F.
-
--Combine flour, baking soda, and salt in a small bowl.
-
--Beat butter, granulated sugar, and brown sugar in a large mixer bowl until
-
--creamy.
-
--Add eggs and vanilla extract; beat well.
-
--Gradually blend in flour mixture.
-
--Stir in chocolate chips.
-
--Drop rounded tablespoon of dough onto ungreased baking sheets.
-
--Bake for 9 to 11 minutes or until golden brown.
-
--Cool on baking sheets for 2 minutes; remove to wire racks to cool completely.
-+1. Preheat oven to 375 degrees F.
-
-+2. Combine flour, baking soda, and salt in a small bowl.
-
-+3. Beat butter, granulated sugar, and brown sugar in a large mixer bowl until creamy.
-
-+4. Add eggs and vanilla extract; beat well.
-
-+5. Gradually blend in flour mixture.
-
-+6. Stir in chocolate chips.
-
-+7. Drop rounded tablespoon of dough onto ungreased baking sheets.
-
-+8. Bake for 9 to 11 minutes or until golden brown.
-
-+9. Cool on baking sheets for 2 minutes; remove to wire racks to cool completely.
-```
-</details>
+**Error:** MiniPdf PDF not found
 
 ### docx_classic77_timeline_layout
 
 - **Case Metadata:** format: docx | case: docx_classic77_timeline_layout | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic77_timeline_layout.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.839
-- **Overall Score:** 0.9356
+- **Visual Average:** 0.8569
+- **Overall Score:** 0.9428
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9129 bytes, Reference=120673 bytes
+- **File Size:** MiniPdf=26474 bytes, Reference=120673 bytes
 
-Text content: ✅ Identical
+<details><summary>Text Diff</summary>
+
+```diff
+--- minipdf/docx_classic77_timeline_layout.pdf
++++ reference/docx_classic77_timeline_layout.pdf
+@@ -1,16 +1,15 @@
+ Project Timeline: MiniPdf v2.0
+
+ Q1 2025 Project Inception Initial requirements
+
+-gathering and
+
+-architecture design.
+
++gathering and architecture
+
++design.
+
+ Q2 2025 XLSX Support Implemented Excel-to-PDF
+
+ conversion with chart
+
+ support.
+
+ Q3 2025 Benchmark Suite Created automated
+
+-benchmark pipeline with
+
+-60 test cases.
+
++benchmark pipeline with 60
+
++test cases.
+
+ Q4 2025 CJK Support Added Chinese, Japanese,
+
+-and Korean font
+
+-embedding.
+
++and Korean font embedding.
+
+ Q1 2026 DOCX Support Implemented Word-to-PDF
+
+ conversion achieving 97%
+
+ quality.
+```
+</details>
 
 ### docx_classic78_faq_document
 
@@ -7620,49 +7199,23 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic80_matrix_grid | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic80_matrix_grid.docx
-- **Text Similarity:** 0.9868
-- **Visual Average:** 0.4779
-- **Overall Score:** 0.7859
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.4938
+- **Overall Score:** 0.7975
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7997 bytes, Reference=111032 bytes
+- **File Size:** MiniPdf=23348 bytes, Reference=111032 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic80_matrix_grid.pdf
-+++ reference/docx_classic80_matrix_grid.pdf
-@@ -10,8 +10,8 @@
- implementation
-
- PDF writer A R I I
-
- implementation
-
--Benchmark suite C R A I
-
--creation
-
-+Benchmark C R A I
-
-+suite creation
-
- CJK font A R C I
-
- support
-
- Code review C R A I
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic81_budget_table
 
 - **Case Metadata:** format: docx | case: docx_classic81_budget_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic81_budget_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7705
-- **Overall Score:** 0.9082
+- **Visual Average:** 0.7918
+- **Overall Score:** 0.9167
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=10153 bytes, Reference=129792 bytes
+- **File Size:** MiniPdf=29035 bytes, Reference=129792 bytes
 
 Text content: ✅ Identical
 
@@ -7670,25 +7223,19 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic82_survey_questionnaire | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic82_survey_questionnaire.docx
-- **Text Similarity:** 0.9765
-- **Visual Average:** 0.5756
-- **Overall Score:** 0.7208
-- **Pages:** MiniPdf=3, Reference=2
-- **File Size:** MiniPdf=8571 bytes, Reference=123279 bytes
+- **Text Similarity:** 0.9883
+- **Visual Average:** 0.9461
+- **Overall Score:** 0.9738
+- **Pages:** MiniPdf=2, Reference=2
+- **File Size:** MiniPdf=40730 bytes, Reference=123279 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic82_survey_questionnaire.pdf
 +++ reference/docx_classic82_survey_questionnaire.pdf
-@@ -1,9 +1,9 @@
- Employee Satisfaction Survey
-
--Please rate each item on a scale of 1 (Strongly Disagree) to 5 (Strongly
-
--Agree).
-
-+Please rate each item on a scale of 1 (Strongly Disagree) to 5 (Strongly Agree).
+@@ -2,7 +2,8 @@
+ Please rate each item on a scale of 1 (Strongly Disagree) to 5 (Strongly Agree).
 
  Work Environment
 
@@ -7706,85 +7253,30 @@ Text content: ✅ Identical
 
  and well-
 
-@@ -11,22 +11,19 @@
- The office
+@@ -33,10 +34,10 @@
+ about
 
- environment
-
- supports
-
--productivity
-
--.
-
-+productivity.
-
- I have the
-
- tools I need
-
- to do my job
-
- effectively.
-
- Management
-
-----PAGE---
-
- Statement 1 2 3 4 5
-
- My manager
-
- provides
-
- clear
-
- direction
-
- and
-
--expectations
-
--.
-
-+expectations.
-
- I receive
-
- regular and
-
- constructive
-
-@@ -38,11 +35,11 @@
  company
 
  goals.
 
- Career Development
-
 ----PAGE---
+
+ Career Development
 
  Statement 1 2 3 4 5
 
  I have
 
--opportunitie
-
--s for
-
 +---PAGE---
 
-+opportunities
+ opportunities
 
-+for
+ for
 
  professional
 
- growth.
-
- Training
-
-@@ -50,21 +47,18 @@
+@@ -46,21 +47,18 @@
  relevant and
 
  accessible.
@@ -7846,10 +7338,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic83_medical_form | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic83_medical_form.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9209
-- **Overall Score:** 0.9684
+- **Visual Average:** 0.9149
+- **Overall Score:** 0.966
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8541 bytes, Reference=116392 bytes
+- **File Size:** MiniPdf=25591 bytes, Reference=116392 bytes
 
 Text content: ✅ Identical
 
@@ -7857,25 +7349,21 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic84_shipping_label | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic84_shipping_label.docx
-- **Text Similarity:** 0.9714
-- **Visual Average:** 0.9294
-- **Overall Score:** 0.9603
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.9303
+- **Overall Score:** 0.9721
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9084 bytes, Reference=115136 bytes
+- **File Size:** MiniPdf=23267 bytes, Reference=115136 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic84_shipping_label.pdf
 +++ reference/docx_classic84_shipping_label.pdf
-@@ -1,21 +1,33 @@
--TRACKING #: 1Z999AA10123456784
+@@ -1,18 +1,33 @@
+-FROM: TRACKING #: 1Z999AA10123456784
 
--FROM:
-
--MiniPdf Corp 123 Tech Ave Suite 101 San
-
--Francisco, CA 94105
+-MiniPdf Corp 123 Tech Ave Suite 101
 
 +FROM: TRACKING #:
 
@@ -7887,7 +7375,7 @@ Text content: ✅ Identical
 
 +Suite 101
 
-+San Francisco, CA 94105
+ San Francisco, CA 94105
 
  TO:
 
@@ -7901,13 +7389,9 @@ Text content: ✅ Identical
 
  PRIORITY MAIL | Weight: 2.5 lbs | Ship Date: 03/01/2026
 
--TRACKING #: 1Z999AA20123456784
+-FROM: TRACKING #: 1Z999AA20123456784
 
--FROM:
-
--MiniPdf Corp 123 Tech Ave Suite 102 San
-
--Francisco, CA 94105
+-MiniPdf Corp 123 Tech Ave Suite 102
 
 +FROM: TRACKING #:
 
@@ -7919,7 +7403,7 @@ Text content: ✅ Identical
 
 +Suite 102
 
-+San Francisco, CA 94105
+ San Francisco, CA 94105
 
  TO:
 
@@ -7933,13 +7417,9 @@ Text content: ✅ Identical
 
  PRIORITY MAIL | Weight: 5.0 lbs | Ship Date: 03/02/2026
 
--TRACKING #: 1Z999AA30123456784
+-FROM: TRACKING #: 1Z999AA30123456784
 
--FROM:
-
--MiniPdf Corp 123 Tech Ave Suite 103 San
-
--Francisco, CA 94105
+-MiniPdf Corp 123 Tech Ave Suite 103
 
 +FROM: TRACKING #:
 
@@ -7951,7 +7431,7 @@ Text content: ✅ Identical
 
 +Suite 103
 
-+San Francisco, CA 94105
+ San Francisco, CA 94105
 
  TO:
 
@@ -7972,10 +7452,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic85_report_card | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic85_report_card.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.8864
-- **Overall Score:** 0.9546
+- **Visual Average:** 0.9132
+- **Overall Score:** 0.9653
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9223 bytes, Reference=95268 bytes
+- **File Size:** MiniPdf=25029 bytes, Reference=95268 bytes
 
 Text content: ✅ Identical
 
@@ -8144,10 +7624,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic88_presentation_handout | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic88_presentation_handout.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.4627
-- **Overall Score:** 0.7851
+- **Visual Average:** 0.4676
+- **Overall Score:** 0.787
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=9534 bytes, Reference=113749 bytes
+- **File Size:** MiniPdf=24379 bytes, Reference=113749 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -8190,41 +7670,22 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic89_multi_image_gallery | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic89_multi_image_gallery.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.502
-- **Overall Score:** 0.8008
+- **Visual Average:** 0.9195
+- **Overall Score:** 0.9678
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=4427 bytes, Reference=103275 bytes
+- **File Size:** MiniPdf=33627 bytes, Reference=103275 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic89_multi_image_gallery.pdf
-+++ reference/docx_classic89_multi_image_gallery.pdf
-@@ -3,5 +3,5 @@
- Steel Blue Crimson Lime Green
-
- Orange Purple Turquoise
-
- Gold Rosy Brown Cornflower
-
--Each image demonstrates a different color channel for testing image encoding
-
--fidelity in PDF output.
-+Each image demonstrates a different color channel for testing image encoding fidelity in
-
-+PDF output.
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic90_comprehensive_annual_report
 
 - **Case Metadata:** format: docx | case: docx_classic90_comprehensive_annual_report | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic90_comprehensive_annual_report.docx
-- **Text Similarity:** 0.9672
-- **Visual Average:** 0.3985
-- **Overall Score:** 0.6463
+- **Text Similarity:** 0.9707
+- **Visual Average:** 0.3969
+- **Overall Score:** 0.647
 - **Pages:** MiniPdf=2, Reference=4
-- **File Size:** MiniPdf=24861 bytes, Reference=198796 bytes
+- **File Size:** MiniPdf=60621 bytes, Reference=198796 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -8246,7 +7707,7 @@ Text content: ✅ Identical
 
  Financial Highlights..............................3
 
-@@ -8,17 +9,16 @@
+@@ -8,16 +9,15 @@
  Market Analysis...................................7
 
  Team & Organization...............................9
@@ -8259,11 +7720,11 @@ Text content: ✅ Identical
 
 -Dear Stakeholders, We are pleased to present the annual report for MiniPdf
 
--Corporation. This year marked significant milestones in our product
+-Corporation. This year marked significant milestones in our product development,
 
--development, including the launch of DOCX-to-PDF conversion and expansion of
+-including the launch of DOCX-to-PDF conversion and expansion of our benchmark
 
--our benchmark suite to 180 test cases.
+-suite to 180 test cases.
 
 +Dear Stakeholders, We are pleased to present the annual report for MiniPdf Corporation.
 
@@ -8283,42 +7744,18 @@ Text content: ✅ Identical
 
  +45% +120% +200% +5.1%
 
- Financial Highlights
-
 ----PAGE---
+
+ Financial Highlights
 
  FY2024 FY2025 FY2026
 
  Revenue $800K $1.6M $2.4M
 
- Expenses $650K $1.1M $1.5M
+@@ -33,10 +33,11 @@
+ • Automated benchmark pipeline with 180 test cases
 
-@@ -27,16 +27,17 @@
- Headcount 8 15 25
-
- Product Development
-
- Milestones Achieved
-
--XLSX-to-PDF conversion with chart support
-
--DOCX-to-PDF conversion achieving 97% quality score
-
--CJK font embedding for Chinese, Japanese, and Korean
-
--Automated benchmark pipeline with 180 test cases
-
--AI-powered code review integration
-
-+• XLSX-to-PDF conversion with chart support
-
-+• DOCX-to-PDF conversion achieving 97% quality score
-
-+• CJK font embedding for Chinese, Japanese, and Korean
-
-+• Automated benchmark pipeline with 180 test cases
-
-+• AI-powered code review integration
+ • AI-powered code review integration
 
  Quality Metrics
 
@@ -8355,32 +7792,12 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic91_landscape_page | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic91_landscape_page.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9622
-- **Overall Score:** 0.9849
+- **Visual Average:** 0.9564
+- **Overall Score:** 0.9826
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7921 bytes, Reference=109003 bytes
+- **File Size:** MiniPdf=36049 bytes, Reference=109003 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic91_landscape_page.pdf
-+++ reference/docx_classic91_landscape_page.pdf
-@@ -1,6 +1,5 @@
- Landscape Page Layout
-
--This document uses landscape orientation, commonly used for wide tables, charts, and presentation-style
-
--content.
-
-+This document uses landscape orientation, commonly used for wide tables, charts, and presentation-style content.
-
- Q1 Jan Q1 Feb Q1 Mar Q2 Apr Q2 May Q2 Jun Q3 Jul Q3 Aug
-
- $20K $85K $32K $97K $96K $30K $61K $68K
-
- $66K $69K $68K $42K $41K $34K $87K $57K
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic92_first_line_indent
 
@@ -8580,24 +7997,22 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic95_contract_template | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic95_contract_template.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9613
-- **Overall Score:** 0.9845
+- **Visual Average:** 0.9765
+- **Overall Score:** 0.9906
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7772 bytes, Reference=82650 bytes
+- **File Size:** MiniPdf=41223 bytes, Reference=82650 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic95_contract_template.pdf
 +++ reference/docx_classic95_contract_template.pdf
-@@ -1,16 +1,13 @@
+@@ -1,14 +1,13 @@
  SERVICE AGREEMENT
 
--This Service Agreement ("Agreement") is entered into as of March 1, 2026, by
+-This Service Agreement ("Agreement") is entered into as of March 1, 2026, by and
 
--and between MiniPdf Corporation ("Provider") and the undersigned client
-
--("Client").
+-between MiniPdf Corporation ("Provider") and the undersigned client ("Client").
 
 +This Service Agreement ("Agreement") is entered into as of March 1, 2026, by and between
 
@@ -8613,17 +8028,13 @@ Text content: ✅ Identical
 
  2. TERM
 
--This Agreement shall continue for twelve (12) months unless terminated
-
--earlier.
-
-+This Agreement shall continue for twelve (12) months unless terminated earlier.
+ This Agreement shall continue for twelve (12) months unless terminated earlier.
 
  3. COMPENSATION
 
--Client shall pay Provider a monthly fee of $5,000 USD, due on the first
+-Client shall pay Provider a monthly fee of $5,000 USD, due on the first business day of
 
--business day of each month.
+-each month.
 
 +Client shall pay Provider a monthly fee of $5,000 USD, due on the first business day of each
 
@@ -8642,10 +8053,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic96_dense_data_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic96_dense_data_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7442
-- **Overall Score:** 0.8977
+- **Visual Average:** 0.7366
+- **Overall Score:** 0.8946
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9653 bytes, Reference=126875 bytes
+- **File Size:** MiniPdf=27878 bytes, Reference=126875 bytes
 
 Text content: ✅ Identical
 
@@ -8654,36 +8065,30 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic97_product_catalog | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic97_product_catalog.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.3246
-- **Overall Score:** 0.6298
-- **Pages:** MiniPdf=2, Reference=1
-- **File Size:** MiniPdf=8096 bytes, Reference=84145 bytes
+- **Visual Average:** 0.9132
+- **Overall Score:** 0.9653
+- **Pages:** MiniPdf=1, Reference=1
+- **File Size:** MiniPdf=24583 bytes, Reference=84145 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic97_product_catalog.pdf
 +++ reference/docx_classic97_product_catalog.pdf
-@@ -1,24 +1,16 @@
+@@ -1,18 +1,16 @@
  PRODUCT CATALOG 2026
 
  MiniPdf Standard
 
  $29/mo
 
--Essential document
+-Essential document conversion for
 
--conversion for small
+-small teams. Includes XLSX and DOCX to
 
--teams. Includes XLSX and
-
--DOCX to PDF conversion
-
--with basic formatting
+-PDF conversion with basic formatting
 
 -support.
-
-----PAGE---
 
 +Essential document conversion for small
 
@@ -8695,13 +8100,11 @@ Text content: ✅ Identical
 
  $79/mo
 
--Advanced conversion with
+-Advanced conversion with full
 
--full formatting fidelity.
+-formatting fidelity. Includes CJK font
 
--Includes CJK font support,
-
--chart rendering, and batch
+-support, chart rendering, and batch
 
 -processing.
 
@@ -8715,17 +8118,11 @@ Text content: ✅ Identical
 
  $199/mo
 
--Complete enterprise
+ Complete enterprise solution with API
 
--solution with API access,
+-access, custom branding, SLA
 
--custom branding, SLA
-
--guarantee, and dedicated
-
--support.
-+Complete enterprise solution with API
-
+-guarantee, and dedicated support.
 +access, custom branding, SLA guarantee,
 
 +and dedicated support.
@@ -8783,40 +8180,26 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic99_policy_document | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic99_policy_document.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.4607
-- **Overall Score:** 0.6843
+- **Visual Average:** 0.4681
+- **Overall Score:** 0.6872
 - **Pages:** MiniPdf=2, Reference=1
-- **File Size:** MiniPdf=8826 bytes, Reference=139982 bytes
+- **File Size:** MiniPdf=48832 bytes, Reference=139982 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic99_policy_document.pdf
 +++ reference/docx_classic99_policy_document.pdf
-@@ -6,26 +6,21 @@
- Reviewer A. Chen 2026-02-20
+@@ -9,20 +9,18 @@
+ This policy establishes the information security requirements for all employees,
 
- Approver D. Williams 2026-03-01
-
- 1. PURPOSE
-
--This policy establishes the information security requirements for all
-
--employees, contractors, and third-party users of MiniPdf Corporation systems
-
--and data.
-
-+This policy establishes the information security requirements for all employees,
-
-+contractors, and third-party users of MiniPdf Corporation systems and data.
+ contractors, and third-party users of MiniPdf Corporation systems and data.
 
  2. SCOPE
 
--This policy applies to all information assets, IT systems, and personnel who
+-This policy applies to all information assets, IT systems, and personnel who access,
 
--access, process, store, or transmit company data regardless of format or
-
--location.
+-process, store, or transmit company data regardless of format or location.
 
 +This policy applies to all information assets, IT systems, and personnel who access, process,
 
@@ -8824,11 +8207,11 @@ Text content: ✅ Identical
 
  3. PASSWORD REQUIREMENTS
 
--All passwords must be at least 12 characters long and include uppercase
+-All passwords must be at least 12 characters long and include uppercase letters,
 
--letters, lowercase letters, numbers, and special characters. Passwords must be
+-lowercase letters, numbers, and special characters. Passwords must be changed every
 
--changed every 90 days.
+-90 days.
 
 +All passwords must be at least 12 characters long and include uppercase letters, lowercase
 
@@ -8836,11 +8219,9 @@ Text content: ✅ Identical
 
  4. DATA CLASSIFICATION
 
--Data shall be classified as: Public, Internal, Confidential, or Restricted.
+-Data shall be classified as: Public, Internal, Confidential, or Restricted. Each
 
--Each classification level has specific handling requirements detailed in
-
--Appendix A.
+-classification level has specific handling requirements detailed in Appendix A.
 
 +Data shall be classified as: Public, Internal, Confidential, or Restricted. Each classification
 
@@ -8848,25 +8229,17 @@ Text content: ✅ Identical
 
  5. INCIDENT REPORTING
 
--All security incidents must be reported within 24 hours to the Information
+ All security incidents must be reported within 24 hours to the Information Security Team.
 
--Security Team. Failure to report incidents may result in disciplinary action.
-
-+All security incidents must be reported within 24 hours to the Information Security Team.
-
-+Failure to report incidents may result in disciplinary action.
+ Failure to report incidents may result in disciplinary action.
 
  6. COMPLIANCE
 
--Violations of this policy may result in disciplinary action up to and
+ Violations of this policy may result in disciplinary action up to and including termination of
 
--including termination of employment or contract.
+ employment or contract.
 
 ----PAGE---
-
-+Violations of this policy may result in disciplinary action up to and including termination of
-
-+employment or contract.
 
  --- End of Policy ---
 ```
@@ -8876,18 +8249,18 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic100_multi_page_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic100_multi_page_table.docx
-- **Text Similarity:** 0.8116
-- **Visual Average:** 0.5848
-- **Overall Score:** 0.7586
+- **Text Similarity:** 0.7052
+- **Visual Average:** 0.5863
+- **Overall Score:** 0.7166
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=10321 bytes, Reference=141154 bytes
+- **File Size:** MiniPdf=24660 bytes, Reference=141154 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic100_multi_page_table.pdf
 +++ reference/docx_classic100_multi_page_table.pdf
-@@ -1,6 +1,5 @@
+@@ -1,20 +1,16 @@
  Employee Directory
 
  Complete listing of all employees across all departments.
@@ -8896,18 +8269,83 @@ Text content: ✅ Identical
 
  ID Name Department Title Location
 
- EMP-001 Carol Davis Finance Senior Engineer Sydney
+-EMP-001 Carol Davis Finance Senior Sydney
+
+-Engineer
+
++EMP-001 Carol Davis Finance Senior Engineer Sydney
 
  EMP-002 Grace Garcia Finance Coordinator San Francisco
 
-@@ -35,4 +34,22 @@
- EMP-031 Alice Wilson Finance Director Tokyo
+ EMP-003 Iris Johnson Engineering Specialist Tokyo
 
- EMP-032 Frank Davis HR Senior Engineer Berlin
+ EMP-004 Eva Smith Operations Specialist New York
 
- EMP-033 Jack Jones Finance Senior Engineer New York
+-EMP-005 Frank Brown Sales Senior New York
 
--EMP-034 Grace Johnson HR Analyst Tokyo
+-Engineer
+
++EMP-005 Frank Brown Sales Senior Engineer New York
+
+ EMP-006 Carol Brown Sales Analyst Sydney
+
+ EMP-007 Grace Brown Finance Director Berlin
+
+ EMP-008 Eva Miller Marketing Specialist Sydney
+
+ EMP-009 Bob Williams Engineering Coordinator Tokyo
+
+-EMP-010 Carol Moore Marketing Senior New York
+
+-Engineer
+
++EMP-010 Carol Moore Marketing Senior Engineer New York
+
+ EMP-011 Alice Brown Finance Specialist Tokyo
+
+ EMP-012 Carol Moore HR Manager Berlin
+
+ EMP-013 David Moore HR Specialist London
+
+@@ -24,8 +20,7 @@
+ EMP-017 David Miller HR Director Berlin
+
+ EMP-018 Eva Williams Engineering Specialist Berlin
+
+ EMP-019 Frank Williams Engineering Analyst Sydney
+
+-EMP-020 Bob Smith HR Senior London
+
+-Engineer
+
++EMP-020 Bob Smith HR Senior Engineer London
+
+ EMP-021 Iris Moore Marketing Specialist Sydney
+
+ EMP-022 Jack Garcia Sales Director San Francisco
+
+ EMP-023 Bob Davis Marketing Coordinator San Francisco
+
+@@ -33,4 +28,28 @@
+ EMP-025 Bob Miller Operations Specialist New York
+
+ EMP-026 Jack Davis HR Manager Sydney
+
+ EMP-027 Henry Williams Engineering Director San Francisco
+
+-EMP-028 David Brown Marketing Manager San Francisco
++EMP-028 David Brown Marketing Manager San Francisco
+
++EMP-029 Carol Brown Operations Manager San Francisco
+
++EMP-030 Eva Johnson Operations Specialist Tokyo
+
++EMP-031 Alice Wilson Finance Director Tokyo
+
++EMP-032 Frank Davis HR Senior Engineer Berlin
+
++EMP-033 Jack Jones Finance Senior Engineer New York
+
 +EMP-034 Grace Johnson HR Analyst Tokyo
 
 +EMP-035 Eva Johnson Marketing Senior Engineer San Francisco
@@ -9025,10 +8463,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic102_curriculum_syllabus | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic102_curriculum_syllabus.docx
 - **Text Similarity:** 0.9904
-- **Visual Average:** 0.9325
-- **Overall Score:** 0.9692
+- **Visual Average:** 0.9226
+- **Overall Score:** 0.9652
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8935 bytes, Reference=150812 bytes
+- **File Size:** MiniPdf=43455 bytes, Reference=150812 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -9080,18 +8518,18 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic103_event_program | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic103_event_program.docx
-- **Text Similarity:** 0.9917
-- **Visual Average:** 0.7012
-- **Overall Score:** 0.8772
+- **Text Similarity:** 0.9835
+- **Visual Average:** 0.7044
+- **Overall Score:** 0.8752
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=19657 bytes, Reference=147081 bytes
+- **File Size:** MiniPdf=48274 bytes, Reference=147081 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic103_event_program.pdf
 +++ reference/docx_classic103_event_program.pdf
-@@ -1,10 +1,10 @@
+@@ -1,11 +1,12 @@
  DOTNET CONF 2026
 
  March 15-17, 2026 | San Francisco Convention Center
@@ -9108,114 +8546,50 @@ Text content: ✅ Identical
 
 -.NET
 
+-10:45 - 11:30 Building PDF Libraries in C# Room A
+
 +09:30 - 10:30 Keynote: The Future of .NET Main Hall
 
- 10:45 - 11:30 Building PDF Libraries in Room A
++10:45 - 11:30 Building PDF Libraries in Room A
 
- C#
++C#
 
  11:45 - 12:30 AI-Powered Code Review Room B
 
-@@ -23,6 +23,5 @@
+ 12:30 - 14:00 Lunch Break Restaurant
+
+ 14:00 - 14:45 Benchmark-Driven Room A
+
+@@ -20,7 +21,6 @@
+ Expert in .NET runtime and compiler optimization.
+
+ Mark Johnson
+
  CTO, MiniPdf Corp
+
+----PAGE---
 
  Creator of the MiniPdf open-source PDF library.
 
  Lisa Park
 
-----PAGE---
-
  Staff Engineer, Google
-
- Specializing in document format interoperability.
 ```
 </details>
 
 ### docx_classic104_sop_document
 
-- **Case Metadata:** format: docx | case: docx_classic104_sop_document | scope: java-classic-docx
-- **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic104_sop_document.docx
-- **Text Similarity:** 0.9883
-- **Visual Average:** 0.9655
-- **Overall Score:** 0.9815
-- **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=8638 bytes, Reference=161569 bytes
-
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic104_sop_document.pdf
-+++ reference/docx_classic104_sop_document.pdf
-@@ -4,11 +4,11 @@
- STANDARD OPERATING PROCEDURE
-
- Quality Assurance Testing Procedure
-
- 1. Purpose
-
--This SOP defines the standard process for running quality assurance benchmarks
-
--on the MiniPdf conversion engine.
-
-+This SOP defines the standard process for running quality assurance benchmarks on the
-
-+MiniPdf conversion engine.
-
- 2. Scope
-
--Applies to all QA engineers responsible for validating DOCX-to-PDF and XLSX-
-
--to-PDF conversion quality.
-
-+Applies to all QA engineers responsible for validating DOCX-to-PDF and XLSX-to-PDF
-
-+conversion quality.
-
- 3. Procedure
-
- 3.1 Prepare Test Files
-
- Generate test documents using the benchmark generator scripts.
-
-@@ -24,9 +24,9 @@
- Create GitHub issues for any identified regressions.
-
- 3.7 Verify Fixes
-
- Re-run the benchmark after code changes to confirm improvements.
-
-+---PAGE---
-
- 4. Acceptance Criteria
-
--Average quality score must be >= 97%
-
-----PAGE---
-
--No individual test case shall score below 80%
-
--All new test cases must have reference PDFs
-
--Regression tests must pass before release
-+• Average quality score must be >= 97%
-
-+• No individual test case shall score below 80%
-
-+• All new test cases must have reference PDFs
-
-+• Regression tests must pass before release
-```
-</details>
+**Error:** MiniPdf PDF not found
 
 ### docx_classic105_certificate
 
 - **Case Metadata:** format: docx | case: docx_classic105_certificate | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic105_certificate.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9741
-- **Overall Score:** 0.9896
+- **Visual Average:** 0.9725
+- **Overall Score:** 0.989
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=13052 bytes, Reference=104606 bytes
+- **File Size:** MiniPdf=13077 bytes, Reference=104606 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -9249,39 +8623,35 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic106_multi_section_orientation | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic106_multi_section_orientation.docx
-- **Text Similarity:** 0.9829
-- **Visual Average:** 0.9677
-- **Overall Score:** 0.9802
+- **Text Similarity:** 0.9761
+- **Visual Average:** 0.9543
+- **Overall Score:** 0.9722
 - **Pages:** MiniPdf=3, Reference=3
-- **File Size:** MiniPdf=9008 bytes, Reference=121828 bytes
+- **File Size:** MiniPdf=43966 bytes, Reference=121828 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic106_multi_section_orientation.pdf
 +++ reference/docx_classic106_multi_section_orientation.pdf
-@@ -1,22 +1,22 @@
+@@ -1,23 +1,22 @@
  Section 1: Executive Summary (Portrait)
 
--This document demonstrates multiple sections with different page orientations.
+ This document demonstrates multiple sections with different page orientations. The first
 
--The first section uses portrait layout for narrative content.
+ section uses portrait layout for narrative content.
 
--Key finding 1: The analysis shows significant improvement in document
+-Key finding 1: The analysis shows significant improvement in document conversion
 
--conversion quality metrics across all test categories.
+-quality metrics across all test categories.
 
--Key finding 2: The analysis shows significant improvement in document
+-Key finding 2: The analysis shows significant improvement in document conversion
 
--conversion quality metrics across all test categories.
+-quality metrics across all test categories.
 
--Key finding 3: The analysis shows significant improvement in document
+-Key finding 3: The analysis shows significant improvement in document conversion
 
--conversion quality metrics across all test categories.
-
-+This document demonstrates multiple sections with different page orientations. The first
-
-+section uses portrait layout for narrative content.
+-quality metrics across all test categories.
 
 +Key finding 1: The analysis shows significant improvement in document conversion quality
 
@@ -9301,7 +8671,9 @@ Text content: ✅ Identical
 
 -Metric Jan Feb Mar Apr May Jun
 
--Quality Score 96% 99% 92% 85% 93% 93%
+-Quality 96% 99% 92% 85% 93% 93%
+
+-Score
 
 -Conversion 98% 92% 85% 97% 89% 97%
 
@@ -9340,37 +8712,13 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic107_order_form | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic107_order_form.docx
-- **Text Similarity:** 0.9859
-- **Visual Average:** 0.937
-- **Overall Score:** 0.9692
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.9463
+- **Overall Score:** 0.9785
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9924 bytes, Reference=96453 bytes
+- **File Size:** MiniPdf=27694 bytes, Reference=96453 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic107_order_form.pdf
-+++ reference/docx_classic107_order_form.pdf
-@@ -9,7 +9,8 @@
- 002 MiniPdf 2 $199.00 $398.00
-
- Enterprise
-
- License
-
--003 Premium Support 1 $500.00 $500.00
-
-+003 Premium 1 $500.00 $500.00
-
-+Support
-
- (Annual)
-
- 004 Training 10 $50.00 $500.00
-
- Workshop (Per
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic108_comparison_matrix
 
@@ -9910,10 +9258,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic113_address_labels | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic113_address_labels.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9704
-- **Overall Score:** 0.9882
+- **Visual Average:** 0.9681
+- **Overall Score:** 0.9872
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8799 bytes, Reference=116233 bytes
+- **File Size:** MiniPdf=25794 bytes, Reference=116233 bytes
 
 Text content: ✅ Identical
 
@@ -9922,10 +9270,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic114_test_report | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic114_test_report.docx
 - **Text Similarity:** 0.9836
-- **Visual Average:** 0.9394
-- **Overall Score:** 0.9692
+- **Visual Average:** 0.9333
+- **Overall Score:** 0.9668
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9926 bytes, Reference=147821 bytes
+- **File Size:** MiniPdf=28143 bytes, Reference=147821 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -9978,10 +9326,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic115_price_list | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic115_price_list.docx
 - **Text Similarity:** 0.9903
-- **Visual Average:** 0.752
-- **Overall Score:** 0.8969
+- **Visual Average:** 0.7665
+- **Overall Score:** 0.9027
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8650 bytes, Reference=123194 bytes
+- **File Size:** MiniPdf=39938 bytes, Reference=123194 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -10017,146 +9365,28 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic116_risk_assessment | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic116_risk_assessment.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7186
-- **Overall Score:** 0.8874
+- **Visual Average:** 0.7217
+- **Overall Score:** 0.8887
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=9317 bytes, Reference=120292 bytes
+- **File Size:** MiniPdf=27543 bytes, Reference=120292 bytes
 
 Text content: ✅ Identical
 
 ### docx_classic117_employee_handbook_excerpt
 
-- **Case Metadata:** format: docx | case: docx_classic117_employee_handbook_excerpt | scope: java-classic-docx
-- **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic117_employee_handbook_excerpt.docx
-- **Text Similarity:** 0.9878
-- **Visual Average:** 0.9457
-- **Overall Score:** 0.9734
-- **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8845 bytes, Reference=179606 bytes
-
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic117_employee_handbook_excerpt.pdf
-+++ reference/docx_classic117_employee_handbook_excerpt.pdf
-@@ -2,27 +2,27 @@
- MiniPdf Corporation | Revised March 2026
-
- Chapter 5: Leave Policies
-
- 5.1 Annual Leave
-
--Full-time employees are entitled to 20 days of paid annual leave per calendar
-
--year. Leave accrues at a rate of 1.67 days per month of service.
-
-+Full-time employees are entitled to 20 days of paid annual leave per calendar year. Leave
-
-+accrues at a rate of 1.67 days per month of service.
-
- Years of Service Annual Days Max Carry Over
-
- 0-2 years 20 days 5 days
-
- 3-5 years 23 days 7 days
-
- 6-10 years 25 days 10 days
-
- 10+ years 30 days 15 days
-
- 5.2 Sick Leave
-
--Employees are entitled to 10 days of paid sick leave per year. A medical
-
--certificate is required for absences of three or more consecutive days.
-
-+Employees are entitled to 10 days of paid sick leave per year. A medical certificate is
-
-+required for absences of three or more consecutive days.
-
- 5.3 Parental Leave
-
--Primary caregivers are entitled to 16 weeks of paid parental leave. Secondary
-
--caregivers receive 4 weeks of paid leave. Leave must be taken within 12 months
-
--of the child's birth or adoption date.
-
-+Primary caregivers are entitled to 16 weeks of paid parental leave. Secondary caregivers
-
-+receive 4 weeks of paid leave. Leave must be taken within 12 months of the child's birth or
-
-+adoption date.
-
- Chapter 6: Code of Conduct
-
- 6.1 Professional Behavior
-
--Treat all colleagues with respect and dignity
-
--Maintain confidentiality of company information
-
--Report conflicts of interest promptly
-
--Comply with all applicable laws and regulations
-
--Use company resources responsibly
-
-+• Treat all colleagues with respect and dignity
-
-+• Maintain confidentiality of company information
-
-+• Report conflicts of interest promptly
-
-+• Comply with all applicable laws and regulations
-
-+• Use company resources responsibly
-
- 6.2 Disciplinary Process
-
- Step 1: Verbal warning with documented discussion
-
- Step 2: Written warning with improvement plan
-```
-</details>
+**Error:** MiniPdf PDF not found
 
 ### docx_classic118_data_report_with_summary
 
 - **Case Metadata:** format: docx | case: docx_classic118_data_report_with_summary | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic118_data_report_with_summary.docx
-- **Text Similarity:** 0.9971
-- **Visual Average:** 0.915
-- **Overall Score:** 0.9648
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.9206
+- **Overall Score:** 0.9682
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=14321 bytes, Reference=130167 bytes
+- **File Size:** MiniPdf=15295 bytes, Reference=130167 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic118_data_report_with_summary.pdf
-+++ reference/docx_classic118_data_report_with_summary.pdf
-@@ -13,9 +13,8 @@
- Mixed Content 15 95.0% PASS
-
- Score Distribution
-
- Score Range Count Bar
-
--█████████████████
-
-+██████████████████
-
- 98-100% 45
-
--█
-
- ██████████████
-
- 95-97% 35
-
- ██████████
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic119_multi_language_document
 
@@ -10206,11 +9436,11 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic120_comprehensive_business_proposal | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic120_comprehensive_business_proposal.docx
-- **Text Similarity:** 0.9754
-- **Visual Average:** 0.5474
-- **Overall Score:** 0.7091
-- **Pages:** MiniPdf=2, Reference=3
-- **File Size:** MiniPdf=23964 bytes, Reference=200101 bytes
+- **Text Similarity:** 0.9866
+- **Visual Average:** 0.7691
+- **Overall Score:** 0.9023
+- **Pages:** MiniPdf=3, Reference=3
+- **File Size:** MiniPdf=56684 bytes, Reference=200101 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -10240,24 +9470,20 @@ Text content: ✅ Identical
 
  2. Problem Statement...................................3
 
-@@ -11,31 +14,29 @@
- 6. Pricing.............................................7
-
- 7. Team & Qualifications...............................8
-
+@@ -13,14 +16,13 @@
  8. Terms & Conditions..................................9
 
-+---PAGE---
+ ---PAGE---
 
  1. Executive Summary
 
 -MiniPdf Corporation proposes an enterprise document processing solution that
 
--eliminates the dependency on Microsoft Office for PDF generation. Our solution
+-eliminates the dependency on Microsoft Office for PDF generation. Our solution provides
 
--provides high-fidelity conversion of XLSX and DOCX files to PDF format with an
+-high-fidelity conversion of XLSX and DOCX files to PDF format with an average quality
 
--average quality score of 97%.
+-score of 97%.
 
 +MiniPdf Corporation proposes an enterprise document processing solution that eliminates
 
@@ -10267,47 +9493,28 @@ Text content: ✅ Identical
 
  Key Benefits
 
-----PAGE---
-
  Cost Reduction Performance Quality
 
--60% lower licensing costs 3x faster conversion with 97%+ fidelity score
+-60% lower licensing costs 3x faster conversion with no 97%+ fidelity score verified
 
--compared to traditional no external dependencies verified by automated
-
--solutions benchmarks
+-compared to traditional external dependencies by automated benchmarks
 
 +60% lower licensing costs 3x faster conversion with 97%+ fidelity score verified
 
 +compared to traditional no external dependencies by automated benchmarks
 
-+solutions
+ solutions
 
  2. Problem Statement
 
--Heavy dependency on Microsoft Office installations for PDF generation
+ • Heavy dependency on Microsoft Office installations for PDF generation
 
--Inconsistent output across different Office versions and platforms
-
--High licensing costs for enterprise-scale document processing
-
--Limited automation capabilities with traditional office suites
-
-+• Heavy dependency on Microsoft Office installations for PDF generation
-
-+• Inconsistent output across different Office versions and platforms
-
-+• High licensing costs for enterprise-scale document processing
-
-+• Limited automation capabilities with traditional office suites
-
+@@ -30,11 +32,11 @@
  3. Proposed Solution
 
--MiniPdf is a lightweight .NET library that provides native document-to-PDF
+ MiniPdf is a lightweight .NET library that provides native document-to-PDF conversion
 
--conversion without requiring Microsoft Office installation. Key features
-
--include:
+ without requiring Microsoft Office installation. Key features include:
 
 -XLSX to PDF with chart and formula support
 
@@ -10319,19 +9526,32 @@ Text content: ✅ Identical
 
 -Cross-platform support (.NET 6+)
 
-+MiniPdf is a lightweight .NET library that provides native document-to-PDF conversion
-
-+without requiring Microsoft Office installation. Key features include:
-
 +1. XLSX to PDF with chart and formula support
 
 +2. DOCX to PDF with full formatting preservation
 
 +3. CJK font auto-embedding for international documents
 
-+4. A
-... (173 more characters)
++4. Automated quality benchmarking suite
 
++5. Cross-platform support (.NET 6+)
+
+ 4. Pricing
+
+ Component Annual Cost Notes
+
+ Enterprise License (100 $18,000 Unlimited conversions
+
+@@ -42,5 +44,4 @@
+ Premium Support $5,000 24/7 with SLA
+
+ Custom Integration $15,000 One-time setup
+
+ TOTAL (Year 1) $38,000
+
+----PAGE---
+
+ We look forward to partnering with Acme Corporation.
 ```
 </details>
 
@@ -10340,10 +9560,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic121_thin_border_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic121_thin_border_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9814
-- **Overall Score:** 0.9926
+- **Visual Average:** 0.9764
+- **Overall Score:** 0.9906
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6846 bytes, Reference=93903 bytes
+- **File Size:** MiniPdf=18312 bytes, Reference=93903 bytes
 
 Text content: ✅ Identical
 
@@ -10352,10 +9572,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic122_thick_outer_border_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic122_thick_outer_border_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9733
-- **Overall Score:** 0.9893
+- **Visual Average:** 0.9841
+- **Overall Score:** 0.9936
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6648 bytes, Reference=98269 bytes
+- **File Size:** MiniPdf=19864 bytes, Reference=98269 bytes
 
 Text content: ✅ Identical
 
@@ -10364,10 +9584,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic123_dashed_border_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic123_dashed_border_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9881
-- **Overall Score:** 0.9952
+- **Visual Average:** 0.9874
+- **Overall Score:** 0.995
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=5984 bytes, Reference=94837 bytes
+- **File Size:** MiniPdf=16662 bytes, Reference=94837 bytes
 
 Text content: ✅ Identical
 
@@ -10376,10 +9596,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic124_colored_border_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic124_colored_border_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9786
-- **Overall Score:** 0.9914
+- **Visual Average:** 0.9728
+- **Overall Score:** 0.9891
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6268 bytes, Reference=88322 bytes
+- **File Size:** MiniPdf=16134 bytes, Reference=88322 bytes
 
 Text content: ✅ Identical
 
@@ -10388,10 +9608,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic125_solid_cell_fills | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic125_solid_cell_fills.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7467
-- **Overall Score:** 0.8987
+- **Visual Average:** 0.7575
+- **Overall Score:** 0.903
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6397 bytes, Reference=92426 bytes
+- **File Size:** MiniPdf=16578 bytes, Reference=92426 bytes
 
 Text content: ✅ Identical
 
@@ -10400,10 +9620,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic126_dark_header_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic126_dark_header_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9582
-- **Overall Score:** 0.9833
+- **Visual Average:** 0.9704
+- **Overall Score:** 0.9882
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7435 bytes, Reference=101627 bytes
+- **File Size:** MiniPdf=19386 bytes, Reference=101627 bytes
 
 Text content: ✅ Identical
 
@@ -10412,10 +9632,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic127_font_styles_showcase | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic127_font_styles_showcase.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9754
-- **Overall Score:** 0.9902
+- **Visual Average:** 0.9709
+- **Overall Score:** 0.9884
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7003 bytes, Reference=138431 bytes
+- **File Size:** MiniPdf=20814 bytes, Reference=138431 bytes
 
 Text content: ✅ Identical
 
@@ -10465,29 +9685,12 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic129_alignment_combinations | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic129_alignment_combinations.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9831
-- **Overall Score:** 0.9932
+- **Visual Average:** 0.9794
+- **Overall Score:** 0.9918
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6260 bytes, Reference=93307 bytes
+- **File Size:** MiniPdf=18712 bytes, Reference=93307 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic129_alignment_combinations.pdf
-+++ reference/docx_classic129_alignment_combinations.pdf
-@@ -3,4 +3,5 @@
- Top Left/Top Center/Top Right/Top
-
- Center
-
- Left/Center Center/Center Right/Center
-
--Bottom Left/Bottom Center/Bottom Right/Bottom
-+Bottom
-
-+Left/Bottom Center/Bottom Right/Bottom
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic130_wrap_and_indent
 
@@ -10542,10 +9745,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic131_number_format_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic131_number_format_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9732
-- **Overall Score:** 0.9893
+- **Visual Average:** 0.9664
+- **Overall Score:** 0.9866
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7320 bytes, Reference=98702 bytes
+- **File Size:** MiniPdf=18423 bytes, Reference=98702 bytes
 
 Text content: ✅ Identical
 
@@ -10554,10 +9757,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic132_striped_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic132_striped_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7122
-- **Overall Score:** 0.8849
+- **Visual Average:** 0.7263
+- **Overall Score:** 0.8905
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7551 bytes, Reference=103001 bytes
+- **File Size:** MiniPdf=19772 bytes, Reference=103001 bytes
 
 Text content: ✅ Identical
 
@@ -10566,10 +9769,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic133_gradient_rows_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic133_gradient_rows_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.5716
-- **Overall Score:** 0.8286
+- **Visual Average:** 0.5564
+- **Overall Score:** 0.8226
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6841 bytes, Reference=96779 bytes
+- **File Size:** MiniPdf=19057 bytes, Reference=96779 bytes
 
 Text content: ✅ Identical
 
@@ -10578,10 +9781,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic134_heatmap_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic134_heatmap_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.6553
-- **Overall Score:** 0.8621
+- **Visual Average:** 0.6442
+- **Overall Score:** 0.8577
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6369 bytes, Reference=92444 bytes
+- **File Size:** MiniPdf=18727 bytes, Reference=92444 bytes
 
 Text content: ✅ Identical
 
@@ -10602,10 +9805,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic136_financial_statement | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic136_financial_statement.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9229
-- **Overall Score:** 0.9692
+- **Visual Average:** 0.9481
+- **Overall Score:** 0.9792
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8622 bytes, Reference=114465 bytes
+- **File Size:** MiniPdf=23002 bytes, Reference=114465 bytes
 
 Text content: ✅ Identical
 
@@ -10614,10 +9817,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic137_checkerboard_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic137_checkerboard_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.549
-- **Overall Score:** 0.8196
+- **Visual Average:** 0.5647
+- **Overall Score:** 0.8259
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=3087 bytes, Reference=63596 bytes
+- **File Size:** MiniPdf=13190 bytes, Reference=63596 bytes
 
 Text content: ✅ Identical
 
@@ -10626,10 +9829,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic138_color_grid_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic138_color_grid_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7084
-- **Overall Score:** 0.8834
+- **Visual Average:** 0.7287
+- **Overall Score:** 0.8915
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=3792 bytes, Reference=65776 bytes
+- **File Size:** MiniPdf=13025 bytes, Reference=65776 bytes
 
 Text content: ✅ Identical
 
@@ -10650,24 +9853,20 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic140_rotated_text_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic140_rotated_text_table.docx
 - **Text Similarity:** 0.8158
-- **Visual Average:** 0.9824
-- **Overall Score:** 0.9193
+- **Visual Average:** 0.9702
+- **Overall Score:** 0.9144
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6028 bytes, Reference=90797 bytes
+- **File Size:** MiniPdf=31957 bytes, Reference=90797 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/docx_classic140_rotated_text_table.pdf
 +++ reference/docx_classic140_rotated_text_table.pdf
-@@ -1,6 +1,7 @@
+@@ -1,5 +1,7 @@
  Rotated Text in Table
 
--Note: Text rotation in table cells uses vertical text direction via the
-
--textDirection element.
-
-+Note: Text rotation in table cells uses vertical text direction via the textDirection element.
+ Note: Text rotation in table cells uses vertical text direction via the textDirection element.
 
  Normal Bottom-to-Top Top-to-Bottom TB-LR-V TB-RL
 
@@ -10689,10 +9888,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic141_mixed_border_styles | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic141_mixed_border_styles.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9867
-- **Overall Score:** 0.9947
+- **Visual Average:** 0.9853
+- **Overall Score:** 0.9941
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6178 bytes, Reference=91481 bytes
+- **File Size:** MiniPdf=17727 bytes, Reference=91481 bytes
 
 Text content: ✅ Identical
 
@@ -10700,47 +9899,23 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: docx_classic142_styled_invoice_document | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic142_styled_invoice_document.docx
-- **Text Similarity:** 0.9767
-- **Visual Average:** 0.5924
-- **Overall Score:** 0.8276
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.6018
+- **Overall Score:** 0.8407
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8332 bytes, Reference=94931 bytes
+- **File Size:** MiniPdf=26527 bytes, Reference=94931 bytes
 
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/docx_classic142_styled_invoice_document.pdf
-+++ reference/docx_classic142_styled_invoice_document.pdf
-@@ -2,7 +2,8 @@
- Invoice #: INV-2025-0099
-
- Date: 2025-06-15
-
- Item Description Qty Price Total
-
--SVC-001 Web Development 40 $125.00 $5,000.00
-
-+SVC-001 Web 40 $125.00 $5,000.00
-
-+Development
-
- SVC-002 UI/UX Design 20 $100.00 $2,000.00
-
- SVC-003 Testing & QA 15 $90.00 $1,350.00
-
- LIC-001 Annual License 1 $2,400.00 $2,400.00
-```
-</details>
+Text content: ✅ Identical
 
 ### docx_classic143_multi_section_document
 
 - **Case Metadata:** format: docx | case: docx_classic143_multi_section_document | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic143_multi_section_document.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.6488
-- **Overall Score:** 0.8595
+- **Visual Average:** 0.6498
+- **Overall Score:** 0.8599
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6692 bytes, Reference=80334 bytes
+- **File Size:** MiniPdf=19512 bytes, Reference=80334 bytes
 
 Text content: ✅ Identical
 
@@ -10749,10 +9924,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic144_note_style_paragraphs | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic144_note_style_paragraphs.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9405
-- **Overall Score:** 0.9762
+- **Visual Average:** 0.9363
+- **Overall Score:** 0.9745
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6075 bytes, Reference=110519 bytes
+- **File Size:** MiniPdf=14587 bytes, Reference=110519 bytes
 
 Text content: ✅ Identical
 
@@ -10761,10 +9936,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic145_status_badge_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic145_status_badge_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.8663
-- **Overall Score:** 0.9465
+- **Visual Average:** 0.903
+- **Overall Score:** 0.9612
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8362 bytes, Reference=110142 bytes
+- **File Size:** MiniPdf=23402 bytes, Reference=110142 bytes
 
 Text content: ✅ Identical
 
@@ -10773,10 +9948,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic146_double_border_table | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic146_double_border_table.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9137
-- **Overall Score:** 0.9655
+- **Visual Average:** 0.9702
+- **Overall Score:** 0.9881
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=6981 bytes, Reference=96549 bytes
+- **File Size:** MiniPdf=19563 bytes, Reference=96549 bytes
 
 Text content: ✅ Identical
 
@@ -10785,10 +9960,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic147_multi_section_styled_report | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic147_multi_section_styled_report.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9147
-- **Overall Score:** 0.9659
+- **Visual Average:** 0.9134
+- **Overall Score:** 0.9654
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8728 bytes, Reference=115750 bytes
+- **File Size:** MiniPdf=23454 bytes, Reference=115750 bytes
 
 Text content: ✅ Identical
 
@@ -10797,10 +9972,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic148_data_grid_document | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic148_data_grid_document.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.6935
-- **Overall Score:** 0.8774
+- **Visual Average:** 0.7105
+- **Overall Score:** 0.8842
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=8301 bytes, Reference=111668 bytes
+- **File Size:** MiniPdf=22003 bytes, Reference=111668 bytes
 
 Text content: ✅ Identical
 
@@ -10809,10 +9984,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic149_merged_section_report | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic149_merged_section_report.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.6837
-- **Overall Score:** 0.8735
+- **Visual Average:** 0.6631
+- **Overall Score:** 0.8652
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=7733 bytes, Reference=84151 bytes
+- **File Size:** MiniPdf=23961 bytes, Reference=84151 bytes
 
 Text content: ✅ Identical
 
@@ -10821,48 +9996,88 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: docx_classic150_kitchen_sink_styles | scope: java-classic-docx
 - **Source:** tests/MiniPdf.Scripts/output_docx/docx_classic150_kitchen_sink_styles.docx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.7907
-- **Overall Score:** 0.9163
+- **Visual Average:** 0.7843
+- **Overall Score:** 0.9137
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=8199 bytes, Reference=159873 bytes
+- **File Size:** MiniPdf=25021 bytes, Reference=159873 bytes
 
-Text content: ✅ Identical
+<details><summary>Text Diff</summary>
+
+```diff
+--- minipdf/docx_classic150_kitchen_sink_styles.pdf
++++ reference/docx_classic150_kitchen_sink_styles.pdf
+@@ -11,8 +11,7 @@
+ gap
+
+ Cell shading Pass 97% All fill types
+
+ supported
+
+-Image embedding Pass 96% PNG and JPEG
+
+-tested
+
++Image embedding Pass 96% PNG and JPEG tested
+
+ Page layout Pass 94% Landscape needs
+
+ work
+
+ Double border below this paragraph
+
+@@ -21,10 +20,10 @@
+ Level 1 indented item with some descriptive text
+
+ Level 2 indented item with some descriptive text
+
+ Level 3 indented item with some descriptive text
+
+----PAGE---
+
+ Size Comparison
+
+ 10pt text sample
+
+ 14pt text sample
+
++---PAGE---
+
+ 18pt text sample
+
+ 24pt text sample
+
+ End of Style Showcase
+```
+</details>
 
 ## Improvement Suggestions
 
 ### ⚠ Low-Score Test Cases (below 0.8)
 
 1. **docx_classic108_comparison_matrix** (score: 0.5336)
-1. **docx_classic60_project_status_with_milestones** (score: 0.5986)
 1. **docx_classic38_restaurant_menu_with_photos** (score: 0.6169)
-1. **docx_classic97_product_catalog** (score: 0.6298)
 1. **docx_classic34_employee_directory_with_photo** (score: 0.6299)
-1. **docx_classic35_inventory_with_product_photos** (score: 0.6353)
-1. **docx_classic90_comprehensive_annual_report** (score: 0.6463)
-1. **docx_classic70_academic_paper** (score: 0.6813)
-1. **docx_classic60_comprehensive_styled_report** (score: 0.6816)
-1. **docx_classic99_policy_document** (score: 0.6843)
-1. **docx_classic30_comprehensive_report** (score: 0.7036)
-1. **docx_classic120_comprehensive_business_proposal** (score: 0.7091)
-1. **docx_classic49_wide_panoramic_banner** (score: 0.7162)
-1. **docx_classic82_survey_questionnaire** (score: 0.7208)
-1. **docx_classic50_long_table_with_formatting** (score: 0.7216)
+1. **docx_classic35_inventory_with_product_photos** (score: 0.6468)
+1. **docx_classic90_comprehensive_annual_report** (score: 0.647)
+1. **docx_classic99_policy_document** (score: 0.6872)
+1. **docx_classic60_comprehensive_styled_report** (score: 0.7016)
+1. **docx_classic100_multi_page_table** (score: 0.7166)
+1. **docx_classic30_comprehensive_report** (score: 0.7182)
+1. **docx_classic50_long_table_with_formatting** (score: 0.7292)
 1. **docx_classic41_newsletter_with_hero_image** (score: 0.7455)
+1. **docx_classic74_org_chart** (score: 0.7473)
 1. **docx_classic48_multi_level_headings** (score: 0.7494)
 1. **docx_classic47_news_article_with_hero_image** (score: 0.7575)
-1. **docx_classic100_multi_page_table** (score: 0.7586)
-1. **docx_classic74_org_chart** (score: 0.76)
 1. **docx_classic13_long_document** (score: 0.7632)
-1. **docx_classic43_event_flyer_with_banner** (score: 0.764)
 1. **docx_classic66_colored_title_page** (score: 0.7778)
 1. **docx_classic139_paragraph_shading_patterns** (score: 0.7818)
-1. **docx_classic88_presentation_handout** (score: 0.7851)
 1. **docx_classic65_code_block_styling** (score: 0.7856)
 1. **docx_classic52_before_after_comparison** (score: 0.7858)
-1. **docx_classic80_matrix_grid** (score: 0.7859)
+1. **docx_classic88_presentation_handout** (score: 0.787)
 1. **docx_classic46_product_image_grid** (score: 0.7902)
 1. **docx_classic19_multiple_images** (score: 0.7947)
 1. **docx_classic58_dense_paragraph_document** (score: 0.7964)
-1. **docx_classic44_dashboard_with_kpi_image** (score: 0.7986)
+1. **docx_classic80_matrix_grid** (score: 0.7975)
+1. **docx_classic44_dashboard_with_kpi_image** (score: 0.7995)
 
 Review the text diffs and visual comparisons above to identify specific rendering issues.
