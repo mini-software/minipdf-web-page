@@ -1,6 +1,6 @@
 # go MiniPdf vs Microsoft 365 Excel Reference PDF Comparison Report
 
-Generated: 2026-09-14T19:45:31.308449
+Generated: 2026-09-19T22:53:26.087259
 
 ## Summary
 

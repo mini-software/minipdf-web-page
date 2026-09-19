@@ -1,4 +1,5 @@
 {
+  "language": "rust",
   "suite": "classic",
   "format": "docx",
   "reference_engine": "o365",
@@ -15,7 +16,7 @@
   "missing_auxiliary_references": 0,
   "comparison_completed": true,
   "comparison_results": 180,
-  "average_score": 0.9705327777777769,
+  "average_score": 0.9645761111111111,
   "cases": [
     {
       "name": "docx_classic01_single_paragraph",

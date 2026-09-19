@@ -1,6 +1,6 @@
-# Rust MiniPdf vs Microsoft 365 Excel Reference PDF Comparison Report
+# rust MiniPdf vs Microsoft 365 Excel Reference PDF Comparison Report
 
-Generated: 2026-09-02T17:18:45.222192
+Generated: 2026-09-19T22:24:26.806242
 
 ## Summary
 
@@ -14,7 +14,7 @@ Generated: 2026-09-02T17:18:45.222192
 | 6 | 🟢 classic06_tall_table | ✅ | 1.0 | 0.9457 | 5/5 | **0.9783** |
 | 7 | 🟢 classic07_numbers_only | ✅ | 1.0 | 0.9987 | 1/1 | **0.9995** |
 | 8 | 🟢 classic08_mixed_text_and_numbers | ✅ | 1.0 | 0.9978 | 1/1 | **0.9991** |
-| 9 | 🔴 classic09_long_text | ✅ | 0.22 | 0.0821 | 1/12 | **0.2208** |
+| 9 | 🟢 classic09_long_text | ✅ | 0.775 | 0.9892 | 12/12 | **0.9057** |
 | 10 | 🟢 classic10_special_xml_characters | ✅ | 1.0 | 0.9971 | 1/1 | **0.9988** |
 | 11 | 🟢 classic11_sparse_rows | ✅ | 1.0 | 0.9995 | 2/2 | **0.9998** |
 | 12 | 🔴 classic12_sparse_columns | ✅ | 1.0 | 0.499 | 1/2 | **0.6996** |
@@ -136,7 +136,7 @@ Generated: 2026-09-02T17:18:45.222192
 | 128 | 🟢 classic128_font_sizes | ✅ | 0.9521 | 0.993 | 1/1 | **0.978** |
 | 129 | 🟢 classic129_alignment_combos | ✅ | 1.0 | 0.9971 | 1/1 | **0.9988** |
 | 130 | 🟢 classic130_wrap_and_indent | ✅ | 1.0 | 0.9952 | 1/1 | **0.9981** |
-| 131 | 🟢 classic131_number_formats | ✅ | 0.8182 | 0.991 | 1/1 | **0.9237** |
+| 131 | 🟢 classic131_number_formats | ✅ | 0.8485 | 0.9911 | 1/1 | **0.9358** |
 | 132 | 🟢 classic132_striped_table | ✅ | 0.9984 | 0.9768 | 1/1 | **0.9901** |
 | 133 | 🟢 classic133_gradient_rows | ✅ | 1.0 | 0.9872 | 1/1 | **0.9949** |
 | 134 | 🟢 classic134_heatmap | ✅ | 1.0 | 0.9739 | 1/1 | **0.9896** |
@@ -157,14 +157,14 @@ Generated: 2026-09-02T17:18:45.222192
 | 149 | 🟢 classic149_merged_styled_sections | ✅ | 1.0 | 0.9494 | 1/1 | **0.9798** |
 | 150 | 🟢 classic150_kitchen_sink_styles | ✅ | 0.9839 | 0.9386 | 1/1 | **0.969** |
 | 151 | 🟢 classic151_multilingual_greetings | ✅ | 0.9761 | 0.9902 | 1/1 | **0.9865** |
-| 152 | 🟢 classic152_emoji_sampler | ✅ | 0.9677 | 0.9926 | 1/1 | **0.9841** |
+| 152 | 🟢 classic152_emoji_sampler | ✅ | 0.9636 | 0.9926 | 1/1 | **0.9825** |
 | 153 | 🟢 classic153_currency_symbols | ✅ | 0.9984 | 0.9912 | 1/1 | **0.9958** |
 | 154 | 🟢 classic154_math_symbols | ✅ | 1.0 | 0.9935 | 1/1 | **0.9974** |
 | 155 | 🟢 classic155_diacritical_marks | ✅ | 1.0 | 0.9948 | 1/1 | **0.9979** |
 | 156 | 🟡 classic156_rtl_bidi_text | ✅ | 0.6818 | 0.9975 | 1/1 | **0.8717** |
 | 157 | 🔴 classic157_cjk_extended | ✅ | 0.5745 | 0.4901 | 2/1 | **0.5258** |
 | 158 | 🟢 classic158_emoji_skin_tones | ✅ | 0.9673 | 0.9938 | 1/1 | **0.9844** |
-| 159 | 🟢 classic159_zwj_emoji | ✅ | 0.9372 | 0.9918 | 1/1 | **0.9716** |
+| 159 | 🟢 classic159_zwj_emoji | ✅ | 0.9291 | 0.9918 | 1/1 | **0.9684** |
 | 160 | 🟢 classic160_punctuation_marks | ✅ | 0.9683 | 0.9961 | 1/1 | **0.9858** |
 | 161 | 🟢 classic161_box_drawing | ✅ | 0.9752 | 0.9924 | 1/1 | **0.987** |
 | 162 | 🟢 classic162_cjk_emoji_styled | ✅ | 1.0 | 0.9952 | 1/1 | **0.9981** |
@@ -182,10 +182,10 @@ Generated: 2026-09-02T17:18:45.222192
 | 174 | 🟢 classic174_technical_symbols | ✅ | 0.9971 | 0.9902 | 1/1 | **0.9949** |
 | 175 | 🟢 classic175_multiscript_catalog | ✅ | 0.9886 | 0.9899 | 1/1 | **0.9914** |
 | 176 | 🟢 classic176_combining_characters | ✅ | 0.9837 | 0.993 | 1/1 | **0.9907** |
-| 177 | 🟢 classic177_emoji_calendar | ✅ | 1.0 | 0.9903 | 1/1 | **0.9961** |
+| 177 | 🟢 classic177_emoji_calendar | ✅ | 0.9982 | 0.9903 | 1/1 | **0.9954** |
 | 178 | 🟢 classic178_caucasus_ethiopic | ✅ | 0.9957 | 0.993 | 1/1 | **0.9955** |
-| 179 | 🟢 classic179_emoji_inventory | ✅ | 1.0 | 0.9876 | 1/1 | **0.995** |
-| 180 | 🟢 classic180_polyglot_paragraph | ✅ | 0.9846 | 0.9931 | 1/1 | **0.9911** |
+| 179 | 🟢 classic179_emoji_inventory | ✅ | 0.9981 | 0.9876 | 1/1 | **0.9943** |
+| 180 | 🟢 classic180_polyglot_paragraph | ✅ | 0.9821 | 0.9931 | 1/1 | **0.9901** |
 | 181 | 🟢 classic181_feedback_tracker_with_images | ✅ | 0.9865 | 0.9881 | 2/2 | **0.9898** |
 | 182 | 🟢 classic182_dense_long_text_columns | ✅ | 0.929 | 0.9819 | 2/2 | **0.9644** |
 | 183 | 🟢 classic183_mixed_content_grid | ✅ | 1.0 | 0.9886 | 1/1 | **0.9954** |
@@ -198,7 +198,7 @@ Generated: 2026-09-02T17:18:45.222192
 | 190 | 🟢 classic190_dashboard_kpi_images | ✅ | 1.0 | 0.9903 | 1/1 | **0.9961** |
 | 191 | 🟢 classic191_payroll_calculator | ✅ | 0.9944 | 0.9768 | 9/9 | **0.9885** |
 
-**Average Overall Score: 0.9025**
+**Average Overall Score: 0.9061**
 
 ## Labeled Side-by-Side Comparison
 
@@ -1458,7 +1458,62 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>classic09_long_text</b><br>Page 1</td>
   <td><img src="images/classic09_long_text_p1_heatmap.png" width="760" alt="classic09_long_text page 1 difference heatmap"></td>
-  <td>changed: 38203 px (1.76%)<br>bbox: [118, 157, 1241, 302]<br>mean abs RGB: 2.7843<br>RMSE RGB: 23.7631<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 36446 px (1.67%)<br>bbox: [118, 157, 1241, 302]<br>mean abs RGB: 2.6503<br>RMSE RGB: 23.1691<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 2</td>
+  <td><img src="images/classic09_long_text_p2_heatmap.png" width="760" alt="classic09_long_text page 2 difference heatmap"></td>
+  <td>changed: 34074 px (1.57%)<br>bbox: [114, 189, 1241, 302]<br>mean abs RGB: 2.459<br>RMSE RGB: 22.2841<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 3</td>
+  <td><img src="images/classic09_long_text_p3_heatmap.png" width="760" alt="classic09_long_text page 3 difference heatmap"></td>
+  <td>changed: 33992 px (1.56%)<br>bbox: [114, 189, 1241, 302]<br>mean abs RGB: 2.4541<br>RMSE RGB: 22.2491<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 4</td>
+  <td><img src="images/classic09_long_text_p4_heatmap.png" width="760" alt="classic09_long_text page 4 difference heatmap"></td>
+  <td>changed: 34962 px (1.61%)<br>bbox: [114, 189, 1229, 302]<br>mean abs RGB: 2.5346<br>RMSE RGB: 22.6212<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 5</td>
+  <td><img src="images/classic09_long_text_p5_heatmap.png" width="760" alt="classic09_long_text page 5 difference heatmap"></td>
+  <td>changed: 36146 px (1.66%)<br>bbox: [114, 189, 1190, 302]<br>mean abs RGB: 2.6322<br>RMSE RGB: 23.0636<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 6</td>
+  <td><img src="images/classic09_long_text_p6_heatmap.png" width="760" alt="classic09_long_text page 6 difference heatmap"></td>
+  <td>changed: 33450 px (1.54%)<br>bbox: [114, 189, 1079, 302]<br>mean abs RGB: 2.4228<br>RMSE RGB: 22.0875<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 7</td>
+  <td><img src="images/classic09_long_text_p7_heatmap.png" width="760" alt="classic09_long_text page 7 difference heatmap"></td>
+  <td>changed: 18149 px (0.83%)<br>bbox: [114, 219, 1079, 302]<br>mean abs RGB: 1.3687<br>RMSE RGB: 16.8274<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 8</td>
+  <td><img src="images/classic09_long_text_p8_heatmap.png" width="760" alt="classic09_long_text page 8 difference heatmap"></td>
+  <td>changed: 10780 px (0.50%)<br>bbox: [114, 279, 1079, 302]<br>mean abs RGB: 0.791<br>RMSE RGB: 12.7024<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 9</td>
+  <td><img src="images/classic09_long_text_p9_heatmap.png" width="760" alt="classic09_long_text page 9 difference heatmap"></td>
+  <td>changed: 10796 px (0.50%)<br>bbox: [114, 279, 1079, 302]<br>mean abs RGB: 0.7986<br>RMSE RGB: 12.7844<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 10</td>
+  <td><img src="images/classic09_long_text_p10_heatmap.png" width="760" alt="classic09_long_text page 10 difference heatmap"></td>
+  <td>changed: 10692 px (0.49%)<br>bbox: [114, 279, 1079, 302]<br>mean abs RGB: 0.786<br>RMSE RGB: 12.6619<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 11</td>
+  <td><img src="images/classic09_long_text_p11_heatmap.png" width="760" alt="classic09_long_text page 11 difference heatmap"></td>
+  <td>changed: 10690 px (0.49%)<br>bbox: [114, 279, 1079, 302]<br>mean abs RGB: 0.7787<br>RMSE RGB: 12.5842<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>classic09_long_text</b><br>Page 12</td>
+  <td><img src="images/classic09_long_text_p12_heatmap.png" width="760" alt="classic09_long_text page 12 difference heatmap"></td>
+  <td>changed: 8595 px (0.39%)<br>bbox: [114, 279, 1019, 302]<br>mean abs RGB: 0.6317<br>RMSE RGB: 11.3593<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>classic10_special_xml_characters</b><br>Page 1</td>
@@ -2253,7 +2308,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>classic131_number_formats</b><br>Page 1</td>
   <td><img src="images/classic131_number_formats_p1_heatmap.png" width="760" alt="classic131_number_formats page 1 difference heatmap"></td>
-  <td>changed: 32162 px (1.48%)<br>bbox: [118, 157, 851, 490]<br>mean abs RGB: 2.4083<br>RMSE RGB: 22.1759<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 32368 px (1.49%)<br>bbox: [118, 157, 851, 490]<br>mean abs RGB: 2.4228<br>RMSE RGB: 22.2405<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>classic132_striped_table</b><br>Page 1</td>
@@ -2523,7 +2578,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>classic180_polyglot_paragraph</b><br>Page 1</td>
   <td><img src="images/classic180_polyglot_paragraph_p1_heatmap.png" width="760" alt="classic180_polyglot_paragraph page 1 difference heatmap"></td>
-  <td>changed: 23685 px (1.09%)<br>bbox: [117, 158, 676, 432]<br>mean abs RGB: 1.7203<br>RMSE RGB: 18.4793<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 23689 px (1.09%)<br>bbox: [117, 158, 676, 432]<br>mean abs RGB: 1.7206<br>RMSE RGB: 18.4798<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>classic181_feedback_tracker_with_images</b><br>Page 1</td>
@@ -2639,16 +2694,16 @@ Blue areas are below the configured difference threshold; red areas have stronge
 
 ## Visual Comparison
 
-Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice is an auxiliary rendering and does not affect scores.
+Scores compare rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice is an auxiliary rendering and does not affect scores.
 
 <table>
-<tr><th>Rust MiniPdf</th><th>Microsoft 365 Excel Reference</th><th>LibreOffice</th></tr>
+<tr><th>rust MiniPdf</th><th>Microsoft 365 Excel Reference</th><th>LibreOffice</th></tr>
 <tr>
   <td><b>classic01_basic_table_with_headers<br><small>format: xlsx | case: classic01_basic_table_with_headers | scope: rust-classic-xlsx</small></b></td>
   <td colspan="2">classic01_basic_table_with_headers <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic01_basic_table_with_headers_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic01_basic_table_with_headers_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic01_basic_table_with_headers_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic01_basic_table_with_headers_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2657,17 +2712,17 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic02_multiple_worksheets <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic02_multiple_worksheets_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic02_multiple_worksheets_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic02_multiple_worksheets_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic02_multiple_worksheets_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic02_multiple_worksheets_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic02_multiple_worksheets_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic02_multiple_worksheets_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic02_multiple_worksheets_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic02_multiple_worksheets_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic02_multiple_worksheets_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic02_multiple_worksheets_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic02_multiple_worksheets_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2685,7 +2740,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic04_single_cell <span style="color:#3fb950">⬤</span> 100.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic04_single_cell_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic04_single_cell_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic04_single_cell_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic04_single_cell_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2694,17 +2749,17 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic05_wide_table <span style="color:#3fb950">⬤</span> 95.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic05_wide_table_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic05_wide_table_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic05_wide_table_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic05_wide_table_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic05_wide_table_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic05_wide_table_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic05_wide_table_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic05_wide_table_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic05_wide_table_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic05_wide_table_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic05_wide_table_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic05_wide_table_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2713,27 +2768,27 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic06_tall_table <span style="color:#3fb950">⬤</span> 97.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic06_tall_table_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic06_tall_table_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic06_tall_table_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic06_tall_table_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic06_tall_table_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic06_tall_table_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic06_tall_table_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic06_tall_table_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic06_tall_table_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic06_tall_table_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic06_tall_table_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic06_tall_table_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic06_tall_table_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic06_tall_table_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic06_tall_table_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic06_tall_table_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic06_tall_table_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic06_tall_table_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic06_tall_table_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic06_tall_table_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2742,7 +2797,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic07_numbers_only <span style="color:#3fb950">⬤</span> 100.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic07_numbers_only_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic07_numbers_only_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic07_numbers_only_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic07_numbers_only_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2751,71 +2806,71 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic08_mixed_text_and_numbers <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic08_mixed_text_and_numbers_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic08_mixed_text_and_numbers_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic08_mixed_text_and_numbers_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic08_mixed_text_and_numbers_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>classic09_long_text<br><small>format: xlsx | case: classic09_long_text | scope: rust-classic-xlsx</small></b></td>
-  <td colspan="2">classic09_long_text <span style="color:#f85149">⬤</span> 22.1%</td>
+  <td colspan="2">classic09_long_text <span style="color:#3fb950">⬤</span> 90.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic09_long_text_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic09_long_text_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p9_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p10_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p11_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><i>missing</i></td>
+  <td><img src="images/classic09_long_text_p12_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic09_long_text_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic09_long_text_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2824,7 +2879,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic10_special_xml_characters <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic10_special_xml_characters_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic10_special_xml_characters_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic10_special_xml_characters_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic10_special_xml_characters_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2833,12 +2888,12 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic11_sparse_rows <span style="color:#3fb950">⬤</span> 100.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic11_sparse_rows_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic11_sparse_rows_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic11_sparse_rows_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic11_sparse_rows_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic11_sparse_rows_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic11_sparse_rows_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic11_sparse_rows_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic11_sparse_rows_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2847,7 +2902,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic12_sparse_columns <span style="color:#f85149">⬤</span> 70.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic12_sparse_columns_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic12_sparse_columns_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic12_sparse_columns_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic12_sparse_columns_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2861,7 +2916,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic13_date_strings <span style="color:#3fb950">⬤</span> 98.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic13_date_strings_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic13_date_strings_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic13_date_strings_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic13_date_strings_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2870,7 +2925,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic14_decimal_numbers <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic14_decimal_numbers_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic14_decimal_numbers_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic14_decimal_numbers_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic14_decimal_numbers_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2879,7 +2934,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic15_negative_numbers <span style="color:#3fb950">⬤</span> 98.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic15_negative_numbers_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic15_negative_numbers_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic15_negative_numbers_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic15_negative_numbers_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2888,7 +2943,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic16_percentage_strings <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic16_percentage_strings_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic16_percentage_strings_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic16_percentage_strings_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic16_percentage_strings_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2897,7 +2952,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic17_currency_strings <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic17_currency_strings_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic17_currency_strings_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic17_currency_strings_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic17_currency_strings_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -2906,112 +2961,112 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic18_large_dataset <span style="color:#f85149">⬤</span> 64.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p7_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p8_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p9_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p9_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p10_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p10_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p11_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p11_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p12_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p12_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p13_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p13_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p14_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p14_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p15_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p15_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p16_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p16_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p16_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p16_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p17_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p17_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p17_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p17_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p18_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p18_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p18_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p18_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p19_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p19_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p19_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p19_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p20_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p20_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p20_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p20_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p21_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p21_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p21_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p21_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic18_large_dataset_p22_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic18_large_dataset_p22_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic18_large_dataset_p22_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic18_large_dataset_p22_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3120,7 +3175,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic19_single_column_list <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic19_single_column_list_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic19_single_column_list_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic19_single_column_list_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic19_single_column_list_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3138,7 +3193,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic21_header_only <span style="color:#3fb950">⬤</span> 100.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic21_header_only_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic21_header_only_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic21_header_only_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic21_header_only_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3147,7 +3202,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic22_long_sheet_name <span style="color:#3fb950">⬤</span> 100.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic22_long_sheet_name_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic22_long_sheet_name_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic22_long_sheet_name_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic22_long_sheet_name_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3156,7 +3211,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic23_unicode_text <span style="color:#3fb950">⬤</span> 97.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic23_unicode_text_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic23_unicode_text_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic23_unicode_text_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic23_unicode_text_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3165,7 +3220,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic24_red_text <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic24_red_text_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic24_red_text_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic24_red_text_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic24_red_text_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3174,7 +3229,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic25_multiple_colors <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic25_multiple_colors_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic25_multiple_colors_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic25_multiple_colors_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic25_multiple_colors_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3183,7 +3238,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic26_inline_strings <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic26_inline_strings_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic26_inline_strings_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic26_inline_strings_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic26_inline_strings_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3192,7 +3247,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic27_single_row <span style="color:#3fb950">⬤</span> 100.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic27_single_row_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic27_single_row_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic27_single_row_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic27_single_row_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3201,7 +3256,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic28_duplicate_values <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic28_duplicate_values_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic28_duplicate_values_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic28_duplicate_values_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic28_duplicate_values_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3210,7 +3265,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic29_formula_results <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic29_formula_results_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic29_formula_results_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic29_formula_results_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic29_formula_results_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3219,12 +3274,12 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic30_mixed_empty_and_filled_sheets <span style="color:#3fb950">⬤</span> 100.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic30_mixed_empty_and_filled_sheets_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic30_mixed_empty_and_filled_sheets_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic30_mixed_empty_and_filled_sheets_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic30_mixed_empty_and_filled_sheets_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic30_mixed_empty_and_filled_sheets_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic30_mixed_empty_and_filled_sheets_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic30_mixed_empty_and_filled_sheets_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic30_mixed_empty_and_filled_sheets_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3233,7 +3288,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic31_bold_header_row <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic31_bold_header_row_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic31_bold_header_row_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic31_bold_header_row_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic31_bold_header_row_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3242,7 +3297,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic32_right_aligned_numbers <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic32_right_aligned_numbers_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic32_right_aligned_numbers_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic32_right_aligned_numbers_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic32_right_aligned_numbers_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3251,7 +3306,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic33_centered_text <span style="color:#3fb950">⬤</span> 100.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic33_centered_text_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic33_centered_text_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic33_centered_text_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic33_centered_text_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3260,7 +3315,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic34_explicit_column_widths <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic34_explicit_column_widths_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic34_explicit_column_widths_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic34_explicit_column_widths_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic34_explicit_column_widths_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3269,7 +3324,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic35_explicit_row_heights <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic35_explicit_row_heights_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic35_explicit_row_heights_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic35_explicit_row_heights_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic35_explicit_row_heights_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3278,7 +3333,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic36_merged_cells <span style="color:#3fb950">⬤</span> 98.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic36_merged_cells_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic36_merged_cells_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic36_merged_cells_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic36_merged_cells_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3287,7 +3342,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic37_freeze_panes <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic37_freeze_panes_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic37_freeze_panes_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic37_freeze_panes_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic37_freeze_panes_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3296,7 +3351,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic38_hyperlink_cell <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic38_hyperlink_cell_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic38_hyperlink_cell_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic38_hyperlink_cell_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic38_hyperlink_cell_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3305,7 +3360,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic39_financial_table <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic39_financial_table_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic39_financial_table_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic39_financial_table_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic39_financial_table_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3314,7 +3369,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic40_scientific_notation <span style="color:#3fb950">⬤</span> 91.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic40_scientific_notation_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic40_scientific_notation_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic40_scientific_notation_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic40_scientific_notation_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3323,7 +3378,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic41_integer_vs_float <span style="color:#3fb950">⬤</span> 97.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic41_integer_vs_float_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic41_integer_vs_float_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic41_integer_vs_float_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic41_integer_vs_float_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3332,7 +3387,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic42_boolean_values <span style="color:#3fb950">⬤</span> 92.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic42_boolean_values_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic42_boolean_values_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic42_boolean_values_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic42_boolean_values_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3341,7 +3396,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic43_inventory_report <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic43_inventory_report_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic43_inventory_report_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic43_inventory_report_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic43_inventory_report_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3350,7 +3405,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic44_employee_roster <span style="color:#3fb950">⬤</span> 98.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic44_employee_roster_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic44_employee_roster_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic44_employee_roster_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic44_employee_roster_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3359,22 +3414,22 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic45_sales_by_region <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic45_sales_by_region_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic45_sales_by_region_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic45_sales_by_region_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic45_sales_by_region_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic45_sales_by_region_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic45_sales_by_region_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic45_sales_by_region_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic45_sales_by_region_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic45_sales_by_region_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic45_sales_by_region_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic45_sales_by_region_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic45_sales_by_region_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic45_sales_by_region_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic45_sales_by_region_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic45_sales_by_region_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic45_sales_by_region_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3383,7 +3438,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic46_grade_book <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic46_grade_book_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic46_grade_book_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic46_grade_book_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic46_grade_book_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3392,7 +3447,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic47_time_series <span style="color:#3fb950">⬤</span> 99.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic47_time_series_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic47_time_series_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic47_time_series_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic47_time_series_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3401,7 +3456,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic48_survey_results <span style="color:#3fb950">⬤</span> 99.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic48_survey_results_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic48_survey_results_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic48_survey_results_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic48_survey_results_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3410,7 +3465,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic49_contact_list <span style="color:#3fb950">⬤</span> 96.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic49_contact_list_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic49_contact_list_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic49_contact_list_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic49_contact_list_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3419,17 +3474,17 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic50_budget_vs_actuals <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic50_budget_vs_actuals_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic50_budget_vs_actuals_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic50_budget_vs_actuals_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic50_budget_vs_actuals_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic50_budget_vs_actuals_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic50_budget_vs_actuals_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic50_budget_vs_actuals_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic50_budget_vs_actuals_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic50_budget_vs_actuals_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic50_budget_vs_actuals_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic50_budget_vs_actuals_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic50_budget_vs_actuals_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3438,7 +3493,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic51_product_catalog <span style="color:#3fb950">⬤</span> 97.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic51_product_catalog_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic51_product_catalog_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic51_product_catalog_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic51_product_catalog_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3447,7 +3502,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic52_pivot_summary <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic52_pivot_summary_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic52_pivot_summary_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic52_pivot_summary_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic52_pivot_summary_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3456,7 +3511,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic53_invoice <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic53_invoice_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic53_invoice_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic53_invoice_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic53_invoice_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3465,7 +3520,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic54_multi_level_header <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic54_multi_level_header_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic54_multi_level_header_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic54_multi_level_header_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic54_multi_level_header_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3474,7 +3529,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic55_error_values <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic55_error_values_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic55_error_values_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic55_error_values_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic55_error_values_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3483,7 +3538,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic56_alternating_row_colors <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic56_alternating_row_colors_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic56_alternating_row_colors_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic56_alternating_row_colors_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic56_alternating_row_colors_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3492,7 +3547,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic57_cjk_only <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic57_cjk_only_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic57_cjk_only_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic57_cjk_only_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic57_cjk_only_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3501,7 +3556,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic58_mixed_numeric_formats <span style="color:#3fb950">⬤</span> 95.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic58_mixed_numeric_formats_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic58_mixed_numeric_formats_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic58_mixed_numeric_formats_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic58_mixed_numeric_formats_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3510,22 +3565,22 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic59_multi_sheet_summary <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic59_multi_sheet_summary_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic59_multi_sheet_summary_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic59_multi_sheet_summary_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic59_multi_sheet_summary_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic59_multi_sheet_summary_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic59_multi_sheet_summary_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic59_multi_sheet_summary_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic59_multi_sheet_summary_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic59_multi_sheet_summary_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic59_multi_sheet_summary_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic59_multi_sheet_summary_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic59_multi_sheet_summary_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic59_multi_sheet_summary_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic59_multi_sheet_summary_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic59_multi_sheet_summary_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic59_multi_sheet_summary_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3534,22 +3589,22 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic60_large_wide_table <span style="color:#f85149">⬤</span> 69.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic60_large_wide_table_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic60_large_wide_table_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic60_large_wide_table_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic60_large_wide_table_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic60_large_wide_table_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic60_large_wide_table_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic60_large_wide_table_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic60_large_wide_table_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic60_large_wide_table_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic60_large_wide_table_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic60_large_wide_table_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic60_large_wide_table_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic60_large_wide_table_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic60_large_wide_table_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic60_large_wide_table_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic60_large_wide_table_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3568,7 +3623,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic61_product_card_with_image <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic61_product_card_with_image_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic61_product_card_with_image_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic61_product_card_with_image_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic61_product_card_with_image_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3577,7 +3632,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic62_company_logo_header <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic62_company_logo_header_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic62_company_logo_header_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic62_company_logo_header_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic62_company_logo_header_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3586,7 +3641,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic63_two_products_side_by_side <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic63_two_products_side_by_side_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic63_two_products_side_by_side_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic63_two_products_side_by_side_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic63_two_products_side_by_side_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3595,7 +3650,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic64_employee_directory_with_photo <span style="color:#3fb950">⬤</span> 99.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic64_employee_directory_with_photo_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic64_employee_directory_with_photo_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic64_employee_directory_with_photo_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic64_employee_directory_with_photo_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3604,7 +3659,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic65_inventory_with_product_photos <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic65_inventory_with_product_photos_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic65_inventory_with_product_photos_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic65_inventory_with_product_photos_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic65_inventory_with_product_photos_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3613,7 +3668,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic66_invoice_with_logo <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic66_invoice_with_logo_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic66_invoice_with_logo_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic66_invoice_with_logo_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic66_invoice_with_logo_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3622,7 +3677,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic67_real_estate_listing <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic67_real_estate_listing_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic67_real_estate_listing_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic67_real_estate_listing_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic67_real_estate_listing_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3631,7 +3686,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic68_restaurant_menu <span style="color:#3fb950">⬤</span> 99.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic68_restaurant_menu_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic68_restaurant_menu_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic68_restaurant_menu_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic68_restaurant_menu_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3640,7 +3695,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic69_image_only_sheet <span style="color:#3fb950">⬤</span> 100.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic69_image_only_sheet_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic69_image_only_sheet_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic69_image_only_sheet_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic69_image_only_sheet_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3649,7 +3704,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic70_product_catalog_with_images <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic70_product_catalog_with_images_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic70_product_catalog_with_images_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic70_product_catalog_with_images_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic70_product_catalog_with_images_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3658,17 +3713,17 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic71_multi_sheet_with_images <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic71_multi_sheet_with_images_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic71_multi_sheet_with_images_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic71_multi_sheet_with_images_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic71_multi_sheet_with_images_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic71_multi_sheet_with_images_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic71_multi_sheet_with_images_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic71_multi_sheet_with_images_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic71_multi_sheet_with_images_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic71_multi_sheet_with_images_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic71_multi_sheet_with_images_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic71_multi_sheet_with_images_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic71_multi_sheet_with_images_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3677,7 +3732,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic72_bar_chart_image_with_data <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic72_bar_chart_image_with_data_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic72_bar_chart_image_with_data_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic72_bar_chart_image_with_data_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic72_bar_chart_image_with_data_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3686,7 +3741,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic73_event_flyer_with_banner <span style="color:#3fb950">⬤</span> 97.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic73_event_flyer_with_banner_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic73_event_flyer_with_banner_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic73_event_flyer_with_banner_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic73_event_flyer_with_banner_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3695,7 +3750,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic74_dashboard_with_kpi_image <span style="color:#d29922">⬤</span> 89.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic74_dashboard_with_kpi_image_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic74_dashboard_with_kpi_image_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic74_dashboard_with_kpi_image_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic74_dashboard_with_kpi_image_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3704,7 +3759,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic75_certificate_with_seal <span style="color:#3fb950">⬤</span> 96.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic75_certificate_with_seal_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic75_certificate_with_seal_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic75_certificate_with_seal_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic75_certificate_with_seal_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3713,7 +3768,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic76_product_image_grid <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic76_product_image_grid_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic76_product_image_grid_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic76_product_image_grid_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic76_product_image_grid_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3722,7 +3777,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic77_news_article_with_hero_image <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic77_news_article_with_hero_image_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic77_news_article_with_hero_image_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic77_news_article_with_hero_image_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic77_news_article_with_hero_image_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3731,7 +3786,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic78_small_icon_per_row <span style="color:#3fb950">⬤</span> 99.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic78_small_icon_per_row_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic78_small_icon_per_row_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic78_small_icon_per_row_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic78_small_icon_per_row_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3740,7 +3795,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic79_wide_panoramic_banner <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic79_wide_panoramic_banner_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic79_wide_panoramic_banner_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic79_wide_panoramic_banner_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic79_wide_panoramic_banner_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3749,7 +3804,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic80_portrait_tall_image <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic80_portrait_tall_image_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic80_portrait_tall_image_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic80_portrait_tall_image_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic80_portrait_tall_image_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3758,7 +3813,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic81_step_by_step_with_images <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic81_step_by_step_with_images_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic81_step_by_step_with_images_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic81_step_by_step_with_images_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic81_step_by_step_with_images_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3767,7 +3822,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic82_before_after_images <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic82_before_after_images_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic82_before_after_images_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic82_before_after_images_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic82_before_after_images_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3776,7 +3831,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic83_color_swatch_palette <span style="color:#3fb950">⬤</span> 99.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic83_color_swatch_palette_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic83_color_swatch_palette_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic83_color_swatch_palette_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic83_color_swatch_palette_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3785,7 +3840,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic84_travel_destination_cards <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic84_travel_destination_cards_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic84_travel_destination_cards_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic84_travel_destination_cards_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic84_travel_destination_cards_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3794,7 +3849,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic85_lab_results_with_image <span style="color:#3fb950">⬤</span> 93.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic85_lab_results_with_image_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic85_lab_results_with_image_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic85_lab_results_with_image_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic85_lab_results_with_image_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3803,7 +3858,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic86_software_screenshot_features <span style="color:#3fb950">⬤</span> 99.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic86_software_screenshot_features_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic86_software_screenshot_features_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic86_software_screenshot_features_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic86_software_screenshot_features_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3812,7 +3867,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic87_sports_results_with_logos <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic87_sports_results_with_logos_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic87_sports_results_with_logos_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic87_sports_results_with_logos_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic87_sports_results_with_logos_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3821,7 +3876,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic88_image_after_data <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic88_image_after_data_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic88_image_after_data_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic88_image_after_data_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic88_image_after_data_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3830,7 +3885,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic89_nutrition_label_with_image <span style="color:#3fb950">⬤</span> 99.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic89_nutrition_label_with_image_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic89_nutrition_label_with_image_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic89_nutrition_label_with_image_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic89_nutrition_label_with_image_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3839,7 +3894,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic90_project_status_with_milestones <span style="color:#3fb950">⬤</span> 99.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic90_project_status_with_milestones_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic90_project_status_with_milestones_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic90_project_status_with_milestones_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic90_project_status_with_milestones_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3848,7 +3903,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic91_simple_bar_chart <span style="color:#f85149">⬤</span> 49.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic91_simple_bar_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic91_simple_bar_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic91_simple_bar_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic91_simple_bar_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3862,7 +3917,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic92_horizontal_bar_chart <span style="color:#f85149">⬤</span> 49.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic92_horizontal_bar_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic92_horizontal_bar_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic92_horizontal_bar_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic92_horizontal_bar_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3876,7 +3931,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic93_line_chart <span style="color:#f85149">⬤</span> 55.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic93_line_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic93_line_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic93_line_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic93_line_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3890,7 +3945,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic94_pie_chart <span style="color:#f85149">⬤</span> 45.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic94_pie_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic94_pie_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic94_pie_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic94_pie_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3904,7 +3959,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic95_area_chart <span style="color:#f85149">⬤</span> 60.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic95_area_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic95_area_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic95_area_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic95_area_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3918,7 +3973,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic96_scatter_chart <span style="color:#f85149">⬤</span> 55.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic96_scatter_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic96_scatter_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic96_scatter_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic96_scatter_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3932,7 +3987,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic97_doughnut_chart <span style="color:#f85149">⬤</span> 47.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic97_doughnut_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic97_doughnut_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic97_doughnut_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic97_doughnut_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3946,7 +4001,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic98_radar_chart <span style="color:#f85149">⬤</span> 52.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic98_radar_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic98_radar_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic98_radar_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic98_radar_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3960,7 +4015,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic99_bubble_chart <span style="color:#f85149">⬤</span> 54.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic99_bubble_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic99_bubble_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic99_bubble_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic99_bubble_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3974,7 +4029,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic100_stacked_bar_chart <span style="color:#d29922">⬤</span> 78.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic100_stacked_bar_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic100_stacked_bar_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic100_stacked_bar_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic100_stacked_bar_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3983,7 +4038,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic101_percent_stacked_bar <span style="color:#d29922">⬤</span> 78.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic101_percent_stacked_bar_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic101_percent_stacked_bar_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic101_percent_stacked_bar_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic101_percent_stacked_bar_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -3992,7 +4047,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic102_line_chart_with_markers <span style="color:#f85149">⬤</span> 59.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic102_line_chart_with_markers_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic102_line_chart_with_markers_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic102_line_chart_with_markers_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic102_line_chart_with_markers_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4006,7 +4061,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic103_pie_chart_with_labels <span style="color:#f85149">⬤</span> 37.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic103_pie_chart_with_labels_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic103_pie_chart_with_labels_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic103_pie_chart_with_labels_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic103_pie_chart_with_labels_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4020,7 +4075,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic104_combo_bar_line_chart <span style="color:#f85149">⬤</span> 57.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic104_combo_bar_line_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic104_combo_bar_line_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic104_combo_bar_line_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic104_combo_bar_line_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4034,7 +4089,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic105_3d_bar_chart <span style="color:#f85149">⬤</span> 53.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic105_3d_bar_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic105_3d_bar_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic105_3d_bar_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic105_3d_bar_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4048,7 +4103,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic106_3d_pie_chart <span style="color:#f85149">⬤</span> 46.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic106_3d_pie_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic106_3d_pie_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic106_3d_pie_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic106_3d_pie_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4062,7 +4117,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic107_multi_series_line <span style="color:#f85149">⬤</span> 67.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic107_multi_series_line_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic107_multi_series_line_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic107_multi_series_line_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic107_multi_series_line_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4076,7 +4131,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic108_stacked_area_chart <span style="color:#f85149">⬤</span> 54.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic108_stacked_area_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic108_stacked_area_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic108_stacked_area_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic108_stacked_area_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4090,7 +4145,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic109_scatter_with_trendline <span style="color:#f85149">⬤</span> 53.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic109_scatter_with_trendline_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic109_scatter_with_trendline_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic109_scatter_with_trendline_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic109_scatter_with_trendline_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4104,7 +4159,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic110_chart_with_legend <span style="color:#f85149">⬤</span> 52.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic110_chart_with_legend_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic110_chart_with_legend_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic110_chart_with_legend_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic110_chart_with_legend_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4118,7 +4173,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic111_chart_with_axis_labels <span style="color:#f85149">⬤</span> 49.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic111_chart_with_axis_labels_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic111_chart_with_axis_labels_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic111_chart_with_axis_labels_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic111_chart_with_axis_labels_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4132,7 +4187,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic112_multiple_charts <span style="color:#f85149">⬤</span> 54.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic112_multiple_charts_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic112_multiple_charts_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic112_multiple_charts_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic112_multiple_charts_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4146,7 +4201,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic113_chart_sheet <span style="color:#f85149">⬤</span> 51.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic113_chart_sheet_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic113_chart_sheet_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic113_chart_sheet_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic113_chart_sheet_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4160,17 +4215,17 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic114_chart_large_dataset <span style="color:#d29922">⬤</span> 76.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic114_chart_large_dataset_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic114_chart_large_dataset_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic114_chart_large_dataset_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic114_chart_large_dataset_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic114_chart_large_dataset_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic114_chart_large_dataset_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic114_chart_large_dataset_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic114_chart_large_dataset_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic114_chart_large_dataset_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic114_chart_large_dataset_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic114_chart_large_dataset_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic114_chart_large_dataset_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4184,7 +4239,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic115_chart_negative_values <span style="color:#f85149">⬤</span> 51.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic115_chart_negative_values_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic115_chart_negative_values_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic115_chart_negative_values_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic115_chart_negative_values_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4198,7 +4253,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic116_percent_stacked_area <span style="color:#f85149">⬤</span> 53.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic116_percent_stacked_area_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic116_percent_stacked_area_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic116_percent_stacked_area_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic116_percent_stacked_area_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4212,7 +4267,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic117_stock_ohlc_chart <span style="color:#f85149">⬤</span> 62.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic117_stock_ohlc_chart_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic117_stock_ohlc_chart_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic117_stock_ohlc_chart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic117_stock_ohlc_chart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4226,7 +4281,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic118_bar_chart_custom_colors <span style="color:#f85149">⬤</span> 51.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic118_bar_chart_custom_colors_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic118_bar_chart_custom_colors_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic118_bar_chart_custom_colors_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic118_bar_chart_custom_colors_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4240,7 +4295,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic119_dashboard_multi_charts <span style="color:#f85149">⬤</span> 51.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic119_dashboard_multi_charts_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic119_dashboard_multi_charts_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic119_dashboard_multi_charts_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic119_dashboard_multi_charts_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4254,7 +4309,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic120_chart_with_date_axis <span style="color:#f85149">⬤</span> 42.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic120_chart_with_date_axis_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic120_chart_with_date_axis_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic120_chart_with_date_axis_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic120_chart_with_date_axis_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4268,7 +4323,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic121_thin_borders <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic121_thin_borders_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic121_thin_borders_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic121_thin_borders_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic121_thin_borders_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4277,7 +4332,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic122_thick_outer_thin_inner <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic122_thick_outer_thin_inner_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic122_thick_outer_thin_inner_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic122_thick_outer_thin_inner_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic122_thick_outer_thin_inner_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4286,7 +4341,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic123_dashed_borders <span style="color:#3fb950">⬤</span> 99.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic123_dashed_borders_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic123_dashed_borders_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic123_dashed_borders_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic123_dashed_borders_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4295,7 +4350,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic124_colored_borders <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic124_colored_borders_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic124_colored_borders_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic124_colored_borders_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic124_colored_borders_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4304,7 +4359,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic125_solid_fills <span style="color:#3fb950">⬤</span> 99.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic125_solid_fills_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic125_solid_fills_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic125_solid_fills_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic125_solid_fills_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4313,7 +4368,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic126_dark_header <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic126_dark_header_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic126_dark_header_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic126_dark_header_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic126_dark_header_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4322,7 +4377,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic127_font_styles <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic127_font_styles_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic127_font_styles_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic127_font_styles_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic127_font_styles_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4331,7 +4386,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic128_font_sizes <span style="color:#3fb950">⬤</span> 97.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic128_font_sizes_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic128_font_sizes_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic128_font_sizes_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic128_font_sizes_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4340,7 +4395,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic129_alignment_combos <span style="color:#3fb950">⬤</span> 99.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic129_alignment_combos_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic129_alignment_combos_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic129_alignment_combos_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic129_alignment_combos_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4349,16 +4404,16 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic130_wrap_and_indent <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic130_wrap_and_indent_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic130_wrap_and_indent_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic130_wrap_and_indent_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic130_wrap_and_indent_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>classic131_number_formats<br><small>format: xlsx | case: classic131_number_formats | scope: rust-classic-xlsx</small></b></td>
-  <td colspan="2">classic131_number_formats <span style="color:#3fb950">⬤</span> 92.4%</td>
+  <td colspan="2">classic131_number_formats <span style="color:#3fb950">⬤</span> 93.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic131_number_formats_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic131_number_formats_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic131_number_formats_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic131_number_formats_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4367,7 +4422,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic132_striped_table <span style="color:#3fb950">⬤</span> 99.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic132_striped_table_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic132_striped_table_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic132_striped_table_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic132_striped_table_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4376,7 +4431,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic133_gradient_rows <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic133_gradient_rows_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic133_gradient_rows_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic133_gradient_rows_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic133_gradient_rows_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4385,7 +4440,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic134_heatmap <span style="color:#3fb950">⬤</span> 99.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic134_heatmap_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic134_heatmap_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic134_heatmap_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic134_heatmap_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4394,7 +4449,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic135_bottom_border_only <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic135_bottom_border_only_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic135_bottom_border_only_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic135_bottom_border_only_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic135_bottom_border_only_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4403,7 +4458,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic136_financial_report_styled <span style="color:#3fb950">⬤</span> 99.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic136_financial_report_styled_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic136_financial_report_styled_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic136_financial_report_styled_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic136_financial_report_styled_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4412,7 +4467,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic137_checkerboard <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic137_checkerboard_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic137_checkerboard_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic137_checkerboard_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic137_checkerboard_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4421,7 +4476,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic138_color_grid <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic138_color_grid_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic138_color_grid_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic138_color_grid_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic138_color_grid_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4430,7 +4485,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic139_pattern_fills <span style="color:#3fb950">⬤</span> 93.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic139_pattern_fills_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic139_pattern_fills_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic139_pattern_fills_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic139_pattern_fills_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4439,7 +4494,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic140_rotated_text <span style="color:#3fb950">⬤</span> 98.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic140_rotated_text_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic140_rotated_text_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic140_rotated_text_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic140_rotated_text_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4448,7 +4503,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic141_mixed_edge_borders <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic141_mixed_edge_borders_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic141_mixed_edge_borders_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic141_mixed_edge_borders_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic141_mixed_edge_borders_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4457,7 +4512,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic142_styled_invoice <span style="color:#3fb950">⬤</span> 97.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic142_styled_invoice_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic142_styled_invoice_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic142_styled_invoice_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic142_styled_invoice_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4466,22 +4521,22 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic143_colored_tabs <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic143_colored_tabs_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic143_colored_tabs_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic143_colored_tabs_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic143_colored_tabs_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic143_colored_tabs_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic143_colored_tabs_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic143_colored_tabs_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic143_colored_tabs_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic143_colored_tabs_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic143_colored_tabs_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic143_colored_tabs_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic143_colored_tabs_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic143_colored_tabs_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic143_colored_tabs_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic143_colored_tabs_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic143_colored_tabs_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4490,7 +4545,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic144_note_style_cells <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic144_note_style_cells_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic144_note_style_cells_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic144_note_style_cells_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic144_note_style_cells_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4499,7 +4554,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic145_status_badges <span style="color:#3fb950">⬤</span> 99.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic145_status_badges_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic145_status_badges_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic145_status_badges_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic145_status_badges_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4508,7 +4563,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic146_double_border_table <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic146_double_border_table_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic146_double_border_table_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic146_double_border_table_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic146_double_border_table_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4517,17 +4572,17 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic147_multi_sheet_styled <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic147_multi_sheet_styled_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic147_multi_sheet_styled_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic147_multi_sheet_styled_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic147_multi_sheet_styled_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic147_multi_sheet_styled_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic147_multi_sheet_styled_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic147_multi_sheet_styled_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic147_multi_sheet_styled_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic147_multi_sheet_styled_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic147_multi_sheet_styled_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic147_multi_sheet_styled_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic147_multi_sheet_styled_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4536,7 +4591,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic148_frozen_styled_grid <span style="color:#3fb950">⬤</span> 96.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic148_frozen_styled_grid_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic148_frozen_styled_grid_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic148_frozen_styled_grid_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic148_frozen_styled_grid_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4545,7 +4600,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic149_merged_styled_sections <span style="color:#3fb950">⬤</span> 98.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic149_merged_styled_sections_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic149_merged_styled_sections_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic149_merged_styled_sections_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic149_merged_styled_sections_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4554,7 +4609,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic150_kitchen_sink_styles <span style="color:#3fb950">⬤</span> 96.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic150_kitchen_sink_styles_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic150_kitchen_sink_styles_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic150_kitchen_sink_styles_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic150_kitchen_sink_styles_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4563,16 +4618,16 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic151_multilingual_greetings <span style="color:#3fb950">⬤</span> 98.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic151_multilingual_greetings_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic151_multilingual_greetings_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic151_multilingual_greetings_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic151_multilingual_greetings_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>classic152_emoji_sampler<br><small>format: xlsx | case: classic152_emoji_sampler | scope: rust-classic-xlsx</small></b></td>
-  <td colspan="2">classic152_emoji_sampler <span style="color:#3fb950">⬤</span> 98.4%</td>
+  <td colspan="2">classic152_emoji_sampler <span style="color:#3fb950">⬤</span> 98.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic152_emoji_sampler_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic152_emoji_sampler_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic152_emoji_sampler_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic152_emoji_sampler_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4581,7 +4636,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic153_currency_symbols <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic153_currency_symbols_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic153_currency_symbols_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic153_currency_symbols_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic153_currency_symbols_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4590,7 +4645,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic154_math_symbols <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic154_math_symbols_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic154_math_symbols_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic154_math_symbols_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic154_math_symbols_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4599,7 +4654,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic155_diacritical_marks <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic155_diacritical_marks_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic155_diacritical_marks_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic155_diacritical_marks_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic155_diacritical_marks_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4608,7 +4663,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic156_rtl_bidi_text <span style="color:#d29922">⬤</span> 87.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic156_rtl_bidi_text_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic156_rtl_bidi_text_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic156_rtl_bidi_text_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic156_rtl_bidi_text_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4617,12 +4672,12 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic157_cjk_extended <span style="color:#f85149">⬤</span> 52.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic157_cjk_extended_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic157_cjk_extended_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic157_cjk_extended_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic157_cjk_extended_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic157_cjk_extended_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic157_cjk_extended_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
@@ -4631,16 +4686,16 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic158_emoji_skin_tones <span style="color:#3fb950">⬤</span> 98.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic158_emoji_skin_tones_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic158_emoji_skin_tones_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic158_emoji_skin_tones_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic158_emoji_skin_tones_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>classic159_zwj_emoji<br><small>format: xlsx | case: classic159_zwj_emoji | scope: rust-classic-xlsx</small></b></td>
-  <td colspan="2">classic159_zwj_emoji <span style="color:#3fb950">⬤</span> 97.2%</td>
+  <td colspan="2">classic159_zwj_emoji <span style="color:#3fb950">⬤</span> 96.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic159_zwj_emoji_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic159_zwj_emoji_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic159_zwj_emoji_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic159_zwj_emoji_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4649,7 +4704,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic160_punctuation_marks <span style="color:#3fb950">⬤</span> 98.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic160_punctuation_marks_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic160_punctuation_marks_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic160_punctuation_marks_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic160_punctuation_marks_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4658,7 +4713,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic161_box_drawing <span style="color:#3fb950">⬤</span> 98.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic161_box_drawing_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic161_box_drawing_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic161_box_drawing_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic161_box_drawing_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4667,7 +4722,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic162_cjk_emoji_styled <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic162_cjk_emoji_styled_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic162_cjk_emoji_styled_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic162_cjk_emoji_styled_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic162_cjk_emoji_styled_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4676,7 +4731,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic163_cyrillic_alphabets <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic163_cyrillic_alphabets_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic163_cyrillic_alphabets_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic163_cyrillic_alphabets_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic163_cyrillic_alphabets_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4685,7 +4740,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic164_indic_scripts <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic164_indic_scripts_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic164_indic_scripts_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic164_indic_scripts_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic164_indic_scripts_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4694,7 +4749,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic165_southeast_asian <span style="color:#d29922">⬤</span> 86.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic165_southeast_asian_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic165_southeast_asian_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic165_southeast_asian_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic165_southeast_asian_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4703,7 +4758,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic166_emoji_progress <span style="color:#3fb950">⬤</span> 98.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic166_emoji_progress_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic166_emoji_progress_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic166_emoji_progress_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic166_emoji_progress_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4712,7 +4767,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic167_musical_symbols <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic167_musical_symbols_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic167_musical_symbols_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic167_musical_symbols_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic167_musical_symbols_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4721,7 +4776,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic168_mixed_ltr_rtl_styled <span style="color:#3fb950">⬤</span> 96.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic168_mixed_ltr_rtl_styled_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic168_mixed_ltr_rtl_styled_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic168_mixed_ltr_rtl_styled_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic168_mixed_ltr_rtl_styled_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4730,7 +4785,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic169_korean_invoice <span style="color:#3fb950">⬤</span> 99.3%</td>
 </tr>
 <tr>
-  <td><img src="images/classic169_korean_invoice_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic169_korean_invoice_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic169_korean_invoice_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic169_korean_invoice_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4739,7 +4794,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic170_emoji_dashboard <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic170_emoji_dashboard_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic170_emoji_dashboard_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic170_emoji_dashboard_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic170_emoji_dashboard_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4748,7 +4803,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic171_ipa_phonetic <span style="color:#3fb950">⬤</span> 99.8%</td>
 </tr>
 <tr>
-  <td><img src="images/classic171_ipa_phonetic_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic171_ipa_phonetic_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic171_ipa_phonetic_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic171_ipa_phonetic_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4757,7 +4812,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic172_emoji_timeline <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic172_emoji_timeline_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic172_emoji_timeline_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic172_emoji_timeline_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic172_emoji_timeline_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4766,7 +4821,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic173_african_languages <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic173_african_languages_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic173_african_languages_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic173_african_languages_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic173_african_languages_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4775,7 +4830,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic174_technical_symbols <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic174_technical_symbols_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic174_technical_symbols_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic174_technical_symbols_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic174_technical_symbols_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4784,7 +4839,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic175_multiscript_catalog <span style="color:#3fb950">⬤</span> 99.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic175_multiscript_catalog_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic175_multiscript_catalog_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic175_multiscript_catalog_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic175_multiscript_catalog_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4793,16 +4848,16 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic176_combining_characters <span style="color:#3fb950">⬤</span> 99.1%</td>
 </tr>
 <tr>
-  <td><img src="images/classic176_combining_characters_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic176_combining_characters_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic176_combining_characters_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic176_combining_characters_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>classic177_emoji_calendar<br><small>format: xlsx | case: classic177_emoji_calendar | scope: rust-classic-xlsx</small></b></td>
-  <td colspan="2">classic177_emoji_calendar <span style="color:#3fb950">⬤</span> 99.6%</td>
+  <td colspan="2">classic177_emoji_calendar <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic177_emoji_calendar_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic177_emoji_calendar_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic177_emoji_calendar_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic177_emoji_calendar_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4811,25 +4866,25 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic178_caucasus_ethiopic <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic178_caucasus_ethiopic_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic178_caucasus_ethiopic_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic178_caucasus_ethiopic_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic178_caucasus_ethiopic_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>classic179_emoji_inventory<br><small>format: xlsx | case: classic179_emoji_inventory | scope: rust-classic-xlsx</small></b></td>
-  <td colspan="2">classic179_emoji_inventory <span style="color:#3fb950">⬤</span> 99.5%</td>
+  <td colspan="2">classic179_emoji_inventory <span style="color:#3fb950">⬤</span> 99.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic179_emoji_inventory_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic179_emoji_inventory_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic179_emoji_inventory_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic179_emoji_inventory_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>classic180_polyglot_paragraph<br><small>format: xlsx | case: classic180_polyglot_paragraph | scope: rust-classic-xlsx</small></b></td>
-  <td colspan="2">classic180_polyglot_paragraph <span style="color:#3fb950">⬤</span> 99.1%</td>
+  <td colspan="2">classic180_polyglot_paragraph <span style="color:#3fb950">⬤</span> 99.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic180_polyglot_paragraph_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic180_polyglot_paragraph_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic180_polyglot_paragraph_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic180_polyglot_paragraph_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4838,12 +4893,12 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic181_feedback_tracker_with_images <span style="color:#3fb950">⬤</span> 99.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic181_feedback_tracker_with_images_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic181_feedback_tracker_with_images_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic181_feedback_tracker_with_images_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic181_feedback_tracker_with_images_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic181_feedback_tracker_with_images_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic181_feedback_tracker_with_images_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic181_feedback_tracker_with_images_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic181_feedback_tracker_with_images_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4852,12 +4907,12 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic182_dense_long_text_columns <span style="color:#3fb950">⬤</span> 96.4%</td>
 </tr>
 <tr>
-  <td><img src="images/classic182_dense_long_text_columns_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic182_dense_long_text_columns_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic182_dense_long_text_columns_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic182_dense_long_text_columns_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic182_dense_long_text_columns_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic182_dense_long_text_columns_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic182_dense_long_text_columns_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic182_dense_long_text_columns_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4866,7 +4921,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic183_mixed_content_grid <span style="color:#3fb950">⬤</span> 99.5%</td>
 </tr>
 <tr>
-  <td><img src="images/classic183_mixed_content_grid_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic183_mixed_content_grid_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic183_mixed_content_grid_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic183_mixed_content_grid_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4875,7 +4930,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic184_wide_narrow_columns <span style="color:#3fb950">⬤</span> 98.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic184_wide_narrow_columns_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic184_wide_narrow_columns_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic184_wide_narrow_columns_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic184_wide_narrow_columns_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4884,7 +4939,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic185_tall_rows_vertical_align <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic185_tall_rows_vertical_align_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic185_tall_rows_vertical_align_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic185_tall_rows_vertical_align_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic185_tall_rows_vertical_align_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4893,12 +4948,12 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic186_multi_sheet_image_report <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic186_multi_sheet_image_report_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic186_multi_sheet_image_report_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic186_multi_sheet_image_report_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic186_multi_sheet_image_report_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic186_multi_sheet_image_report_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic186_multi_sheet_image_report_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic186_multi_sheet_image_report_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic186_multi_sheet_image_report_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4907,7 +4962,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic187_bug_report_with_screenshots <span style="color:#3fb950">⬤</span> 99.0%</td>
 </tr>
 <tr>
-  <td><img src="images/classic187_bug_report_with_screenshots_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic187_bug_report_with_screenshots_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic187_bug_report_with_screenshots_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic187_bug_report_with_screenshots_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4916,7 +4971,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic188_merged_header_with_images <span style="color:#3fb950">⬤</span> 99.7%</td>
 </tr>
 <tr>
-  <td><img src="images/classic188_merged_header_with_images_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic188_merged_header_with_images_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic188_merged_header_with_images_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic188_merged_header_with_images_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4925,7 +4980,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic189_alternating_image_text_rows <span style="color:#3fb950">⬤</span> 95.2%</td>
 </tr>
 <tr>
-  <td><img src="images/classic189_alternating_image_text_rows_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic189_alternating_image_text_rows_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic189_alternating_image_text_rows_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic189_alternating_image_text_rows_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4934,7 +4989,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic190_dashboard_kpi_images <span style="color:#3fb950">⬤</span> 99.6%</td>
 </tr>
 <tr>
-  <td><img src="images/classic190_dashboard_kpi_images_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic190_dashboard_kpi_images_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic190_dashboard_kpi_images_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic190_dashboard_kpi_images_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -4943,47 +4998,47 @@ Scores compare Rust MiniPdf against Microsoft 365 Excel Reference. LibreOffice i
   <td colspan="2">classic191_payroll_calculator <span style="color:#3fb950">⬤</span> 98.9%</td>
 </tr>
 <tr>
-  <td><img src="images/classic191_payroll_calculator_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic191_payroll_calculator_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic191_payroll_calculator_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic191_payroll_calculator_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic191_payroll_calculator_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic191_payroll_calculator_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic191_payroll_calculator_p2_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic191_payroll_calculator_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic191_payroll_calculator_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic191_payroll_calculator_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic191_payroll_calculator_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic191_payroll_calculator_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic191_payroll_calculator_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic191_payroll_calculator_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic191_payroll_calculator_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic191_payroll_calculator_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic191_payroll_calculator_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic191_payroll_calculator_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic191_payroll_calculator_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic191_payroll_calculator_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic191_payroll_calculator_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic191_payroll_calculator_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic191_payroll_calculator_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic191_payroll_calculator_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic191_payroll_calculator_p7_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic191_payroll_calculator_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic191_payroll_calculator_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic191_payroll_calculator_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic191_payroll_calculator_p8_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic191_payroll_calculator_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic191_payroll_calculator_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic191_payroll_calculator_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/classic191_payroll_calculator_p9_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/classic191_payroll_calculator_p9_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/classic191_payroll_calculator_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/classic191_payroll_calculator_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -5282,21 +5337,21 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: classic09_long_text | scope: rust-classic-xlsx
 - **Source:** tests/MiniPdf.Scripts/output/classic09_long_text.xlsx
-- **Text Similarity:** 0.22
-- **Visual Average:** 0.0821
-- **Overall Score:** 0.2208
-- **Pages:** MiniPdf=1, Reference=12
-- **File Size:** MiniPdf=196282 bytes, Reference=44367 bytes
+- **Text Similarity:** 0.775
+- **Visual Average:** 0.9892
+- **Overall Score:** 0.9057
+- **Pages:** MiniPdf=12, Reference=12
+- **File Size:** MiniPdf=198621 bytes, Reference=44367 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/classic09_long_text.pdf
 +++ reference/classic09_long_text.pdf
-@@ -1,5 +1,38 @@
+@@ -1,37 +1,38 @@
  Long Text Column
 
--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
@@ -5306,10 +5361,17 @@ Text content: ✅ Identical
 
  Short
 
--YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+
 +YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
-+---PAGE---
+ ---PAGE---
+
+-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
 +XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -5317,7 +5379,13 @@ Text content: ✅ Identical
 
 +YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
-+---PAGE---
+ ---PAGE---
+
+-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
 +XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -5325,7 +5393,13 @@ Text content: ✅ Identical
 
 +YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
-+---PAGE---
+ ---PAGE---
+
+-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
 +XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -5333,7 +5407,13 @@ Text content: ✅ Identical
 
 +YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
-+---PAGE---
+ ---PAGE---
+
+-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
 +XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -5341,39 +5421,17 @@ Text content: ✅ Identical
 
 +YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
-+---PAGE---
+ ---PAGE---
 
-+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
-+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
-+---PAGE---
++XXXXXXXXXXXXXXXXXXXXXX
+... (1396 more characters)
 
-+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-
-+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-
-+---PAGE---
-
-+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-
-+---PAGE---
-
-+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-
-+---PAGE---
-
-+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-
-+---PAGE---
-
-+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-
-+---PAGE---
-
-+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 ```
 </details>
 
@@ -9260,7 +9318,7 @@ Text content: ✅ Identical
 - **Visual Average:** 0.9952
 - **Overall Score:** 0.9933
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=68406 bytes, Reference=61720 bytes
+- **File Size:** MiniPdf=68414 bytes, Reference=61720 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -9483,11 +9541,11 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: classic131_number_formats | scope: rust-classic-xlsx
 - **Source:** tests/MiniPdf.Scripts/output/classic131_number_formats.xlsx
-- **Text Similarity:** 0.8182
-- **Visual Average:** 0.991
-- **Overall Score:** 0.9237
+- **Text Similarity:** 0.8485
+- **Visual Average:** 0.9911
+- **Overall Score:** 0.9358
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=80528 bytes, Reference=77127 bytes
+- **File Size:** MiniPdf=80928 bytes, Reference=77127 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -9507,19 +9565,17 @@ Text content: ✅ Identical
 
 -#,##0;(#,##0) -5,000 -5000
 
--yyyy-mm-dd 45658 45658
-
--dd/mm/yyyy 45658 45658
-
--hh:mm:ss 0.75 0.75
 +0.00E+00 1.23E+08 123456789
 
 +0000 0042 42
 
 +#,##0;(#,##0) (5,000) -5000
 
-+yyyy-mm-dd 2025-01-01 45658
+ yyyy-mm-dd 2025-01-01 45658
 
+-dd/mm/yyyy 45658 45658
+
+-hh:mm:ss 0.75 0.75
 +dd/mm/yyyy 01/01/2025 45658
 
 +hh:mm:ss 18:00:00 0.75
@@ -9934,11 +9990,11 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: classic152_emoji_sampler | scope: rust-classic-xlsx
 - **Source:** tests/MiniPdf.Scripts/output/classic152_emoji_sampler.xlsx
-- **Text Similarity:** 0.9677
+- **Text Similarity:** 0.9636
 - **Visual Average:** 0.9926
-- **Overall Score:** 0.9841
+- **Overall Score:** 0.9825
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=85630 bytes, Reference=105280 bytes
+- **File Size:** MiniPdf=85624 bytes, Reference=105280 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -9950,7 +10006,7 @@ Text content: ✅ Identical
 
  Faces 😀😃😄😁😆
 
--Hearts ❤️ 🧡💛💚💙
+-Hearts ❤ ️🧡💛💚💙
 
 +Hearts ❤️🧡💛💚💙
 
@@ -9958,13 +10014,13 @@ Text content: ✅ Identical
 
  Food 🍎🍐🍊🍋🍌
 
--Travel ✈️ 🚗🚌🚂🚀
+-Travel ✈ ️🚗🚌🚂🚀
 
 -Sports ⚽ 🏀🏈 ⚾ 🎾
 
--Symbols ✅❌ ⚠️ 🔴🟢
+-Symbols ✅❌ ⚠ ️🔴🟢
 
--Hands 👍👎👏🤝 ✌️
+-Hands 👍👎👏🤝 ✌
 +Travel ✈️🚗🚌🚂🚀
 
 +Sports ⚽🏀🏈⚾🎾
@@ -10169,11 +10225,11 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: classic159_zwj_emoji | scope: rust-classic-xlsx
 - **Source:** tests/MiniPdf.Scripts/output/classic159_zwj_emoji.xlsx
-- **Text Similarity:** 0.9372
+- **Text Similarity:** 0.9291
 - **Visual Average:** 0.9918
-- **Overall Score:** 0.9716
+- **Overall Score:** 0.9684
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=77823 bytes, Reference=106035 bytes
+- **File Size:** MiniPdf=77929 bytes, Reference=106035 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -10185,7 +10241,7 @@ Text content: ✅ Identical
 
 -Family 👨 ‍ 👩 ‍ 👧 ‍ 👦
 
--Couple with heart 👩 ‍ ❤️ ‍ 👨
+-Couple with heart 👩 ‍ ❤ ️ ‍ 👨
 
 -Woman technologist 👩 ‍ 💻
 
@@ -10193,11 +10249,11 @@ Text content: ✅ Identical
 
 -Rainbow flag 🏳️ ‍ 🌈
 
--Trans flag 🏳️ ‍ ⚧️
+-Trans flag 🏳️ ‍ ⚧
 
 -Firefighter 🧑 ‍ 🚒
 
--Health worker 🧑 ‍ ⚕️
+-Health worker 🧑 ‍ ⚕
 
 -Service dog 🐕 ‍ 🦺
 +Family 👨‍👩‍👧‍👦
@@ -10672,13 +10728,35 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: classic177_emoji_calendar | scope: rust-classic-xlsx
 - **Source:** tests/MiniPdf.Scripts/output/classic177_emoji_calendar.xlsx
-- **Text Similarity:** 1.0
+- **Text Similarity:** 0.9982
 - **Visual Average:** 0.9903
-- **Overall Score:** 0.9961
+- **Overall Score:** 0.9954
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=82167 bytes, Reference=107156 bytes
+- **File Size:** MiniPdf=82164 bytes, Reference=107156 bytes
 
-Text content: ✅ Identical
+<details><summary>Text Diff</summary>
+
+```diff
+--- minipdf/classic177_emoji_calendar.pdf
++++ reference/classic177_emoji_calendar.pdf
+@@ -4,7 +4,7 @@
+ March 🌸 Spring Equinox
+
+ April 🐣 Easter
+
+ May 👩 Mother's Day
+
+-June ☀ Summer Solstice
+
++June ☀️ Summer Solstice
+
+ July 🎆 Independence Day
+
+ August 🏖️ Vacation Season
+
+ September 📚 Back to School
+```
+</details>
 
 ### classic178_caucasus_ethiopic
 
@@ -10715,23 +10793,45 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: classic179_emoji_inventory | scope: rust-classic-xlsx
 - **Source:** tests/MiniPdf.Scripts/output/classic179_emoji_inventory.xlsx
-- **Text Similarity:** 1.0
+- **Text Similarity:** 0.9981
 - **Visual Average:** 0.9876
-- **Overall Score:** 0.995
+- **Overall Score:** 0.9943
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=109719 bytes, Reference=138581 bytes
+- **File Size:** MiniPdf=109724 bytes, Reference=138581 bytes
 
-Text content: ✅ Identical
+<details><summary>Text Diff</summary>
+
+```diff
+--- minipdf/classic179_emoji_inventory.pdf
++++ reference/classic179_emoji_inventory.pdf
+@@ -3,7 +3,7 @@
+ 💻 Laptop 42 30 🟡 Low
+
+ 🖨️ Printer 8 10 🔴 Reorder
+
+ 🎧 Headphones 200 40 🟢 OK
+
+-⌨ Keyboard 75 25 🟢 OK
+
++⌨️ Keyboard 75 25 🟢 OK
+
+ 🖱️ Mouse 18 20 🔴 Reorder
+
+ 📷 Camera 12 10 🟡 Low
+
+ 🔌 Charger 300 100 🟢 OK
+```
+</details>
 
 ### classic180_polyglot_paragraph
 
 - **Case Metadata:** format: xlsx | case: classic180_polyglot_paragraph | scope: rust-classic-xlsx
 - **Source:** tests/MiniPdf.Scripts/output/classic180_polyglot_paragraph.xlsx
-- **Text Similarity:** 0.9846
+- **Text Similarity:** 0.9821
 - **Visual Average:** 0.9931
-- **Overall Score:** 0.9911
+- **Overall Score:** 0.9901
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=110817 bytes, Reference=153951 bytes
+- **File Size:** MiniPdf=110775 bytes, Reference=153951 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -10757,11 +10857,12 @@ Text content: ✅ Identical
 
 -Hindi तेज़ भूरी लोमड़ीी
 
+-Emoji 🦊 ➡ ️ 🐕
 +Thai สุนัขจิ้งจอกสีน ้ำตำล
 
 +Hindi तेज़ भूरी लोमडी
 
- Emoji 🦊 ➡️ 🐕
++Emoji 🦊 ➡️ 🐕
 ```
 </details>
 
@@ -11087,7 +11188,6 @@ Text content: ✅ Identical
 
 ### ⚠ Low-Score Test Cases (below 0.8)
 
-1. **classic09_long_text** (score: 0.2208)
 1. **classic103_pie_chart_with_labels** (score: 0.3704)
 1. **classic120_chart_with_date_axis** (score: 0.4261)
 1. **classic94_pie_chart** (score: 0.4556)

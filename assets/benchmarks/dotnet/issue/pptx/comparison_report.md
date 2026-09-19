@@ -1,14 +1,68 @@
-# MiniPdf vs Reference PDF Comparison Report
+# dotnet MiniPdf vs Microsoft 365 PowerPoint Reference PDF Comparison Report
 
-Generated: 2026-07-19T22:43:21.419841
+Generated: 2026-09-19T22:16:22.823002
 
 ## Summary
 
 | # | Test Case | Valid | Text Sim | Visual Avg | Pages (M/R) | Overall |
 |---|-----------|-------|----------|------------|-------------|--------|
-| 1 | 🟢 Asian Pacific | ✅ | 0.9499 | 0.8567 | 12/12 | **0.9226** |
+| 1 | 🟢 Asian Pacific | ✅ | 0.9457 | 0.9425 | 12/12 | **0.9553** |
 
-**Average Overall Score: 0.9226**
+**Average Overall Score: 0.9553**
+
+## Labeled Side-by-Side Comparison
+
+<table>
+<tr><th>Case</th><th>Comparison</th></tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 1</td>
+  <td><img src="side-by-side/Asian Pacific_p1_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 1 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 2</td>
+  <td><img src="side-by-side/Asian Pacific_p2_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 2 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 3</td>
+  <td><img src="side-by-side/Asian Pacific_p3_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Asian Pacific_p4_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/Asian Pacific_p5_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/Asian Pacific_p6_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/Asian Pacific_p7_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/Asian Pacific_p8_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/Asian Pacific_p9_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/Asian Pacific_p10_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/Asian Pacific_p11_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/Asian Pacific_p12_dotnet_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png" width="760" alt="Asian Pacific page 12 comparison"></td>
+</tr>
+</table>
 
 ## Difference Heatmaps
 
@@ -19,120 +73,134 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>Asian Pacific</b><br>Page 1</td>
   <td><img src="images/Asian Pacific_p1_heatmap.png" width="760" alt="Asian Pacific page 1 difference heatmap"></td>
-  <td>changed: 125177 px (5.56%)<br>bbox: [0, 0, 2000, 1125]<br>mean abs RGB: 3.3345<br>RMSE RGB: 17.1019<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 184878 px (8.22%)<br>bbox: [0, 0, 2000, 1125]<br>mean abs RGB: 5.2238<br>RMSE RGB: 22.7244<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 2</td>
   <td><img src="images/Asian Pacific_p2_heatmap.png" width="760" alt="Asian Pacific page 2 difference heatmap"></td>
-  <td>changed: 89437 px (3.98%)<br>bbox: [140, 0, 2000, 1125]<br>mean abs RGB: 2.931<br>RMSE RGB: 16.1585<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 86896 px (3.86%)<br>bbox: [140, 0, 2000, 1125]<br>mean abs RGB: 2.5869<br>RMSE RGB: 16.2471<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 3</td>
   <td><img src="images/Asian Pacific_p3_heatmap.png" width="760" alt="Asian Pacific page 3 difference heatmap"></td>
-  <td>changed: 47785 px (2.12%)<br>bbox: [0, 0, 2000, 1125]<br>mean abs RGB: 2.055<br>RMSE RGB: 15.0269<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 47067 px (2.09%)<br>bbox: [0, 0, 2000, 1125]<br>mean abs RGB: 1.845<br>RMSE RGB: 15.0941<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 4</td>
   <td><img src="images/Asian Pacific_p4_heatmap.png" width="760" alt="Asian Pacific page 4 difference heatmap"></td>
-  <td>changed: 26588 px (1.18%)<br>bbox: [127, 0, 2000, 1125]<br>mean abs RGB: 1.3819<br>RMSE RGB: 10.0737<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 23312 px (1.04%)<br>bbox: [127, 134, 579, 444]<br>mean abs RGB: 1.0419<br>RMSE RGB: 9.9957<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 5</td>
   <td><img src="images/Asian Pacific_p5_heatmap.png" width="760" alt="Asian Pacific page 5 difference heatmap"></td>
-  <td>changed: 204888 px (9.11%)<br>bbox: [0, 0, 2000, 1125]<br>mean abs RGB: 7.7136<br>RMSE RGB: 28.0161<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 198342 px (8.82%)<br>bbox: [0, 138, 2000, 1125]<br>mean abs RGB: 7.4888<br>RMSE RGB: 28.5121<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 6</td>
   <td><img src="images/Asian Pacific_p6_heatmap.png" width="760" alt="Asian Pacific page 6 difference heatmap"></td>
-  <td>changed: 173043 px (7.69%)<br>bbox: [0, 0, 1863, 1125]<br>mean abs RGB: 9.5649<br>RMSE RGB: 40.4101<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 208367 px (9.26%)<br>bbox: [0, 0, 1861, 1125]<br>mean abs RGB: 10.7407<br>RMSE RGB: 42.3791<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 7</td>
   <td><img src="images/Asian Pacific_p7_heatmap.png" width="760" alt="Asian Pacific page 7 difference heatmap"></td>
-  <td>changed: 258061 px (11.47%)<br>bbox: [125, 0, 2000, 1125]<br>mean abs RGB: 5.8269<br>RMSE RGB: 22.4887<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 255173 px (11.34%)<br>bbox: [125, 0, 1940, 1001]<br>mean abs RGB: 5.6465<br>RMSE RGB: 23.08<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 8</td>
   <td><img src="images/Asian Pacific_p8_heatmap.png" width="760" alt="Asian Pacific page 8 difference heatmap"></td>
-  <td>changed: 71346 px (3.17%)<br>bbox: [126, 0, 2000, 1125]<br>mean abs RGB: 3.5203<br>RMSE RGB: 21.3939<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 81477 px (3.62%)<br>bbox: [1, 134, 2000, 1125]<br>mean abs RGB: 3.3997<br>RMSE RGB: 22.4035<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 9</td>
   <td><img src="images/Asian Pacific_p9_heatmap.png" width="760" alt="Asian Pacific page 9 difference heatmap"></td>
-  <td>changed: 129639 px (5.76%)<br>bbox: [124, 0, 2000, 1125]<br>mean abs RGB: 6.8981<br>RMSE RGB: 34.1859<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 129146 px (5.74%)<br>bbox: [124, 0, 2000, 1125]<br>mean abs RGB: 7.1497<br>RMSE RGB: 35.1173<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 10</td>
   <td><img src="images/Asian Pacific_p10_heatmap.png" width="760" alt="Asian Pacific page 10 difference heatmap"></td>
-  <td>changed: 59384 px (2.64%)<br>bbox: [0, 0, 2000, 1125]<br>mean abs RGB: 2.512<br>RMSE RGB: 16.3495<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 54083 px (2.40%)<br>bbox: [0, 0, 1999, 1124]<br>mean abs RGB: 2.483<br>RMSE RGB: 16.506<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 11</td>
   <td><img src="images/Asian Pacific_p11_heatmap.png" width="760" alt="Asian Pacific page 11 difference heatmap"></td>
-  <td>changed: 147520 px (6.56%)<br>bbox: [0, 0, 2000, 1125]<br>mean abs RGB: 3.0421<br>RMSE RGB: 14.6974<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 151220 px (6.72%)<br>bbox: [0, 348, 2000, 1125]<br>mean abs RGB: 3.0255<br>RMSE RGB: 15.2359<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Asian Pacific</b><br>Page 12</td>
   <td><img src="images/Asian Pacific_p12_heatmap.png" width="760" alt="Asian Pacific page 12 difference heatmap"></td>
-  <td>changed: 51053 px (2.27%)<br>bbox: [0, 0, 1558, 1125]<br>mean abs RGB: 2.1594<br>RMSE RGB: 18.4221<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 91632 px (4.07%)<br>bbox: [0, 0, 1558, 1125]<br>mean abs RGB: 3.2991<br>RMSE RGB: 21.7191<br>threshold: 12, gain: 5.0</td>
 </tr>
 </table>
 
 ## Visual Comparison
 
+Scores compare dotnet MiniPdf against Microsoft 365 PowerPoint Reference. LibreOffice is an auxiliary rendering and does not affect scores.
+
 <table>
-<tr><th>MiniPdf</th><th>LibreOffice (Reference)</th></tr>
+<tr><th>dotnet MiniPdf</th><th>Microsoft 365 PowerPoint Reference</th><th>LibreOffice</th></tr>
 <tr>
-  <td><b>Asian Pacific</b></td>
-  <td colspan="1">Asian Pacific <span style="color:#3fb950">⬤</span> 92.3%</td>
+  <td><b>Asian Pacific<br><small>format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx</small></b></td>
+  <td colspan="2">Asian Pacific <span style="color:#3fb950">⬤</span> 95.5%</td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p1_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p1_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p1_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p1_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p2_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p2_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p2_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p2_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p3_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p3_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p3_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p3_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p4_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p4_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p4_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p4_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p5_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p5_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p5_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p5_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p6_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p6_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p6_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p6_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p7_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p7_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p7_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p7_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p8_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p8_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p8_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p8_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p9_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p9_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p9_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p9_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p10_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p10_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p10_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p10_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p11_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p11_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p11_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p11_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Asian Pacific_p12_minipdf.png" width="340" alt="MiniPdf"></td>
-  <td><img src="images/Asian Pacific_p12_reference.png" width="340" alt="Reference"></td>
+  <td><img src="images/Asian Pacific_p12_minipdf.png" width="260" alt="dotnet MiniPdf"></td>
+  <td><img src="images/Asian Pacific_p12_reference.png" width="260" alt="Microsoft 365 PowerPoint Reference"></td>
+  <td><img src="images/Asian Pacific_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 </table>
 
@@ -140,18 +208,20 @@ Blue areas are below the configured difference threshold; red areas have stronge
 
 ### Asian Pacific
 
-- **Text Similarity:** 0.9499
-- **Visual Average:** 0.8567
-- **Overall Score:** 0.9226
+- **Case Metadata:** format: pptx | case: Asian Pacific | scope: dotnet-issue-pptx
+- **Source:** tests/Issue_Files/pptx/Asian Pacific.pptx
+- **Text Similarity:** 0.9457
+- **Visual Average:** 0.9425
+- **Overall Score:** 0.9553
 - **Pages:** MiniPdf=12, Reference=12
-- **File Size:** MiniPdf=745429 bytes, Reference=355585 bytes
+- **File Size:** MiniPdf=745429 bytes, Reference=358228 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/Asian Pacific.pdf
 +++ reference/Asian Pacific.pdf
-@@ -17,55 +17,62 @@
+@@ -17,38 +17,40 @@
  • Map of Pacific Islands
 
  ---PAGE---
@@ -226,7 +296,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
 
 +Choose three notable people of Asian Pacific American heritage using Bing.com and discuss their
 
-+lives and accomplishments. Here are some examples:
++lives and accomplishments. Here are some examples:
+
++Anna May Wong Duke Kahanamoku
+
++Sessue Hayakawa
 
  Anna May Wong was the first Chinese Duke Kahanamoku was a Hawaiian
 
@@ -269,15 +343,6 @@ Blue areas are below the configured difference threshold; red areas have stronge
  Arts and literature
 
  Provide examples of art and literature that are
-
- significant to Asian Pacific Heritage Month.
-
- Here are a few examples:
-
--• The writing of Amy Tan
-
-... (782 more characters)
-
 ```
 </details>
 

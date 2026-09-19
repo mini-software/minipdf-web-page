@@ -97,6 +97,18 @@
       "auxiliary_reference_exists": false
     },
     {
+      "name": "Issue202609031340",
+      "case_id": "Issue202609031340",
+      "suite": "issue",
+      "format": "xlsx",
+      "source_path": "tests/Issue_Files/xlsx/Issue202609031340.xlsx",
+      "conversion_status": "pending",
+      "conversion_exit_code": null,
+      "candidate_exists": false,
+      "reference_exists": false,
+      "auxiliary_reference_exists": false
+    },
+    {
       "name": "payroll-calculator_f",
       "case_id": "payroll-calculator_f",
       "suite": "issue",
@@ -162,6 +174,18 @@
       "suite": "issue",
       "format": "xlsx",
       "source_path": "tests/Issue_Files/xlsx/Weekly schedule planner1.xlsx",
+      "conversion_status": "pending",
+      "conversion_exit_code": null,
+      "candidate_exists": false,
+      "reference_exists": false,
+      "auxiliary_reference_exists": false
+    },
+    {
+      "name": "XlsxIssue152_ClusteredNonZeroBarChart",
+      "case_id": "XlsxIssue152_ClusteredNonZeroBarChart",
+      "suite": "issue",
+      "format": "xlsx",
+      "source_path": "tests/Issue_Files/xlsx/XlsxIssue152_ClusteredNonZeroBarChart.xlsx",
       "conversion_status": "pending",
       "conversion_exit_code": null,
       "candidate_exists": false,

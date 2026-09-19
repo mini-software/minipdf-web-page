@@ -16,7 +16,7 @@
   "missing_auxiliary_references": 0,
   "comparison_completed": true,
   "comparison_results": 191,
-  "average_score": 0.8576261780104706,
+  "average_score": 0.8678701570680625,
   "cases": [
     {
       "name": "classic01_basic_table_with_headers",
@@ -25,7 +25,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic01_basic_table_with_headers.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -37,7 +37,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic02_multiple_worksheets.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -49,7 +49,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic03_empty_workbook.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -61,7 +61,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic04_single_cell.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -73,7 +73,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic05_wide_table.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -85,7 +85,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic06_tall_table.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -97,7 +97,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic07_numbers_only.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -109,7 +109,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic08_mixed_text_and_numbers.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -121,7 +121,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic09_long_text.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -133,7 +133,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic10_special_xml_characters.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -145,7 +145,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic100_stacked_bar_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -157,7 +157,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic101_percent_stacked_bar.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -169,7 +169,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic102_line_chart_with_markers.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -181,7 +181,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic103_pie_chart_with_labels.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -193,7 +193,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic104_combo_bar_line_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -205,7 +205,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic105_3d_bar_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -217,7 +217,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic106_3d_pie_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -229,7 +229,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic107_multi_series_line.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -241,7 +241,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic108_stacked_area_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -253,7 +253,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic109_scatter_with_trendline.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -265,7 +265,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic11_sparse_rows.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -277,7 +277,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic110_chart_with_legend.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -289,7 +289,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic111_chart_with_axis_labels.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -301,7 +301,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic112_multiple_charts.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -313,7 +313,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic113_chart_sheet.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -325,7 +325,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic114_chart_large_dataset.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -337,7 +337,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic115_chart_negative_values.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -349,7 +349,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic116_percent_stacked_area.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -361,7 +361,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic117_stock_ohlc_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -373,7 +373,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic118_bar_chart_custom_colors.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -385,7 +385,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic119_dashboard_multi_charts.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -397,7 +397,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic12_sparse_columns.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -409,7 +409,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic120_chart_with_date_axis.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -421,7 +421,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic121_thin_borders.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -433,7 +433,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic122_thick_outer_thin_inner.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -445,7 +445,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic123_dashed_borders.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -457,7 +457,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic124_colored_borders.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -469,7 +469,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic125_solid_fills.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -481,7 +481,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic126_dark_header.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -493,7 +493,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic127_font_styles.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -505,7 +505,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic128_font_sizes.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -517,7 +517,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic129_alignment_combos.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -529,7 +529,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic13_date_strings.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -541,7 +541,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic130_wrap_and_indent.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -553,7 +553,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic131_number_formats.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -565,7 +565,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic132_striped_table.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -577,7 +577,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic133_gradient_rows.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -589,7 +589,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic134_heatmap.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -601,7 +601,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic135_bottom_border_only.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -613,7 +613,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic136_financial_report_styled.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -625,7 +625,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic137_checkerboard.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -637,7 +637,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic138_color_grid.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -649,7 +649,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic139_pattern_fills.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -661,7 +661,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic14_decimal_numbers.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -673,7 +673,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic140_rotated_text.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -685,7 +685,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic141_mixed_edge_borders.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -697,7 +697,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic142_styled_invoice.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -709,7 +709,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic143_colored_tabs.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -721,7 +721,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic144_note_style_cells.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -733,7 +733,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic145_status_badges.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -745,7 +745,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic146_double_border_table.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -757,7 +757,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic147_multi_sheet_styled.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -769,7 +769,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic148_frozen_styled_grid.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -781,7 +781,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic149_merged_styled_sections.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -793,7 +793,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic15_negative_numbers.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -805,7 +805,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic150_kitchen_sink_styles.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -817,7 +817,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic151_multilingual_greetings.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -829,7 +829,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic152_emoji_sampler.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -841,7 +841,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic153_currency_symbols.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -853,7 +853,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic154_math_symbols.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -865,7 +865,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic155_diacritical_marks.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -877,7 +877,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic156_rtl_bidi_text.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -889,7 +889,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic157_cjk_extended.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -901,7 +901,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic158_emoji_skin_tones.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -913,7 +913,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic159_zwj_emoji.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -925,7 +925,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic16_percentage_strings.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -937,7 +937,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic160_punctuation_marks.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -949,7 +949,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic161_box_drawing.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -961,7 +961,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic162_cjk_emoji_styled.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -973,7 +973,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic163_cyrillic_alphabets.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -985,7 +985,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic164_indic_scripts.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -997,7 +997,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic165_southeast_asian.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1009,7 +1009,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic166_emoji_progress.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1021,7 +1021,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic167_musical_symbols.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1033,7 +1033,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic168_mixed_ltr_rtl_styled.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1045,7 +1045,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic169_korean_invoice.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1057,7 +1057,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic17_currency_strings.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1069,7 +1069,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic170_emoji_dashboard.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1081,7 +1081,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic171_ipa_phonetic.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1093,7 +1093,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic172_emoji_timeline.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1105,7 +1105,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic173_african_languages.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1117,7 +1117,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic174_technical_symbols.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1129,7 +1129,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic175_multiscript_catalog.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1141,7 +1141,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic176_combining_characters.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1153,7 +1153,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic177_emoji_calendar.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1165,7 +1165,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic178_caucasus_ethiopic.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1177,7 +1177,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic179_emoji_inventory.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1189,7 +1189,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic18_large_dataset.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1201,7 +1201,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic180_polyglot_paragraph.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1213,7 +1213,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic181_feedback_tracker_with_images.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1225,7 +1225,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic182_dense_long_text_columns.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1237,7 +1237,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic183_mixed_content_grid.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1249,7 +1249,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic184_wide_narrow_columns.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1261,7 +1261,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic185_tall_rows_vertical_align.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1273,7 +1273,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic186_multi_sheet_image_report.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1285,7 +1285,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic187_bug_report_with_screenshots.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1297,7 +1297,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic188_merged_header_with_images.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1309,7 +1309,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic189_alternating_image_text_rows.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1321,7 +1321,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic19_single_column_list.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1333,7 +1333,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic190_dashboard_kpi_images.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1345,7 +1345,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic191_payroll_calculator.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1357,7 +1357,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic20_all_empty_cells.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1369,7 +1369,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic21_header_only.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1381,7 +1381,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic22_long_sheet_name.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1393,7 +1393,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic23_unicode_text.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1405,7 +1405,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic24_red_text.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1417,7 +1417,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic25_multiple_colors.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1429,7 +1429,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic26_inline_strings.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1441,7 +1441,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic27_single_row.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1453,7 +1453,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic28_duplicate_values.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1465,7 +1465,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic29_formula_results.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1477,7 +1477,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic30_mixed_empty_and_filled_sheets.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1489,7 +1489,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic31_bold_header_row.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1501,7 +1501,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic32_right_aligned_numbers.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1513,7 +1513,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic33_centered_text.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1525,7 +1525,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic34_explicit_column_widths.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1537,7 +1537,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic35_explicit_row_heights.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1549,7 +1549,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic36_merged_cells.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1561,7 +1561,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic37_freeze_panes.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1573,7 +1573,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic38_hyperlink_cell.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1585,7 +1585,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic39_financial_table.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1597,7 +1597,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic40_scientific_notation.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1609,7 +1609,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic41_integer_vs_float.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1621,7 +1621,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic42_boolean_values.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1633,7 +1633,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic43_inventory_report.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1645,7 +1645,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic44_employee_roster.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1657,7 +1657,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic45_sales_by_region.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1669,7 +1669,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic46_grade_book.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1681,7 +1681,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic47_time_series.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1693,7 +1693,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic48_survey_results.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1705,7 +1705,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic49_contact_list.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1717,7 +1717,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic50_budget_vs_actuals.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1729,7 +1729,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic51_product_catalog.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1741,7 +1741,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic52_pivot_summary.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1753,7 +1753,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic53_invoice.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1765,7 +1765,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic54_multi_level_header.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1777,7 +1777,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic55_error_values.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1789,7 +1789,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic56_alternating_row_colors.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1801,7 +1801,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic57_cjk_only.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1813,7 +1813,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic58_mixed_numeric_formats.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1825,7 +1825,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic59_multi_sheet_summary.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1837,7 +1837,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic60_large_wide_table.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1849,7 +1849,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic61_product_card_with_image.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1861,7 +1861,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic62_company_logo_header.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1873,7 +1873,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic63_two_products_side_by_side.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1885,7 +1885,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic64_employee_directory_with_photo.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1897,7 +1897,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic65_inventory_with_product_photos.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1909,7 +1909,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic66_invoice_with_logo.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1921,7 +1921,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic67_real_estate_listing.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1933,7 +1933,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic68_restaurant_menu.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1945,7 +1945,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic69_image_only_sheet.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1957,7 +1957,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic70_product_catalog_with_images.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1969,7 +1969,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic71_multi_sheet_with_images.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1981,7 +1981,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic72_bar_chart_image_with_data.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -1993,7 +1993,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic73_event_flyer_with_banner.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2005,7 +2005,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic74_dashboard_with_kpi_image.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2017,7 +2017,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic75_certificate_with_seal.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2029,7 +2029,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic76_product_image_grid.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2041,7 +2041,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic77_news_article_with_hero_image.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2053,7 +2053,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic78_small_icon_per_row.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2065,7 +2065,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic79_wide_panoramic_banner.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2077,7 +2077,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic80_portrait_tall_image.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2089,7 +2089,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic81_step_by_step_with_images.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2101,7 +2101,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic82_before_after_images.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2113,7 +2113,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic83_color_swatch_palette.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2125,7 +2125,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic84_travel_destination_cards.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2137,7 +2137,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic85_lab_results_with_image.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2149,7 +2149,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic86_software_screenshot_features.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2161,7 +2161,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic87_sports_results_with_logos.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2173,7 +2173,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic88_image_after_data.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2185,7 +2185,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic89_nutrition_label_with_image.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2197,7 +2197,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic90_project_status_with_milestones.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2209,7 +2209,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic91_simple_bar_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2221,7 +2221,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic92_horizontal_bar_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2233,7 +2233,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic93_line_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2245,7 +2245,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic94_pie_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2257,7 +2257,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic95_area_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2269,7 +2269,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic96_scatter_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2281,7 +2281,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic97_doughnut_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2293,7 +2293,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic98_radar_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true
@@ -2305,7 +2305,7 @@
       "format": "xlsx",
       "source_path": "tests/MiniPdf.Scripts/output/classic99_bubble_chart.xlsx",
       "conversion_status": "passed",
-      "conversion_exit_code": null,
+      "conversion_exit_code": 0,
       "candidate_exists": true,
       "reference_exists": true,
       "auxiliary_reference_exists": true

@@ -1,4 +1,5 @@
 {
+  "language": "rust",
   "suite": "classic",
   "format": "xlsx",
   "reference_engine": "o365",
@@ -15,7 +16,7 @@
   "missing_auxiliary_references": 0,
   "comparison_completed": true,
   "comparison_results": 191,
-  "average_score": 0.9024643979057592,
+  "average_score": 0.9060759162303664,
   "cases": [
     {
       "name": "classic01_basic_table_with_headers",
