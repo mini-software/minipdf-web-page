@@ -1,40 +1,41 @@
-# Rust MiniPdf vs Microsoft 365 Word Reference PDF Comparison Report
+# rust MiniPdf vs Microsoft 365 Word Reference PDF Comparison Report
 
-Generated: 2026-09-04T08:04:23.952793
+Generated: 2026-09-19T22:45:02.348869
 
 ## Summary
 
 | # | Test Case | Valid | Text Sim | Visual Avg | Pages (M/R) | Overall |
 |---|-----------|-------|----------|------------|-------------|--------|
-| 1 | 🟢 13_IEEE_Style_Paper | ✅ | 0.9453 | 0.9567 | 2/2 | **0.9608** |
-| 2 | 🟢 14_Thesis_Chapter | ✅ | 0.9853 | 0.9644 | 2/2 | **0.9799** |
+| 1 | 🟢 13_IEEE_Style_Paper | ✅ | 0.9453 | 0.9568 | 2/2 | **0.9608** |
+| 2 | 🟢 14_Thesis_Chapter | ✅ | 0.9853 | 0.9643 | 2/2 | **0.9798** |
 | 3 | 🔴 20260317_sample_CN | ✅ | 0.897 | 0.4657 | 1/2 | **0.6451** |
 | 4 | 🔴 20260318_issue | ✅ | 0.9076 | 0.4577 | 6/7 | **0.6461** |
-| 5 | 🔴 CCU_article | ✅ | 0.7059 | 0.5882 | 15/21 | **0.6176** |
-| 6 | 🔴 Class News | ✅ | 0.1361 | 0.2689 | 4/4 | **0.362** |
+| 5 | 🔴 CCU_article | ✅ | 0.7056 | 0.5883 | 15/21 | **0.6176** |
+| 6 | 🔴 Class News | ✅ | 0.1361 | 0.269 | 4/4 | **0.362** |
 | 7 | 🟢 Confirmatory_Affidavit | ✅ | 0.9565 | 0.9667 | 2/2 | **0.9693** |
-| 8 | 🔴 Cooperation Agreement Template | ✅ | 0.851 | 0.4244 | 14/7 | **0.6102** |
+| 8 | 🔴 Cooperation Agreement Template | ✅ | 0.8728 | 0.424 | 14/7 | **0.6187** |
 | 9 | 🔴 Fabrikam | ✅ | 0.8387 | 0.0232 | 2/1 | **0.4448** |
-| 10 | 🟡 Invoice | ✅ | 0.6716 | 0.9385 | 1/1 | **0.844** |
+| 10 | 🟡 Invoice | ✅ | 0.6734 | 0.9395 | 1/1 | **0.8452** |
 | 11 | 🔴 Issue79_FilledContract | ✅ | 0.9875 | 0.0302 | 20/1 | **0.5071** |
 | 12 | 🔴 Issue79_TemplateContract | ✅ | 1.0 | 0.0302 | 20/1 | **0.5121** |
 | 13 | 🟢 Issue83_Output | ✅ | 1.0 | 0.9836 | 1/1 | **0.9934** |
-| 14 | 🔴 issue202605 | ✅ | 0.8767 | 0.3463 | 4/2 | **0.5892** |
-| 15 | 🟡 issue26050501 | ✅ | 0.8396 | 0.9013 | 2/2 | **0.8964** |
-| 16 | 🔴 issues66 | ✅ | 0.8671 | 0.3124 | 1/3 | **0.5718** |
-| 17 | 🔴 MODERN LIVING | ✅ | 0.2521 | 0.1432 | 2/2 | **0.3581** |
-| 18 | 🟡 nthu_article | ✅ | 0.8075 | 0.8307 | 18/20 | **0.7553** |
-| 19 | 🟡 OSCAR WARD | ✅ | 0.9531 | 0.3782 | 1/1 | **0.7325** |
-| 20 | 🔴 SA8000 ch sample | ✅ | 0.8212 | 0.6069 | 3/2 | **0.6712** |
-| 21 | 🟢 Support_Letter | ✅ | 0.9711 | 0.9541 | 1/1 | **0.9701** |
-| 22 | 🟡 Template for MSc Thesis | ✅ | 0.9842 | 0.6 | 11/17 | **0.7337** |
-| 23 | 🟡 TestIssue61 | ✅ | 0.4545 | 0.9474 | 8/8 | **0.7608** |
-| 24 | 🟢 TestIssue78 | ✅ | 0.9453 | 0.9692 | 1/1 | **0.9658** |
-| 25 | 🟢 TestIssue90 | ✅ | 0.9613 | 0.9435 | 1/1 | **0.9619** |
-| 26 | 🟢 TestIssue91 | ✅ | 0.9754 | 0.9439 | 3/3 | **0.9677** |
-| 27 | 🟢 TestIssue93 | ✅ | 0.9746 | 0.961 | 1/1 | **0.9742** |
+| 14 | 🟢 Issue159_PageLayoutOptions | ✅ | 1.0 | 0.9856 | 1/1 | **0.9942** |
+| 15 | 🔴 issue202605 | ✅ | 0.8767 | 0.3463 | 4/2 | **0.5892** |
+| 16 | 🟡 issue26050501 | ✅ | 0.8396 | 0.9013 | 2/2 | **0.8964** |
+| 17 | 🔴 issues66 | ✅ | 0.8671 | 0.3124 | 1/3 | **0.5718** |
+| 18 | 🔴 MODERN LIVING | ✅ | 0.2521 | 0.1448 | 2/2 | **0.3588** |
+| 19 | 🟡 nthu_article | ✅ | 0.856 | 0.8808 | 18/18 | **0.8947** |
+| 20 | 🟡 OSCAR WARD | ✅ | 0.965 | 0.3336 | 1/1 | **0.7194** |
+| 21 | 🔴 SA8000 ch sample | ✅ | 0.8212 | 0.6069 | 3/2 | **0.6712** |
+| 22 | 🟢 Support_Letter | ✅ | 0.9711 | 0.9541 | 1/1 | **0.9701** |
+| 23 | 🟡 Template for MSc Thesis | ✅ | 0.9842 | 0.5999 | 11/17 | **0.7336** |
+| 24 | 🟡 TestIssue61 | ✅ | 0.4545 | 0.9474 | 8/8 | **0.7608** |
+| 25 | 🟢 TestIssue78 | ✅ | 0.9453 | 0.9692 | 1/1 | **0.9658** |
+| 26 | 🟢 TestIssue90 | ✅ | 0.9613 | 0.9435 | 1/1 | **0.9619** |
+| 27 | 🟢 TestIssue91 | ✅ | 0.9398 | 0.9471 | 3/3 | **0.9548** |
+| 28 | 🟢 TestIssue93 | ✅ | 0.9746 | 0.961 | 1/1 | **0.9742** |
 
-**Average Overall Score: 0.7408**
+**Average Overall Score: 0.7542**
 
 ## Labeled Side-by-Side Comparison
 
@@ -249,6 +250,10 @@ Generated: 2026-09-04T08:04:23.952793
   <td><img src="side-by-side/Issue83_Output_p1_rust_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="Issue83_Output page 1 comparison"></td>
 </tr>
 <tr>
+  <td><b>Issue159_PageLayoutOptions<br><small>format: docx | case: Issue159_PageLayoutOptions | scope: rust-issue-docx</small></b><br>Page 1</td>
+  <td><img src="side-by-side/Issue159_PageLayoutOptions_p1_rust_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="Issue159_PageLayoutOptions page 1 comparison"></td>
+</tr>
+<tr>
   <td><b>issue202605<br><small>format: docx | case: issue202605 | scope: rust-issue-docx</small></b><br>Page 1</td>
   <td><img src="side-by-side/issue202605_p1_rust_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="issue202605 page 1 comparison"></td>
 </tr>
@@ -355,14 +360,6 @@ Generated: 2026-09-04T08:04:23.952793
 <tr>
   <td><b>nthu_article<br><small>format: docx | case: nthu_article | scope: rust-issue-docx</small></b><br>Page 18</td>
   <td><img src="side-by-side/nthu_article_p18_rust_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="nthu_article page 18 comparison"></td>
-</tr>
-<tr>
-  <td><b>nthu_article<br><small>format: docx | case: nthu_article | scope: rust-issue-docx</small></b><br>Page 19</td>
-  <td><img src="side-by-side/nthu_article_p19_rust_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="nthu_article page 19 comparison"></td>
-</tr>
-<tr>
-  <td><b>nthu_article<br><small>format: docx | case: nthu_article | scope: rust-issue-docx</small></b><br>Page 20</td>
-  <td><img src="side-by-side/nthu_article_p20_rust_minipdf_vs_microsoft_365_word_reference_vs_libreoffice.png" width="760" alt="nthu_article page 20 comparison"></td>
 </tr>
 <tr>
   <td><b>OSCAR WARD<br><small>format: docx | case: OSCAR WARD | scope: rust-issue-docx</small></b><br>Page 1</td>
@@ -515,157 +512,157 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>13_IEEE_Style_Paper</b><br>Page 1</td>
   <td><img src="images/13_IEEE_Style_Paper_p1_heatmap.png" width="760" alt="13_IEEE_Style_Paper page 1 difference heatmap"></td>
-  <td>changed: 188495 px (8.96%)<br>bbox: [175, 163, 1087, 1495]<br>mean abs RGB: 13.1577<br>RMSE RGB: 49.9918<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 188106 px (8.94%)<br>bbox: [175, 163, 1087, 1495]<br>mean abs RGB: 13.1221<br>RMSE RGB: 49.964<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>13_IEEE_Style_Paper</b><br>Page 2</td>
   <td><img src="images/13_IEEE_Style_Paper_p2_heatmap.png" width="760" alt="13_IEEE_Style_Paper page 2 difference heatmap"></td>
-  <td>changed: 27567 px (1.31%)<br>bbox: [188, 154, 1081, 531]<br>mean abs RGB: 1.7967<br>RMSE RGB: 17.8845<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 27461 px (1.31%)<br>bbox: [188, 155, 1081, 531]<br>mean abs RGB: 1.7902<br>RMSE RGB: 17.8454<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>14_Thesis_Chapter</b><br>Page 1</td>
   <td><img src="images/14_Thesis_Chapter_p1_heatmap.png" width="760" alt="14_Thesis_Chapter page 1 difference heatmap"></td>
-  <td>changed: 181113 px (8.61%)<br>bbox: [175, 157, 1082, 1424]<br>mean abs RGB: 12.4269<br>RMSE RGB: 48.4395<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 181194 px (8.61%)<br>bbox: [175, 158, 1082, 1424]<br>mean abs RGB: 12.3912<br>RMSE RGB: 48.327<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>14_Thesis_Chapter</b><br>Page 2</td>
   <td><img src="images/14_Thesis_Chapter_p2_heatmap.png" width="760" alt="14_Thesis_Chapter page 2 difference heatmap"></td>
-  <td>changed: 29304 px (1.39%)<br>bbox: [187, 156, 1085, 284]<br>mean abs RGB: 1.998<br>RMSE RGB: 19.375<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 29221 px (1.39%)<br>bbox: [187, 156, 1085, 284]<br>mean abs RGB: 1.9958<br>RMSE RGB: 19.3748<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260317_sample_CN</b><br>Page 1</td>
   <td><img src="images/20260317_sample_CN_p1_heatmap.png" width="760" alt="20260317_sample_CN page 1 difference heatmap"></td>
-  <td>changed: 155683 px (7.40%)<br>bbox: [63, 98, 1204, 1536]<br>mean abs RGB: 7.6248<br>RMSE RGB: 35.1714<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 155680 px (7.40%)<br>bbox: [63, 98, 1204, 1536]<br>mean abs RGB: 7.6243<br>RMSE RGB: 35.1705<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260318_issue</b><br>Page 1</td>
   <td><img src="images/20260318_issue_p1_heatmap.png" width="760" alt="20260318_issue page 1 difference heatmap"></td>
-  <td>changed: 15105 px (0.69%)<br>bbox: [76, 92, 888, 1630]<br>mean abs RGB: 0.8653<br>RMSE RGB: 12.1604<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 14950 px (0.69%)<br>bbox: [76, 92, 888, 1630]<br>mean abs RGB: 0.8653<br>RMSE RGB: 12.1581<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260318_issue</b><br>Page 2</td>
   <td><img src="images/20260318_issue_p2_heatmap.png" width="760" alt="20260318_issue page 2 difference heatmap"></td>
-  <td>changed: 149678 px (6.88%)<br>bbox: [74, 92, 1139, 1630]<br>mean abs RGB: 2.5128<br>RMSE RGB: 15.3697<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 149721 px (6.88%)<br>bbox: [74, 92, 1139, 1630]<br>mean abs RGB: 2.5245<br>RMSE RGB: 15.557<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260318_issue</b><br>Page 3</td>
   <td><img src="images/20260318_issue_p3_heatmap.png" width="760" alt="20260318_issue page 3 difference heatmap"></td>
-  <td>changed: 538063 px (24.72%)<br>bbox: [73, 92, 1156, 1630]<br>mean abs RGB: 15.4908<br>RMSE RGB: 46.0113<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 538389 px (24.73%)<br>bbox: [73, 92, 1156, 1630]<br>mean abs RGB: 15.5035<br>RMSE RGB: 45.9654<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260318_issue</b><br>Page 4</td>
   <td><img src="images/20260318_issue_p4_heatmap.png" width="760" alt="20260318_issue page 4 difference heatmap"></td>
-  <td>changed: 235948 px (10.84%)<br>bbox: [74, 86, 1162, 1630]<br>mean abs RGB: 8.7593<br>RMSE RGB: 37.2982<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 236594 px (10.87%)<br>bbox: [74, 86, 1162, 1630]<br>mean abs RGB: 8.7988<br>RMSE RGB: 37.4304<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260318_issue</b><br>Page 5</td>
   <td><img src="images/20260318_issue_p5_heatmap.png" width="760" alt="20260318_issue page 5 difference heatmap"></td>
-  <td>changed: 90460 px (4.16%)<br>bbox: [76, 92, 879, 1630]<br>mean abs RGB: 5.1973<br>RMSE RGB: 27.0881<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 90933 px (4.18%)<br>bbox: [76, 92, 879, 1630]<br>mean abs RGB: 5.2092<br>RMSE RGB: 27.147<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>20260318_issue</b><br>Page 6</td>
   <td><img src="images/20260318_issue_p6_heatmap.png" width="760" alt="20260318_issue page 6 difference heatmap"></td>
-  <td>changed: 85093 px (3.91%)<br>bbox: [76, 86, 1065, 1630]<br>mean abs RGB: 5.8638<br>RMSE RGB: 30.4175<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 85152 px (3.91%)<br>bbox: [76, 86, 1065, 1630]<br>mean abs RGB: 5.8645<br>RMSE RGB: 30.4219<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 1</td>
   <td><img src="images/CCU_article_p1_heatmap.png" width="760" alt="CCU_article page 1 difference heatmap"></td>
-  <td>changed: 127678 px (5.86%)<br>bbox: [171, 149, 1071, 1586]<br>mean abs RGB: 5.5344<br>RMSE RGB: 31.7096<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 127677 px (5.86%)<br>bbox: [171, 149, 1071, 1586]<br>mean abs RGB: 5.5222<br>RMSE RGB: 31.665<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 2</td>
   <td><img src="images/CCU_article_p2_heatmap.png" width="760" alt="CCU_article page 2 difference heatmap"></td>
-  <td>changed: 260486 px (11.96%)<br>bbox: [177, 146, 1064, 1666]<br>mean abs RGB: 14.2274<br>RMSE RGB: 50.5954<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 260526 px (11.96%)<br>bbox: [177, 146, 1064, 1666]<br>mean abs RGB: 14.2299<br>RMSE RGB: 50.6125<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 3</td>
   <td><img src="images/CCU_article_p3_heatmap.png" width="760" alt="CCU_article page 3 difference heatmap"></td>
-  <td>changed: 211772 px (9.72%)<br>bbox: [177, 147, 1064, 1666]<br>mean abs RGB: 11.6184<br>RMSE RGB: 46.3441<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 211455 px (9.71%)<br>bbox: [177, 148, 1064, 1666]<br>mean abs RGB: 11.5837<br>RMSE RGB: 46.2668<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 4</td>
   <td><img src="images/CCU_article_p4_heatmap.png" width="760" alt="CCU_article page 4 difference heatmap"></td>
-  <td>changed: 136116 px (6.25%)<br>bbox: [178, 149, 1064, 1666]<br>mean abs RGB: 5.4151<br>RMSE RGB: 29.1568<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 136221 px (6.25%)<br>bbox: [178, 149, 1064, 1666]<br>mean abs RGB: 5.4074<br>RMSE RGB: 29.1278<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 5</td>
   <td><img src="images/CCU_article_p5_heatmap.png" width="760" alt="CCU_article page 5 difference heatmap"></td>
-  <td>changed: 151754 px (6.97%)<br>bbox: [177, 149, 1064, 1667]<br>mean abs RGB: 6.4088<br>RMSE RGB: 32.6415<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 151714 px (6.97%)<br>bbox: [177, 149, 1065, 1667]<br>mean abs RGB: 6.4065<br>RMSE RGB: 32.625<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 6</td>
   <td><img src="images/CCU_article_p6_heatmap.png" width="760" alt="CCU_article page 6 difference heatmap"></td>
-  <td>changed: 169353 px (7.78%)<br>bbox: [177, 146, 1064, 1667]<br>mean abs RGB: 7.4811<br>RMSE RGB: 35.2304<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 169323 px (7.77%)<br>bbox: [177, 146, 1064, 1667]<br>mean abs RGB: 7.4779<br>RMSE RGB: 35.2219<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 7</td>
   <td><img src="images/CCU_article_p7_heatmap.png" width="760" alt="CCU_article page 7 difference heatmap"></td>
-  <td>changed: 153670 px (7.06%)<br>bbox: [178, 146, 1062, 1667]<br>mean abs RGB: 6.7092<br>RMSE RGB: 33.3395<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 153642 px (7.05%)<br>bbox: [178, 146, 1062, 1667]<br>mean abs RGB: 6.7081<br>RMSE RGB: 33.3335<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 8</td>
   <td><img src="images/CCU_article_p8_heatmap.png" width="760" alt="CCU_article page 8 difference heatmap"></td>
-  <td>changed: 102520 px (4.71%)<br>bbox: [164, 197, 1108, 1667]<br>mean abs RGB: 3.3951<br>RMSE RGB: 22.708<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 102495 px (4.71%)<br>bbox: [164, 197, 1108, 1667]<br>mean abs RGB: 3.395<br>RMSE RGB: 22.706<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 9</td>
   <td><img src="images/CCU_article_p9_heatmap.png" width="760" alt="CCU_article page 9 difference heatmap"></td>
-  <td>changed: 189894 px (8.72%)<br>bbox: [177, 182, 1063, 1666]<br>mean abs RGB: 9.0616<br>RMSE RGB: 39.2114<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 189992 px (8.72%)<br>bbox: [177, 182, 1063, 1666]<br>mean abs RGB: 9.0629<br>RMSE RGB: 39.2171<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 10</td>
   <td><img src="images/CCU_article_p10_heatmap.png" width="760" alt="CCU_article page 10 difference heatmap"></td>
-  <td>changed: 151818 px (6.97%)<br>bbox: [178, 148, 1073, 1666]<br>mean abs RGB: 6.6801<br>RMSE RGB: 33.5152<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 151906 px (6.97%)<br>bbox: [178, 148, 1073, 1666]<br>mean abs RGB: 6.6828<br>RMSE RGB: 33.5272<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 11</td>
   <td><img src="images/CCU_article_p11_heatmap.png" width="760" alt="CCU_article page 11 difference heatmap"></td>
-  <td>changed: 174733 px (8.02%)<br>bbox: [162, 151, 1063, 1667]<br>mean abs RGB: 8.1642<br>RMSE RGB: 37.3699<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 174579 px (8.02%)<br>bbox: [162, 151, 1063, 1667]<br>mean abs RGB: 8.1664<br>RMSE RGB: 37.3751<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 12</td>
   <td><img src="images/CCU_article_p12_heatmap.png" width="760" alt="CCU_article page 12 difference heatmap"></td>
-  <td>changed: 124377 px (5.71%)<br>bbox: [162, 146, 1064, 1666]<br>mean abs RGB: 8.3946<br>RMSE RGB: 39.8714<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 124341 px (5.71%)<br>bbox: [162, 146, 1064, 1666]<br>mean abs RGB: 8.3985<br>RMSE RGB: 39.9108<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 13</td>
   <td><img src="images/CCU_article_p13_heatmap.png" width="760" alt="CCU_article page 13 difference heatmap"></td>
-  <td>changed: 57505 px (2.64%)<br>bbox: [162, 152, 1108, 1667]<br>mean abs RGB: 3.7055<br>RMSE RGB: 26.1326<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 57361 px (2.63%)<br>bbox: [162, 152, 1108, 1667]<br>mean abs RGB: 3.7066<br>RMSE RGB: 26.1711<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 14</td>
   <td><img src="images/CCU_article_p14_heatmap.png" width="760" alt="CCU_article page 14 difference heatmap"></td>
-  <td>changed: 138056 px (6.34%)<br>bbox: [177, 135, 1059, 1667]<br>mean abs RGB: 6.0698<br>RMSE RGB: 32.1639<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 138283 px (6.35%)<br>bbox: [178, 135, 1060, 1667]<br>mean abs RGB: 6.0859<br>RMSE RGB: 32.2379<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>CCU_article</b><br>Page 15</td>
   <td><img src="images/CCU_article_p15_heatmap.png" width="760" alt="CCU_article page 15 difference heatmap"></td>
-  <td>changed: 49656 px (2.28%)<br>bbox: [177, 288, 1096, 1667]<br>mean abs RGB: 3.313<br>RMSE RGB: 24.9051<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 49856 px (2.29%)<br>bbox: [178, 288, 1096, 1667]<br>mean abs RGB: 3.318<br>RMSE RGB: 24.9242<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Class News</b><br>Page 1</td>
   <td><img src="images/Class News_p1_heatmap.png" width="760" alt="Class News page 1 difference heatmap"></td>
-  <td>changed: 1075526 px (51.12%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 51.6953<br>RMSE RGB: 87.3774<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 1074898 px (51.09%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 51.7607<br>RMSE RGB: 87.5214<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Class News</b><br>Page 2</td>
   <td><img src="images/Class News_p2_heatmap.png" width="760" alt="Class News page 2 difference heatmap"></td>
-  <td>changed: 1048474 px (49.84%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 49.1341<br>RMSE RGB: 85.9367<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 1048001 px (49.82%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 49.2433<br>RMSE RGB: 86.157<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Class News</b><br>Page 3</td>
   <td><img src="images/Class News_p3_heatmap.png" width="760" alt="Class News page 3 difference heatmap"></td>
-  <td>changed: 1111421 px (52.83%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 37.4929<br>RMSE RGB: 72.1661<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 1111063 px (52.81%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 37.5927<br>RMSE RGB: 72.265<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Class News</b><br>Page 4</td>
   <td><img src="images/Class News_p4_heatmap.png" width="760" alt="Class News page 4 difference heatmap"></td>
-  <td>changed: 1132920 px (53.85%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 39.7228<br>RMSE RGB: 75.8065<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 1131965 px (53.81%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 39.8793<br>RMSE RGB: 76.0076<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Confirmatory_Affidavit</b><br>Page 1</td>
   <td><img src="images/Confirmatory_Affidavit_p1_heatmap.png" width="760" alt="Confirmatory_Affidavit page 1 difference heatmap"></td>
-  <td>changed: 151739 px (6.97%)<br>bbox: [136, 168, 1103, 1651]<br>mean abs RGB: 12.169<br>RMSE RGB: 51.2938<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 151751 px (6.97%)<br>bbox: [136, 168, 1103, 1651]<br>mean abs RGB: 12.1691<br>RMSE RGB: 51.2887<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Confirmatory_Affidavit</b><br>Page 2</td>
@@ -675,37 +672,37 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>Cooperation Agreement Template</b><br>Page 1</td>
   <td><img src="images/Cooperation Agreement Template_p1_heatmap.png" width="760" alt="Cooperation Agreement Template page 1 difference heatmap"></td>
-  <td>changed: 34442 px (1.58%)<br>bbox: [168, 183, 1086, 1645]<br>mean abs RGB: 3.0756<br>RMSE RGB: 26.3726<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 32090 px (1.47%)<br>bbox: [168, 183, 1070, 1638]<br>mean abs RGB: 2.8262<br>RMSE RGB: 25.2015<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Cooperation Agreement Template</b><br>Page 2</td>
   <td><img src="images/Cooperation Agreement Template_p2_heatmap.png" width="760" alt="Cooperation Agreement Template page 2 difference heatmap"></td>
-  <td>changed: 64746 px (2.97%)<br>bbox: [166, 338, 1087, 1646]<br>mean abs RGB: 3.7939<br>RMSE RGB: 25.2912<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 63915 px (2.94%)<br>bbox: [166, 276, 1087, 1642]<br>mean abs RGB: 3.7621<br>RMSE RGB: 25.1685<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Cooperation Agreement Template</b><br>Page 3</td>
   <td><img src="images/Cooperation Agreement Template_p3_heatmap.png" width="760" alt="Cooperation Agreement Template page 3 difference heatmap"></td>
-  <td>changed: 45334 px (2.08%)<br>bbox: [165, 180, 1086, 1647]<br>mean abs RGB: 2.4452<br>RMSE RGB: 19.501<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 46663 px (2.14%)<br>bbox: [165, 180, 1070, 1643]<br>mean abs RGB: 2.5362<br>RMSE RGB: 19.8858<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Cooperation Agreement Template</b><br>Page 4</td>
   <td><img src="images/Cooperation Agreement Template_p4_heatmap.png" width="760" alt="Cooperation Agreement Template page 4 difference heatmap"></td>
-  <td>changed: 16104 px (0.74%)<br>bbox: [166, 180, 693, 1646]<br>mean abs RGB: 0.9649<br>RMSE RGB: 12.8757<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 20293 px (0.93%)<br>bbox: [166, 180, 1086, 1642]<br>mean abs RGB: 1.218<br>RMSE RGB: 14.4896<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Cooperation Agreement Template</b><br>Page 5</td>
   <td><img src="images/Cooperation Agreement Template_p5_heatmap.png" width="760" alt="Cooperation Agreement Template page 5 difference heatmap"></td>
-  <td>changed: 80219 px (3.69%)<br>bbox: [165, 196, 1086, 1647]<br>mean abs RGB: 4.7589<br>RMSE RGB: 28.5665<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 75081 px (3.45%)<br>bbox: [165, 196, 1087, 1643]<br>mean abs RGB: 4.4764<br>RMSE RGB: 27.7371<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Cooperation Agreement Template</b><br>Page 6</td>
   <td><img src="images/Cooperation Agreement Template_p6_heatmap.png" width="760" alt="Cooperation Agreement Template page 6 difference heatmap"></td>
-  <td>changed: 5686 px (0.26%)<br>bbox: [166, 181, 653, 1647]<br>mean abs RGB: 0.3569<br>RMSE RGB: 8.0297<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 4968 px (0.23%)<br>bbox: [166, 181, 429, 1643]<br>mean abs RGB: 0.3152<br>RMSE RGB: 7.5819<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Cooperation Agreement Template</b><br>Page 7</td>
   <td><img src="images/Cooperation Agreement Template_p7_heatmap.png" width="760" alt="Cooperation Agreement Template page 7 difference heatmap"></td>
-  <td>changed: 2771 px (0.13%)<br>bbox: [188, 180, 1052, 1647]<br>mean abs RGB: 0.1436<br>RMSE RGB: 4.6027<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 2766 px (0.13%)<br>bbox: [188, 180, 1036, 1643]<br>mean abs RGB: 0.1436<br>RMSE RGB: 4.5949<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Fabrikam</b><br>Page 1</td>
@@ -715,7 +712,7 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>Invoice</b><br>Page 1</td>
   <td><img src="images/Invoice_p1_heatmap.png" width="760" alt="Invoice page 1 difference heatmap"></td>
-  <td>changed: 180350 px (8.57%)<br>bbox: [112, 150, 1162, 1560]<br>mean abs RGB: 6.244<br>RMSE RGB: 26.6133<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 181799 px (8.64%)<br>bbox: [111, 150, 1163, 1560]<br>mean abs RGB: 6.2182<br>RMSE RGB: 26.6097<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Issue79_FilledContract</b><br>Page 1</td>
@@ -731,6 +728,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>Issue83_Output</b><br>Page 1</td>
   <td><img src="images/Issue83_Output_p1_heatmap.png" width="760" alt="Issue83_Output page 1 difference heatmap"></td>
   <td>changed: 11690 px (0.54%)<br>bbox: [147, 178, 384, 289]<br>mean abs RGB: 0.8022<br>RMSE RGB: 12.9162<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Issue159_PageLayoutOptions</b><br>Page 1</td>
+  <td><img src="images/Issue159_PageLayoutOptions_p1_heatmap.png" width="760" alt="Issue159_PageLayoutOptions page 1 difference heatmap"></td>
+  <td>changed: 40524 px (1.93%)<br>bbox: [151, 157, 1124, 1427]<br>mean abs RGB: 3.2488<br>RMSE RGB: 25.994<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>issue202605</b><br>Page 1</td>
@@ -755,112 +757,112 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>issues66</b><br>Page 1</td>
   <td><img src="images/issues66_p1_heatmap.png" width="760" alt="issues66 page 1 difference heatmap"></td>
-  <td>changed: 228556 px (10.50%)<br>bbox: [106, 142, 1648, 1133]<br>mean abs RGB: 14.2727<br>RMSE RGB: 50.7362<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 228521 px (10.50%)<br>bbox: [106, 142, 1648, 1133]<br>mean abs RGB: 14.2727<br>RMSE RGB: 50.7337<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>MODERN LIVING</b><br>Page 1</td>
   <td><img src="images/MODERN LIVING_p1_heatmap.png" width="760" alt="MODERN LIVING page 1 difference heatmap"></td>
-  <td>changed: 1041332 px (49.50%)<br>bbox: [86, 0, 1275, 1650]<br>mean abs RGB: 22.6973<br>RMSE RGB: 50.1914<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 1041849 px (49.52%)<br>bbox: [86, 0, 1275, 1650]<br>mean abs RGB: 22.697<br>RMSE RGB: 50.795<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>MODERN LIVING</b><br>Page 2</td>
   <td><img src="images/MODERN LIVING_p2_heatmap.png" width="760" alt="MODERN LIVING page 2 difference heatmap"></td>
-  <td>changed: 1121256 px (53.30%)<br>bbox: [0, 0, 1200, 1492]<br>mean abs RGB: 29.3906<br>RMSE RGB: 60.7307<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 1124461 px (53.45%)<br>bbox: [0, 0, 1200, 1499]<br>mean abs RGB: 29.6685<br>RMSE RGB: 61.952<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 1</td>
   <td><img src="images/nthu_article_p1_heatmap.png" width="760" alt="nthu_article page 1 difference heatmap"></td>
-  <td>changed: 140965 px (6.48%)<br>bbox: [165, 157, 1063, 1620]<br>mean abs RGB: 8.3402<br>RMSE RGB: 38.2739<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 143157 px (6.58%)<br>bbox: [178, 157, 1063, 1620]<br>mean abs RGB: 8.4746<br>RMSE RGB: 38.5848<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 2</td>
   <td><img src="images/nthu_article_p2_heatmap.png" width="760" alt="nthu_article page 2 difference heatmap"></td>
-  <td>changed: 266705 px (12.25%)<br>bbox: [165, 161, 1078, 1620]<br>mean abs RGB: 15.392<br>RMSE RGB: 50.3567<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 263637 px (12.11%)<br>bbox: [178, 156, 1063, 1620]<br>mean abs RGB: 15.1329<br>RMSE RGB: 49.897<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 3</td>
   <td><img src="images/nthu_article_p3_heatmap.png" width="760" alt="nthu_article page 3 difference heatmap"></td>
-  <td>changed: 206651 px (9.49%)<br>bbox: [165, 160, 1068, 1621]<br>mean abs RGB: 11.9766<br>RMSE RGB: 44.5629<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 214246 px (9.84%)<br>bbox: [228, 157, 1066, 1621]<br>mean abs RGB: 12.5356<br>RMSE RGB: 45.7703<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 4</td>
   <td><img src="images/nthu_article_p4_heatmap.png" width="760" alt="nthu_article page 4 difference heatmap"></td>
-  <td>changed: 172144 px (7.91%)<br>bbox: [249, 161, 1077, 1620]<br>mean abs RGB: 10.365<br>RMSE RGB: 42.2601<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 171107 px (7.86%)<br>bbox: [249, 162, 1063, 1620]<br>mean abs RGB: 10.2392<br>RMSE RGB: 41.8906<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 5</td>
   <td><img src="images/nthu_article_p5_heatmap.png" width="760" alt="nthu_article page 5 difference heatmap"></td>
-  <td>changed: 162517 px (7.47%)<br>bbox: [249, 162, 1077, 1621]<br>mean abs RGB: 9.5518<br>RMSE RGB: 40.0637<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 163811 px (7.53%)<br>bbox: [249, 162, 1063, 1621]<br>mean abs RGB: 9.6799<br>RMSE RGB: 40.4414<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 6</td>
   <td><img src="images/nthu_article_p6_heatmap.png" width="760" alt="nthu_article page 6 difference heatmap"></td>
-  <td>changed: 197844 px (9.09%)<br>bbox: [165, 161, 1060, 1621]<br>mean abs RGB: 11.671<br>RMSE RGB: 44.2887<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 193520 px (8.89%)<br>bbox: [178, 157, 1062, 1621]<br>mean abs RGB: 11.4254<br>RMSE RGB: 43.8262<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 7</td>
   <td><img src="images/nthu_article_p7_heatmap.png" width="760" alt="nthu_article page 7 difference heatmap"></td>
-  <td>changed: 118500 px (5.44%)<br>bbox: [165, 160, 1052, 1620]<br>mean abs RGB: 6.5391<br>RMSE RGB: 31.9103<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 109229 px (5.02%)<br>bbox: [228, 156, 1052, 1620]<br>mean abs RGB: 5.9922<br>RMSE RGB: 30.4548<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 8</td>
   <td><img src="images/nthu_article_p8_heatmap.png" width="760" alt="nthu_article page 8 difference heatmap"></td>
-  <td>changed: 87272 px (4.01%)<br>bbox: [123, 160, 1162, 1621]<br>mean abs RGB: 5.6523<br>RMSE RGB: 32.8417<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 88073 px (4.05%)<br>bbox: [123, 160, 1162, 1621]<br>mean abs RGB: 5.6584<br>RMSE RGB: 32.8601<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 9</td>
   <td><img src="images/nthu_article_p9_heatmap.png" width="760" alt="nthu_article page 9 difference heatmap"></td>
-  <td>changed: 33410 px (1.53%)<br>bbox: [222, 167, 1026, 1621]<br>mean abs RGB: 2.5306<br>RMSE RGB: 22.7669<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 55495 px (2.55%)<br>bbox: [177, 151, 1026, 1621]<br>mean abs RGB: 3.7492<br>RMSE RGB: 27.106<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 10</td>
   <td><img src="images/nthu_article_p10_heatmap.png" width="760" alt="nthu_article page 10 difference heatmap"></td>
-  <td>changed: 31025 px (1.43%)<br>bbox: [177, 151, 882, 1621]<br>mean abs RGB: 1.6671<br>RMSE RGB: 17.3359<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 104836 px (4.82%)<br>bbox: [178, 125, 1145, 1621]<br>mean abs RGB: 6.0906<br>RMSE RGB: 32.345<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 11</td>
   <td><img src="images/nthu_article_p11_heatmap.png" width="760" alt="nthu_article page 11 difference heatmap"></td>
-  <td>changed: 76811 px (3.53%)<br>bbox: [178, 176, 1056, 1620]<br>mean abs RGB: 4.2773<br>RMSE RGB: 25.8208<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 118479 px (5.44%)<br>bbox: [166, 176, 1064, 1620]<br>mean abs RGB: 7.2818<br>RMSE RGB: 35.6793<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 12</td>
   <td><img src="images/nthu_article_p12_heatmap.png" width="760" alt="nthu_article page 12 difference heatmap"></td>
-  <td>changed: 128200 px (5.89%)<br>bbox: [177, 125, 1145, 1620]<br>mean abs RGB: 8.0511<br>RMSE RGB: 38.22<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 108132 px (4.97%)<br>bbox: [140, 134, 1226, 1620]<br>mean abs RGB: 7.407<br>RMSE RGB: 38.4453<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 13</td>
   <td><img src="images/nthu_article_p13_heatmap.png" width="760" alt="nthu_article page 13 difference heatmap"></td>
-  <td>changed: 93600 px (4.30%)<br>bbox: [166, 158, 1064, 1621]<br>mean abs RGB: 6.1794<br>RMSE RGB: 34.099<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 69600 px (3.20%)<br>bbox: [166, 158, 1212, 1621]<br>mean abs RGB: 4.2728<br>RMSE RGB: 27.697<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 14</td>
   <td><img src="images/nthu_article_p14_heatmap.png" width="760" alt="nthu_article page 14 difference heatmap"></td>
-  <td>changed: 83357 px (3.83%)<br>bbox: [131, 134, 1226, 1620]<br>mean abs RGB: 5.5521<br>RMSE RGB: 32.7486<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 29989 px (1.38%)<br>bbox: [166, 165, 1212, 1620]<br>mean abs RGB: 1.8132<br>RMSE RGB: 18.1939<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 15</td>
   <td><img src="images/nthu_article_p15_heatmap.png" width="760" alt="nthu_article page 15 difference heatmap"></td>
-  <td>changed: 29336 px (1.35%)<br>bbox: [166, 175, 1212, 1621]<br>mean abs RGB: 1.7999<br>RMSE RGB: 18.2016<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 133912 px (6.15%)<br>bbox: [176, 156, 1226, 1621]<br>mean abs RGB: 7.9862<br>RMSE RGB: 37.1747<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 16</td>
   <td><img src="images/nthu_article_p16_heatmap.png" width="760" alt="nthu_article page 16 difference heatmap"></td>
-  <td>changed: 108928 px (5.00%)<br>bbox: [166, 157, 1212, 1621]<br>mean abs RGB: 6.3269<br>RMSE RGB: 32.5057<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 135983 px (6.25%)<br>bbox: [178, 157, 1202, 1621]<br>mean abs RGB: 8.1941<br>RMSE RGB: 37.569<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 17</td>
   <td><img src="images/nthu_article_p17_heatmap.png" width="760" alt="nthu_article page 17 difference heatmap"></td>
-  <td>changed: 162230 px (7.45%)<br>bbox: [176, 156, 1226, 1620]<br>mean abs RGB: 10.0393<br>RMSE RGB: 42.338<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 850852 px (39.09%)<br>bbox: [71, 163, 1169, 1620]<br>mean abs RGB: 22.678<br>RMSE RGB: 51.2606<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>nthu_article</b><br>Page 18</td>
   <td><img src="images/nthu_article_p18_heatmap.png" width="760" alt="nthu_article page 18 difference heatmap"></td>
-  <td>changed: 139945 px (6.43%)<br>bbox: [178, 161, 1202, 1621]<br>mean abs RGB: 8.2857<br>RMSE RGB: 38.59<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 119430 px (5.49%)<br>bbox: [178, 156, 1062, 1621]<br>mean abs RGB: 7.1259<br>RMSE RGB: 35.9033<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>OSCAR WARD</b><br>Page 1</td>
   <td><img src="images/OSCAR WARD_p1_heatmap.png" width="760" alt="OSCAR WARD page 1 difference heatmap"></td>
-  <td>changed: 472463 px (22.46%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 12.5439<br>RMSE RGB: 43.1508<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 528191 px (25.11%)<br>bbox: [0, 0, 1275, 1650]<br>mean abs RGB: 12.8586<br>RMSE RGB: 43.3094<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>SA8000 ch sample</b><br>Page 1</td>
@@ -875,62 +877,62 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>Support_Letter</b><br>Page 1</td>
   <td><img src="images/Support_Letter_p1_heatmap.png" width="760" alt="Support_Letter page 1 difference heatmap"></td>
-  <td>changed: 173643 px (8.25%)<br>bbox: [150, 156, 1126, 1375]<br>mean abs RGB: 13.583<br>RMSE RGB: 52.8507<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 173607 px (8.25%)<br>bbox: [150, 156, 1126, 1375]<br>mean abs RGB: 13.5824<br>RMSE RGB: 52.8476<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 1</td>
   <td><img src="images/Template for MSc Thesis_p1_heatmap.png" width="760" alt="Template for MSc Thesis page 1 difference heatmap"></td>
-  <td>changed: 321646 px (15.29%)<br>bbox: [107, 82, 1200, 1527]<br>mean abs RGB: 26.8356<br>RMSE RGB: 76.0382<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 322902 px (15.35%)<br>bbox: [107, 82, 1201, 1527]<br>mean abs RGB: 26.9445<br>RMSE RGB: 76.1709<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 2</td>
   <td><img src="images/Template for MSc Thesis_p2_heatmap.png" width="760" alt="Template for MSc Thesis page 2 difference heatmap"></td>
-  <td>changed: 278125 px (13.22%)<br>bbox: [105, 81, 1203, 1554]<br>mean abs RGB: 22.2935<br>RMSE RGB: 68.2445<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 278568 px (13.24%)<br>bbox: [105, 81, 1203, 1554]<br>mean abs RGB: 22.3302<br>RMSE RGB: 68.2924<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 3</td>
   <td><img src="images/Template for MSc Thesis_p3_heatmap.png" width="760" alt="Template for MSc Thesis page 3 difference heatmap"></td>
-  <td>changed: 143388 px (6.82%)<br>bbox: [131, 82, 1173, 1504]<br>mean abs RGB: 11.9357<br>RMSE RGB: 50.7224<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 143547 px (6.82%)<br>bbox: [131, 82, 1172, 1504]<br>mean abs RGB: 11.9375<br>RMSE RGB: 50.7055<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 4</td>
   <td><img src="images/Template for MSc Thesis_p4_heatmap.png" width="760" alt="Template for MSc Thesis page 4 difference heatmap"></td>
-  <td>changed: 162612 px (7.73%)<br>bbox: [128, 88, 1173, 1465]<br>mean abs RGB: 13.5255<br>RMSE RGB: 53.8455<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 162504 px (7.72%)<br>bbox: [128, 88, 1172, 1465]<br>mean abs RGB: 13.5175<br>RMSE RGB: 53.8227<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 5</td>
   <td><img src="images/Template for MSc Thesis_p5_heatmap.png" width="760" alt="Template for MSc Thesis page 5 difference heatmap"></td>
-  <td>changed: 230615 px (10.96%)<br>bbox: [105, 75, 1203, 1483]<br>mean abs RGB: 18.556<br>RMSE RGB: 62.3481<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 230366 px (10.95%)<br>bbox: [105, 75, 1203, 1483]<br>mean abs RGB: 18.5487<br>RMSE RGB: 62.3327<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 6</td>
   <td><img src="images/Template for MSc Thesis_p6_heatmap.png" width="760" alt="Template for MSc Thesis page 6 difference heatmap"></td>
-  <td>changed: 20647 px (0.98%)<br>bbox: [187, 83, 1192, 312]<br>mean abs RGB: 1.8078<br>RMSE RGB: 19.9997<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 20471 px (0.97%)<br>bbox: [187, 83, 1192, 312]<br>mean abs RGB: 1.8025<br>RMSE RGB: 19.9788<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 7</td>
   <td><img src="images/Template for MSc Thesis_p7_heatmap.png" width="760" alt="Template for MSc Thesis page 7 difference heatmap"></td>
-  <td>changed: 5091 px (0.24%)<br>bbox: [489, 83, 816, 114]<br>mean abs RGB: 0.4387<br>RMSE RGB: 9.909<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 4996 px (0.24%)<br>bbox: [489, 83, 816, 114]<br>mean abs RGB: 0.4396<br>RMSE RGB: 9.9305<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 8</td>
   <td><img src="images/Template for MSc Thesis_p8_heatmap.png" width="760" alt="Template for MSc Thesis page 8 difference heatmap"></td>
-  <td>changed: 61875 px (2.94%)<br>bbox: [181, 83, 1199, 1501]<br>mean abs RGB: 5.6682<br>RMSE RGB: 35.8222<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 62001 px (2.95%)<br>bbox: [181, 83, 1199, 1501]<br>mean abs RGB: 5.6782<br>RMSE RGB: 35.8583<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 9</td>
   <td><img src="images/Template for MSc Thesis_p9_heatmap.png" width="760" alt="Template for MSc Thesis page 9 difference heatmap"></td>
-  <td>changed: 13017 px (0.62%)<br>bbox: [456, 83, 848, 294]<br>mean abs RGB: 1.2619<br>RMSE RGB: 17.1363<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 12863 px (0.61%)<br>bbox: [456, 83, 848, 294]<br>mean abs RGB: 1.257<br>RMSE RGB: 17.1136<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 10</td>
   <td><img src="images/Template for MSc Thesis_p10_heatmap.png" width="760" alt="Template for MSc Thesis page 10 difference heatmap"></td>
-  <td>changed: 49593 px (2.36%)<br>bbox: [106, 83, 1069, 1435]<br>mean abs RGB: 4.4441<br>RMSE RGB: 31.5876<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 49593 px (2.36%)<br>bbox: [106, 83, 1070, 1435]<br>mean abs RGB: 4.4727<br>RMSE RGB: 31.6688<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Template for MSc Thesis</b><br>Page 11</td>
   <td><img src="images/Template for MSc Thesis_p11_heatmap.png" width="760" alt="Template for MSc Thesis page 11 difference heatmap"></td>
-  <td>changed: 6203 px (0.29%)<br>bbox: [509, 83, 795, 207]<br>mean abs RGB: 0.5586<br>RMSE RGB: 11.3031<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 6085 px (0.29%)<br>bbox: [509, 83, 795, 207]<br>mean abs RGB: 0.5589<br>RMSE RGB: 11.3227<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue61</b><br>Page 1</td>
@@ -985,17 +987,17 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>TestIssue91</b><br>Page 1</td>
   <td><img src="images/TestIssue91_p1_heatmap.png" width="760" alt="TestIssue91 page 1 difference heatmap"></td>
-  <td>changed: 184185 px (8.76%)<br>bbox: [149, 107, 1123, 1538]<br>mean abs RGB: 14.0974<br>RMSE RGB: 54.4379<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 183899 px (8.74%)<br>bbox: [149, 106, 1123, 1538]<br>mean abs RGB: 14.0757<br>RMSE RGB: 54.416<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue91</b><br>Page 2</td>
   <td><img src="images/TestIssue91_p2_heatmap.png" width="760" alt="TestIssue91 page 2 difference heatmap"></td>
-  <td>changed: 305709 px (14.53%)<br>bbox: [150, 99, 1127, 1538]<br>mean abs RGB: 23.7816<br>RMSE RGB: 69.9512<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 283237 px (13.46%)<br>bbox: [150, 99, 1126, 1538]<br>mean abs RGB: 22.0527<br>RMSE RGB: 67.3469<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue91</b><br>Page 3</td>
   <td><img src="images/TestIssue91_p3_heatmap.png" width="760" alt="TestIssue91 page 3 difference heatmap"></td>
-  <td>changed: 136509 px (6.49%)<br>bbox: [150, 94, 1127, 1539]<br>mean abs RGB: 10.3535<br>RMSE RGB: 45.8099<br>threshold: 12, gain: 5.0</td>
+  <td>changed: 150253 px (7.14%)<br>bbox: [150, 94, 1126, 1539]<br>mean abs RGB: 11.3111<br>RMSE RGB: 47.787<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>TestIssue93</b><br>Page 1</td>
@@ -1006,21 +1008,21 @@ Blue areas are below the configured difference threshold; red areas have stronge
 
 ## Visual Comparison
 
-Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is an auxiliary rendering and does not affect scores.
+Scores compare rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is an auxiliary rendering and does not affect scores.
 
 <table>
-<tr><th>Rust MiniPdf</th><th>Microsoft 365 Word Reference</th><th>LibreOffice</th></tr>
+<tr><th>rust MiniPdf</th><th>Microsoft 365 Word Reference</th><th>LibreOffice</th></tr>
 <tr>
   <td><b>13_IEEE_Style_Paper<br><small>format: docx | case: 13_IEEE_Style_Paper | scope: rust-issue-docx</small></b></td>
   <td colspan="2">13_IEEE_Style_Paper <span style="color:#3fb950">⬤</span> 96.1%</td>
 </tr>
 <tr>
-  <td><img src="images/13_IEEE_Style_Paper_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/13_IEEE_Style_Paper_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/13_IEEE_Style_Paper_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/13_IEEE_Style_Paper_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/13_IEEE_Style_Paper_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/13_IEEE_Style_Paper_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/13_IEEE_Style_Paper_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/13_IEEE_Style_Paper_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1029,12 +1031,12 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">14_Thesis_Chapter <span style="color:#3fb950">⬤</span> 98.0%</td>
 </tr>
 <tr>
-  <td><img src="images/14_Thesis_Chapter_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/14_Thesis_Chapter_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/14_Thesis_Chapter_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/14_Thesis_Chapter_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/14_Thesis_Chapter_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/14_Thesis_Chapter_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/14_Thesis_Chapter_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/14_Thesis_Chapter_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1043,7 +1045,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">20260317_sample_CN <span style="color:#f85149">⬤</span> 64.5%</td>
 </tr>
 <tr>
-  <td><img src="images/20260317_sample_CN_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/20260317_sample_CN_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/20260317_sample_CN_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/20260317_sample_CN_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1057,32 +1059,32 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">20260318_issue <span style="color:#f85149">⬤</span> 64.6%</td>
 </tr>
 <tr>
-  <td><img src="images/20260318_issue_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/20260318_issue_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/20260318_issue_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/20260318_issue_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/20260318_issue_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/20260318_issue_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/20260318_issue_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/20260318_issue_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/20260318_issue_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/20260318_issue_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/20260318_issue_p3_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/20260318_issue_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/20260318_issue_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/20260318_issue_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/20260318_issue_p4_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/20260318_issue_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/20260318_issue_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/20260318_issue_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/20260318_issue_p5_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/20260318_issue_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/20260318_issue_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/20260318_issue_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/20260318_issue_p6_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/20260318_issue_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1096,77 +1098,77 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">CCU_article <span style="color:#f85149">⬤</span> 61.8%</td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p3_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p4_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p5_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p6_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p7_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p7_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p8_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p8_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p9_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p9_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p9_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p10_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p10_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p10_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p11_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p11_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p11_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p12_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p12_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p12_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p13_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p13_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p13_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p14_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p14_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p14_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/CCU_article_p15_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/CCU_article_p15_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/CCU_article_p15_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/CCU_article_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1205,22 +1207,22 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">Class News <span style="color:#f85149">⬤</span> 36.2%</td>
 </tr>
 <tr>
-  <td><img src="images/Class News_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Class News_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Class News_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Class News_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Class News_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Class News_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Class News_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Class News_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Class News_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Class News_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Class News_p3_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Class News_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Class News_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Class News_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Class News_p4_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Class News_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1229,86 +1231,86 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">Confirmatory_Affidavit <span style="color:#3fb950">⬤</span> 96.9%</td>
 </tr>
 <tr>
-  <td><img src="images/Confirmatory_Affidavit_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Confirmatory_Affidavit_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Confirmatory_Affidavit_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Confirmatory_Affidavit_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Confirmatory_Affidavit_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Confirmatory_Affidavit_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Confirmatory_Affidavit_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Confirmatory_Affidavit_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>Cooperation Agreement Template<br><small>format: docx | case: Cooperation Agreement Template | scope: rust-issue-docx</small></b></td>
-  <td colspan="2">Cooperation Agreement Template <span style="color:#f85149">⬤</span> 61.0%</td>
+  <td colspan="2">Cooperation Agreement Template <span style="color:#f85149">⬤</span> 61.9%</td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Cooperation Agreement Template_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Cooperation Agreement Template_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Cooperation Agreement Template_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Cooperation Agreement Template_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Cooperation Agreement Template_p3_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Cooperation Agreement Template_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Cooperation Agreement Template_p4_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Cooperation Agreement Template_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Cooperation Agreement Template_p5_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Cooperation Agreement Template_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Cooperation Agreement Template_p6_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Cooperation Agreement Template_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p7_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Cooperation Agreement Template_p7_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Cooperation Agreement Template_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p8_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p9_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p9_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p10_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p10_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p11_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p11_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p12_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p12_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p13_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p13_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Cooperation Agreement Template_p14_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Cooperation Agreement Template_p14_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
@@ -1317,21 +1319,21 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">Fabrikam <span style="color:#f85149">⬤</span> 44.5%</td>
 </tr>
 <tr>
-  <td><img src="images/Fabrikam_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Fabrikam_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Fabrikam_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Fabrikam_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Fabrikam_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Fabrikam_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
   <td><b>Invoice<br><small>format: docx | case: Invoice | scope: rust-issue-docx</small></b></td>
-  <td colspan="2">Invoice <span style="color:#d29922">⬤</span> 84.4%</td>
+  <td colspan="2">Invoice <span style="color:#d29922">⬤</span> 84.5%</td>
 </tr>
 <tr>
-  <td><img src="images/Invoice_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Invoice_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Invoice_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Invoice_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1340,102 +1342,102 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">Issue79_FilledContract <span style="color:#f85149">⬤</span> 50.7%</td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Issue79_FilledContract_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Issue79_FilledContract_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p7_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p8_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p9_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p9_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p10_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p10_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p11_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p11_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p12_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p12_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p13_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p13_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p14_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p14_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p15_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p15_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p16_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p16_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p17_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p17_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p18_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p18_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p19_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p19_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_FilledContract_p20_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_FilledContract_p20_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
@@ -1444,102 +1446,102 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">Issue79_TemplateContract <span style="color:#f85149">⬤</span> 51.2%</td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Issue79_TemplateContract_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Issue79_TemplateContract_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p7_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p8_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p9_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p9_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p10_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p10_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p11_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p11_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p12_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p12_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p13_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p13_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p14_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p14_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p15_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p15_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p16_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p16_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p17_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p17_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p18_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p18_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p19_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p19_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/Issue79_TemplateContract_p20_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue79_TemplateContract_p20_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
@@ -1548,31 +1550,40 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">Issue83_Output <span style="color:#3fb950">⬤</span> 99.3%</td>
 </tr>
 <tr>
-  <td><img src="images/Issue83_Output_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Issue83_Output_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Issue83_Output_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Issue83_Output_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><b>Issue159_PageLayoutOptions<br><small>format: docx | case: Issue159_PageLayoutOptions | scope: rust-issue-docx</small></b></td>
+  <td colspan="2">Issue159_PageLayoutOptions <span style="color:#3fb950">⬤</span> 99.4%</td>
+</tr>
+<tr>
+  <td><img src="images/Issue159_PageLayoutOptions_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
+  <td><img src="images/Issue159_PageLayoutOptions_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
+  <td><img src="images/Issue159_PageLayoutOptions_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>issue202605<br><small>format: docx | case: issue202605 | scope: rust-issue-docx</small></b></td>
   <td colspan="2">issue202605 <span style="color:#f85149">⬤</span> 58.9%</td>
 </tr>
 <tr>
-  <td><img src="images/issue202605_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/issue202605_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/issue202605_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/issue202605_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/issue202605_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/issue202605_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/issue202605_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/issue202605_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/issue202605_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/issue202605_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
 <tr>
-  <td><img src="images/issue202605_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/issue202605_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
@@ -1581,12 +1592,12 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">issue26050501 <span style="color:#d29922">⬤</span> 89.6%</td>
 </tr>
 <tr>
-  <td><img src="images/issue26050501_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/issue26050501_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/issue26050501_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/issue26050501_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/issue26050501_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/issue26050501_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/issue26050501_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/issue26050501_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1595,7 +1606,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">issues66 <span style="color:#f85149">⬤</span> 57.2%</td>
 </tr>
 <tr>
-  <td><img src="images/issues66_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/issues66_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/issues66_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/issues66_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1611,128 +1622,128 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 </tr>
 <tr>
   <td><b>MODERN LIVING<br><small>format: docx | case: MODERN LIVING | scope: rust-issue-docx</small></b></td>
-  <td colspan="2">MODERN LIVING <span style="color:#f85149">⬤</span> 35.8%</td>
+  <td colspan="2">MODERN LIVING <span style="color:#f85149">⬤</span> 35.9%</td>
 </tr>
 <tr>
-  <td><img src="images/MODERN LIVING_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/MODERN LIVING_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/MODERN LIVING_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/MODERN LIVING_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/MODERN LIVING_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/MODERN LIVING_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/MODERN LIVING_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/MODERN LIVING_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>nthu_article<br><small>format: docx | case: nthu_article | scope: rust-issue-docx</small></b></td>
-  <td colspan="2">nthu_article <span style="color:#d29922">⬤</span> 75.5%</td>
+  <td colspan="2">nthu_article <span style="color:#d29922">⬤</span> 89.5%</td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p3_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p4_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p5_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p6_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p7_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p7_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p8_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p8_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p9_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p9_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p9_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p10_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p10_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p10_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p11_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p11_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p11_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p12_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p12_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p12_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p13_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p13_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p13_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p14_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p14_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p14_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p15_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p15_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p15_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p16_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p16_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p16_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p16_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p17_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p17_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p17_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p17_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/nthu_article_p18_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/nthu_article_p18_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/nthu_article_p18_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/nthu_article_p18_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><i>missing</i></td>
-  <td><img src="images/nthu_article_p19_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
+  <td><i>missing</i></td>
   <td><img src="images/nthu_article_p19_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><i>missing</i></td>
-  <td><img src="images/nthu_article_p20_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
+  <td><i>missing</i></td>
   <td><img src="images/nthu_article_p20_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>OSCAR WARD<br><small>format: docx | case: OSCAR WARD | scope: rust-issue-docx</small></b></td>
-  <td colspan="2">OSCAR WARD <span style="color:#d29922">⬤</span> 73.2%</td>
+  <td colspan="2">OSCAR WARD <span style="color:#d29922">⬤</span> 71.9%</td>
 </tr>
 <tr>
-  <td><img src="images/OSCAR WARD_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/OSCAR WARD_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/OSCAR WARD_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/OSCAR WARD_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1741,17 +1752,17 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">SA8000 ch sample <span style="color:#f85149">⬤</span> 67.1%</td>
 </tr>
 <tr>
-  <td><img src="images/SA8000 ch sample_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/SA8000 ch sample_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/SA8000 ch sample_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/SA8000 ch sample_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/SA8000 ch sample_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/SA8000 ch sample_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/SA8000 ch sample_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/SA8000 ch sample_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/SA8000 ch sample_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/SA8000 ch sample_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><i>missing</i></td>
   <td><i>missing</i></td>
 </tr>
@@ -1760,7 +1771,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">Support_Letter <span style="color:#3fb950">⬤</span> 97.0%</td>
 </tr>
 <tr>
-  <td><img src="images/Support_Letter_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Support_Letter_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Support_Letter_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Support_Letter_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1769,57 +1780,57 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">Template for MSc Thesis <span style="color:#d29922">⬤</span> 73.4%</td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p3_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p4_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p5_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p6_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p7_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p7_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p8_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p8_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p9_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p9_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p9_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p10_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p10_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p10_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/Template for MSc Thesis_p11_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/Template for MSc Thesis_p11_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/Template for MSc Thesis_p11_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/Template for MSc Thesis_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1858,42 +1869,42 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">TestIssue61 <span style="color:#d29922">⬤</span> 76.1%</td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue61_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue61_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue61_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue61_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue61_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue61_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue61_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue61_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue61_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue61_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue61_p3_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue61_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue61_p4_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue61_p4_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue61_p4_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue61_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue61_p5_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue61_p5_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue61_p5_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue61_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue61_p6_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue61_p6_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue61_p6_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue61_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue61_p7_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue61_p7_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue61_p7_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue61_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue61_p8_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue61_p8_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue61_p8_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue61_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1902,7 +1913,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">TestIssue78 <span style="color:#3fb950">⬤</span> 96.6%</td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue78_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue78_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue78_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue78_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1911,26 +1922,26 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">TestIssue90 <span style="color:#3fb950">⬤</span> 96.2%</td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue90_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue90_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue90_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue90_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>TestIssue91<br><small>format: docx | case: TestIssue91 | scope: rust-issue-docx</small></b></td>
-  <td colspan="2">TestIssue91 <span style="color:#3fb950">⬤</span> 96.8%</td>
+  <td colspan="2">TestIssue91 <span style="color:#3fb950">⬤</span> 95.5%</td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue91_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue91_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue91_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue91_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue91_p2_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue91_p2_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue91_p2_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue91_p2_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue91_p3_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue91_p3_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue91_p3_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue91_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1939,7 +1950,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
   <td colspan="2">TestIssue93 <span style="color:#3fb950">⬤</span> 97.4%</td>
 </tr>
 <tr>
-  <td><img src="images/TestIssue93_p1_minipdf.png" width="260" alt="Rust MiniPdf"></td>
+  <td><img src="images/TestIssue93_p1_minipdf.png" width="260" alt="rust MiniPdf"></td>
   <td><img src="images/TestIssue93_p1_reference.png" width="260" alt="Microsoft 365 Word Reference"></td>
   <td><img src="images/TestIssue93_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
@@ -1952,10 +1963,10 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 - **Case Metadata:** format: docx | case: 13_IEEE_Style_Paper | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/13_IEEE_Style_Paper.docx
 - **Text Similarity:** 0.9453
-- **Visual Average:** 0.9567
+- **Visual Average:** 0.9568
 - **Overall Score:** 0.9608
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=210735 bytes, Reference=174711 bytes
+- **File Size:** MiniPdf=210735 bytes, Reference=175037 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2070,10 +2081,10 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 - **Case Metadata:** format: docx | case: 14_Thesis_Chapter | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/14_Thesis_Chapter.docx
 - **Text Similarity:** 0.9853
-- **Visual Average:** 0.9644
-- **Overall Score:** 0.9799
+- **Visual Average:** 0.9643
+- **Overall Score:** 0.9798
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=201510 bytes, Reference=159781 bytes
+- **File Size:** MiniPdf=201510 bytes, Reference=159980 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2199,7 +2210,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 - **Visual Average:** 0.4657
 - **Overall Score:** 0.6451
 - **Pages:** MiniPdf=1, Reference=2
-- **File Size:** MiniPdf=139854 bytes, Reference=201209 bytes
+- **File Size:** MiniPdf=139854 bytes, Reference=201411 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2257,7 +2268,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 - **Visual Average:** 0.4577
 - **Overall Score:** 0.6461
 - **Pages:** MiniPdf=6, Reference=7
-- **File Size:** MiniPdf=294389 bytes, Reference=344088 bytes
+- **File Size:** MiniPdf=294389 bytes, Reference=344825 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2394,18 +2405,18 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: CCU_article | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/CCU_article.docx
-- **Text Similarity:** 0.7059
-- **Visual Average:** 0.5882
+- **Text Similarity:** 0.7056
+- **Visual Average:** 0.5883
 - **Overall Score:** 0.6176
 - **Pages:** MiniPdf=15, Reference=21
-- **File Size:** MiniPdf=980983 bytes, Reference=624071 bytes
+- **File Size:** MiniPdf=980983 bytes, Reference=625190 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/CCU_article.pdf
 +++ reference/CCU_article.pdf
-@@ -1,175 +1,268 @@
+@@ -1,175 +1,272 @@
  中正大學
 
  宇宙工程研究所碩士論文
@@ -2523,7 +2534,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 +ing global accuracy. Experiments on public and proprietary datasets demonstrate consis-
 
 +tent gains in Macro-F1 and minority-class Top-1 accu
-... (14358 more characters)
+... (14365 more characters)
 
 ```
 </details>
@@ -2533,10 +2544,10 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 - **Case Metadata:** format: docx | case: Class News | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/Class News.docx
 - **Text Similarity:** 0.1361
-- **Visual Average:** 0.2689
+- **Visual Average:** 0.269
 - **Overall Score:** 0.362
 - **Pages:** MiniPdf=4, Reference=4
-- **File Size:** MiniPdf=282536 bytes, Reference=147827 bytes
+- **File Size:** MiniPdf=282536 bytes, Reference=124498 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2680,7 +2691,7 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 - **Visual Average:** 0.9667
 - **Overall Score:** 0.9693
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=226477 bytes, Reference=143292 bytes
+- **File Size:** MiniPdf=226477 bytes, Reference=143270 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2785,11 +2796,11 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: Cooperation Agreement Template | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/Cooperation Agreement Template.docx
-- **Text Similarity:** 0.851
-- **Visual Average:** 0.4244
-- **Overall Score:** 0.6102
+- **Text Similarity:** 0.8728
+- **Visual Average:** 0.424
+- **Overall Score:** 0.6187
 - **Pages:** MiniPdf=14, Reference=7
-- **File Size:** MiniPdf=318305 bytes, Reference=139728 bytes
+- **File Size:** MiniPdf=318305 bytes, Reference=259866 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -2819,15 +2830,15 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 +（模板）
 
-+甲    方：
++甲 方：
 
-+乙    方：
++乙 方：
 
-+丙    方：
++丙 方：
 
 +签约地点：
 
-+签订日期：       年    月     日
++签订日期： 年 月 日
 
 +— 1 —
 
@@ -2849,17 +2860,17 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 -目》 （ 以下简称本项目 ） 申报和执行中涉及的内容一致同意签订本协议如下 ：
 
-+甲    方：
++甲 方：
 
-+电    话：                  地  址：
++电 话： 地 址：
 
-+乙    方：
++乙 方：
 
-+电    话：                  地  址：
++电 话： 地 址：
 
-+丙    方：
++丙 方：
 
-+电    话：                  地  址：
++电 话： 地 址：
 
 +经各主体单位友好协商，各主体单位本着互相合作的精神，自愿组成联合体，就《 XXXXX
 
@@ -2867,17 +2878,17 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
  一、合作模式
 
-+由 （甲方） 作为承担单位， （乙方、丙方） 作为合作单位，组成
++由 （甲方） 作为承担单位， （乙方、丙方） 作为合作单位，组成联合体进行联
 
-+联合体进行联合申报本项目。承担单位负责本项目的一切组织、协调、申报工作，合作单位授权
++合申报本项目。承担单位负责本项目的一切组织、协调、申报工作，合作单位授权承担单位牵头
 
-+承担单位牵头申报本项目并协助提供申报所需的相关材料。承担单位在申报和执行本项目过程
++申报本项目并协助提供申报所需的相关材料。承担单位在申报和执行本项目过程中，与本项目主
 
-+中，与本项目主办单位签署的一切文件和处理本项目有关的一切事务，联合体各方均予以承认并
++办单位签署的一切文件和处理本项目有关的一切事务，联合体各方均予以承认并承担法律责任。
 
-+承担法律责任。承担单位成功申报本项目后，由联合体各方按照本协议各主体单位职责执行，项
++承担单位成功申报本项目后，由联合体各方按照本协议各主体单位职责执行，项目经费由承担单
 
-+目经费由承担单位向本项目主办单位申请，再由联合体各方按照本协议约定进行分配。
++位向本项目主办单位申请，再由联合体各方按照本协议约定进行分配。
 
 +二、任务分工
 
@@ -2886,6 +2897,8 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 +（一）甲方负责：
 
 +1.
+
++2.
 
 +— 2 —
 
@@ -2910,8 +2923,6 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 -联合体各方同意本项目按照如下分工 ：
 
 -（ 一 ） 甲方负责 ：
-
-+2.
 
 +3.
 
@@ -2985,11 +2996,11 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 -（ 二 ） 乙方的权利和义务
 
++（二）乙方的权利和义务
+
 +— 3 —
 
 +---PAGE---
-
-+（二）乙方的权利和义务
 
  1.
 
@@ -3023,19 +3034,21 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 +（二）乙方指定以下账号为唯一收款账号：
 
-+户    名：
++户 名：
 
-+账    号：
++账 号：
 
 +开户银行：
 
 +（三）丙方指定以下账号为唯一收款账号：
 
-+户    名：
++户 名：
 
-+账    号：
++账 号：
 
 +开户银行：
+
++甲方向上述账号汇出款项即视为甲方已履行付款义务，在协议履行过程中，因乙方、丙方账
 
 +— 4 —
 
@@ -3066,8 +3079,6 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 -账户的原因 （ 包括但不限于账号被注销、被冻结等 ） 导致乙方、丙方无法收取款项的 ， 由
 
 -乙方、丙方承担相应后果。
-
-+甲方向上述账号汇出款项即视为甲方已履行付款义务，在协议履行过程中，因乙方、丙方账
 
 +户的原因（包括但不限于账号被注销、被冻结等）导致乙方、丙方无法收取款项的，由乙方、丙
 
@@ -3105,10 +3116,30 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 +2 ）合同一式 陆 份，其中甲方 贰 份，乙方 贰 份，丙方 贰 份。
 
-+甲方（盖章）：                          乙方（盖章）：
++甲方（盖章）： 乙方（盖章）：
 
-+法定代表 / 授权代表（签字）：             法定代
-... (808 more characters)
++法定代表 / 授权代表（签字）： 法定代表 / 授权代表（签字）：
+
++日期： 日期：
+
++— 5 —
+
+ ---PAGE---
+
+-六、保密约定
+
++丙方（盖章）：
+
++法定代表 / 授权代表（签字）：
+
++日期：
+
++— 6 —
+
+ ---PAGE---
+
+-联合体各方均应对因协商、签订及执行本协议而了解的其他方的商业秘
+... (632 more characters)
 
 ```
 </details>
@@ -3226,33 +3257,33 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 - **Case Metadata:** format: docx | case: Invoice | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/Invoice.docx
-- **Text Similarity:** 0.6716
-- **Visual Average:** 0.9385
-- **Overall Score:** 0.844
+- **Text Similarity:** 0.6734
+- **Visual Average:** 0.9395
+- **Overall Score:** 0.8452
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=140667 bytes, Reference=65867 bytes
+- **File Size:** MiniPdf=140667 bytes, Reference=54735 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/Invoice.pdf
 +++ reference/Invoice.pdf
-@@ -1,23 +1,21 @@
+@@ -1,23 +1,22 @@
 -Invoice
 
 -To: Anjali Chaturvedi
 
 -DATE:
 
--Extra Frame Photography
-
--Date
-
 +INVOICE
 
 +DATE: TO: Anjali Chaturvedi
 
-+Date Extra Frame Photography
++Date
+
+ Extra Frame Photography
+
+-Date
 
  89 Pacific Ave
 
@@ -3534,6 +3565,18 @@ Scores compare Rust MiniPdf against Microsoft 365 Word Reference. LibreOffice is
 
 Text content: ✅ Identical
 
+### Issue159_PageLayoutOptions
+
+- **Case Metadata:** format: docx | case: Issue159_PageLayoutOptions | scope: rust-issue-docx
+- **Source:** tests/Issue_Files/docx/Issue159_PageLayoutOptions.docx
+- **Text Similarity:** 1.0
+- **Visual Average:** 0.9856
+- **Overall Score:** 0.9942
+- **Pages:** MiniPdf=1, Reference=1
+- **File Size:** MiniPdf=59601 bytes, Reference=19277 bytes
+
+Text content: ✅ Identical
+
 ### issue202605
 
 - **Case Metadata:** format: docx | case: issue202605 | scope: rust-issue-docx
@@ -3542,7 +3585,7 @@ Text content: ✅ Identical
 - **Visual Average:** 0.3463
 - **Overall Score:** 0.5892
 - **Pages:** MiniPdf=4, Reference=2
-- **File Size:** MiniPdf=218970 bytes, Reference=154034 bytes
+- **File Size:** MiniPdf=218970 bytes, Reference=154739 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -4003,7 +4046,7 @@ Text content: ✅ Identical
 - **Visual Average:** 0.3124
 - **Overall Score:** 0.5718
 - **Pages:** MiniPdf=1, Reference=3
-- **File Size:** MiniPdf=179457 bytes, Reference=229716 bytes
+- **File Size:** MiniPdf=179457 bytes, Reference=229713 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -4132,17 +4175,17 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: MODERN LIVING | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/MODERN LIVING.docx
 - **Text Similarity:** 0.2521
-- **Visual Average:** 0.1432
-- **Overall Score:** 0.3581
+- **Visual Average:** 0.1448
+- **Overall Score:** 0.3588
 - **Pages:** MiniPdf=2, Reference=2
-- **File Size:** MiniPdf=262621 bytes, Reference=220316 bytes
+- **File Size:** MiniPdf=262621 bytes, Reference=212025 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/MODERN LIVING.pdf
 +++ reference/MODERN LIVING.pdf
-@@ -1,26 +1,65 @@
+@@ -1,26 +1,67 @@
  OCTOBER / 20XX / ISSUE #10
 
 -MODERN LIVING
@@ -4159,7 +4202,7 @@ Text content: ✅ Identical
 
  By Peyton Davis
 
--TAKE A LOOK INSIDE
+ TAKE A LOOK INSIDE
 
 -Add description text here to get
 
@@ -4183,41 +4226,41 @@ Text content: ✅ Identical
 
 -ed in your
 
-+Newsletters are periodicals used to advertise or update your subscribers with TAKE A LOOK INSIDE
++Newsletters are periodicals used to advertise or update your subscribers
 
-+information about your product or blog. They can be printed or emailed and
-
-+Add description text here to get your
-
-+are an excellent way to maintain regular contact with your subscribers and subscribers interested in your topic
-
-+drive traffic to your site. Type the content of your newsletter here.
-
-+PROPERTY TRENDS
-
-+Newsletters are periodicals used to advertise or update your subscribers with
++with information about your product or blog. They can be printed or
 
 +Add description text here to get your
 
-+information about your product or blog. They are an excellent way to
++emailed and are an excellent way to maintain regular contact with your subscribers interested in your topic
 
-+subscribers interested in your topic
-
-+maintain regular contact with your subscribers. Type the content of your
++subscribers and drive traffic to your site. Type the content of your
 
 +newsletter here.
 
-+ARE YOU READY TO
-
-+Newsletters are periodicals used to advertise or update your subscribers with LIST?
-
-+information about your product or blog. Type the content of your newsletter
++PROPERTY TRENDS
 
 +Add description text here to get your
 
-+here.
++Newsletters are periodicals used to advertise or update your subscribers
 
 +subscribers interested in your topic
+
++with information about your product or blog. They are an excellent way to
+
++maintain regular contact with your subscribers. Type the content of your
+
++ARE YOU READY TO LIST?
+
++newsletter here.
+
++Add description text here to get your
+
++Newsletters are periodicals used to advertise or update your subscribers subscribers interested in your topic
+
++with information about your product or blog. Type the content of your
+
++newsletter here.
 
  ---PAGE---
 
@@ -4263,7 +4306,9 @@ Text content: ✅ Identical
 
 +subscribers with information about your product or blog. Type
 
-+the content of your newsletter here. with your subscribers and drive traffic to
++with your subscribers and drive traffic to
+
++the content of your newsletter here.
 
 +your site. Type the content of your
 
@@ -4281,8 +4326,8 @@ Text content: ✅ Identical
 
 +advertise or update your subscribers with
 
-+information abo
-... (613 more characters)
++information about your product o
+... (596 more characters)
 
 ```
 </details>
@@ -4291,18 +4336,18 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: nthu_article | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/nthu_article.docx
-- **Text Similarity:** 0.8075
-- **Visual Average:** 0.8307
-- **Overall Score:** 0.7553
-- **Pages:** MiniPdf=18, Reference=20
-- **File Size:** MiniPdf=1269513 bytes, Reference=798510 bytes
+- **Text Similarity:** 0.856
+- **Visual Average:** 0.8808
+- **Overall Score:** 0.8947
+- **Pages:** MiniPdf=18, Reference=18
+- **File Size:** MiniPdf=1269513 bytes, Reference=910075 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/nthu_article.pdf
 +++ reference/nthu_article.pdf
-@@ -1,362 +1,485 @@
+@@ -1,362 +1,486 @@
  國立清華大學中國文學系碩博士學位論文格式規範
 
  經 111 年 11 月 09 日 111 學年度第一學期第 3 次系務會議通過
@@ -4311,9 +4356,9 @@ Text content: ✅ Identical
 
 -紙本論文次序
 
-+一、 論文編印項目次序與頁碼編排
++一、論文編印項目次序與頁碼編排
 
-+（一） 紙本論文次序
++（一）紙本論文次序
 
  封面 Front Cover
 
@@ -4383,7 +4428,7 @@ Text content: ✅ Identical
 
 +封底 Back Cover、書背 Spine
 
-+（二） 電子檔論文次序
++（二）電子檔論文次序
 
  去掉前項 藍字 項目。
 
@@ -4471,36 +4516,34 @@ Text content: ✅ Identical
 
 -， 書名請用斜體 ， 篇名請用 “ ” 。日文翻譯成中文 ， 行文時亦請一
 
-+（三） 頁碼編排
+-併改用中文新式標號。
 
-+1 ，頁碼從「誌謝辭」開始編排，用小寫羅馬數字標示頁碼（ i, ii, iii… ）。
+-行距 建議 設定為 1.2 行 （ word 中選「多行」 ， 設定 1.2 ）， 各段「左
 
-+2 ，論文本文開始至最末，用阿拉伯數字標示頁碼。
+-右對齊」。
 
-+3 ，頁碼標於頁面底端，置中。
+-引文
 
-+（四） 版面配置
+-所有引文均須核對無誤。引文左縮排 3 字元 ， 標楷體 12 級。若需特別
 
-+包括封面，全書版面配置邊界設定為下上 2.54 公分，左右 2.9 公分
+-引用之外文 ， 也依上述格式處理 ， 字體建議用 Times New Roman 。外
 
-+1
+-文引文 ， 亦可翻譯成流暢達意之中文 ， 於註腳中附上所引篇章之外文
 
-+---PAGE---
+-原名 ， 並得視需要將所徵引之原文置於註腳中。
 
-+二、封面（與書名頁）、書背格式
+-圖 （ 或圖版 ） 、表
 
-+封面顏色：碩士論文 土黃色 ，上光、膠裝；博士論文 淺藍色 ，上光、膠裝
+-圖 （ 圖版 ） 、表 ， 需有序號 （ 圖 1 、表 1 ） 、名稱 （ 圖 1 桃花源圖 ）
 
-+（ https://registra.site.nthu.edu.tw/var/file/211/1211/img/75/203558730.pdf ）。論
+-圖 （ 圖版 ） 號及圖名列於圖下方 ； 表號、表名列於表上方。資料來源列於下
 
-+文封面建議採用亮面雲彩紙。如下範例 A 、範例 B （可直接下載套用。此為
+-方 （ 表中資料來源亦可用腳註 ） 。
 
-+教務處公布之格式）。
+-註釋
 
-+三、論文指導教授推薦書、學位考試委員審定書、授權書
-
-+推薦書、審定書自中文系網頁下
-... (21541 more characters)
+-註釋號碼請用阿拉伯數字隨文標示 ， 如 1 、 2 、 3 、 …… ， 置於標點符號之後。
+... (21204 more characters)
 
 ```
 </details>
@@ -4509,11 +4552,11 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: OSCAR WARD | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/OSCAR WARD.docx
-- **Text Similarity:** 0.9531
-- **Visual Average:** 0.3782
-- **Overall Score:** 0.7325
+- **Text Similarity:** 0.965
+- **Visual Average:** 0.3336
+- **Overall Score:** 0.7194
 - **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=155903 bytes, Reference=49023 bytes
+- **File Size:** MiniPdf=155903 bytes, Reference=62719 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -4552,19 +4595,19 @@ Text content: ✅ Identical
 -Warm regards,
 +I sincerely appreciate the opportunity to interview and learn more about the role. Our
 
-+conversation reinforced my enthusiasm for contributing to the team and bringing my expertise to
++conversation reinforced my enthusiasm for contributing to the team and bringing my
 
-+the company’s ongoing initiatives. I found our discussion about future goals particularly
++expertise to the company’s ongoing initiatives. I found our discussion about future goals
 
-+inspiring, and it further solidified my excitement about this opportunity.
++particularly inspiring, and it further solidified my excitement about this opportunity.
 
-+The role’s focus on impactful work aligns with my professional background, and I look forward
++The role’s focus on impactful work aligns with my professional background, and I look
 
-+to the possibility of applying my skills to support the company’s growth. I am eager to bring my
++forward to the possibility of applying my skills to support the company’s growth. I am eager to
 
-+experience in driving efficiency and innovation to the team while continuing to develop and
++bring my experience in driving efficiency and innovation to the team while continuing to
 
-+refine my abilities in a fast-paced environment.
++develop and refine my abilities in a fast-paced environment.
 
 +Thank you again for your time and thoughtful discussion. I appreciate the chance to be
 
@@ -4861,10 +4904,10 @@ Text content: ✅ Identical
 - **Case Metadata:** format: docx | case: Template for MSc Thesis | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/Template for MSc Thesis.docx
 - **Text Similarity:** 0.9842
-- **Visual Average:** 0.6
-- **Overall Score:** 0.7337
+- **Visual Average:** 0.5999
+- **Overall Score:** 0.7336
 - **Pages:** MiniPdf=11, Reference=17
-- **File Size:** MiniPdf=901543 bytes, Reference=402081 bytes
+- **File Size:** MiniPdf=901543 bytes, Reference=403479 bytes
 
 <details><summary>Text Diff</summary>
 
@@ -5195,18 +5238,18 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: docx | case: TestIssue91 | scope: rust-issue-docx
 - **Source:** tests/Issue_Files/docx/TestIssue91.docx
-- **Text Similarity:** 0.9754
-- **Visual Average:** 0.9439
-- **Overall Score:** 0.9677
+- **Text Similarity:** 0.9398
+- **Visual Average:** 0.9471
+- **Overall Score:** 0.9548
 - **Pages:** MiniPdf=3, Reference=3
-- **File Size:** MiniPdf=513133 bytes, Reference=132452 bytes
+- **File Size:** MiniPdf=513133 bytes, Reference=175213 bytes
 
 <details><summary>Text Diff</summary>
 
 ```diff
 --- minipdf/TestIssue91.pdf
 +++ reference/TestIssue91.pdf
-@@ -1,11 +1,12 @@
+@@ -1,77 +1,85 @@
  Bên B chấp nhận chịu, chỉ được gia hạn khi có sự chấp nhận
 
  PHỤ LỤC - KHOẢN VAY VỐN ĐẦU TƯ
@@ -5235,9 +5278,16 @@ Text content: ✅ Identical
 
  Địa chỉ liên hệ: [DELIVER_ADDRESS]
 
- Email: [DELIVER_EMAIL] Điện thoại: [DELIVER_PHONE]
+-Email: [DELIVER_EMAIL] Điện thoại: [DELIVER_PHONE]
 
-@@ -15,7 +16,8 @@
++Email:  [DELIVER_EMAIL] Điện thoại: [DELIVER_PHONE]
+
+ Người đại diện: [DELIVER_REPRE_NAME]
+
+ Chức vụ: [DELIVER_REPRE_POSITION]
+
+ Giấy ủy quyền: [DELIVER_AUTHOR_NO]
+
  Số Tài khoản Ngân hàng: [DELIVER_ACC_BANK_CODE]
 
  mở tại Ngân hàng: [DELIVER_BANK_NAME]
@@ -5256,7 +5306,14 @@ Text content: ✅ Identical
 
  Địa chỉ liên hệ: [ADDRESS]
 
-@@ -25,53 +27,58 @@
+-Email: [EMAIL] Điện thoại: [PHONE]
+
++Email:  [EMAIL] Điện thoại: [PHONE]
+
+ Người đại diện: [REPRE_NAME] Chức vụ: [REPRE_POSITION]
+
+ Giấy ủy quyền: [AUTHOR_NO]
+
  Số Tài khoản Ngân hàng: [ACC_BANK_CODE]
 
  mở tại Ngân hàng: [BANK_NAME]
@@ -5295,7 +5352,7 @@ Text content: ✅ Identical
 
 +chữ: [CASH_LOAN_TEXT] đồng).
 
-+Mục đích vay: Vay vốn đầu tư chứng khoán
++Mục đích vay: Vay vốn đầu tư chứng khoán
 
  ĐIỀU 2: THỜI HẠN VÀ PHƯƠNG THỨC VAY
 
@@ -5313,16 +5370,8 @@ Text content: ✅ Identical
 
 -[DELIVER_REPRE_ACC_BANK_CODE], mở tại [REPRE_BANK_NAME].
 
-+Phương thức vay: Bên A giao toàn bộ số tiền cho Bên B vay nêu trên bằng hình thức: Bên
-
-+A hoặc Bên thứ ba được Bên A ủy quyền chuyển khoản vào tài khoản chứng khoán của Bên B số
-
-+tài khoản chứng khoán [DCTERM_CODE], mở tại CTCK.
-
-+Phương thức và thời hạn trả nợ: Đến ngày đáo hạn, Bên B hoặc Bên thứ ba được Bên B ủy
-
-+quyền sẽ chuyển khoản toàn
-... (5341 more characters)
++Phương thức vay: Bên A giao toàn bộ số tiền cho Bên B vay nêu trên
+... (5573 more characters)
 
 ```
 </details>
@@ -5435,21 +5484,20 @@ Text content: ✅ Identical
 
 ### ⚠ Low-Score Test Cases (below 0.8)
 
-1. **MODERN LIVING** (score: 0.3581)
+1. **MODERN LIVING** (score: 0.3588)
 1. **Class News** (score: 0.362)
 1. **Fabrikam** (score: 0.4448)
 1. **Issue79_FilledContract** (score: 0.5071)
 1. **Issue79_TemplateContract** (score: 0.5121)
 1. **issues66** (score: 0.5718)
 1. **issue202605** (score: 0.5892)
-1. **Cooperation Agreement Template** (score: 0.6102)
 1. **CCU_article** (score: 0.6176)
+1. **Cooperation Agreement Template** (score: 0.6187)
 1. **20260317_sample_CN** (score: 0.6451)
 1. **20260318_issue** (score: 0.6461)
 1. **SA8000 ch sample** (score: 0.6712)
-1. **OSCAR WARD** (score: 0.7325)
-1. **Template for MSc Thesis** (score: 0.7337)
-1. **nthu_article** (score: 0.7553)
+1. **OSCAR WARD** (score: 0.7194)
+1. **Template for MSc Thesis** (score: 0.7336)
 1. **TestIssue61** (score: 0.7608)
 
 Review the text diffs and visual comparisons above to identify specific rendering issues.

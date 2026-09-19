@@ -621,30 +621,30 @@
     "format": "xlsx",
     "source_path": "tests/MiniPdf.Scripts/output/classic09_long_text.xlsx",
     "suite": "classic",
-    "minipdf_size": 196282,
+    "minipdf_size": 198621,
     "reference_size": 44367,
     "pdf_valid": true,
-    "minipdf_pages": 1,
+    "minipdf_pages": 12,
     "reference_pages": 12,
-    "text_similarity": 0.22,
-    "flat_text_similarity": 0.22,
-    "word_text_similarity": 0.2162,
-    "text_diff": "--- minipdf/classic09_long_text.pdf\n+++ reference/classic09_long_text.pdf\n@@ -1,5 +1,38 @@\n Long Text Column\n\n-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n Short\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAA BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+---PAGE---\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+    "text_similarity": 0.775,
+    "flat_text_similarity": 0.1567,
+    "word_text_similarity": 0.1356,
+    "text_diff": "--- minipdf/classic09_long_text.pdf\n+++ reference/classic09_long_text.pdf\n@@ -1,37 +1,38 @@\n Long Text Column\n\n-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n Short\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+AAAAAAAAAAAAAAAAA BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n\n+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n\n ---PAGE---\n\n-YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\n+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
     "visual_scores": [
-      0.9852,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0
+      0.9875,
+      0.9881,
+      0.9882,
+      0.9864,
+      0.9873,
+      0.9901,
+      0.9537,
+      0.9978,
+      0.9978,
+      0.9978,
+      0.9978,
+      0.9978
     ],
-    "visual_avg": 0.0821,
+    "visual_avg": 0.9892,
     "diff_images": [
       {
         "page": 1,
@@ -663,10 +663,10 @@
             1241,
             302
           ],
-          "changed_pixels": 38203,
-          "changed_fraction": 0.017551,
-          "mean_abs_rgb": 2.7843,
-          "rmse_rgb": 23.7631,
+          "changed_pixels": 36446,
+          "changed_fraction": 0.016744,
+          "mean_abs_rgb": 2.6503,
+          "rmse_rgb": 23.1691,
           "threshold": 12,
           "gain": 5.0
         },
@@ -674,83 +674,292 @@
       },
       {
         "page": 2,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p2_minipdf.png",
         "reference_img": "classic09_long_text_p2_reference.png",
         "auxiliary_img": "classic09_long_text_p2_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p2_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            189,
+            1241,
+            302
+          ],
+          "changed_pixels": 34074,
+          "changed_fraction": 0.015654,
+          "mean_abs_rgb": 2.459,
+          "rmse_rgb": 22.2841,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p2_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 3,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p3_minipdf.png",
         "reference_img": "classic09_long_text_p3_reference.png",
         "auxiliary_img": "classic09_long_text_p3_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p3_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            189,
+            1241,
+            302
+          ],
+          "changed_pixels": 33992,
+          "changed_fraction": 0.015616,
+          "mean_abs_rgb": 2.4541,
+          "rmse_rgb": 22.2491,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p3_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 4,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p4_minipdf.png",
         "reference_img": "classic09_long_text_p4_reference.png",
         "auxiliary_img": "classic09_long_text_p4_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p4_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            189,
+            1229,
+            302
+          ],
+          "changed_pixels": 34962,
+          "changed_fraction": 0.016062,
+          "mean_abs_rgb": 2.5346,
+          "rmse_rgb": 22.6212,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p4_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 5,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p5_minipdf.png",
         "reference_img": "classic09_long_text_p5_reference.png",
         "auxiliary_img": "classic09_long_text_p5_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p5_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            189,
+            1190,
+            302
+          ],
+          "changed_pixels": 36146,
+          "changed_fraction": 0.016606,
+          "mean_abs_rgb": 2.6322,
+          "rmse_rgb": 23.0636,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p5_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 6,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p6_minipdf.png",
         "reference_img": "classic09_long_text_p6_reference.png",
         "auxiliary_img": "classic09_long_text_p6_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p6_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            189,
+            1079,
+            302
+          ],
+          "changed_pixels": 33450,
+          "changed_fraction": 0.015367,
+          "mean_abs_rgb": 2.4228,
+          "rmse_rgb": 22.0875,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p6_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 7,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p7_minipdf.png",
         "reference_img": "classic09_long_text_p7_reference.png",
         "auxiliary_img": "classic09_long_text_p7_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p7_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            219,
+            1079,
+            302
+          ],
+          "changed_pixels": 18149,
+          "changed_fraction": 0.008338,
+          "mean_abs_rgb": 1.3687,
+          "rmse_rgb": 16.8274,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p7_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 8,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p8_minipdf.png",
         "reference_img": "classic09_long_text_p8_reference.png",
         "auxiliary_img": "classic09_long_text_p8_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p8_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            279,
+            1079,
+            302
+          ],
+          "changed_pixels": 10780,
+          "changed_fraction": 0.004952,
+          "mean_abs_rgb": 0.791,
+          "rmse_rgb": 12.7024,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p8_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 9,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p9_minipdf.png",
         "reference_img": "classic09_long_text_p9_reference.png",
         "auxiliary_img": "classic09_long_text_p9_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p9_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            279,
+            1079,
+            302
+          ],
+          "changed_pixels": 10796,
+          "changed_fraction": 0.00496,
+          "mean_abs_rgb": 0.7986,
+          "rmse_rgb": 12.7844,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p9_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 10,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p10_minipdf.png",
         "reference_img": "classic09_long_text_p10_reference.png",
         "auxiliary_img": "classic09_long_text_p10_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p10_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            279,
+            1079,
+            302
+          ],
+          "changed_pixels": 10692,
+          "changed_fraction": 0.004912,
+          "mean_abs_rgb": 0.786,
+          "rmse_rgb": 12.6619,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p10_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 11,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p11_minipdf.png",
         "reference_img": "classic09_long_text_p11_reference.png",
         "auxiliary_img": "classic09_long_text_p11_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p11_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            279,
+            1079,
+            302
+          ],
+          "changed_pixels": 10690,
+          "changed_fraction": 0.004911,
+          "mean_abs_rgb": 0.7787,
+          "rmse_rgb": 12.5842,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p11_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       },
       {
         "page": 12,
-        "minipdf_img": null,
+        "minipdf_img": "classic09_long_text_p12_minipdf.png",
         "reference_img": "classic09_long_text_p12_reference.png",
         "auxiliary_img": "classic09_long_text_p12_libreoffice.png",
+        "heatmap_img": "classic09_long_text_p12_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            1241,
+            1754
+          ],
+          "difference_bbox_px": [
+            114,
+            279,
+            1019,
+            302
+          ],
+          "changed_pixels": 8595,
+          "changed_fraction": 0.003949,
+          "mean_abs_rgb": 0.6317,
+          "rmse_rgb": 11.3593,
+          "threshold": 12,
+          "gain": 5.0
+        },
         "composite_img": "classic09_long_text_p12_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       }
     ],
-    "overall_score": 0.2208
+    "overall_score": 0.9057
   },
   {
     "name": "classic10_special_xml_characters",
@@ -8024,7 +8233,7 @@
     "format": "xlsx",
     "source_path": "tests/MiniPdf.Scripts/output/classic123_dashed_borders.xlsx",
     "suite": "classic",
-    "minipdf_size": 68406,
+    "minipdf_size": 68414,
     "reference_size": 61720,
     "pdf_valid": true,
     "minipdf_pages": 1,
@@ -8440,19 +8649,19 @@
     "format": "xlsx",
     "source_path": "tests/MiniPdf.Scripts/output/classic131_number_formats.xlsx",
     "suite": "classic",
-    "minipdf_size": 80528,
+    "minipdf_size": 80928,
     "reference_size": 77127,
     "pdf_valid": true,
     "minipdf_pages": 1,
     "reference_pages": 1,
-    "text_similarity": 0.8182,
-    "flat_text_similarity": 0.6491,
-    "word_text_similarity": 0.8182,
-    "text_diff": "--- minipdf/classic131_number_formats.pdf\n+++ reference/classic131_number_formats.pdf\n@@ -3,9 +3,9 @@\n #,##0.00 1,234,567.89 1234567.891\n\n $#,##0.00 $9,876.50 9876.5\n\n 0.00% 85.23% 0.8523\n\n-0.00E+00 123456789 123456789\n\n-0000 42 42\n\n-#,##0;(#,##0) -5,000 -5000\n\n-yyyy-mm-dd 45658 45658\n\n-dd/mm/yyyy 45658 45658\n\n-hh:mm:ss 0.75 0.75\n+0.00E+00 1.23E+08 123456789\n\n+0000 0042 42\n\n+#,##0;(#,##0) (5,000) -5000\n\n+yyyy-mm-dd 2025-01-01 45658\n\n+dd/mm/yyyy 01/01/2025 45658\n\n+hh:mm:ss 18:00:00 0.75",
+    "text_similarity": 0.8485,
+    "flat_text_similarity": 0.643,
+    "word_text_similarity": 0.8485,
+    "text_diff": "--- minipdf/classic131_number_formats.pdf\n+++ reference/classic131_number_formats.pdf\n@@ -3,9 +3,9 @@\n #,##0.00 1,234,567.89 1234567.891\n\n $#,##0.00 $9,876.50 9876.5\n\n 0.00% 85.23% 0.8523\n\n-0.00E+00 123456789 123456789\n\n-0000 42 42\n\n-#,##0;(#,##0) -5,000 -5000\n\n+0.00E+00 1.23E+08 123456789\n\n+0000 0042 42\n\n+#,##0;(#,##0) (5,000) -5000\n\n yyyy-mm-dd 2025-01-01 45658\n\n-dd/mm/yyyy 45658 45658\n\n-hh:mm:ss 0.75 0.75\n+dd/mm/yyyy 01/01/2025 45658\n\n+hh:mm:ss 18:00:00 0.75",
     "visual_scores": [
-      0.991
+      0.9911
     ],
-    "visual_avg": 0.991,
+    "visual_avg": 0.9911,
     "diff_images": [
       {
         "page": 1,
@@ -8471,17 +8680,17 @@
             851,
             490
           ],
-          "changed_pixels": 32162,
-          "changed_fraction": 0.014775,
-          "mean_abs_rgb": 2.4083,
-          "rmse_rgb": 22.1759,
+          "changed_pixels": 32368,
+          "changed_fraction": 0.01487,
+          "mean_abs_rgb": 2.4228,
+          "rmse_rgb": 22.2405,
           "threshold": 12,
           "gain": 5.0
         },
         "composite_img": "classic131_number_formats_p1_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       }
     ],
-    "overall_score": 0.9237
+    "overall_score": 0.9358
   },
   {
     "name": "classic132_striped_table",
@@ -9667,15 +9876,15 @@
     "format": "xlsx",
     "source_path": "tests/MiniPdf.Scripts/output/classic152_emoji_sampler.xlsx",
     "suite": "classic",
-    "minipdf_size": 85630,
+    "minipdf_size": 85624,
     "reference_size": 105280,
     "pdf_valid": true,
     "minipdf_pages": 1,
     "reference_pages": 1,
-    "text_similarity": 0.9677,
-    "flat_text_similarity": 0.9677,
+    "text_similarity": 0.9636,
+    "flat_text_similarity": 0.9636,
     "word_text_similarity": 0.5909,
-    "text_diff": "--- minipdf/classic152_emoji_sampler.pdf\n+++ reference/classic152_emoji_sampler.pdf\n@@ -1,9 +1,9 @@\n Category Emoji\n\n Faces 😀😃😄😁😆\n\n-Hearts ❤️ 🧡💛💚💙\n\n+Hearts ❤️🧡💛💚💙\n\n Animals 🐶🐱🐭🐹🐰\n\n Food 🍎🍐🍊🍋🍌\n\n-Travel ✈️ 🚗🚌🚂🚀\n\n-Sports ⚽ 🏀🏈 ⚾ 🎾\n\n-Symbols ✅❌ ⚠️ 🔴🟢\n\n-Hands 👍👎👏🤝 ✌️\n+Travel ✈️🚗🚌🚂🚀\n\n+Sports ⚽🏀🏈⚾🎾\n\n+Symbols ✅❌⚠️🔴🟢\n\n+Hands 👍👎👏🤝✌️",
+    "text_diff": "--- minipdf/classic152_emoji_sampler.pdf\n+++ reference/classic152_emoji_sampler.pdf\n@@ -1,9 +1,9 @@\n Category Emoji\n\n Faces 😀😃😄😁😆\n\n-Hearts ❤ ️🧡💛💚💙\n\n+Hearts ❤️🧡💛💚💙\n\n Animals 🐶🐱🐭🐹🐰\n\n Food 🍎🍐🍊🍋🍌\n\n-Travel ✈ ️🚗🚌🚂🚀\n\n-Sports ⚽ 🏀🏈 ⚾ 🎾\n\n-Symbols ✅❌ ⚠ ️🔴🟢\n\n-Hands 👍👎👏🤝 ✌\n+Travel ✈️🚗🚌🚂🚀\n\n+Sports ⚽🏀🏈⚾🎾\n\n+Symbols ✅❌⚠️🔴🟢\n\n+Hands 👍👎👏🤝✌️",
     "visual_scores": [
       0.9926
     ],
@@ -9708,7 +9917,7 @@
         "composite_img": "classic152_emoji_sampler_p1_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       }
     ],
-    "overall_score": 0.9841
+    "overall_score": 0.9825
   },
   {
     "name": "classic153_currency_symbols",
@@ -10038,15 +10247,15 @@
     "format": "xlsx",
     "source_path": "tests/MiniPdf.Scripts/output/classic159_zwj_emoji.xlsx",
     "suite": "classic",
-    "minipdf_size": 77823,
+    "minipdf_size": 77929,
     "reference_size": 106035,
     "pdf_valid": true,
     "minipdf_pages": 1,
     "reference_pages": 1,
-    "text_similarity": 0.9372,
-    "flat_text_similarity": 0.9372,
-    "word_text_similarity": 0.475,
-    "text_diff": "--- minipdf/classic159_zwj_emoji.pdf\n+++ reference/classic159_zwj_emoji.pdf\n@@ -1,10 +1,10 @@\n Description Emoji\n\n-Family 👨 ‍ 👩 ‍ 👧 ‍ 👦\n\n-Couple with heart 👩 ‍ ❤️ ‍ 👨\n\n-Woman technologist 👩 ‍ 💻\n\n-Man cook 👨 ‍ 🍳\n\n-Rainbow flag 🏳️ ‍ 🌈\n\n-Trans flag 🏳️ ‍ ⚧️\n\n-Firefighter 🧑 ‍ 🚒\n\n-Health worker 🧑 ‍ ⚕️\n\n-Service dog 🐕 ‍ 🦺\n+Family 👨‍👩‍👧‍👦\n\n+Couple with heart 👩‍❤️‍👨\n\n+Woman technologist 👩‍💻\n\n+Man cook 👨‍🍳\n\n+Rainbow flag 🏳️‍🌈\n\n+Trans flag 🏳️‍⚧️\n\n+Firefighter 🧑‍🚒\n\n+Health worker 🧑‍⚕️\n\n+Service dog 🐕‍🦺",
+    "text_similarity": 0.9291,
+    "flat_text_similarity": 0.9291,
+    "word_text_similarity": 0.4691,
+    "text_diff": "--- minipdf/classic159_zwj_emoji.pdf\n+++ reference/classic159_zwj_emoji.pdf\n@@ -1,10 +1,10 @@\n Description Emoji\n\n-Family 👨 ‍ 👩 ‍ 👧 ‍ 👦\n\n-Couple with heart 👩 ‍ ❤ ️ ‍ 👨\n\n-Woman technologist 👩 ‍ 💻\n\n-Man cook 👨 ‍ 🍳\n\n-Rainbow flag 🏳️ ‍ 🌈\n\n-Trans flag 🏳️ ‍ ⚧\n\n-Firefighter 🧑 ‍ 🚒\n\n-Health worker 🧑 ‍ ⚕\n\n-Service dog 🐕 ‍ 🦺\n+Family 👨‍👩‍👧‍👦\n\n+Couple with heart 👩‍❤️‍👨\n\n+Woman technologist 👩‍💻\n\n+Man cook 👨‍🍳\n\n+Rainbow flag 🏳️‍🌈\n\n+Trans flag 🏳️‍⚧️\n\n+Firefighter 🧑‍🚒\n\n+Health worker 🧑‍⚕️\n\n+Service dog 🐕‍🦺",
     "visual_scores": [
       0.9918
     ],
@@ -10079,7 +10288,7 @@
         "composite_img": "classic159_zwj_emoji_p1_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       }
     ],
-    "overall_score": 0.9716
+    "overall_score": 0.9684
   },
   {
     "name": "classic160_punctuation_marks",
@@ -10974,15 +11183,15 @@
     "format": "xlsx",
     "source_path": "tests/MiniPdf.Scripts/output/classic177_emoji_calendar.xlsx",
     "suite": "classic",
-    "minipdf_size": 82167,
+    "minipdf_size": 82164,
     "reference_size": 107156,
     "pdf_valid": true,
     "minipdf_pages": 1,
     "reference_pages": 1,
-    "text_similarity": 1.0,
-    "flat_text_similarity": 1.0,
-    "word_text_similarity": 1.0,
-    "text_diff": "(identical)",
+    "text_similarity": 0.9982,
+    "flat_text_similarity": 0.9982,
+    "word_text_similarity": 0.9792,
+    "text_diff": "--- minipdf/classic177_emoji_calendar.pdf\n+++ reference/classic177_emoji_calendar.pdf\n@@ -4,7 +4,7 @@\n March 🌸 Spring Equinox\n\n April 🐣 Easter\n\n May 👩 Mother's Day\n\n-June ☀ Summer Solstice\n\n+June ☀️ Summer Solstice\n\n July 🎆 Independence Day\n\n August 🏖️ Vacation Season\n\n September 📚 Back to School\n",
     "visual_scores": [
       0.9903
     ],
@@ -11015,7 +11224,7 @@
         "composite_img": "classic177_emoji_calendar_p1_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       }
     ],
-    "overall_score": 0.9961
+    "overall_score": 0.9954
   },
   {
     "name": "classic178_caucasus_ethiopic",
@@ -11078,15 +11287,15 @@
     "format": "xlsx",
     "source_path": "tests/MiniPdf.Scripts/output/classic179_emoji_inventory.xlsx",
     "suite": "classic",
-    "minipdf_size": 109719,
+    "minipdf_size": 109724,
     "reference_size": 138581,
     "pdf_valid": true,
     "minipdf_pages": 1,
     "reference_pages": 1,
-    "text_similarity": 1.0,
-    "flat_text_similarity": 1.0,
-    "word_text_similarity": 1.0,
-    "text_diff": "(identical)",
+    "text_similarity": 0.9981,
+    "flat_text_similarity": 0.9981,
+    "word_text_similarity": 0.9848,
+    "text_diff": "--- minipdf/classic179_emoji_inventory.pdf\n+++ reference/classic179_emoji_inventory.pdf\n@@ -3,7 +3,7 @@\n 💻 Laptop 42 30 🟡 Low\n\n 🖨️ Printer 8 10 🔴 Reorder\n\n 🎧 Headphones 200 40 🟢 OK\n\n-⌨ Keyboard 75 25 🟢 OK\n\n+⌨️ Keyboard 75 25 🟢 OK\n\n 🖱️ Mouse 18 20 🔴 Reorder\n\n 📷 Camera 12 10 🟡 Low\n\n 🔌 Charger 300 100 🟢 OK\n",
     "visual_scores": [
       0.9876
     ],
@@ -11119,7 +11328,7 @@
         "composite_img": "classic179_emoji_inventory_p1_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       }
     ],
-    "overall_score": 0.995
+    "overall_score": 0.9943
   },
   {
     "name": "classic180_polyglot_paragraph",
@@ -11130,15 +11339,15 @@
     "format": "xlsx",
     "source_path": "tests/MiniPdf.Scripts/output/classic180_polyglot_paragraph.xlsx",
     "suite": "classic",
-    "minipdf_size": 110817,
+    "minipdf_size": 110775,
     "reference_size": 153951,
     "pdf_valid": true,
     "minipdf_pages": 1,
     "reference_pages": 1,
-    "text_similarity": 0.9846,
-    "flat_text_similarity": 0.9846,
-    "word_text_similarity": 0.875,
-    "text_diff": "--- minipdf/classic180_polyglot_paragraph.pdf\n+++ reference/classic180_polyglot_paragraph.pdf\n@@ -1,9 +1,9 @@\n Language Greeting\n\n English The quick brown fox.\n\n Japanese 速い茶色の狐。\n\n-Korean 빠른 갈색 여우.\n\n+Korean 빠른 갈색 여우 .\n\n Russian Быстрая бурая лиса.\n\n Greek Η γρήγορη αλεπού.\n\n-Thai สุนัขจิ้งจอกสีน้ำตาล\n\n-Hindi तेज़ भूरी लोमड़ीी\n\n+Thai สุนัขจิ้งจอกสีน ้ำตำล\n\n+Hindi तेज़ भूरी लोमडी\n\n Emoji 🦊 ➡️ 🐕",
+    "text_similarity": 0.9821,
+    "flat_text_similarity": 0.9821,
+    "word_text_similarity": 0.8308,
+    "text_diff": "--- minipdf/classic180_polyglot_paragraph.pdf\n+++ reference/classic180_polyglot_paragraph.pdf\n@@ -1,9 +1,9 @@\n Language Greeting\n\n English The quick brown fox.\n\n Japanese 速い茶色の狐。\n\n-Korean 빠른 갈색 여우.\n\n+Korean 빠른 갈색 여우 .\n\n Russian Быстрая бурая лиса.\n\n Greek Η γρήγορη αλεπού.\n\n-Thai สุนัขจิ้งจอกสีน้ำตาล\n\n-Hindi तेज़ भूरी लोमड़ीी\n\n-Emoji 🦊 ➡ ️ 🐕\n+Thai สุนัขจิ้งจอกสีน ้ำตำล\n\n+Hindi तेज़ भूरी लोमडी\n\n+Emoji 🦊 ➡️ 🐕",
     "visual_scores": [
       0.9931
     ],
@@ -11161,17 +11370,17 @@
             676,
             432
           ],
-          "changed_pixels": 23685,
-          "changed_fraction": 0.010881,
-          "mean_abs_rgb": 1.7203,
-          "rmse_rgb": 18.4793,
+          "changed_pixels": 23689,
+          "changed_fraction": 0.010883,
+          "mean_abs_rgb": 1.7206,
+          "rmse_rgb": 18.4798,
           "threshold": 12,
           "gain": 5.0
         },
         "composite_img": "classic180_polyglot_paragraph_p1_rust_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png"
       }
     ],
-    "overall_score": 0.9911
+    "overall_score": 0.9901
   },
   {
     "name": "classic181_feedback_tracker_with_images",
