@@ -1,37 +1,37 @@
 # go MiniPdf vs Microsoft 365 Excel Reference PDF Comparison Report
 
-Generated: 2026-09-14T22:49:48.552791
+Generated: 2026-09-19T23:04:30.922170
 
 ## Summary
 
 | # | Test Case | Valid | Text Sim | Visual Avg | Pages (M/R) | Overall |
 |---|-----------|-------|----------|------------|-------------|--------|
-| 1 | 🔴 Academic Achievement Summary Table | ✅ | 0.3235 | 0.4218 | 9/2 | **0.3981** |
-| 2 | 🔴 AcademicAchievement_temp | ✅ | 0.3235 | 0.4218 | 9/2 | **0.3981** |
-| 3 | 🟢 Business expense budget1 | ✅ | 1.0 | 0.9174 | 4/4 | **0.967** |
-| 4 | 🔴 Business expenses budget2 | ✅ | 0.119 | 0.0808 | 14/4 | **0.1799** |
+| 1 | 🔴 Academic Achievement Summary Table | ✅ | 0.2667 | 0.1406 | 9/2 | **0.2629** |
+| 2 | 🔴 AcademicAchievement_temp | ✅ | 0.2667 | 0.1406 | 9/2 | **0.2629** |
+| 3 | 🟢 Business expense budget1 | ✅ | 1.0 | 0.9335 | 4/4 | **0.9734** |
+| 4 | 🔴 Business expenses budget2 | ✅ | 0.162 | 0.022 | 14/4 | **0.1736** |
 | 5 | 🔴 Business plan checklist with SWOT analysis1 | ✅ | 0.8729 | 0.2639 | 1/1 | **0.6547** |
-| 6 | 🔴 Event budget1 | ✅ | 0.712 | 0.5681 | 4/5 | **0.612** |
+| 6 | 🔴 Event budget1 | ✅ | 0.8061 | 0.349 | 4/5 | **0.562** |
 | 7 | 🔴 Expense report basic1 | ✅ | 0.6403 | 0.0387 | 2/1 | **0.3716** |
 | 8 | 🔴 Grocery list1 | ✅ | 0.7676 | 0.0951 | 2/1 | **0.4451** |
-| 9 | 🔴 Issue202609031340 | ✅ | 0.1715 | 0.7138 | 12/4 | **0.4541** |
-| 10 | 🔴 payroll-calculator_f | ✅ | 0.2914 | 0.3029 | 72/29 | **0.3377** |
-| 11 | 🔴 PO_anonymized | ✅ | 0.2925 | 0.4354 | 235/9 | **0.3912** |
+| 9 | 🔴 Issue202609031340 | ✅ | 0.1359 | 0.2314 | 12/4 | **0.2469** |
+| 10 | 🔴 payroll-calculator_f | ✅ | 0.2865 | 0.3342 | 72/29 | **0.3483** |
+| 11 | 🔴 PO_anonymized | ✅ | 0.2196 | 0.2245 | 235/9 | **0.2776** |
 | 12 | 🔴 Simple invoice1 | ✅ | 0.897 | 0.0661 | 1/1 | **0.5852** |
-| 13 | 🔴 Small business cash flow forecast1 | ✅ | 0.4982 | 0.5109 | 6/5 | **0.5036** |
-| 14 | 🟡 Wedding_timeline_planner1_copy | ✅ | 0.8286 | 0.7221 | 3/8 | **0.7203** |
-| 15 | 🔴 Weekly schedule planner1 | ✅ | 0.4 | 0.0614 | 10/1 | **0.2846** |
-| 16 | 🔴 XlsxIssue75 | ✅ | 0.0568 | 0.8608 | 74/144 | **0.467** |
-| 17 | 🟡 XlsxIssue77_MergedCellAlignment | ✅ | 0.9993 | 0.5052 | 4/2 | **0.7018** |
-| 18 | 🔴 XlsxIssue77_Template1 | ✅ | 0.4833 | 0.4881 | 4/6 | **0.4886** |
-| 19 | 🔴 XlsxIssue77_Template2_Workaround | ✅ | 0.4833 | 0.4868 | 4/6 | **0.488** |
-| 20 | 🔴 XlsxIssue81_LayoutOptions | ✅ | 0.5364 | 0.7908 | 14/16 | **0.6309** |
-| 21 | 🔴 XlsxIssue82_5mb | ✅ | 0.0485 | 0.8199 | 3781/766 | **0.4474** |
-| 22 | 🔴 XlsxIssue82_SampleTestData5mb | ✅ | 0.202 | 0.8497 | 2860/1668 | **0.5207** |
-| 23 | 🔴 XlsxIssue82_WideTable | ✅ | 0.8139 | 0.5165 | 15/13 | **0.6322** |
-| 24 | 🟡 XlsxIssue152_ClusteredNonZeroBarChart | ✅ | 0.6923 | 0.5806 | 1/1 | **0.7092** |
+| 13 | 🔴 Small business cash flow forecast1 | ✅ | 0.4763 | 0.5129 | 6/5 | **0.4957** |
+| 14 | 🔴 Wedding_timeline_planner1_copy | ✅ | 0.8615 | 0.2708 | 3/8 | **0.5529** |
+| 15 | 🔴 Weekly schedule planner1 | ✅ | 0.3316 | 0.0184 | 10/1 | **0.24** |
+| 16 | 🔴 XlsxIssue75 | ✅ | 0.1273 | 0.854 | 74/144 | **0.4925** |
+| 17 | 🔴 XlsxIssue77_MergedCellAlignment | ✅ | 0.9993 | 0.3789 | 4/2 | **0.6513** |
+| 18 | 🔴 XlsxIssue77_Template1 | ✅ | 0.2828 | 0.3193 | 4/6 | **0.3408** |
+| 19 | 🔴 XlsxIssue77_Template2_Workaround | ✅ | 0.2828 | 0.3184 | 4/6 | **0.3405** |
+| 20 | 🔴 XlsxIssue81_LayoutOptions | ✅ | 0.3654 | 0.7527 | 14/16 | **0.5472** |
+| 21 | 🔴 XlsxIssue82_5mb | ✅ | 0.0496 | 0.819 | 3781/766 | **0.4474** |
+| 22 | 🔴 XlsxIssue82_SampleTestData5mb | ✅ | 0.1685 | 0.844 | 2860/1668 | **0.505** |
+| 23 | 🔴 XlsxIssue82_WideTable | ✅ | 0.185 | 0.5192 | 15/13 | **0.3817** |
+| 24 | ⚪ XlsxIssue152_ClusteredNonZeroBarChart | ✅ | N/A | N/A | ?/? | **N/A** |
 
-**Average Overall Score: 0.5162**
+**Average Overall Score: 0.4233**
 
 ## Labeled Side-by-Side Comparison
 
@@ -66,6 +66,10 @@ Generated: 2026-09-14T22:49:48.552791
   <td><img src="side-by-side/Business expense budget1_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expense budget1 page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>Business expense budget1<br><small>format: xlsx | case: Business expense budget1 | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Business expense budget1_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expense budget1 page 4 comparison"></td>
+</tr>
+<tr>
   <td><b>Business expenses budget2<br><small>format: xlsx | case: Business expenses budget2 | scope: go-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/Business expenses budget2_p1_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expenses budget2 page 1 comparison"></td>
 </tr>
@@ -76,6 +80,10 @@ Generated: 2026-09-14T22:49:48.552791
 <tr>
   <td><b>Business expenses budget2<br><small>format: xlsx | case: Business expenses budget2 | scope: go-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/Business expenses budget2_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expenses budget2 page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>Business expenses budget2<br><small>format: xlsx | case: Business expenses budget2 | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Business expenses budget2_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Business expenses budget2 page 4 comparison"></td>
 </tr>
 <tr>
   <td><b>Business plan checklist with SWOT analysis1<br><small>format: xlsx | case: Business plan checklist with SWOT analysis1 | scope: go-issue-xlsx</small></b><br>Page 1</td>
@@ -92,6 +100,14 @@ Generated: 2026-09-14T22:49:48.552791
 <tr>
   <td><b>Event budget1<br><small>format: xlsx | case: Event budget1 | scope: go-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/Event budget1_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Event budget1 page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>Event budget1<br><small>format: xlsx | case: Event budget1 | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Event budget1_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Event budget1 page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>Event budget1<br><small>format: xlsx | case: Event budget1 | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/Event budget1_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Event budget1 page 5 comparison"></td>
 </tr>
 <tr>
   <td><b>Expense report basic1<br><small>format: xlsx | case: Expense report basic1 | scope: go-issue-xlsx</small></b><br>Page 1</td>
@@ -114,6 +130,10 @@ Generated: 2026-09-14T22:49:48.552791
   <td><img src="side-by-side/Issue202609031340_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Issue202609031340 page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>Issue202609031340<br><small>format: xlsx | case: Issue202609031340 | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Issue202609031340_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Issue202609031340 page 4 comparison"></td>
+</tr>
+<tr>
   <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/payroll-calculator_f_p1_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 1 comparison"></td>
 </tr>
@@ -126,6 +146,54 @@ Generated: 2026-09-14T22:49:48.552791
   <td><img src="side-by-side/payroll-calculator_f_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/payroll-calculator_f_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/payroll-calculator_f_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/payroll-calculator_f_p6_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/payroll-calculator_f_p7_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/payroll-calculator_f_p8_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/payroll-calculator_f_p9_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/payroll-calculator_f_p10_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/payroll-calculator_f_p11_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/payroll-calculator_f_p12_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/payroll-calculator_f_p13_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/payroll-calculator_f_p14_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/payroll-calculator_f_p15_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="payroll-calculator_f page 15 comparison"></td>
+</tr>
+<tr>
   <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: go-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/PO_anonymized_p1_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 1 comparison"></td>
 </tr>
@@ -136,6 +204,30 @@ Generated: 2026-09-14T22:49:48.552791
 <tr>
   <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: go-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/PO_anonymized_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/PO_anonymized_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/PO_anonymized_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: go-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/PO_anonymized_p6_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: go-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/PO_anonymized_p7_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: go-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/PO_anonymized_p8_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: go-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/PO_anonymized_p9_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="PO_anonymized page 9 comparison"></td>
 </tr>
 <tr>
   <td><b>Simple invoice1<br><small>format: xlsx | case: Simple invoice1 | scope: go-issue-xlsx</small></b><br>Page 1</td>
@@ -154,6 +246,14 @@ Generated: 2026-09-14T22:49:48.552791
   <td><img src="side-by-side/Small business cash flow forecast1_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Small business cash flow forecast1 page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>Small business cash flow forecast1<br><small>format: xlsx | case: Small business cash flow forecast1 | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Small business cash flow forecast1_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Small business cash flow forecast1 page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>Small business cash flow forecast1<br><small>format: xlsx | case: Small business cash flow forecast1 | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/Small business cash flow forecast1_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Small business cash flow forecast1 page 5 comparison"></td>
+</tr>
+<tr>
   <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: go-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/Wedding_timeline_planner1_copy_p1_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 1 comparison"></td>
 </tr>
@@ -164,6 +264,14 @@ Generated: 2026-09-14T22:49:48.552791
 <tr>
   <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: go-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/Wedding_timeline_planner1_copy_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/Wedding_timeline_planner1_copy_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/Wedding_timeline_planner1_copy_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="Wedding_timeline_planner1_copy page 5 comparison"></td>
 </tr>
 <tr>
   <td><b>Weekly schedule planner1<br><small>format: xlsx | case: Weekly schedule planner1 | scope: go-issue-xlsx</small></b><br>Page 1</td>
@@ -180,6 +288,54 @@ Generated: 2026-09-14T22:49:48.552791
 <tr>
   <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/XlsxIssue75_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue75_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue75_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue75_p6_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue75_p7_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue75_p8_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue75_p9_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue75_p10_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue75_p11_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue75_p12_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue75_p13_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/XlsxIssue75_p14_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/XlsxIssue75_p15_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue75 page 15 comparison"></td>
 </tr>
 <tr>
   <td><b>XlsxIssue77_MergedCellAlignment<br><small>format: xlsx | case: XlsxIssue77_MergedCellAlignment | scope: go-issue-xlsx</small></b><br>Page 1</td>
@@ -202,6 +358,18 @@ Generated: 2026-09-14T22:49:48.552791
   <td><img src="side-by-side/XlsxIssue77_Template1_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template1 page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>XlsxIssue77_Template1<br><small>format: xlsx | case: XlsxIssue77_Template1 | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue77_Template1_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template1 page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template1<br><small>format: xlsx | case: XlsxIssue77_Template1 | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue77_Template1_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template1 page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template1<br><small>format: xlsx | case: XlsxIssue77_Template1 | scope: go-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue77_Template1_p6_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template1 page 6 comparison"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: go-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p1_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 1 comparison"></td>
 </tr>
@@ -212,6 +380,18 @@ Generated: 2026-09-14T22:49:48.552791
 <tr>
   <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: go-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: go-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue77_Template2_Workaround_p6_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue77_Template2_Workaround page 6 comparison"></td>
 </tr>
 <tr>
   <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 1</td>
@@ -226,6 +406,54 @@ Generated: 2026-09-14T22:49:48.552791
   <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p6_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p7_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p8_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p9_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p10_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p11_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p12_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p13_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p14_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/XlsxIssue81_LayoutOptions_p15_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue81_LayoutOptions page 15 comparison"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/XlsxIssue82_5mb_p1_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 1 comparison"></td>
 </tr>
@@ -236,6 +464,54 @@ Generated: 2026-09-14T22:49:48.552791
 <tr>
   <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 3</td>
   <td><img src="side-by-side/XlsxIssue82_5mb_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 3 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p6_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p7_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p8_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p9_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p10_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p11_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p12_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p13_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p14_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/XlsxIssue82_5mb_p15_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_5mb page 15 comparison"></td>
 </tr>
 <tr>
   <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 1</td>
@@ -250,6 +526,54 @@ Generated: 2026-09-14T22:49:48.552791
   <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 3 comparison"></td>
 </tr>
 <tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p6_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p7_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p8_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p9_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p10_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p11_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p12_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p13_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 13 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 14</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p14_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 14 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b><br>Page 15</td>
+  <td><img src="side-by-side/XlsxIssue82_SampleTestData5mb_p15_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 15 comparison"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 1</td>
   <td><img src="side-by-side/XlsxIssue82_WideTable_p1_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 1 comparison"></td>
 </tr>
@@ -262,8 +586,44 @@ Generated: 2026-09-14T22:49:48.552791
   <td><img src="side-by-side/XlsxIssue82_WideTable_p3_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 3 comparison"></td>
 </tr>
 <tr>
-  <td><b>XlsxIssue152_ClusteredNonZeroBarChart<br><small>format: xlsx | case: XlsxIssue152_ClusteredNonZeroBarChart | scope: go-issue-xlsx</small></b><br>Page 1</td>
-  <td><img src="side-by-side/XlsxIssue152_ClusteredNonZeroBarChart_p1_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue152_ClusteredNonZeroBarChart page 1 comparison"></td>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 4</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p4_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 4 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 5</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p5_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 5 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 6</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p6_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 6 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 7</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p7_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 7 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 8</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p8_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 8 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 9</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p9_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 9 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 10</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p10_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 10 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 11</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p11_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 11 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 12</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p12_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 12 comparison"></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b><br>Page 13</td>
+  <td><img src="side-by-side/XlsxIssue82_WideTable_p13_go_minipdf_vs_microsoft_365_excel_reference_vs_libreoffice.png" width="760" alt="XlsxIssue82_WideTable page 13 comparison"></td>
 </tr>
 </table>
 
@@ -309,6 +669,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 109374 px (5.02%)<br>bbox: [111, 296, 444, 1579]<br>mean abs RGB: 7.5647<br>RMSE RGB: 37.8974<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>Business expense budget1</b><br>Page 4</td>
+  <td><img src="images/Business expense budget1_p4_heatmap.png" width="760" alt="Business expense budget1 page 4 difference heatmap"></td>
+  <td>changed: 35569 px (1.63%)<br>bbox: [111, 178, 444, 1226]<br>mean abs RGB: 1.8956<br>RMSE RGB: 17.1603<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>Business expenses budget2</b><br>Page 1</td>
   <td><img src="images/Business expenses budget2_p1_heatmap.png" width="760" alt="Business expenses budget2 page 1 difference heatmap"></td>
   <td>changed: 1364636 px (62.69%)<br>bbox: [119, 75, 1522, 1124]<br>mean abs RGB: 31.7307<br>RMSE RGB: 60.2052<br>threshold: 12, gain: 5.0</td>
@@ -322,6 +687,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>Business expenses budget2</b><br>Page 3</td>
   <td><img src="images/Business expenses budget2_p3_heatmap.png" width="760" alt="Business expenses budget2 page 3 difference heatmap"></td>
   <td>changed: 1422146 px (65.33%)<br>bbox: [113, 75, 1598, 1163]<br>mean abs RGB: 35.8669<br>RMSE RGB: 62.5559<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Business expenses budget2</b><br>Page 4</td>
+  <td><img src="images/Business expenses budget2_p4_heatmap.png" width="760" alt="Business expenses budget2 page 4 difference heatmap"></td>
+  <td>changed: 1286820 px (59.12%)<br>bbox: [113, 75, 1473, 1160]<br>mean abs RGB: 28.3535<br>RMSE RGB: 61.7578<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Business plan checklist with SWOT analysis1</b><br>Page 1</td>
@@ -342,6 +712,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>Event budget1</b><br>Page 3</td>
   <td><img src="images/Event budget1_p3_heatmap.png" width="760" alt="Event budget1 page 3 difference heatmap"></td>
   <td>changed: 98805 px (4.54%)<br>bbox: [66, 114, 1172, 1176]<br>mean abs RGB: 4.3527<br>RMSE RGB: 29.2246<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Event budget1</b><br>Page 4</td>
+  <td><img src="images/Event budget1_p4_heatmap.png" width="760" alt="Event budget1 page 4 difference heatmap"></td>
+  <td>changed: 1611291 px (74.02%)<br>bbox: [67, 141, 1171, 1603]<br>mean abs RGB: 22.8407<br>RMSE RGB: 44.0558<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Expense report basic1</b><br>Page 1</td>
@@ -369,6 +744,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 204317 px (9.39%)<br>bbox: [42, 40, 1196, 1712]<br>mean abs RGB: 14.5276<br>RMSE RGB: 53.193<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>Issue202609031340</b><br>Page 4</td>
+  <td><img src="images/Issue202609031340_p4_heatmap.png" width="760" alt="Issue202609031340 page 4 difference heatmap"></td>
+  <td>changed: 16507 px (0.76%)<br>bbox: [42, 189, 1196, 1009]<br>mean abs RGB: 1.291<br>RMSE RGB: 16.3805<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>payroll-calculator_f</b><br>Page 1</td>
   <td><img src="images/payroll-calculator_f_p1_heatmap.png" width="760" alt="payroll-calculator_f page 1 difference heatmap"></td>
   <td>changed: 533042 px (24.49%)<br>bbox: [105, 31, 1578, 1160]<br>mean abs RGB: 25.9896<br>RMSE RGB: 60.2138<br>threshold: 12, gain: 5.0</td>
@@ -384,6 +764,66 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 100655 px (4.62%)<br>bbox: [104, 30, 913, 1160]<br>mean abs RGB: 3.7021<br>RMSE RGB: 23.4894<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>payroll-calculator_f</b><br>Page 4</td>
+  <td><img src="images/payroll-calculator_f_p4_heatmap.png" width="760" alt="payroll-calculator_f page 4 difference heatmap"></td>
+  <td>changed: 1218679 px (55.99%)<br>bbox: [65, 31, 1689, 1160]<br>mean abs RGB: 38.2142<br>RMSE RGB: 63.3716<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 5</td>
+  <td><img src="images/payroll-calculator_f_p5_heatmap.png" width="760" alt="payroll-calculator_f page 5 difference heatmap"></td>
+  <td>changed: 34206 px (1.57%)<br>bbox: [66, 31, 1689, 1160]<br>mean abs RGB: 2.8142<br>RMSE RGB: 22.9811<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 6</td>
+  <td><img src="images/payroll-calculator_f_p6_heatmap.png" width="760" alt="payroll-calculator_f page 6 difference heatmap"></td>
+  <td>changed: 531487 px (24.42%)<br>bbox: [459, 30, 1640, 1160]<br>mean abs RGB: 17.4326<br>RMSE RGB: 43.6877<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 7</td>
+  <td><img src="images/payroll-calculator_f_p7_heatmap.png" width="760" alt="payroll-calculator_f page 7 difference heatmap"></td>
+  <td>changed: 40548 px (1.86%)<br>bbox: [112, 31, 1640, 1160]<br>mean abs RGB: 3.2297<br>RMSE RGB: 25.7646<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 8</td>
+  <td><img src="images/payroll-calculator_f_p8_heatmap.png" width="760" alt="payroll-calculator_f page 8 difference heatmap"></td>
+  <td>changed: 344545 px (22.37%)<br>bbox: [30, 27, 1210, 740]<br>mean abs RGB: 16.7011<br>RMSE RGB: 47.2938<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 9</td>
+  <td><img src="images/payroll-calculator_f_p9_heatmap.png" width="760" alt="payroll-calculator_f page 9 difference heatmap"></td>
+  <td>changed: 1269626 px (58.33%)<br>bbox: [27, 31, 1691, 1190]<br>mean abs RGB: 38.9317<br>RMSE RGB: 62.9799<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 10</td>
+  <td><img src="images/payroll-calculator_f_p10_heatmap.png" width="760" alt="payroll-calculator_f page 10 difference heatmap"></td>
+  <td>changed: 1171390 px (53.81%)<br>bbox: [27, 30, 1691, 1190]<br>mean abs RGB: 27.5365<br>RMSE RGB: 44.7662<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 11</td>
+  <td><img src="images/payroll-calculator_f_p11_heatmap.png" width="760" alt="payroll-calculator_f page 11 difference heatmap"></td>
+  <td>changed: 1141761 px (52.45%)<br>bbox: [27, 30, 1691, 1190]<br>mean abs RGB: 24.2708<br>RMSE RGB: 35.9363<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 12</td>
+  <td><img src="images/payroll-calculator_f_p12_heatmap.png" width="760" alt="payroll-calculator_f page 12 difference heatmap"></td>
+  <td>changed: 321113 px (14.75%)<br>bbox: [27, 30, 1691, 1190]<br>mean abs RGB: 8.9338<br>RMSE RGB: 28.7451<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 13</td>
+  <td><img src="images/payroll-calculator_f_p13_heatmap.png" width="760" alt="payroll-calculator_f page 13 difference heatmap"></td>
+  <td>changed: 328502 px (15.09%)<br>bbox: [27, 30, 1640, 1190]<br>mean abs RGB: 12.2025<br>RMSE RGB: 39.4217<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 14</td>
+  <td><img src="images/payroll-calculator_f_p14_heatmap.png" width="760" alt="payroll-calculator_f page 14 difference heatmap"></td>
+  <td>changed: 206654 px (9.49%)<br>bbox: [27, 30, 1640, 1190]<br>mean abs RGB: 5.9699<br>RMSE RGB: 21.6332<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>payroll-calculator_f</b><br>Page 15</td>
+  <td><img src="images/payroll-calculator_f_p15_heatmap.png" width="760" alt="payroll-calculator_f page 15 difference heatmap"></td>
+  <td>changed: 203557 px (9.35%)<br>bbox: [27, 30, 1640, 1190]<br>mean abs RGB: 5.7098<br>RMSE RGB: 20.3067<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>PO_anonymized</b><br>Page 1</td>
   <td><img src="images/PO_anonymized_p1_heatmap.png" width="760" alt="PO_anonymized page 1 difference heatmap"></td>
   <td>changed: 964775 px (44.32%)<br>bbox: [61, 74, 1173, 1713]<br>mean abs RGB: 26.8133<br>RMSE RGB: 66.7456<br>threshold: 12, gain: 5.0</td>
@@ -397,6 +837,36 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>PO_anonymized</b><br>Page 3</td>
   <td><img src="images/PO_anonymized_p3_heatmap.png" width="760" alt="PO_anonymized page 3 difference heatmap"></td>
   <td>changed: 215742 px (9.91%)<br>bbox: [61, 74, 1171, 1713]<br>mean abs RGB: 9.5758<br>RMSE RGB: 42.4002<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 4</td>
+  <td><img src="images/PO_anonymized_p4_heatmap.png" width="760" alt="PO_anonymized page 4 difference heatmap"></td>
+  <td>changed: 192813 px (8.86%)<br>bbox: [61, 47, 1156, 1713]<br>mean abs RGB: 7.8592<br>RMSE RGB: 40.5128<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 5</td>
+  <td><img src="images/PO_anonymized_p5_heatmap.png" width="760" alt="PO_anonymized page 5 difference heatmap"></td>
+  <td>changed: 227247 px (10.44%)<br>bbox: [61, 47, 1155, 1713]<br>mean abs RGB: 10.5696<br>RMSE RGB: 47.2012<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 6</td>
+  <td><img src="images/PO_anonymized_p6_heatmap.png" width="760" alt="PO_anonymized page 6 difference heatmap"></td>
+  <td>changed: 189862 px (8.72%)<br>bbox: [61, 47, 1156, 1713]<br>mean abs RGB: 7.7309<br>RMSE RGB: 40.3729<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 7</td>
+  <td><img src="images/PO_anonymized_p7_heatmap.png" width="760" alt="PO_anonymized page 7 difference heatmap"></td>
+  <td>changed: 189845 px (8.72%)<br>bbox: [61, 47, 1156, 1713]<br>mean abs RGB: 7.7724<br>RMSE RGB: 40.4894<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 8</td>
+  <td><img src="images/PO_anonymized_p8_heatmap.png" width="760" alt="PO_anonymized page 8 difference heatmap"></td>
+  <td>changed: 189375 px (8.70%)<br>bbox: [61, 47, 1154, 1713]<br>mean abs RGB: 7.4664<br>RMSE RGB: 39.6902<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>PO_anonymized</b><br>Page 9</td>
+  <td><img src="images/PO_anonymized_p9_heatmap.png" width="760" alt="PO_anonymized page 9 difference heatmap"></td>
+  <td>changed: 189445 px (8.70%)<br>bbox: [61, 47, 1155, 1713]<br>mean abs RGB: 7.4857<br>RMSE RGB: 39.8878<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Simple invoice1</b><br>Page 1</td>
@@ -417,6 +887,16 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>Small business cash flow forecast1</b><br>Page 3</td>
   <td><img src="images/Small business cash flow forecast1_p3_heatmap.png" width="760" alt="Small business cash flow forecast1 page 3 difference heatmap"></td>
   <td>changed: 20814 px (1.35%)<br>bbox: [113, 112, 1084, 1142]<br>mean abs RGB: 2.0894<br>RMSE RGB: 20.3324<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Small business cash flow forecast1</b><br>Page 4</td>
+  <td><img src="images/Small business cash flow forecast1_p4_heatmap.png" width="760" alt="Small business cash flow forecast1 page 4 difference heatmap"></td>
+  <td>changed: 103272 px (6.71%)<br>bbox: [114, 68, 728, 1070]<br>mean abs RGB: 10.8595<br>RMSE RGB: 44.8831<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>Small business cash flow forecast1</b><br>Page 5</td>
+  <td><img src="images/Small business cash flow forecast1_p5_heatmap.png" width="760" alt="Small business cash flow forecast1 page 5 difference heatmap"></td>
+  <td>changed: 16747 px (0.77%)<br>bbox: [119, 112, 1027, 614]<br>mean abs RGB: 1.2936<br>RMSE RGB: 16.4899<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>Wedding_timeline_planner1_copy</b><br>Page 1</td>
@@ -454,6 +934,66 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 302146 px (13.88%)<br>bbox: [113, 95, 1067, 1649]<br>mean abs RGB: 23.5961<br>RMSE RGB: 70.296<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>XlsxIssue75</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue75_p4_heatmap.png" width="760" alt="XlsxIssue75 page 4 difference heatmap"></td>
+  <td>changed: 294059 px (13.51%)<br>bbox: [113, 95, 1067, 1649]<br>mean abs RGB: 22.9167<br>RMSE RGB: 69.1962<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue75_p5_heatmap.png" width="760" alt="XlsxIssue75 page 5 difference heatmap"></td>
+  <td>changed: 289489 px (13.30%)<br>bbox: [114, 95, 1067, 1649]<br>mean abs RGB: 22.4793<br>RMSE RGB: 68.5094<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue75_p6_heatmap.png" width="760" alt="XlsxIssue75 page 6 difference heatmap"></td>
+  <td>changed: 298486 px (13.71%)<br>bbox: [113, 95, 1067, 1649]<br>mean abs RGB: 23.2266<br>RMSE RGB: 69.6696<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue75_p7_heatmap.png" width="760" alt="XlsxIssue75 page 7 difference heatmap"></td>
+  <td>changed: 300617 px (13.81%)<br>bbox: [113, 95, 1011, 1649]<br>mean abs RGB: 23.4137<br>RMSE RGB: 69.9645<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue75_p8_heatmap.png" width="760" alt="XlsxIssue75 page 8 difference heatmap"></td>
+  <td>changed: 297255 px (13.66%)<br>bbox: [113, 95, 1011, 1649]<br>mean abs RGB: 23.0661<br>RMSE RGB: 69.3509<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue75_p9_heatmap.png" width="760" alt="XlsxIssue75 page 9 difference heatmap"></td>
+  <td>changed: 299032 px (13.74%)<br>bbox: [113, 95, 1067, 1649]<br>mean abs RGB: 23.2179<br>RMSE RGB: 69.6072<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue75_p10_heatmap.png" width="760" alt="XlsxIssue75 page 10 difference heatmap"></td>
+  <td>changed: 300538 px (13.81%)<br>bbox: [113, 95, 1067, 1649]<br>mean abs RGB: 23.3484<br>RMSE RGB: 69.8225<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue75_p11_heatmap.png" width="760" alt="XlsxIssue75 page 11 difference heatmap"></td>
+  <td>changed: 301595 px (13.86%)<br>bbox: [113, 95, 1067, 1649]<br>mean abs RGB: 23.3723<br>RMSE RGB: 69.835<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue75_p12_heatmap.png" width="760" alt="XlsxIssue75 page 12 difference heatmap"></td>
+  <td>changed: 302574 px (13.90%)<br>bbox: [113, 95, 1067, 1649]<br>mean abs RGB: 23.407<br>RMSE RGB: 69.8419<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue75_p13_heatmap.png" width="760" alt="XlsxIssue75 page 13 difference heatmap"></td>
+  <td>changed: 298750 px (13.72%)<br>bbox: [113, 95, 1067, 1649]<br>mean abs RGB: 23.1821<br>RMSE RGB: 69.5387<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 14</td>
+  <td><img src="images/XlsxIssue75_p14_heatmap.png" width="760" alt="XlsxIssue75 page 14 difference heatmap"></td>
+  <td>changed: 312778 px (14.37%)<br>bbox: [113, 95, 1011, 1649]<br>mean abs RGB: 24.5864<br>RMSE RGB: 71.8683<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue75</b><br>Page 15</td>
+  <td><img src="images/XlsxIssue75_p15_heatmap.png" width="760" alt="XlsxIssue75 page 15 difference heatmap"></td>
+  <td>changed: 320779 px (14.74%)<br>bbox: [114, 95, 1011, 1649]<br>mean abs RGB: 25.1165<br>RMSE RGB: 72.505<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_MergedCellAlignment</b><br>Page 1</td>
   <td><img src="images/XlsxIssue77_MergedCellAlignment_p1_heatmap.png" width="760" alt="XlsxIssue77_MergedCellAlignment page 1 difference heatmap"></td>
   <td>changed: 464635 px (21.35%)<br>bbox: [36, 121, 1163, 1614]<br>mean abs RGB: 33.056<br>RMSE RGB: 83.2732<br>threshold: 12, gain: 5.0</td>
@@ -479,6 +1019,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 363402 px (16.70%)<br>bbox: [82, 171, 1157, 1565]<br>mean abs RGB: 17.577<br>RMSE RGB: 59.2034<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>XlsxIssue77_Template1</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue77_Template1_p4_heatmap.png" width="760" alt="XlsxIssue77_Template1 page 4 difference heatmap"></td>
+  <td>changed: 363402 px (16.70%)<br>bbox: [82, 171, 1157, 1565]<br>mean abs RGB: 17.577<br>RMSE RGB: 59.2034<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_Template2_Workaround</b><br>Page 1</td>
   <td><img src="images/XlsxIssue77_Template2_Workaround_p1_heatmap.png" width="760" alt="XlsxIssue77_Template2_Workaround page 1 difference heatmap"></td>
   <td>changed: 387312 px (17.79%)<br>bbox: [78, 127, 1153, 1569]<br>mean abs RGB: 19.6896<br>RMSE RGB: 62.9905<br>threshold: 12, gain: 5.0</td>
@@ -491,6 +1036,11 @@ Blue areas are below the configured difference threshold; red areas have stronge
 <tr>
   <td><b>XlsxIssue77_Template2_Workaround</b><br>Page 3</td>
   <td><img src="images/XlsxIssue77_Template2_Workaround_p3_heatmap.png" width="760" alt="XlsxIssue77_Template2_Workaround page 3 difference heatmap"></td>
+  <td>changed: 366028 px (16.82%)<br>bbox: [78, 171, 1153, 1569]<br>mean abs RGB: 17.6291<br>RMSE RGB: 59.5168<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue77_Template2_Workaround</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p4_heatmap.png" width="760" alt="XlsxIssue77_Template2_Workaround page 4 difference heatmap"></td>
   <td>changed: 366028 px (16.82%)<br>bbox: [78, 171, 1153, 1569]<br>mean abs RGB: 17.6291<br>RMSE RGB: 59.5168<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
@@ -509,6 +1059,61 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 507436 px (24.78%)<br>bbox: [37, 95, 1037, 1521]<br>mean abs RGB: 32.2212<br>RMSE RGB: 78.0676<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p4_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 4 difference heatmap"></td>
+  <td>changed: 311808 px (15.23%)<br>bbox: [37, 95, 1037, 1524]<br>mean abs RGB: 22.6944<br>RMSE RGB: 66.5853<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p5_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 5 difference heatmap"></td>
+  <td>changed: 455444 px (22.24%)<br>bbox: [37, 95, 1037, 1524]<br>mean abs RGB: 28.3875<br>RMSE RGB: 73.2998<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p6_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 6 difference heatmap"></td>
+  <td>changed: 308655 px (15.07%)<br>bbox: [37, 95, 1037, 1477]<br>mean abs RGB: 16.3675<br>RMSE RGB: 54.5057<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p7_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 7 difference heatmap"></td>
+  <td>changed: 464203 px (22.67%)<br>bbox: [37, 127, 1033, 1524]<br>mean abs RGB: 29.0929<br>RMSE RGB: 74.0932<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p8_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 8 difference heatmap"></td>
+  <td>changed: 320297 px (15.64%)<br>bbox: [37, 95, 1033, 1524]<br>mean abs RGB: 23.4117<br>RMSE RGB: 67.5913<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p9_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 9 difference heatmap"></td>
+  <td>changed: 474599 px (23.18%)<br>bbox: [37, 95, 991, 1524]<br>mean abs RGB: 31.3526<br>RMSE RGB: 77.1798<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p10_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 10 difference heatmap"></td>
+  <td>changed: 475181 px (23.21%)<br>bbox: [37, 95, 991, 1524]<br>mean abs RGB: 31.3921<br>RMSE RGB: 77.2372<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p11_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 11 difference heatmap"></td>
+  <td>changed: 472323 px (23.07%)<br>bbox: [37, 95, 991, 1524]<br>mean abs RGB: 31.1915<br>RMSE RGB: 76.9803<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p12_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 12 difference heatmap"></td>
+  <td>changed: 316340 px (15.45%)<br>bbox: [37, 95, 991, 1524]<br>mean abs RGB: 23.4364<br>RMSE RGB: 67.7186<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p13_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 13 difference heatmap"></td>
+  <td>changed: 490387 px (23.95%)<br>bbox: [37, 95, 991, 1524]<br>mean abs RGB: 33.127<br>RMSE RGB: 79.5774<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue81_LayoutOptions</b><br>Page 14</td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p14_heatmap.png" width="760" alt="XlsxIssue81_LayoutOptions page 14 difference heatmap"></td>
+  <td>changed: 463203 px (22.62%)<br>bbox: [37, 95, 991, 1477]<br>mean abs RGB: 31.1539<br>RMSE RGB: 77.2057<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_5mb</b><br>Page 1</td>
   <td><img src="images/XlsxIssue82_5mb_p1_heatmap.png" width="760" alt="XlsxIssue82_5mb page 1 difference heatmap"></td>
   <td>changed: 459810 px (22.46%)<br>bbox: [109, 127, 1100, 1524]<br>mean abs RGB: 34.049<br>RMSE RGB: 81.4668<br>threshold: 12, gain: 5.0</td>
@@ -522,6 +1127,66 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td><b>XlsxIssue82_5mb</b><br>Page 3</td>
   <td><img src="images/XlsxIssue82_5mb_p3_heatmap.png" width="760" alt="XlsxIssue82_5mb page 3 difference heatmap"></td>
   <td>changed: 464425 px (22.68%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.3736<br>RMSE RGB: 81.812<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue82_5mb_p4_heatmap.png" width="760" alt="XlsxIssue82_5mb page 4 difference heatmap"></td>
+  <td>changed: 460159 px (22.47%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.067<br>RMSE RGB: 81.4392<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue82_5mb_p5_heatmap.png" width="760" alt="XlsxIssue82_5mb page 5 difference heatmap"></td>
+  <td>changed: 456808 px (22.31%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 33.8098<br>RMSE RGB: 81.1343<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue82_5mb_p6_heatmap.png" width="760" alt="XlsxIssue82_5mb page 6 difference heatmap"></td>
+  <td>changed: 460028 px (22.47%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.0278<br>RMSE RGB: 81.3755<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue82_5mb_p7_heatmap.png" width="760" alt="XlsxIssue82_5mb page 7 difference heatmap"></td>
+  <td>changed: 463229 px (22.62%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.2431<br>RMSE RGB: 81.6135<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue82_5mb_p8_heatmap.png" width="760" alt="XlsxIssue82_5mb page 8 difference heatmap"></td>
+  <td>changed: 463126 px (22.62%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.2811<br>RMSE RGB: 81.7103<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue82_5mb_p9_heatmap.png" width="760" alt="XlsxIssue82_5mb page 9 difference heatmap"></td>
+  <td>changed: 460664 px (22.50%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.1762<br>RMSE RGB: 81.6517<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue82_5mb_p10_heatmap.png" width="760" alt="XlsxIssue82_5mb page 10 difference heatmap"></td>
+  <td>changed: 458785 px (22.41%)<br>bbox: [109, 95, 1096, 1524]<br>mean abs RGB: 33.9736<br>RMSE RGB: 81.3683<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue82_5mb_p11_heatmap.png" width="760" alt="XlsxIssue82_5mb page 11 difference heatmap"></td>
+  <td>changed: 464615 px (22.69%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.3899<br>RMSE RGB: 81.8216<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue82_5mb_p12_heatmap.png" width="760" alt="XlsxIssue82_5mb page 12 difference heatmap"></td>
+  <td>changed: 460342 px (22.48%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.0976<br>RMSE RGB: 81.5032<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue82_5mb_p13_heatmap.png" width="760" alt="XlsxIssue82_5mb page 13 difference heatmap"></td>
+  <td>changed: 463099 px (22.62%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.2948<br>RMSE RGB: 81.7733<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 14</td>
+  <td><img src="images/XlsxIssue82_5mb_p14_heatmap.png" width="760" alt="XlsxIssue82_5mb page 14 difference heatmap"></td>
+  <td>changed: 458265 px (22.38%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 33.9361<br>RMSE RGB: 81.3035<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_5mb</b><br>Page 15</td>
+  <td><img src="images/XlsxIssue82_5mb_p15_heatmap.png" width="760" alt="XlsxIssue82_5mb page 15 difference heatmap"></td>
+  <td>changed: 461907 px (22.56%)<br>bbox: [109, 95, 1100, 1524]<br>mean abs RGB: 34.1751<br>RMSE RGB: 81.5674<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
   <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 1</td>
@@ -539,6 +1204,66 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 464058 px (21.32%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 35.8457<br>RMSE RGB: 86.3231<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p4_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 4 difference heatmap"></td>
+  <td>changed: 471133 px (21.64%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 36.4739<br>RMSE RGB: 87.1225<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p5_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 5 difference heatmap"></td>
+  <td>changed: 473015 px (21.73%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 36.5844<br>RMSE RGB: 87.2375<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p6_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 6 difference heatmap"></td>
+  <td>changed: 466624 px (21.44%)<br>bbox: [112, 96, 1241, 1614]<br>mean abs RGB: 36.0006<br>RMSE RGB: 86.487<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p7_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 7 difference heatmap"></td>
+  <td>changed: 464925 px (21.36%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 35.9012<br>RMSE RGB: 86.3884<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p8_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 8 difference heatmap"></td>
+  <td>changed: 476866 px (21.91%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 36.8367<br>RMSE RGB: 87.4881<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p9_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 9 difference heatmap"></td>
+  <td>changed: 471357 px (21.65%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 36.4481<br>RMSE RGB: 87.0562<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p10_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 10 difference heatmap"></td>
+  <td>changed: 463555 px (21.30%)<br>bbox: [112, 96, 1241, 1615]<br>mean abs RGB: 35.7744<br>RMSE RGB: 86.1973<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p11_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 11 difference heatmap"></td>
+  <td>changed: 470090 px (21.60%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 36.2404<br>RMSE RGB: 86.78<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p12_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 12 difference heatmap"></td>
+  <td>changed: 476745 px (21.90%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 36.755<br>RMSE RGB: 87.3769<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p13_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 13 difference heatmap"></td>
+  <td>changed: 476511 px (21.89%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 36.7757<br>RMSE RGB: 87.4342<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 14</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p14_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 14 difference heatmap"></td>
+  <td>changed: 466489 px (21.43%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 35.9537<br>RMSE RGB: 86.4009<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_SampleTestData5mb</b><br>Page 15</td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p15_heatmap.png" width="760" alt="XlsxIssue82_SampleTestData5mb page 15 difference heatmap"></td>
+  <td>changed: 473057 px (21.73%)<br>bbox: [112, 96, 1241, 1618]<br>mean abs RGB: 36.478<br>RMSE RGB: 87.0386<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_WideTable</b><br>Page 1</td>
   <td><img src="images/XlsxIssue82_WideTable_p1_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 1 difference heatmap"></td>
   <td>changed: 545646 px (26.65%)<br>bbox: [114, 75, 1467, 1141]<br>mean abs RGB: 34.4706<br>RMSE RGB: 80.1001<br>threshold: 12, gain: 5.0</td>
@@ -554,9 +1279,54 @@ Blue areas are below the configured difference threshold; red areas have stronge
   <td>changed: 542297 px (26.48%)<br>bbox: [114, 75, 1476, 1141]<br>mean abs RGB: 33.8899<br>RMSE RGB: 79.2981<br>threshold: 12, gain: 5.0</td>
 </tr>
 <tr>
-  <td><b>XlsxIssue152_ClusteredNonZeroBarChart</b><br>Page 1</td>
-  <td><img src="images/XlsxIssue152_ClusteredNonZeroBarChart_p1_heatmap.png" width="760" alt="XlsxIssue152_ClusteredNonZeroBarChart page 1 difference heatmap"></td>
-  <td>changed: 94879 px (4.36%)<br>bbox: [112, 127, 881, 776]<br>mean abs RGB: 5.4351<br>RMSE RGB: 29.1989<br>threshold: 12, gain: 5.0</td>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 4</td>
+  <td><img src="images/XlsxIssue82_WideTable_p4_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 4 difference heatmap"></td>
+  <td>changed: 375564 px (18.34%)<br>bbox: [114, 75, 1463, 1119]<br>mean abs RGB: 26.6554<br>RMSE RGB: 72.0236<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 5</td>
+  <td><img src="images/XlsxIssue82_WideTable_p5_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 5 difference heatmap"></td>
+  <td>changed: 383919 px (18.75%)<br>bbox: [114, 75, 1425, 1141]<br>mean abs RGB: 22.0101<br>RMSE RGB: 62.6751<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 6</td>
+  <td><img src="images/XlsxIssue82_WideTable_p6_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 6 difference heatmap"></td>
+  <td>changed: 454177 px (22.18%)<br>bbox: [112, 75, 1363, 1141]<br>mean abs RGB: 27.6022<br>RMSE RGB: 71.017<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 7</td>
+  <td><img src="images/XlsxIssue82_WideTable_p7_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 7 difference heatmap"></td>
+  <td>changed: 458257 px (22.38%)<br>bbox: [112, 75, 1363, 1141]<br>mean abs RGB: 27.8152<br>RMSE RGB: 71.2835<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 8</td>
+  <td><img src="images/XlsxIssue82_WideTable_p8_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 8 difference heatmap"></td>
+  <td>changed: 289408 px (14.13%)<br>bbox: [112, 75, 1363, 1119]<br>mean abs RGB: 19.8844<br>RMSE RGB: 61.7853<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 9</td>
+  <td><img src="images/XlsxIssue82_WideTable_p9_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 9 difference heatmap"></td>
+  <td>changed: 367565 px (17.95%)<br>bbox: [112, 75, 1363, 1141]<br>mean abs RGB: 25.2897<br>RMSE RGB: 69.7296<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 10</td>
+  <td><img src="images/XlsxIssue82_WideTable_p10_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 10 difference heatmap"></td>
+  <td>changed: 367996 px (17.97%)<br>bbox: [112, 75, 1363, 1141]<br>mean abs RGB: 25.3228<br>RMSE RGB: 69.7663<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 11</td>
+  <td><img src="images/XlsxIssue82_WideTable_p11_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 11 difference heatmap"></td>
+  <td>changed: 368804 px (18.01%)<br>bbox: [112, 75, 1363, 1141]<br>mean abs RGB: 25.3955<br>RMSE RGB: 69.8851<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 12</td>
+  <td><img src="images/XlsxIssue82_WideTable_p12_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 12 difference heatmap"></td>
+  <td>changed: 245089 px (11.97%)<br>bbox: [112, 75, 1370, 1119]<br>mean abs RGB: 18.1671<br>RMSE RGB: 59.9755<br>threshold: 12, gain: 5.0</td>
+</tr>
+<tr>
+  <td><b>XlsxIssue82_WideTable</b><br>Page 13</td>
+  <td><img src="images/XlsxIssue82_WideTable_p13_heatmap.png" width="760" alt="XlsxIssue82_WideTable page 13 difference heatmap"></td>
+  <td>changed: 156929 px (7.66%)<br>bbox: [112, 82, 1361, 964]<br>mean abs RGB: 11.8798<br>RMSE RGB: 48.4638<br>threshold: 12, gain: 5.0</td>
 </tr>
 </table>
 
@@ -568,7 +1338,7 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 <tr><th>go MiniPdf</th><th>Microsoft 365 Excel Reference</th><th>LibreOffice</th></tr>
 <tr>
   <td><b>Academic Achievement Summary Table<br><small>format: xlsx | case: Academic Achievement Summary Table | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">Academic Achievement Summary Table <span style="color:#f85149">⬤</span> 39.8%</td>
+  <td colspan="2">Academic Achievement Summary Table <span style="color:#f85149">⬤</span> 26.3%</td>
 </tr>
 <tr>
   <td><img src="images/Academic Achievement Summary Table_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -586,8 +1356,38 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><i>missing</i></td>
 </tr>
 <tr>
+  <td><img src="images/Academic Achievement Summary Table_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Academic Achievement Summary Table_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Academic Achievement Summary Table_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Academic Achievement Summary Table_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Academic Achievement Summary Table_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Academic Achievement Summary Table_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>AcademicAchievement_temp<br><small>format: xlsx | case: AcademicAchievement_temp | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">AcademicAchievement_temp <span style="color:#f85149">⬤</span> 39.8%</td>
+  <td colspan="2">AcademicAchievement_temp <span style="color:#f85149">⬤</span> 26.3%</td>
 </tr>
 <tr>
   <td><img src="images/AcademicAchievement_temp_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -605,8 +1405,38 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><i>missing</i></td>
 </tr>
 <tr>
+  <td><img src="images/AcademicAchievement_temp_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/AcademicAchievement_temp_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/AcademicAchievement_temp_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/AcademicAchievement_temp_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/AcademicAchievement_temp_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/AcademicAchievement_temp_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>Business expense budget1<br><small>format: xlsx | case: Business expense budget1 | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">Business expense budget1 <span style="color:#3fb950">⬤</span> 96.7%</td>
+  <td colspan="2">Business expense budget1 <span style="color:#3fb950">⬤</span> 97.3%</td>
 </tr>
 <tr>
   <td><img src="images/Business expense budget1_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -624,8 +1454,13 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/Business expense budget1_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/Business expense budget1_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/Business expense budget1_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Business expense budget1_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>Business expenses budget2<br><small>format: xlsx | case: Business expenses budget2 | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">Business expenses budget2 <span style="color:#f85149">⬤</span> 18.0%</td>
+  <td colspan="2">Business expenses budget2 <span style="color:#f85149">⬤</span> 17.4%</td>
 </tr>
 <tr>
   <td><img src="images/Business expenses budget2_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -643,6 +1478,61 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/Business expenses budget2_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/Business expenses budget2_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/Business expenses budget2_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Business expenses budget2_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p11_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p12_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p13_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Business expenses budget2_p14_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>Business plan checklist with SWOT analysis1<br><small>format: xlsx | case: Business plan checklist with SWOT analysis1 | scope: go-issue-xlsx</small></b></td>
   <td colspan="2">Business plan checklist with SWOT analysis1 <span style="color:#f85149">⬤</span> 65.5%</td>
 </tr>
@@ -653,7 +1543,7 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 </tr>
 <tr>
   <td><b>Event budget1<br><small>format: xlsx | case: Event budget1 | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">Event budget1 <span style="color:#f85149">⬤</span> 61.2%</td>
+  <td colspan="2">Event budget1 <span style="color:#f85149">⬤</span> 56.2%</td>
 </tr>
 <tr>
   <td><img src="images/Event budget1_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -669,6 +1559,16 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/Event budget1_p3_minipdf.png" width="260" alt="go MiniPdf"></td>
   <td><img src="images/Event budget1_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/Event budget1_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Event budget1_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/Event budget1_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Event budget1_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/Event budget1_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Event budget1_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>Expense report basic1<br><small>format: xlsx | case: Expense report basic1 | scope: go-issue-xlsx</small></b></td>
@@ -700,7 +1600,7 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 </tr>
 <tr>
   <td><b>Issue202609031340<br><small>format: xlsx | case: Issue202609031340 | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">Issue202609031340 <span style="color:#f85149">⬤</span> 45.4%</td>
+  <td colspan="2">Issue202609031340 <span style="color:#f85149">⬤</span> 24.7%</td>
 </tr>
 <tr>
   <td><img src="images/Issue202609031340_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -718,8 +1618,53 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/Issue202609031340_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/Issue202609031340_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/Issue202609031340_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Issue202609031340_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Issue202609031340_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Issue202609031340_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Issue202609031340_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Issue202609031340_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Issue202609031340_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Issue202609031340_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Issue202609031340_p11_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Issue202609031340_p12_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>payroll-calculator_f<br><small>format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">payroll-calculator_f <span style="color:#f85149">⬤</span> 33.8%</td>
+  <td colspan="2">payroll-calculator_f <span style="color:#f85149">⬤</span> 34.8%</td>
 </tr>
 <tr>
   <td><img src="images/payroll-calculator_f_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -737,8 +1682,68 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/payroll-calculator_f_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/payroll-calculator_f_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p11_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p12_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p13_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p14_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/payroll-calculator_f_p15_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/payroll-calculator_f_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/payroll-calculator_f_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>PO_anonymized<br><small>format: xlsx | case: PO_anonymized | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">PO_anonymized <span style="color:#f85149">⬤</span> 39.1%</td>
+  <td colspan="2">PO_anonymized <span style="color:#f85149">⬤</span> 27.8%</td>
 </tr>
 <tr>
   <td><img src="images/PO_anonymized_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -756,6 +1761,66 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/PO_anonymized_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/PO_anonymized_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/PO_anonymized_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/PO_anonymized_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p11_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p12_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p13_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p14_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/PO_anonymized_p15_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>Simple invoice1<br><small>format: xlsx | case: Simple invoice1 | scope: go-issue-xlsx</small></b></td>
   <td colspan="2">Simple invoice1 <span style="color:#f85149">⬤</span> 58.5%</td>
 </tr>
@@ -766,7 +1831,7 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 </tr>
 <tr>
   <td><b>Small business cash flow forecast1<br><small>format: xlsx | case: Small business cash flow forecast1 | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">Small business cash flow forecast1 <span style="color:#f85149">⬤</span> 50.4%</td>
+  <td colspan="2">Small business cash flow forecast1 <span style="color:#f85149">⬤</span> 49.6%</td>
 </tr>
 <tr>
   <td><img src="images/Small business cash flow forecast1_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -784,8 +1849,23 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/Small business cash flow forecast1_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/Small business cash flow forecast1_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/Small business cash flow forecast1_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Small business cash flow forecast1_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Small business cash flow forecast1_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/Small business cash flow forecast1_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Small business cash flow forecast1_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/Small business cash flow forecast1_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>Wedding_timeline_planner1_copy<br><small>format: xlsx | case: Wedding_timeline_planner1_copy | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">Wedding_timeline_planner1_copy <span style="color:#d29922">⬤</span> 72.0%</td>
+  <td colspan="2">Wedding_timeline_planner1_copy <span style="color:#f85149">⬤</span> 55.3%</td>
 </tr>
 <tr>
   <td><img src="images/Wedding_timeline_planner1_copy_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -803,8 +1883,33 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/Wedding_timeline_planner1_copy_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><i>missing</i></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/Wedding_timeline_planner1_copy_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>Weekly schedule planner1<br><small>format: xlsx | case: Weekly schedule planner1 | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">Weekly schedule planner1 <span style="color:#f85149">⬤</span> 28.5%</td>
+  <td colspan="2">Weekly schedule planner1 <span style="color:#f85149">⬤</span> 24.0%</td>
 </tr>
 <tr>
   <td><img src="images/Weekly schedule planner1_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -822,8 +1927,43 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><i>missing</i></td>
 </tr>
 <tr>
+  <td><img src="images/Weekly schedule planner1_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Weekly schedule planner1_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Weekly schedule planner1_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Weekly schedule planner1_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Weekly schedule planner1_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Weekly schedule planner1_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/Weekly schedule planner1_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>XlsxIssue75<br><small>format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue75 <span style="color:#f85149">⬤</span> 46.7%</td>
+  <td colspan="2">XlsxIssue75 <span style="color:#f85149">⬤</span> 49.2%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue75_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -841,8 +1981,68 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/XlsxIssue75_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue75_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p11_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p12_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p13_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p14_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue75_p15_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue75_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue75_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_MergedCellAlignment<br><small>format: xlsx | case: XlsxIssue77_MergedCellAlignment | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue77_MergedCellAlignment <span style="color:#d29922">⬤</span> 70.2%</td>
+  <td colspan="2">XlsxIssue77_MergedCellAlignment <span style="color:#f85149">⬤</span> 65.1%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue77_MergedCellAlignment_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -860,8 +2060,13 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><i>missing</i></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue77_MergedCellAlignment_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_Template1<br><small>format: xlsx | case: XlsxIssue77_Template1 | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue77_Template1 <span style="color:#f85149">⬤</span> 48.9%</td>
+  <td colspan="2">XlsxIssue77_Template1 <span style="color:#f85149">⬤</span> 34.1%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue77_Template1_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -879,8 +2084,23 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/XlsxIssue77_Template1_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue77_Template1_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue77_Template1_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template1_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/XlsxIssue77_Template1_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template1_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/XlsxIssue77_Template1_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template1_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue77_Template2_Workaround<br><small>format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue77_Template2_Workaround <span style="color:#f85149">⬤</span> 48.8%</td>
+  <td colspan="2">XlsxIssue77_Template2_Workaround <span style="color:#f85149">⬤</span> 34.1%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue77_Template2_Workaround_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -898,8 +2118,23 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/XlsxIssue77_Template2_Workaround_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue77_Template2_Workaround_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue81_LayoutOptions<br><small>format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue81_LayoutOptions <span style="color:#f85149">⬤</span> 63.1%</td>
+  <td colspan="2">XlsxIssue81_LayoutOptions <span style="color:#f85149">⬤</span> 54.7%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue81_LayoutOptions_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -915,6 +2150,66 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/XlsxIssue81_LayoutOptions_p3_minipdf.png" width="260" alt="go MiniPdf"></td>
   <td><img src="images/XlsxIssue81_LayoutOptions_p3_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
   <td><img src="images/XlsxIssue81_LayoutOptions_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p11_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p12_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p13_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p14_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><i>missing</i></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue81_LayoutOptions_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
   <td><b>XlsxIssue82_5mb<br><small>format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx</small></b></td>
@@ -936,8 +2231,68 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/XlsxIssue82_5mb_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue82_5mb_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p11_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p12_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p13_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p14_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_5mb_p15_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_5mb_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_5mb_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_SampleTestData5mb<br><small>format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue82_SampleTestData5mb <span style="color:#f85149">⬤</span> 52.1%</td>
+  <td colspan="2">XlsxIssue82_SampleTestData5mb <span style="color:#f85149">⬤</span> 50.5%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue82_SampleTestData5mb_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -955,8 +2310,68 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/XlsxIssue82_SampleTestData5mb_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p11_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p12_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p13_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p14_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p14_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p14_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p15_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p15_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_SampleTestData5mb_p15_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
   <td><b>XlsxIssue82_WideTable<br><small>format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue82_WideTable <span style="color:#f85149">⬤</span> 63.2%</td>
+  <td colspan="2">XlsxIssue82_WideTable <span style="color:#f85149">⬤</span> 38.2%</td>
 </tr>
 <tr>
   <td><img src="images/XlsxIssue82_WideTable_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
@@ -974,13 +2389,71 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
   <td><img src="images/XlsxIssue82_WideTable_p3_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><b>XlsxIssue152_ClusteredNonZeroBarChart<br><small>format: xlsx | case: XlsxIssue152_ClusteredNonZeroBarChart | scope: go-issue-xlsx</small></b></td>
-  <td colspan="2">XlsxIssue152_ClusteredNonZeroBarChart <span style="color:#d29922">⬤</span> 70.9%</td>
+  <td><img src="images/XlsxIssue82_WideTable_p4_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p4_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p4_libreoffice.png" width="260" alt="LibreOffice"></td>
 </tr>
 <tr>
-  <td><img src="images/XlsxIssue152_ClusteredNonZeroBarChart_p1_minipdf.png" width="260" alt="go MiniPdf"></td>
-  <td><img src="images/XlsxIssue152_ClusteredNonZeroBarChart_p1_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
-  <td><img src="images/XlsxIssue152_ClusteredNonZeroBarChart_p1_libreoffice.png" width="260" alt="LibreOffice"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p5_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p5_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p5_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p6_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p6_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p6_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p7_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p7_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p7_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p8_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p8_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p8_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p9_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p9_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p9_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p10_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p10_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p10_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p11_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p11_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p11_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p12_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p12_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p12_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p13_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p13_reference.png" width="260" alt="Microsoft 365 Excel Reference"></td>
+  <td><img src="images/XlsxIssue82_WideTable_p13_libreoffice.png" width="260" alt="LibreOffice"></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p14_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><img src="images/XlsxIssue82_WideTable_p15_minipdf.png" width="260" alt="go MiniPdf"></td>
+  <td><i>missing</i></td>
+  <td><i>missing</i></td>
+</tr>
+<tr>
+  <td><b>XlsxIssue152_ClusteredNonZeroBarChart<br><small>format: xlsx | case: XlsxIssue152_ClusteredNonZeroBarChart | scope: go-issue-xlsx</small></b></td>
+  <td colspan="2">XlsxIssue152_ClusteredNonZeroBarChart N/A</td>
+</tr>
+<tr>
+  <td colspan="3"><i>No images</i></td>
 </tr>
 </table>
 
@@ -990,9 +2463,9 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 
 - **Case Metadata:** format: xlsx | case: Academic Achievement Summary Table | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Academic Achievement Summary Table.xlsx
-- **Text Similarity:** 0.3235
-- **Visual Average:** 0.4218
-- **Overall Score:** 0.3981
+- **Text Similarity:** 0.2667
+- **Visual Average:** 0.1406
+- **Overall Score:** 0.2629
 - **Pages:** MiniPdf=9, Reference=2
 - **File Size:** MiniPdf=16516 bytes, Reference=151877 bytes
 
@@ -1036,7 +2509,7 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 
  3
 
-@@ -16,27 +18,30 @@
+@@ -16,50 +18,30 @@
  10
 
  11
@@ -1112,6 +2585,52 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 -?????????????????????SCI???????????SSCI??????SCI?SSCI???????????????Q1?Q2?
 
 ----PAGE---
+
+-
+
+----PAGE---
+
+-?????
+
+-?????????
+
+-??
+
+-????  ??????  ??   ????
+
+-??
+
+-????  ????? ????? ???   ????
+
+-??????    ????
+
+-????   ??
+
+----PAGE---
+
+-?? ??????   ????
+
+----PAGE---
+
+-
+
+----PAGE---
+
+-???????????????       ??????
+
+-???1??
+
+-???????????????       ??
+
+-??????       ??
+
+-????????       ??
+
+----PAGE---
+
+-
+
+----PAGE---
 +本人承诺以上情况属实，并有相应证明。如有不实之处，愿意承担相应责任。
 
 +报名人员签名：
@@ -1130,9 +2649,9 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 
 - **Case Metadata:** format: xlsx | case: AcademicAchievement_temp | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/AcademicAchievement_temp.xlsx
-- **Text Similarity:** 0.3235
-- **Visual Average:** 0.4218
-- **Overall Score:** 0.3981
+- **Text Similarity:** 0.2667
+- **Visual Average:** 0.1406
+- **Overall Score:** 0.2629
 - **Pages:** MiniPdf=9, Reference=2
 - **File Size:** MiniPdf=16516 bytes, Reference=151877 bytes
 
@@ -1176,7 +2695,7 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 
  3
 
-@@ -16,27 +18,30 @@
+@@ -16,50 +18,30 @@
  10
 
  11
@@ -1252,6 +2771,52 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 -?????????????????????SCI???????????SSCI??????SCI?SSCI???????????????Q1?Q2?
 
 ----PAGE---
+
+-
+
+----PAGE---
+
+-?????
+
+-?????????
+
+-??
+
+-????  ??????  ??   ????
+
+-??
+
+-????  ????? ????? ???   ????
+
+-??????    ????
+
+-????   ??
+
+----PAGE---
+
+-?? ??????   ????
+
+----PAGE---
+
+-
+
+----PAGE---
+
+-???????????????       ??????
+
+-???1??
+
+-???????????????       ??
+
+-??????       ??
+
+-????????       ??
+
+----PAGE---
+
+-
+
+----PAGE---
 +本人承诺以上情况属实，并有相应证明。如有不实之处，愿意承担相应责任。
 
 +报名人员签名：
@@ -1271,8 +2836,8 @@ Scores compare go MiniPdf against Microsoft 365 Excel Reference. LibreOffice is 
 - **Case Metadata:** format: xlsx | case: Business expense budget1 | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Business expense budget1.xlsx
 - **Text Similarity:** 1.0
-- **Visual Average:** 0.9174
-- **Overall Score:** 0.967
+- **Visual Average:** 0.9335
+- **Overall Score:** 0.9734
 - **Pages:** MiniPdf=4, Reference=4
 - **File Size:** MiniPdf=85664 bytes, Reference=159864 bytes
 
@@ -1282,9 +2847,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: Business expenses budget2 | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Business expenses budget2.xlsx
-- **Text Similarity:** 0.119
-- **Visual Average:** 0.0808
-- **Overall Score:** 0.1799
+- **Text Similarity:** 0.162
+- **Visual Average:** 0.022
+- **Overall Score:** 0.1736
 - **Pages:** MiniPdf=14, Reference=4
 - **File Size:** MiniPdf=23794 bytes, Reference=376973 bytes
 
@@ -1293,7 +2858,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/Business expenses budget2.pdf
 +++ reference/Business expenses budget2.pdf
-@@ -1,56 +1,81 @@
+@@ -1,198 +1,109 @@
  Market Financial Consulting
 
  PLANNED EXPENSES
@@ -1346,30 +2911,82 @@ Text content: ✅ Identical
 
 -TRAINING / TRAVEL 4000 4000 4000 4000 4000 4000 4000
 
+----PAGE---
+
+-TRAINING/TRAVEL JANUARY FEBRUARY MARCH APRIL MAY JUNE JULY
+
+-Training classes 2000 2000 2000 2000 2000 2000 2000
+
+-Travel costs 2000 2000 2000 2000 2000 2000 2000
+
+-MONTHLY TOTAL 131420 126820 126820 137695 129695 130495 134695
+
+----PAGE---
+
+-August September October November December Total
+
+-117348 117348 117348 117348 117348 1355090
+
+-AUGUST SEPTEMBER OCTOBER NOVEMBER DECEMBER TOTAL
+
+-92400 92400 92400 92400 92400 1067000
+
+-24948 24948 24948 24948 24948 288090
+
+-11470 11470 11470 11770 11770 138740
+
+-AUGUST SEPTEMBER OCTOBER NOVEMBER DECEMBER TOTAL
+
+-9800 9800 9800 9800 9800 117600
+
+-100 100 100 400 400 2300
+
+-300 300 300 300 300 3600
+
+-40 40 40 40 40 480
+
+-250 250 250 250 250 3000
+
+-180 180 180 180 180 2160
+
+-200 200 200 200 200 2400
+
+-600 600 600 600 600 7200
+
+-6100 3100 8100 3100 6900 67800
+
+-AUGUST SEPTEMBER OCTOBER NOVEMBER DECEMBER TOTAL
+
+-500 500 500 500 500 6000
+
+-200 200 200 200 1000 4000
+
+-0 0 5000 0 0 20000
+
+-200 200 200 200 200 2400
+
+-5000 2000 2000 2000 5000 33000
+
+-200 200 200 200 200 2400
+
+-4000 4000 4000 4000 4000 48000
+
+----PAGE---
+
+-AUGUST SEPTEMBER OCTOBER NOVEMBER DECEMBER TOTAL
+
+-2000 2000 2000 2000 2000 24000
+
+-2000 2000 2000 2000 2000 24000
+
+-138918 135918 140918 136218 140018 1609630
+
 +January February March April May June July August September October November December Total
 
 +EMPLOYEE COSTS $ 107,950.00 $ 107,950.00 $ 107,950.00 $ 111,125.00 $ 111,125.00 $ 111,125.00 $ 111,125.00 $ 117,348.00 $ 117,348.00 $ 117,348.00 $ 117,348.00 $ 117,348.00 $ 1,355,090.00
 
-+Wages $ 85,000.00 $ 85,000.00 $ 85,000.00 $ 87,500.00 $ 87,500.00 $ 87,500.00 $ 87,500.00 $ 92,400.00 $ 92,400.00 $ 92,400.00 $ 92,400.00 $ 92,400.00 $ 1,067,000.00
-
-+Benefits $ 22,950.00 $ 22,950.00 $ 22,950.00 $ 23,625.00 $ 23,625.00 $ 23,625.00 $ 23,625.00 $ 24,948.00 $ 24,948.00 $ 24,948.00 $ 24,948.00 $ 24,948.00 $ 288,090.00
-
-+OFFICE COSTS $ 11,370.00 $ 11,770.00 $ 11,770.00 $ 11,470.00 $ 11,470.00 $ 11,470.00 $ 11,470.00 $ 11,470.00 $ 11,470.00 $ 11,470.00 $ 11,770.00 $ 11,770.00 $ 138,740.00
-
-+Office lease $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 9,800.00 $ 117,600.00
-
-+Gas $ - $ 400.00 $ 400.00 $ 100.00 $ 100.00 $ 100.00 $ 100.00 $ 100.00 $ 100.00 $ 100.00 $ 400.00 $ 400.00 $ 2,300.00
-
-+Electric $ 300.00 $ 300.00 $ 300.00 $ 300.00 $ 300.00 $ 300.00 $ 300.00 $ 300.00 $ 300.00 $ 300.00 $ 300.00 $ 300.00 $ 3,600.00
-
-+Water $ 40.00 $ 40.00 $ 40.00 $ 40.00 $ 40.00 $ 40.00 $ 40.00 $ 40.00 $ 40.00 $ 40.00 $ 40.00 $ 40.00 $ 480.00
-
-+Telephone $ 250.00 $ 250.00 $ 250.00 $ 250.00 $ 250.00 $ 250.00 $ 250.00 $ 250.00 $ 250.00 $ 250.00 $ 250.00 $ 250.00 $ 3,000.00
-
-+Internet access $ 180.00 $ 180.00 $ 180.00 $ 180.00 $ 180.00 $ 180.00 $ 180.00 $ 180.00 $ 180.00 $ 180.00 $ 180.00 $ 180.00 $ 2,160.00
-
-+Office supplies $ 200.00 $ 200.00 $ 200.00 $ 200.00 $ 200.00 $ 200.00 $ 200.00 $ 200.0
-... (7214 more characters)
++Wages $ 85,000.00 $ 85,000.00 $ 85,000.00 $ 87,500.00 $ 87,500.00 $ 87,500.00 $ 87,500.00 $ 92,400.00 $ 92,400.00 $ 92,400.00 $ 92,400.00
+... (11876 more characters)
 
 ```
 </details>
@@ -1497,9 +3114,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: Event budget1 | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Event budget1.xlsx
-- **Text Similarity:** 0.712
-- **Visual Average:** 0.5681
-- **Overall Score:** 0.612
+- **Text Similarity:** 0.8061
+- **Visual Average:** 0.349
+- **Overall Score:** 0.562
 - **Pages:** MiniPdf=4, Reference=5
 - **File Size:** MiniPdf=8388 bytes, Reference=121223 bytes
 
@@ -1508,7 +3125,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/Event budget1.pdf
 +++ reference/Event budget1.pdf
-@@ -1,68 +1,41 @@
+@@ -1,75 +1,85 @@
  ABOUT THIS TEMPLATE
 
 -Use this event budget workbook to track expenses incurred on and income earned from
@@ -1649,7 +3266,9 @@ Text content: ✅ Identical
 
 -Total 12 13
 
-----PAGE---
++Total $12.00 $13.00
+
+ ---PAGE---
 
 -Event budget     INCOME
 
@@ -1657,22 +3276,24 @@ Text content: ✅ Identical
 
 -1936 1831
 
--ADMISSIONS
++
 
--Estimated no. Actual no. Type Price Estimated income Actual income
++---PAGE---
 
--300 278 Adults @ 5 1500 1390
++Event budget INCOME
 
--197 195 Children @ 2 394 390
++Estimated Actual
 
--42 51 Other @ 1 42 51
++TOTAL INCOME
 
--Total    1936 1831
++$1,936.00 $1,831.00
 
--ADS IN PROGRAM
+ ADMISSIONS
 
--Estimated no. Actua
-... (485 more characters)
+ Estimated no. Actual no. Type Price Estimated income Actual income
+
+-300 278 Adults @ 5 1500 139
+... (1439 more characters)
 
 ```
 </details>
@@ -1911,9 +3532,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: Issue202609031340 | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Issue202609031340.xlsx
-- **Text Similarity:** 0.1715
-- **Visual Average:** 0.7138
-- **Overall Score:** 0.4541
+- **Text Similarity:** 0.1359
+- **Visual Average:** 0.2314
+- **Overall Score:** 0.2469
 - **Pages:** MiniPdf=12, Reference=4
 - **File Size:** MiniPdf=27541 bytes, Reference=346206 bytes
 
@@ -1922,7 +3543,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/Issue202609031340.pdf
 +++ reference/Issue202609031340.pdf
-@@ -1,71 +1,109 @@
+@@ -1,134 +1,113 @@
 -XXXXXX????
 
 -?????????
@@ -2163,8 +3784,8 @@ Text content: ✅ Identical
 
 -2025/8/6  02 CCCC  CCCC  ???????MO25XXXX0110
 
--20
-... (1105 more characters)
+-2
+... (2586 more characters)
 
 ```
 </details>
@@ -2173,9 +3794,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: payroll-calculator_f | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/payroll-calculator_f.xlsx
-- **Text Similarity:** 0.2914
-- **Visual Average:** 0.3029
-- **Overall Score:** 0.3377
+- **Text Similarity:** 0.2865
+- **Visual Average:** 0.3342
+- **Overall Score:** 0.3483
 - **Pages:** MiniPdf=72, Reference=29
 - **File Size:** MiniPdf=151678 bytes, Reference=606513 bytes
 
@@ -2184,7 +3805,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/payroll-calculator_f.pdf
 +++ reference/payroll-calculator_f.pdf
-@@ -1,17 +1,49 @@
+@@ -1,91 +1,194 @@
  Employee Register
 
 -Information contained in this employee register is highly confidential
@@ -2241,11 +3862,8 @@ Text content: ✅ Identical
 
 +Page 1 of 29
 
- ---PAGE---
++---PAGE---
 
--When adding more rows, insert new rows above this one
-
-----PAGE---
 +tatus (W-4 from 2020 or later) Pre-Tax Adjustments Post-Tax Adjustments Post-Tax Deductions
 
 +Step 3 Step 4
@@ -2311,6 +3929,20 @@ Text content: ✅ Identical
 +notification.
 
 +Page 3 of 29
+
++---PAGE---
+
++Payroll Calculator
+
++Pay Period Hours Pre-Tax Adjustments Withholdings
+
++Regular Holiday Vacation Sick Overtime Taxable Pre-Tax Post-Tax Tax Deferral Health Insurance Federal State Local Social
+
++ID Employee Name From To Gross Pay Other
+
++Hours Hours Hours Hours Hours Compensation
+... (7277 more characters)
+
 ```
 </details>
 
@@ -2318,9 +3950,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: PO_anonymized | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/PO_anonymized.xlsx
-- **Text Similarity:** 0.2925
-- **Visual Average:** 0.4354
-- **Overall Score:** 0.3912
+- **Text Similarity:** 0.2196
+- **Visual Average:** 0.2245
+- **Overall Score:** 0.2776
 - **Pages:** MiniPdf=235, Reference=9
 - **File Size:** MiniPdf=616365 bytes, Reference=409049 bytes
 
@@ -2329,7 +3961,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/PO_anonymized.pdf
 +++ reference/PO_anonymized.pdf
-@@ -1,96 +1,140 @@
+@@ -1,180 +1,212 @@
  Final Inspection Report
 
 -Client:   Global Tech     Supplier:
@@ -2508,6 +4140,8 @@ Text content: ✅ Identical
 
 -Total:
 
+----PAGE---
+
 +Total Defectives 1 4
 
 +Maximum Defectives 0 7 14 21
@@ -2528,12 +4162,12 @@ Text content: ✅ Identical
 
 +Effective: 20171109 Page 1 of 9
 
- ---PAGE---
++---PAGE---
 
 +Final Inspection Report
 
-+Client: Global Tech Suppl
-... (4881 more characters)
++Client: Glo
+... (9599 more characters)
 
 ```
 </details>
@@ -2638,9 +4272,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: Small business cash flow forecast1 | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Small business cash flow forecast1.xlsx
-- **Text Similarity:** 0.4982
-- **Visual Average:** 0.5109
-- **Overall Score:** 0.5036
+- **Text Similarity:** 0.4763
+- **Visual Average:** 0.5129
+- **Overall Score:** 0.4957
 - **Pages:** MiniPdf=6, Reference=5
 - **File Size:** MiniPdf=12465 bytes, Reference=93247 bytes
 
@@ -2783,7 +4417,7 @@ Text content: ✅ Identical
 +Contract labor $ 200.00 $ 200.00 $ 200.00 $ 200.00 $ 200.00 $ 200.00 $ 1,200.00
 
 +Employee benefit pr
-... (2435 more characters)
+... (3033 more characters)
 
 ```
 </details>
@@ -2792,9 +4426,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: Wedding_timeline_planner1_copy | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Wedding_timeline_planner1_copy.xlsx
-- **Text Similarity:** 0.8286
-- **Visual Average:** 0.7221
-- **Overall Score:** 0.7203
+- **Text Similarity:** 0.8615
+- **Visual Average:** 0.2708
+- **Overall Score:** 0.5529
 - **Pages:** MiniPdf=3, Reference=8
 - **File Size:** MiniPdf=10835 bytes, Reference=180076 bytes
 
@@ -2803,7 +4437,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/Wedding_timeline_planner1_copy.pdf
 +++ reference/Wedding_timeline_planner1_copy.pdf
-@@ -1,91 +1,121 @@
+@@ -1,91 +1,138 @@
  Wedding timeline planner
 
  DONE?
@@ -2937,7 +4571,7 @@ Text content: ✅ Identical
 +☐ Shop for wedding rings.
 
 +Select and order wedding gown, leaving ample time for delivery and
-... (6103 more characters)
+... (6551 more characters)
 
 ```
 </details>
@@ -2946,9 +4580,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: Weekly schedule planner1 | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/Weekly schedule planner1.xlsx
-- **Text Similarity:** 0.4
-- **Visual Average:** 0.0614
-- **Overall Score:** 0.2846
+- **Text Similarity:** 0.3316
+- **Visual Average:** 0.0184
+- **Overall Score:** 0.24
 - **Pages:** MiniPdf=10, Reference=1
 - **File Size:** MiniPdf=15322 bytes, Reference=148591 bytes
 
@@ -2957,7 +4591,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/Weekly schedule planner1.pdf
 +++ reference/Weekly schedule planner1.pdf
-@@ -1,26 +1,15 @@
+@@ -1,51 +1,15 @@
  Weekly schedule planner
 
 -Weekly objectives
@@ -3009,6 +4643,56 @@ Text content: ✅ Identical
 -Go to vet    ? Shopping
 
 -? Rehearse
+
+----PAGE---
+
+-
+
+----PAGE---
+
+-46104
+
+-26  Thursday   27  Friday
+
+-March     March
+
+-Run     Run
+
+-Read     Read
+
+-Stretch     Stretch
+
+-Present
+
+----PAGE---
+
+-
+
+----PAGE---
+
+-Deadlines this week
+
+-Presentation on Thursday
+
+-28  Saturday   29  Sunday
+
+-March     March
+
+-Run     Run
+
+-Read     Read
+
+-Stretch     Stretch
+
+----PAGE---
+
+-
+
+----PAGE---
+
+-
+
+----PAGE---
 +Week of: 8/24/2026
 
 +Weekly objectives To do items Deadlines this week
@@ -3043,9 +4727,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue75 | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue75.xlsx
-- **Text Similarity:** 0.0568
-- **Visual Average:** 0.8608
-- **Overall Score:** 0.467
+- **Text Similarity:** 0.1273
+- **Visual Average:** 0.854
+- **Overall Score:** 0.4925
 - **Pages:** MiniPdf=74, Reference=144
 - **File Size:** MiniPdf=337621 bytes, Reference=5896201 bytes
 
@@ -3054,7 +4738,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue75.pdf
 +++ reference/XlsxIssue75.pdf
-@@ -1,148 +1,155 @@
+@@ -1,748 +1,779 @@
 -Vend_ID Vend_Name Doc_Type Doc_Num Doc_Date Posting_Date Due_Date Description Doc_Amt
 
 -00198           Fred Invoice 100-100-2 45229 45233 45259 A#$%123 50
@@ -3138,7 +4822,7 @@ Text content: ✅ Identical
 -3991293         Fred Invoice 100-100-41 45223 45231 45253 A#$%162 50
 
 -39912
-... (10965 more characters)
+... (66974 more characters)
 
 ```
 </details>
@@ -3148,8 +4832,8 @@ Text content: ✅ Identical
 - **Case Metadata:** format: xlsx | case: XlsxIssue77_MergedCellAlignment | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue77_MergedCellAlignment.xlsx
 - **Text Similarity:** 0.9993
-- **Visual Average:** 0.5052
-- **Overall Score:** 0.7018
+- **Visual Average:** 0.3789
+- **Overall Score:** 0.6513
 - **Pages:** MiniPdf=4, Reference=2
 - **File Size:** MiniPdf=13955 bytes, Reference=172385 bytes
 
@@ -3158,7 +4842,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue77_MergedCellAlignment.pdf
 +++ reference/XlsxIssue77_MergedCellAlignment.pdf
-@@ -1,82 +1,69 @@
+@@ -1,84 +1,69 @@
  Arial Font
 
 -Horizontal Left + Vertical Bottom    Horizontal Center + Vertical Bottom
@@ -3260,7 +4944,7 @@ Text content: ✅ Identical
 +Tripple Wide and High Cell Tripple Wide and High Cell Tripple Wide and High Cell
 
 +Apple Apple Apple Apple Apple App
-... (5708 more characters)
+... (5724 more characters)
 
 ```
 </details>
@@ -3269,9 +4953,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue77_Template1 | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue77_Template1.xlsx
-- **Text Similarity:** 0.4833
-- **Visual Average:** 0.4881
-- **Overall Score:** 0.4886
+- **Text Similarity:** 0.2828
+- **Visual Average:** 0.3193
+- **Overall Score:** 0.3408
 - **Pages:** MiniPdf=4, Reference=6
 - **File Size:** MiniPdf=11282 bytes, Reference=64464 bytes
 
@@ -3280,7 +4964,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue77_Template1.pdf
 +++ reference/XlsxIssue77_Template1.pdf
-@@ -1,16 +1,41 @@
+@@ -1,18 +1,83 @@
  RMA AUTHORIZATION
 
 -RMA # 12345
@@ -3310,6 +4994,36 @@ Text content: ✅ Identical
 -Invoice #  Qty
 
 -Authorized Per Unit
+
++Customer Name Sales Person Requestor
+
++Return Address: Reason for Return:
+
++NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR
+
++code, original factory packaging, with no extra labels or markings on the product.
+
++Original Qty
+
++Part No. Per Unit
+
++Invoice # Authorized
+
+ ---PAGE---
+
+-
+
++RMA AUTHORIZATION
+
++RMA #
+
++12345
+
++Issue On 1/1/20216
+
++*** Void after 60 days ***
+
++Attn Customer:   Please return parts to the return address below.
 
 +Customer Name Sales Person Requestor
 
@@ -3383,6 +5097,38 @@ Text content: ✅ Identical
 +Part No. Per Unit
 
 +Invoice # Authorized
+
++---PAGE---
+
++RMA AUTHORIZATION
+
++RMA #
+
++12345
+
++Issue On 1/1/20216
+
++*** Void after 60 days ***
+
++Attn Customer:   Please return parts to the return address below.
+
++Customer Name Sales Person Requestor
+
++Return Address: Reason for Return:
+
++NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR
+
++code, original factory packaging, with no extra labels or markings on the product.
+
++Original Qty
+
++Part No. Per Unit
+
++Invoice # Authorized
+
++---P
+... (499 more characters)
+
 ```
 </details>
 
@@ -3390,9 +5136,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue77_Template2_Workaround | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue77_Template2_Workaround.xlsx
-- **Text Similarity:** 0.4833
-- **Visual Average:** 0.4868
-- **Overall Score:** 0.488
+- **Text Similarity:** 0.2828
+- **Visual Average:** 0.3184
+- **Overall Score:** 0.3405
 - **Pages:** MiniPdf=4, Reference=6
 - **File Size:** MiniPdf=11461 bytes, Reference=64466 bytes
 
@@ -3401,7 +5147,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue77_Template2_Workaround.pdf
 +++ reference/XlsxIssue77_Template2_Workaround.pdf
-@@ -1,16 +1,41 @@
+@@ -1,18 +1,83 @@
  RMA AUTHORIZATION
 
 -RMA # 12345
@@ -3431,6 +5177,36 @@ Text content: ✅ Identical
 -Invoice #  Qty
 
 -Authorized Per Unit
+
++Customer Name Sales Person Requestor
+
++Return Address: Reason for Return:
+
++NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR
+
++code, original factory packaging, with no extra labels or markings on the product.
+
++Original Qty
+
++Part No. Per Unit
+
++Invoice # Authorized
+
+ ---PAGE---
+
+-
+
++RMA AUTHORIZATION
+
++RMA #
+
++12345
+
++Issue On 1/1/20216
+
++*** Void after 60 days ***
+
++Attn Customer:   Please return parts to the return address below.
 
 +Customer Name Sales Person Requestor
 
@@ -3504,6 +5280,36 @@ Text content: ✅ Identical
 +Part No. Per Unit
 
 +Invoice # Authorized
+
++---PAGE---
+
++RMA AUTHORIZATION
+
++RMA #
+
++12345
+
++Issue On 1/1/20216
+
++*** Void after 60 days ***
+
++Attn Customer:   Please return parts to the return address below.
+
++Customer Name Sales Person Requestor
+
++Return Address: Reason for Return:
+
++NOTE - All parts returned for credit must be in original factory condition, with clean factory label and scannable QR
+
++code, original factory packaging, with no extra labels or markings on the product.
+
++Original Qty
+
++Part No. Per Unit
+
++Invoi
+... (521 more characters)
+
 ```
 </details>
 
@@ -3511,9 +5317,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue81_LayoutOptions | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue81_LayoutOptions.xlsx
-- **Text Similarity:** 0.5364
-- **Visual Average:** 0.7908
-- **Overall Score:** 0.6309
+- **Text Similarity:** 0.3654
+- **Visual Average:** 0.7527
+- **Overall Score:** 0.5472
 - **Pages:** MiniPdf=14, Reference=16
 - **File Size:** MiniPdf=72164 bytes, Reference=242251 bytes
 
@@ -3522,7 +5328,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue81_LayoutOptions.pdf
 +++ reference/XlsxIssue81_LayoutOptions.pdf
-@@ -1,139 +1,119 @@
+@@ -1,615 +1,503 @@
 -Invoice Customer Region Owner Status Submitted Reviewed Amount Tax
 
 -INV-00001 Customer account with extended legal name 001 Europe Operations owner 2 In
@@ -3606,7 +5412,7 @@ Text content: ✅ Identical
 -3 Queued 2026-07-21 2026-08-21 1517.4 75.87
 
 -INV-00021 Customer
-... (16333 more characters)
+... (80874 more characters)
 
 ```
 </details>
@@ -3615,8 +5421,8 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue82_5mb | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue82_5mb.xlsx
-- **Text Similarity:** 0.0485
-- **Visual Average:** 0.8199
+- **Text Similarity:** 0.0496
+- **Visual Average:** 0.819
 - **Overall Score:** 0.4474
 - **Pages:** MiniPdf=3781, Reference=766
 - **File Size:** MiniPdf=21668282 bytes, Reference=21494385 bytes
@@ -3626,7 +5432,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue82_5mb.pdf
 +++ reference/XlsxIssue82_5mb.pdf
-@@ -1,139 +1,143 @@
+@@ -1,703 +1,719 @@
 -Name Email Phone Address Company Text Description Job Title
 
 -Quentin Hyatt oschiller@huels.com 573.920.9800 22808 Lueilwitz Street Apt. 357
@@ -3698,7 +5504,7 @@ Text content: ✅ Identical
 -sit. Et cupiditate quia animi labore sit quisquam nostrum. Qui deleniti rerum est
 
 -possimus corporis. Vel explicabo sit u
-... (21738 more characters)
+... (120874 more characters)
 
 ```
 </details>
@@ -3707,9 +5513,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue82_SampleTestData5mb | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue82_SampleTestData5mb.xlsx
-- **Text Similarity:** 0.202
-- **Visual Average:** 0.8497
-- **Overall Score:** 0.5207
+- **Text Similarity:** 0.1685
+- **Visual Average:** 0.844
+- **Overall Score:** 0.505
 - **Pages:** MiniPdf=2860, Reference=1668
 - **File Size:** MiniPdf=15860614 bytes, Reference=32924505 bytes
 
@@ -3718,7 +5524,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue82_SampleTestData5mb.pdf
 +++ reference/XlsxIssue82_SampleTestData5mb.pdf
-@@ -1,148 +1,146 @@
+@@ -1,748 +1,734 @@
 -ID Name Email City Country Department Notes Value1 Value2
 
 -1 User 1 user1@example.com Toronto UK IT
@@ -3806,7 +5612,7 @@ Text content: ✅ Identical
 -r2O9ZtMJy9mYmdZcIGRuXXmGu9FbpsQe5kCkC8tZbNHOFpq06QRQtoVHSlRnpYZEWhip3AfemN5czYclDNp
 
 -UBFrivEPeBBvRk4okbfA4h2ALPE9FBjoNc3ISP7CC6zRKNuM1shRDTh6WDETvsZxyMKwzfLWY7NMxJ
-... (16320 more characters)
+... (95129 more characters)
 
 ```
 </details>
@@ -3815,9 +5621,9 @@ Text content: ✅ Identical
 
 - **Case Metadata:** format: xlsx | case: XlsxIssue82_WideTable | scope: go-issue-xlsx
 - **Source:** tests/Issue_Files/xlsx/XlsxIssue82_WideTable.xlsx
-- **Text Similarity:** 0.8139
-- **Visual Average:** 0.5165
-- **Overall Score:** 0.6322
+- **Text Similarity:** 0.185
+- **Visual Average:** 0.5192
+- **Overall Score:** 0.3817
 - **Pages:** MiniPdf=15, Reference=13
 - **File Size:** MiniPdf=54499 bytes, Reference=467940 bytes
 
@@ -3826,7 +5632,7 @@ Text content: ✅ Identical
 ```diff
 --- minipdf/XlsxIssue82_WideTable.pdf
 +++ reference/XlsxIssue82_WideTable.pdf
-@@ -1,103 +1,113 @@
+@@ -1,433 +1,415 @@
 -Record ID First Name Last Name Street Address City Region Postal Code Phone Email
 
 -ID-00001 Naveen Adhikari 1000 North Evergreen Avenue Suite 200 Kathmandu WA 98000 555-0100
@@ -3884,80 +5690,40 @@ Text content: ✅ Identical
 -ID-00023 Marcus Bennett 1022 North Evergreen Avenue Suite 222 Melbourne WA 98022 555-0122 marcus.bennett22@example.test
 
 -ID-00024 Priya Olsen 1023 North Evergreen Avenue Suite 223 Toronto BC 98023 555-0123 priya.olsen23@example.t
-... (16063 more characters)
+... (65371 more characters)
 
 ```
 </details>
 
 ### XlsxIssue152_ClusteredNonZeroBarChart
 
-- **Case Metadata:** format: xlsx | case: XlsxIssue152_ClusteredNonZeroBarChart | scope: go-issue-xlsx
-- **Source:** tests/Issue_Files/xlsx/XlsxIssue152_ClusteredNonZeroBarChart.xlsx
-- **Text Similarity:** 0.6923
-- **Visual Average:** 0.5806
-- **Overall Score:** 0.7092
-- **Pages:** MiniPdf=1, Reference=1
-- **File Size:** MiniPdf=1086 bytes, Reference=71966 bytes
-
-<details><summary>Text Diff</summary>
-
-```diff
---- minipdf/XlsxIssue152_ClusteredNonZeroBarChart.pdf
-+++ reference/XlsxIssue152_ClusteredNonZeroBarChart.pdf
-@@ -3,4 +3,12 @@
- Day 2 145
-
- Day 3 150
-
- Day 4 155
-
--Day 5 150
-+Day 5 150
-
-+Clustered Non-Zero Prices
-
-+Day 1
-
-+Day 2
-
-+Day 3
-
-+Price
-
-+Day 4
-
-+Day 5
-
-+Trading Day
-```
-</details>
+**Error:** Reference PDF not found
 
 ## Improvement Suggestions
 
 ### ⚠ Low-Score Test Cases (below 0.8)
 
-1. **Business expenses budget2** (score: 0.1799)
-1. **Weekly schedule planner1** (score: 0.2846)
-1. **payroll-calculator_f** (score: 0.3377)
+1. **Business expenses budget2** (score: 0.1736)
+1. **Weekly schedule planner1** (score: 0.24)
+1. **Issue202609031340** (score: 0.2469)
+1. **Academic Achievement Summary Table** (score: 0.2629)
+1. **AcademicAchievement_temp** (score: 0.2629)
+1. **PO_anonymized** (score: 0.2776)
+1. **XlsxIssue77_Template2_Workaround** (score: 0.3405)
+1. **XlsxIssue77_Template1** (score: 0.3408)
+1. **payroll-calculator_f** (score: 0.3483)
 1. **Expense report basic1** (score: 0.3716)
-1. **PO_anonymized** (score: 0.3912)
-1. **Academic Achievement Summary Table** (score: 0.3981)
-1. **AcademicAchievement_temp** (score: 0.3981)
+1. **XlsxIssue82_WideTable** (score: 0.3817)
 1. **Grocery list1** (score: 0.4451)
 1. **XlsxIssue82_5mb** (score: 0.4474)
-1. **Issue202609031340** (score: 0.4541)
-1. **XlsxIssue75** (score: 0.467)
-1. **XlsxIssue77_Template2_Workaround** (score: 0.488)
-1. **XlsxIssue77_Template1** (score: 0.4886)
-1. **Small business cash flow forecast1** (score: 0.5036)
-1. **XlsxIssue82_SampleTestData5mb** (score: 0.5207)
+1. **XlsxIssue75** (score: 0.4925)
+1. **Small business cash flow forecast1** (score: 0.4957)
+1. **XlsxIssue82_SampleTestData5mb** (score: 0.505)
+1. **XlsxIssue81_LayoutOptions** (score: 0.5472)
+1. **Wedding_timeline_planner1_copy** (score: 0.5529)
+1. **Event budget1** (score: 0.562)
 1. **Simple invoice1** (score: 0.5852)
-1. **Event budget1** (score: 0.612)
-1. **XlsxIssue81_LayoutOptions** (score: 0.6309)
-1. **XlsxIssue82_WideTable** (score: 0.6322)
+1. **XlsxIssue77_MergedCellAlignment** (score: 0.6513)
 1. **Business plan checklist with SWOT analysis1** (score: 0.6547)
-1. **XlsxIssue77_MergedCellAlignment** (score: 0.7018)
-1. **XlsxIssue152_ClusteredNonZeroBarChart** (score: 0.7092)
-1. **Wedding_timeline_planner1_copy** (score: 0.7203)
 
 Review the text diffs and visual comparisons above to identify specific rendering issues.

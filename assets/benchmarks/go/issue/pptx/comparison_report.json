@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Asian Pacific",
+    "minipdf_exists": true,
+    "reference_exists": true,
+    "report_scope": "go-issue-pptx",
+    "case_id": "Asian Pacific",
+    "format": "pptx",
+    "source_path": "tests/Issue_Files/pptx/Asian Pacific.pptx",
+    "suite": "issue",
+    "minipdf_size": 8544,
+    "reference_size": 358228,
+    "pdf_valid": true,
+    "minipdf_pages": 12,
+    "reference_pages": 12,
+    "text_similarity": 0.8491,
+    "flat_text_similarity": 0.8416,
+    "word_text_similarity": 0.8286,
+    "text_diff": "--- minipdf/Asian Pacific.pdf\n+++ reference/Asian Pacific.pdf\n@@ -3,62 +3,71 @@\n ---PAGE---\n\n Introduction\n\n State the significance of Asian Pacific Heritage Month\n\n-What is Asian Pacific Heritage Month?\n\n-Why does the United States celebrate it?\n\n+• What is Asian Pacific Heritage Month?\n\n+• Why does the United States celebrate it?\n\n Tell your story\n\n-What does Asian Pacific Heritage Month mean to you?\n\n-Why is it important to you?\n\n+• What does Asian Pacific Heritage Month mean to you?\n\n+• Why is it important to you?\n\n ---PAGE---\n\n Overview\n\n-Give a brief overview of what you?ll cover in your presentation.\n\n+Give a brief overview of what you’ll cover in your presentation.\n\n ---PAGE---\n\n Geography\n\n-Map of Asia\n\n-Map of Pacific Islands\n\n+• Map of Asia\n\n+• Map of Pacific Islands\n\n ---PAGE---\n\n History\n\n-Make a timeline of the important historical event or list historical contributions made by people of Asian Pacific heritage.\n\n-1st Event\n\n-2nd Event\n\n-3rd Event\n\n-4th Event\n\n-5th Event\n\n-6th Event\n\n-Date\n\n-Date\n\n-Date\n\n-Date\n\n-Date\n\n-Date\n\n-Description\n\n-Description\n\n-Description\n\n-Description\n\n-Description\n\n-Description\n\n+Make a timeline of the important historical event or list historical contributions made by people of Asian\n\n+Pacific heritage.\n\n+st nd th th th\n\n+1 Event 2 Event 3rd Event 4 Event 5 Event 6 Event\n\n+Date Date Date Date Date Date\n\n+Description Description Description Description Description Description\n\n ---PAGE---\n\n Interesting facts\n\n-List some interesting facts about Asian Pacific Heritage Month. Here are a few examples:\n\n-In 1978, President Jimmy Carter signed a resolution designating May as Asian/Pacific Heritage Week.\n\n-May was chosen to commemorate the immigration of the first Japanese to the United States on May 7, 1843, and to mark the anniversary of the\n\n-completion of the transcontinental railroad on May 10, 1869.\n\n-In 1992, the official designation of May as Asian-Pacific American Heritage Month was signed into law.\n\n+List some interesting facts about Asian Pacific Heritage Month.\n\n+Here are a few examples:\n\n+• In 1978, President Jimmy Carter signed a resolution designating\n\n+May as Asian/Pacific Heritage Week.\n\n+• May was chosen to commemorate the immigration of the first\n\n+Japanese to the United States on May 7, 1843, and to mark the\n\n+anniversary of the completion of the transcontinental railroad on\n\n+May 10, 1869.\n\n+• In 1992, the official designation of May as Asian-Pacific American\n\n+Heritage Month was signed into law.\n\n ---PAGE---\n\n Key people\n\n-Choose three notable people of Asian Pacific American heritage using Bing.com and discuss their lives and accomplishments.Â Here are some examples:\n\n+Choose three notable people of Asian Pacific American heritage using Bing.com and discuss their\n\n+lives and accomplishments. Here are some examples:\n\n+Anna May Wong Duke Kahanamoku\n\n+Sessue Hayakawa\n\n+Anna May Wong was the first Chinese Duke Kahanamoku was a Hawaiian\n\n+Sessue Hayakawa was a Japanese actor\n\n+American Hollywood movie star, as well competitive swimmer. He won five\n\n+and one of the biggest stars in\n\n+as the first Chinese American actress to Olympic metals for swimming. He also\n\n+Hollywood during the silent film era. His\n\n+gain international recognition. She popularized the Hawaiian sport of\n\n+fame matched that of Charlie Chaplin.\n\n+appeared in over sixty movies surfing in the US.\n\n+throughout her career.\n\n ---PAGE---\n\n Arts and literature\n\n-Provide examples of art and literature that are significant to Asian Pacific Heritage Month. Here are a few examples:\n\n-The writing of Amy Tan\n\n-The music of Yo-Yo Ma\n\n-The artwork of Yayoi Kusama\n\n+Provide examples of art and literature that are\n\n+significant to Asian Pacific Heritage Month.\n\n+Here are a few examples:\n\n+• The writing of Amy Tan\n\n+• The music of Yo-Yo Ma\n\n+• The artwork of Yayoi Kusama\n\n ---PAGE---\n\n How we celebrate\n\n-List some ways you can celebrate Asian Pacific Heritage Month. Here are a few examples:\n\n-Discover Asian Pacific American artists\n\n-Read Asian Pacific American authors\n\n-Listen to Asian Pacific American Heritage musicians\n\n-Learn important moments of Asian Pacific American Heritage history\n\n+List some ways you can celebrate Asian Pacific Heritage\n\n+Month. Here are a few examples:\n\n+• Discover Asian Pacific American artists\n\n+• Read Asian Pacific American authors\n\n+• Listen to Asian Pacific American Heritage musicians\n\n+• Learn important moments of Asian Pacific American\n\n+Heritage history\n\n ---PAGE---\n\n Conclusion\n\n Provide a brief summary of your presentation.\n\n@@ -69,6 +78,6 @@\n ---PAGE---\n\n Resources\n\n List the resources you used for your research:\n\n-Source #1\n\n-Source #2\n\n-Source #3\n+• Source #1\n\n+• Source #2\n\n+• Source #3",
+    "visual_scores": [
+      0.4163,
+      0.0084,
+      0.0028,
+      0.0006,
+      0.0077,
+      0.5683,
+      0.0092,
+      0.0091,
+      0.5568,
+      0.0042,
+      0.0008,
+      0.5058
+    ],
+    "visual_avg": 0.1742,
+    "diff_images": [
+      {
+        "page": 1,
+        "minipdf_img": "Asian Pacific_p1_minipdf.png",
+        "reference_img": "Asian Pacific_p1_reference.png",
+        "auxiliary_img": "Asian Pacific_p1_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p1_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            1,
+            1,
+            2000,
+            1124
+          ],
+          "changed_pixels": 366915,
+          "changed_fraction": 0.163073,
+          "mean_abs_rgb": 14.6842,
+          "rmse_rgb": 44.1134,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p1_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 2,
+        "minipdf_img": "Asian Pacific_p2_minipdf.png",
+        "reference_img": "Asian Pacific_p2_reference.png",
+        "auxiliary_img": "Asian Pacific_p2_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p2_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            0,
+            0,
+            2000,
+            1125
+          ],
+          "changed_pixels": 2216630,
+          "changed_fraction": 0.985169,
+          "mean_abs_rgb": 97.4742,
+          "rmse_rgb": 108.3686,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p2_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 3,
+        "minipdf_img": "Asian Pacific_p3_minipdf.png",
+        "reference_img": "Asian Pacific_p3_reference.png",
+        "auxiliary_img": "Asian Pacific_p3_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p3_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            0,
+            0,
+            2000,
+            1125
+          ],
+          "changed_pixels": 2237215,
+          "changed_fraction": 0.994318,
+          "mean_abs_rgb": 128.862,
+          "rmse_rgb": 150.9545,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p3_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 4,
+        "minipdf_img": "Asian Pacific_p4_minipdf.png",
+        "reference_img": "Asian Pacific_p4_reference.png",
+        "auxiliary_img": "Asian Pacific_p4_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p4_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            0,
+            0,
+            2000,
+            1125
+          ],
+          "changed_pixels": 2249999,
+          "changed_fraction": 1.0,
+          "mean_abs_rgb": 64.8759,
+          "rmse_rgb": 72.3145,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p4_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 5,
+        "minipdf_img": "Asian Pacific_p5_minipdf.png",
+        "reference_img": "Asian Pacific_p5_reference.png",
+        "auxiliary_img": "Asian Pacific_p5_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p5_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            0,
+            0,
+            2000,
+            1125
+          ],
+          "changed_pixels": 2225211,
+          "changed_fraction": 0.988983,
+          "mean_abs_rgb": 129.6008,
+          "rmse_rgb": 137.8766,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p5_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 6,
+        "minipdf_img": "Asian Pacific_p6_minipdf.png",
+        "reference_img": "Asian Pacific_p6_reference.png",
+        "auxiliary_img": "Asian Pacific_p6_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p6_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            1,
+            1,
+            1861,
+            1125
+          ],
+          "changed_pixels": 286510,
+          "changed_fraction": 0.127338,
+          "mean_abs_rgb": 14.8328,
+          "rmse_rgb": 49.6048,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p6_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 7,
+        "minipdf_img": "Asian Pacific_p7_minipdf.png",
+        "reference_img": "Asian Pacific_p7_reference.png",
+        "auxiliary_img": "Asian Pacific_p7_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p7_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            0,
+            0,
+            2000,
+            1125
+          ],
+          "changed_pixels": 2202685,
+          "changed_fraction": 0.978971,
+          "mean_abs_rgb": 101.6816,
+          "rmse_rgb": 112.9877,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p7_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 8,
+        "minipdf_img": "Asian Pacific_p8_minipdf.png",
+        "reference_img": "Asian Pacific_p8_reference.png",
+        "auxiliary_img": "Asian Pacific_p8_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p8_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            0,
+            0,
+            2000,
+            1125
+          ],
+          "changed_pixels": 2209869,
+          "changed_fraction": 0.982164,
+          "mean_abs_rgb": 136.6666,
+          "rmse_rgb": 157.5924,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p8_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 9,
+        "minipdf_img": "Asian Pacific_p9_minipdf.png",
+        "reference_img": "Asian Pacific_p9_reference.png",
+        "auxiliary_img": "Asian Pacific_p9_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p9_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            114,
+            2,
+            1999,
+            1124
+          ],
+          "changed_pixels": 259202,
+          "changed_fraction": 0.115201,
+          "mean_abs_rgb": 10.6342,
+          "rmse_rgb": 39.5597,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p9_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 10,
+        "minipdf_img": "Asian Pacific_p10_minipdf.png",
+        "reference_img": "Asian Pacific_p10_reference.png",
+        "auxiliary_img": "Asian Pacific_p10_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p10_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            0,
+            0,
+            2000,
+            1125
+          ],
+          "changed_pixels": 2231990,
+          "changed_fraction": 0.991996,
+          "mean_abs_rgb": 130.7515,
+          "rmse_rgb": 138.354,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p10_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 11,
+        "minipdf_img": "Asian Pacific_p11_minipdf.png",
+        "reference_img": "Asian Pacific_p11_reference.png",
+        "auxiliary_img": "Asian Pacific_p11_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p11_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            0,
+            0,
+            2000,
+            1125
+          ],
+          "changed_pixels": 2250000,
+          "changed_fraction": 1.0,
+          "mean_abs_rgb": 51.7859,
+          "rmse_rgb": 55.9492,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p11_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      },
+      {
+        "page": 12,
+        "minipdf_img": "Asian Pacific_p12_minipdf.png",
+        "reference_img": "Asian Pacific_p12_reference.png",
+        "auxiliary_img": "Asian Pacific_p12_libreoffice.png",
+        "heatmap_img": "Asian Pacific_p12_heatmap.png",
+        "heatmap_metrics": {
+          "size_px": [
+            2000,
+            1125
+          ],
+          "difference_bbox_px": [
+            1,
+            1,
+            1540,
+            1125
+          ],
+          "changed_pixels": 189500,
+          "changed_fraction": 0.084222,
+          "mean_abs_rgb": 8.2231,
+          "rmse_rgb": 34.7591,
+          "threshold": 12,
+          "gain": 5.0
+        },
+        "composite_img": "Asian Pacific_p12_go_minipdf_vs_microsoft_365_powerpoint_reference_vs_libreoffice.png"
+      }
+    ],
+    "overall_score": 0.6093
+  }
+]
