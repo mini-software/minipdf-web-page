@@ -16,6 +16,7 @@ const elements = {
   suite: document.querySelector("#suite-filter"),
   format: document.querySelector("#format-filter"),
   score: document.querySelector("#score-filter"),
+  sort: document.querySelector("#sort-select"),
   dialog: document.querySelector("#case-dialog"),
   dialogTitle: document.querySelector("#dialog-title"),
   dialogScope: document.querySelector("#dialog-scope"),
@@ -56,6 +57,7 @@ function applyUrlFilters() {
     suite: elements.suite,
     format: elements.format,
     score: elements.score,
+    sort: elements.sort,
   };
 
   for (const [name, element] of Object.entries(filters)) {
@@ -76,6 +78,7 @@ function updateUrlFilters() {
     suite: elements.suite.value,
     format: elements.format.value,
     score: elements.score.value,
+    sort: elements.sort.value,
   };
   for (const [name, value] of Object.entries(values)) {
     if (value) parameters.set(name, value);
@@ -146,6 +149,19 @@ function filteredCases() {
   });
 }
 
+function compareCases(left, right) {
+  const order = elements.sort.value;
+  if (order === "name-asc") return left.name.localeCompare(right.name);
+  const key = order.startsWith("visual") ? "visual_avg"
+    : order.startsWith("text") ? "text_similarity"
+    : "overall_score";
+  const leftScore = left[key] ?? -1;
+  const rightScore = right[key] ?? -1;
+  const ascending = order.endsWith("asc");
+  return (ascending ? leftScore - rightScore : rightScore - leftScore)
+    || left.name.localeCompare(right.name);
+}
+
 function scoreCell(value, pill = false) {
   const cell = document.createElement("td");
   const valueElement = document.createElement("span");
@@ -156,7 +172,7 @@ function scoreCell(value, pill = false) {
 }
 
 function renderResults() {
-  const filtered = filteredCases();
+  const filtered = filteredCases().sort(compareCases);
   const visible = filtered.slice(0, state.visibleCount);
   elements.resultsBody.replaceChildren();
 
@@ -308,7 +324,7 @@ async function loadData() {
   state.cases = reportData.flat().sort((left, right) => {
     const leftScore = left.overall_score ?? -1;
     const rightScore = right.overall_score ?? -1;
-    return leftScore - rightScore || left.name.localeCompare(right.name);
+    return rightScore - leftScore || left.name.localeCompare(right.name);
   });
 
   addOptions(elements.language, state.manifest.reports.map((item) => item.language));
@@ -320,7 +336,7 @@ async function loadData() {
   renderResults();
 }
 
-for (const filter of [elements.search, elements.language, elements.suite, elements.format, elements.score]) {
+for (const filter of [elements.search, elements.language, elements.suite, elements.format, elements.score, elements.sort]) {
   filter.addEventListener("input", () => {
     state.visibleCount = 60;
     updateUrlFilters();
